@@ -1,0 +1,12 @@
+{
+  "Header": {
+    "logoAlt": "Logo Enka Spedycja"
+  },
+  "HomePage": {
+    "HeroSection": {
+      "title": "Logistyka projektowa – dla każdej skali, zawsze na czas",
+      "subtitle": "Oferujemy pełną obsługę Twoich zleceń transportowych od planowania po realizację. Wspieramy projekty cargo o globalnym zasięgu, transport morski, rzeczny i lądowy.",
+      "contactButton": "Bezpłatna konsultacja"
+    }
+  }
+}

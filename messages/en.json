@@ -1,0 +1,12 @@
+{
+  "Header": {
+    "logoAlt": "Enka Shipping Logo"
+  },
+  "HomePage": {
+    "HeroSection": {
+      "title": "Project Logistics - for any scale, always on time",
+      "subtitle": "We provide full support for your freight forwarding needs from planning to execution. We support cargo projects with worldwide reach as well as marine, inland and land transportation.",
+      "contactButton": "Free consultation"
+    }
+  }
+}
