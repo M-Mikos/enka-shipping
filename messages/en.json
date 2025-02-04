@@ -1,6 +1,20 @@
 {
   "Global": {
-    "logoAlt": "Enka Shipping Logo"
+    "logoAlt": "Enka Shipping Logo",
+    "ConatctData": {
+      "mainPhoneNumber": "+48 123 456 789"
+    },
+    "LocaleSwitcher": {
+      "label": "Change language",
+      "locale": "{locale, select, pl {PL} en {EN} other {unknown}}"
+    }
+  },
+  "Header": {
+    "Navigation": {
+      "servicesLinkTitle": "Services",
+      "realizationsLinkTitle": "Realizations",
+      "contactLinkTitle": "Contact"
+    }
   },
   "HomePage": {
     "HeroSection": {

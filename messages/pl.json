@@ -1,6 +1,20 @@
 {
   "Global": {
-    "logoAlt": "Logo Enka Spedycja"
+    "logoAlt": "Logo Enka Spedycja",
+    "ConatctData": {
+      "mainPhoneNumber": "+48 123 456 789"
+    },
+    "LocaleSwitcher": {
+      "label": "Zmień język",
+      "locale": "{locale, select, pl {PL} en {EN} other {nieokreślony}}"
+    }
+  },
+  "Header": {
+    "Navigation": {
+      "servicesLinkTitle": "Usługi",
+      "realizationsLinkTitle": "Realizacje",
+      "contactLinkTitle": "Kontakt"
+    }
   },
   "HomePage": {
     "HeroSection": {
