@@ -15,6 +15,9 @@ import { Link, routing, usePathname, useRouter } from "@/i18n/routing";
 import { useTransition } from "react";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../ui/select";
 import { useParams } from "next/navigation";
+import { useMediaQuery } from "@/hooks/use-media-query";
+import { Drawer, DrawerContent, DrawerTitle, DrawerTrigger } from "../ui/drawer";
+import { MenuIcon } from "lucide-react";
 
 export default function Header() {
   const tGlobal = useTranslations("Global");
@@ -24,6 +27,7 @@ export default function Header() {
   const pathname = usePathname();
   const params = useParams();
   const [isPending, startTransition] = useTransition();
+  const isDesktop = useMediaQuery("(min-width:48em)");
 
   function onSelectChange(value: string) {
     const nextLocale = value;
@@ -45,56 +49,67 @@ export default function Header() {
           <div className="w-32">
             <EnkaLogo />
           </div>
-          <div className="flex items-center gap-12">
-            <NavigationMenu>
-              <NavigationMenuList>
-                <NavigationMenuItem>
-                  <NavigationMenuLink className={navigationMenuTriggerStyle()} asChild>
-                    <Link title={tHeader("Navigation.ServicesLink.titleAttribute")} href="/services">
-                      {tHeader("Navigation.ServicesLink.label")}
-                    </Link>
-                  </NavigationMenuLink>
-                </NavigationMenuItem>
-                <NavigationMenuItem>
-                  <NavigationMenuLink className={navigationMenuTriggerStyle()} asChild>
-                    <Link title={tHeader("Navigation.RealizationsLink.titleAttribute")} href="/realizations">
-                      {tHeader("Navigation.RealizationsLink.label")}
-                    </Link>
-                  </NavigationMenuLink>
-                </NavigationMenuItem>
-                <NavigationMenuItem>
-                  <NavigationMenuLink className={navigationMenuTriggerStyle()} asChild>
-                    <Link title={tHeader("Navigation.ContactLink.titleAttribute")} href="/#contact-section">
-                      {tHeader("Navigation.ContactLink.label")}
-                    </Link>
-                  </NavigationMenuLink>
-                </NavigationMenuItem>
-              </NavigationMenuList>
-            </NavigationMenu>
-            <Button asChild>
-              <a
-                title={tGlobal("ContactData.mainPhoneNumberLinkTitleAttribute")}
-                href={tGlobal("ContactData.mainPhoneNumberLink")}
-              >
-                {tGlobal("ContactData.mainPhoneNumberLabel")}
-              </a>
-            </Button>
-            <Select onValueChange={onSelectChange} defaultValue={locale} disabled={isPending}>
-              <SelectTrigger title={tGlobal("LocaleSwitcher.label")} className="flex gap-2">
-                <SelectValue
-                  className="text-slate-600"
-                  placeholder={tGlobal("LocaleSwitcher.locale", { locale: locale })}
-                />
-              </SelectTrigger>
-              <SelectContent>
-                {routing.locales.map((cur) => (
-                  <SelectItem key={cur} value={cur}>
-                    {tGlobal("LocaleSwitcher.locale", { locale: cur })}
-                  </SelectItem>
-                ))}
-              </SelectContent>
-            </Select>
-          </div>
+          {isDesktop ? (
+            <div className="flex items-center gap-12">
+              <NavigationMenu>
+                <NavigationMenuList>
+                  <NavigationMenuItem>
+                    <NavigationMenuLink className={navigationMenuTriggerStyle()} asChild>
+                      <Link title={tHeader("Navigation.ServicesLink.titleAttribute")} href="/services">
+                        {tHeader("Navigation.ServicesLink.label")}
+                      </Link>
+                    </NavigationMenuLink>
+                  </NavigationMenuItem>
+                  <NavigationMenuItem>
+                    <NavigationMenuLink className={navigationMenuTriggerStyle()} asChild>
+                      <Link title={tHeader("Navigation.RealizationsLink.titleAttribute")} href="/realizations">
+                        {tHeader("Navigation.RealizationsLink.label")}
+                      </Link>
+                    </NavigationMenuLink>
+                  </NavigationMenuItem>
+                  <NavigationMenuItem>
+                    <NavigationMenuLink className={navigationMenuTriggerStyle()} asChild>
+                      <Link title={tHeader("Navigation.ContactLink.titleAttribute")} href="/#contact-section">
+                        {tHeader("Navigation.ContactLink.label")}
+                      </Link>
+                    </NavigationMenuLink>
+                  </NavigationMenuItem>
+                </NavigationMenuList>
+              </NavigationMenu>
+              <Button asChild>
+                <a
+                  title={tGlobal("ContactData.mainPhoneNumberLinkTitleAttribute")}
+                  href={tGlobal("ContactData.mainPhoneNumberLink")}
+                >
+                  {tGlobal("ContactData.mainPhoneNumberLabel")}
+                </a>
+              </Button>
+              <Select onValueChange={onSelectChange} defaultValue={locale} disabled={isPending}>
+                <SelectTrigger title={tGlobal("LocaleSwitcher.label")} className="flex gap-2">
+                  <SelectValue
+                    className="text-slate-600"
+                    placeholder={tGlobal("LocaleSwitcher.locale", { locale: locale })}
+                  />
+                </SelectTrigger>
+                <SelectContent>
+                  {routing.locales.map((cur) => (
+                    <SelectItem key={cur} value={cur}>
+                      {tGlobal("LocaleSwitcher.locale", { locale: cur })}
+                    </SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
+            </div>
+          ) : (
+            <Drawer>
+              <DrawerTrigger>
+                <MenuIcon />
+              </DrawerTrigger>
+              <DrawerContent>
+                <DrawerTitle>test title</DrawerTitle> test content
+              </DrawerContent>
+            </Drawer>
+          )}
         </div>
       </ContentContainer>
       <nav></nav>
