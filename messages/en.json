@@ -1,9 +1,11 @@
 {
   "Global": {
     "logoAlt": "Enka Shipping Logo",
+    "logoTitleAttribute": "Go to homepage",
     "ContactData": {
       "mainPhoneNumberLabel": "+48 123 456 789",
-      "mainPhoneNumberLink": "tel:+48123456789"
+      "mainPhoneNumberLink": "tel:+48123456789",
+      "mainPhoneNumberLinkTitleAttribute": "Call +48 123 456 789"
     },
     "LocaleSwitcher": {
       "label": "Change language",
@@ -12,9 +14,18 @@
   },
   "Header": {
     "Navigation": {
-      "servicesLinkTitle": "Services",
-      "realizationsLinkTitle": "Realizations",
-      "contactLinkTitle": "Contact"
+      "ServicesLink": {
+        "label": "Services",
+        "titleAttribute": "Go to services"
+      },
+      "RealizationsLink": {
+        "label": "Realizations",
+        "titleAttribute": "Go to realizations"
+      },
+      "ContactLink": {
+        "label": "Contact",
+        "titleAttribute": "Go to contact"
+      }
     }
   },
   "HomePage": {

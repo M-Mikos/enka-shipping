@@ -11,7 +11,7 @@ import {
 } from "../ui/navigation-menu";
 import EnkaLogo from "./EnkaLogo";
 import { Button } from "../ui/button";
-import { routing, usePathname, useRouter } from "@/i18n/routing";
+import { Link, routing, usePathname, useRouter } from "@/i18n/routing";
 import { useTransition } from "react";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../ui/select";
 import { useParams } from "next/navigation";
@@ -27,7 +27,6 @@ export default function Header() {
 
   function onSelectChange(value: string) {
     const nextLocale = value;
-    console.log(nextLocale);
     startTransition(() => {
       router.replace(
         // @ts-expect-error -- TypeScript will validate that only known `params`
@@ -50,27 +49,38 @@ export default function Header() {
             <NavigationMenu>
               <NavigationMenuList>
                 <NavigationMenuItem>
-                  <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                    {tHeader("Navigation.servicesLinkTitle")}
+                  <NavigationMenuLink className={navigationMenuTriggerStyle()} asChild>
+                    <Link title={tHeader("Navigation.ServicesLink.titleAttribute")} href="/services">
+                      {tHeader("Navigation.ServicesLink.label")}
+                    </Link>
                   </NavigationMenuLink>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                  <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                    {tHeader("Navigation.realizationsLinkTitle")}
+                  <NavigationMenuLink className={navigationMenuTriggerStyle()} asChild>
+                    <Link title={tHeader("Navigation.RealizationsLink.titleAttribute")} href="/realizations">
+                      {tHeader("Navigation.RealizationsLink.label")}
+                    </Link>
                   </NavigationMenuLink>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                  <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                    {tHeader("Navigation.contactLinkTitle")}
+                  <NavigationMenuLink className={navigationMenuTriggerStyle()} asChild>
+                    <Link title={tHeader("Navigation.ContactLink.titleAttribute")} href="/#contact-section">
+                      {tHeader("Navigation.ContactLink.label")}
+                    </Link>
                   </NavigationMenuLink>
                 </NavigationMenuItem>
               </NavigationMenuList>
             </NavigationMenu>
             <Button asChild>
-              <a href={tGlobal("ContactData.mainPhoneNumberLink")}>{tGlobal("ContactData.mainPhoneNumberLabel")}</a>
+              <a
+                title={tGlobal("ContactData.mainPhoneNumberLinkTitleAttribute")}
+                href={tGlobal("ContactData.mainPhoneNumberLink")}
+              >
+                {tGlobal("ContactData.mainPhoneNumberLabel")}
+              </a>
             </Button>
             <Select onValueChange={onSelectChange} defaultValue={locale} disabled={isPending}>
-              <SelectTrigger className="flex gap-2">
+              <SelectTrigger title={tGlobal("LocaleSwitcher.label")} className="flex gap-2">
                 <SelectValue
                   className="text-slate-600"
                   placeholder={tGlobal("LocaleSwitcher.locale", { locale: locale })}

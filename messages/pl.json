@@ -1,9 +1,11 @@
 {
   "Global": {
     "logoAlt": "Logo Enka Spedycja",
+    "logoTitleAttribute": "Idź do strony głównej",
     "ContactData": {
       "mainPhoneNumberLabel": "+48 123 456 789",
-      "mainPhoneNumberLink": "tel:+48123456789"
+      "mainPhoneNumberLink": "tel:+48123456789",
+      "mainPhoneNumberLinkTitleAttribute": "Zadzwoń +48 123 456 789"
     },
     "LocaleSwitcher": {
       "label": "Zmień język",
@@ -12,9 +14,18 @@
   },
   "Header": {
     "Navigation": {
-      "servicesLinkTitle": "Usługi",
-      "realizationsLinkTitle": "Realizacje",
-      "contactLinkTitle": "Kontakt"
+      "ServicesLink": {
+        "label": "Usługi",
+        "titleAttribute": "Idź do strony usług"
+      },
+      "RealizationsLink": {
+        "label": "Realizacje",
+        "titleAttribute": "Idź do strony realizacji"
+      },
+      "ContactLink": {
+        "label": "Kontakt",
+        "titleAttribute": "Idź do strony kontaktu"
+      }
     }
   },
   "HomePage": {
