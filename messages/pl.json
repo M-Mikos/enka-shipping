@@ -1,8 +1,9 @@
 {
   "Global": {
     "logoAlt": "Logo Enka Spedycja",
-    "ConatctData": {
-      "mainPhoneNumber": "+48 123 456 789"
+    "ContactData": {
+      "mainPhoneNumberLabel": "+48 123 456 789",
+      "mainPhoneNumberLink": "tel:+48123456789"
     },
     "LocaleSwitcher": {
       "label": "Zmień język",
