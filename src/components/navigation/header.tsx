@@ -2,15 +2,14 @@
 
 import ContentContainer from "../ContentContainer";
 import EnkaLogo from "./EnkaLogo";
-import { useMediaQuery } from "@/hooks/use-media-query";
-import { Drawer, DrawerContent, DrawerTitle, DrawerTrigger } from "../ui/drawer";
-import { MenuIcon } from "lucide-react";
 import Navigation from "./Navigation";
 import LocaleSwitcher from "./LocaleSwitcher";
 import ContactButton from "./ContactButton";
+import MobileDrawer from "./MobileDrawer";
+import { useMediaQuery } from "@/hooks/use-media-query";
 
 export default function Header() {
-  const isDesktop = useMediaQuery("(min-width:48em)");
+  const isDesktop = useMediaQuery("(min-width:64em)");
 
   return (
     <header>
@@ -21,19 +20,12 @@ export default function Header() {
           </div>
           {isDesktop ? (
             <div className="flex items-center gap-12">
-              <Navigation />
-              <LocaleSwitcher />
+              <Navigation orientation="horizontal" />
               <ContactButton />
+              <LocaleSwitcher />
             </div>
           ) : (
-            <Drawer>
-              <DrawerTrigger>
-                <MenuIcon />
-              </DrawerTrigger>
-              <DrawerContent>
-                <DrawerTitle>test title</DrawerTitle> test content
-              </DrawerContent>
-            </Drawer>
+            <MobileDrawer />
           )}
         </div>
       </ContentContainer>

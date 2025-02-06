@@ -27,9 +27,11 @@ function LocaleSwitcher() {
 
   return (
     <Select onValueChange={onSelectChange} defaultValue={locale} disabled={isPending}>
-      <SelectTrigger title={t("LocaleSwitcher.label")} className="flex gap-2">
-        <SelectValue className="text-slate-600" placeholder={t("LocaleSwitcher.locale", { locale: locale })} />
-      </SelectTrigger>
+      <div className="w-18">
+        <SelectTrigger title={t("LocaleSwitcher.label")}>
+          <SelectValue className="text-slate-600" placeholder={t("LocaleSwitcher.locale", { locale: locale })} />
+        </SelectTrigger>
+      </div>
       <SelectContent>
         {routing.locales.map((cur) => (
           <SelectItem key={cur} value={cur}>
