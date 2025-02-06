@@ -26,6 +26,9 @@
         "label": "Kontakt",
         "titleAttribute": "Idź do strony kontaktu"
       }
+    },
+    "MobileDrawer": {
+      "hiddenTitle": "Menu Nawigacji"
     }
   },
   "HomePage": {

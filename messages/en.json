@@ -26,6 +26,9 @@
         "label": "Contact",
         "titleAttribute": "Go to contact"
       }
+    },
+    "MobileDrawer": {
+      "hiddenTitle": "Navigation menu"
     }
   },
   "HomePage": {
