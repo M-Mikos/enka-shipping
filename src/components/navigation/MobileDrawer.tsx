@@ -17,12 +17,12 @@ function MobileDrawer() {
       <DrawerTrigger>
         <MenuIcon />
       </DrawerTrigger>
-      <DrawerContent className="items-end p-3">
+      <DrawerContent className="min-h-[80vh] items-end px-3 py-2">
         <VisuallyHidden.Root>
           <DrawerTitle>{t("MobileDrawer.hiddenTitle")}</DrawerTitle>
         </VisuallyHidden.Root>
         <Navigation orientation="vertical" handleClose={handleClose} />
-        <div className="pt-3 mt-12 self-stretch flex justify-between items-center">
+        <div className="pt-3 border-t self-stretch flex justify-between items-center">
           <LocaleSwitcher />
           <ContactButton />
         </div>

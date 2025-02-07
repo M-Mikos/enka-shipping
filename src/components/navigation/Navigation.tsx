@@ -1,12 +1,13 @@
 import { useTranslations } from "next-intl";
 import {
   NavigationMenu,
+  NavigationMenuIndicator,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
   navigationMenuTriggerStyle,
 } from "../ui/navigation-menu";
-import { Link } from "@/i18n/routing";
+import { Link, usePathname } from "@/i18n/routing";
 
 interface NavigationProps {
   orientation: "horizontal" | "vertical";
@@ -15,31 +16,42 @@ interface NavigationProps {
 
 function Navigation({ orientation, handleClose }: NavigationProps) {
   const t = useTranslations("Header");
-  const orientationClass = orientation === "vertical" ? "flex-col space-y-3 items-end" : "flex-row space-x-3";
+  const navigationMenuOrientationClasses = orientation === "vertical" ? "items-start py-4" : "";
+  const navigationMenuListOrientationClasses =
+    orientation === "vertical" ? "flex-col space-y-3 items-end" : "flex-row space-x-3";
+  const pathname = usePathname();
 
   return (
-    <NavigationMenu orientation={orientation}>
-      <NavigationMenuList className={orientationClass}>
+    <NavigationMenu className={navigationMenuOrientationClasses} orientation={orientation}>
+      <NavigationMenuList className={navigationMenuListOrientationClasses}>
         <NavigationMenuItem>
-          <NavigationMenuLink className={navigationMenuTriggerStyle()} onClick={handleClose} asChild>
-            <Link title={t("Navigation.ServicesLink.titleAttribute")} href="/services">
+          <Link title={t("Navigation.ServicesLink.titleAttribute")} href="/services" legacyBehavior passHref>
+            <NavigationMenuLink
+              className={navigationMenuTriggerStyle()}
+              onClick={handleClose}
+              active={pathname === "/services"}
+            >
               {t("Navigation.ServicesLink.label")}
-            </Link>
-          </NavigationMenuLink>
+            </NavigationMenuLink>
+          </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuLink className={navigationMenuTriggerStyle()} onClick={handleClose} asChild>
-            <Link title={t("Navigation.RealizationsLink.titleAttribute")} href="/realizations">
+          <Link title={t("Navigation.RealizationsLink.titleAttribute")} href="/realizations" legacyBehavior passHref>
+            <NavigationMenuLink
+              className={navigationMenuTriggerStyle()}
+              onClick={handleClose}
+              active={pathname === "/realizations"}
+            >
               {t("Navigation.RealizationsLink.label")}
-            </Link>
-          </NavigationMenuLink>
+            </NavigationMenuLink>
+          </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuLink className={navigationMenuTriggerStyle()} onClick={handleClose} asChild>
-            <Link title={t("Navigation.ContactLink.titleAttribute")} href="/#contact-section">
+          <Link title={t("Navigation.ContactLink.titleAttribute")} href="/#contact-section" legacyBehavior passHref>
+            <NavigationMenuLink className={navigationMenuTriggerStyle()} onClick={handleClose}>
               {t("Navigation.ContactLink.label")}
-            </Link>
-          </NavigationMenuLink>
+            </NavigationMenuLink>
+          </Link>
         </NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>
