@@ -1,7 +1,6 @@
 import { useTranslations } from "next-intl";
 import {
   NavigationMenu,
-  NavigationMenuIndicator,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
