@@ -10,7 +10,7 @@ import { Link } from "@/i18n/routing";
 
 interface NavigationProps {
   orientation: "horizontal" | "vertical";
-  handleClose: () => void;
+  handleClose?: () => void;
 }
 
 function Navigation({ orientation, handleClose }: NavigationProps) {
