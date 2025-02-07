@@ -6,7 +6,7 @@ export default function Oferta() {
 
   return (
     <ContentContainer>
-      <h1>Oferta</h1>
+      <h1>Oferta </h1>
     </ContentContainer>
   );
 }
