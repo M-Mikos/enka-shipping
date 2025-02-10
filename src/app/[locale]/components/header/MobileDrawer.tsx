@@ -17,7 +17,7 @@ function MobileDrawer() {
       <DrawerTrigger>
         <MenuIcon />
       </DrawerTrigger>
-      <DrawerContent className="min-h-[80vh] items-end px-3 py-2">
+      <DrawerContent className="min-h-[60vh] items-end px-3 py-2">
         <VisuallyHidden.Root>
           <DrawerTitle>{t("MobileDrawer.hiddenTitle")}</DrawerTitle>
         </VisuallyHidden.Root>

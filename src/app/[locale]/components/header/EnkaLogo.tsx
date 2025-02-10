@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import enkaLogo from "../../../public/logo-enka.svg";
+import enkaLogo from "@/../public/logo-enka.svg";
 import { Link } from "@/i18n/routing";
 
 export default function EnkaLogo() {
