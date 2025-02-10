@@ -29,7 +29,6 @@ export default function Header() {
           )}
         </div>
       </ContentContainer>
-      <nav></nav>
     </header>
   );
 }
