@@ -1,5 +1,5 @@
 import { useTranslations } from "next-intl";
-import { Button } from "../ui/button";
+import { Button } from "@/components/ui/button";
 import { Phone } from "lucide-react";
 
 function ContactButton() {
