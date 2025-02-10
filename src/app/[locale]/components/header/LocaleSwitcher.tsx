@@ -1,4 +1,4 @@
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../ui/select";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { useLocale, useTranslations } from "next-intl";
 import { routing, usePathname, useRouter } from "@/i18n/routing";
 import { useParams } from "next/navigation";

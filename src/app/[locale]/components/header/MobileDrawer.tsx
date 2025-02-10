@@ -1,5 +1,5 @@
 import { MenuIcon } from "lucide-react";
-import { Drawer, DrawerContent, DrawerTitle, DrawerTrigger } from "../ui/drawer";
+import { Drawer, DrawerContent, DrawerTitle, DrawerTrigger } from "@/components/ui/drawer";
 import * as VisuallyHidden from "@radix-ui/react-visually-hidden";
 import Navigation from "./Navigation";
 import ContactButton from "./ContactButton";

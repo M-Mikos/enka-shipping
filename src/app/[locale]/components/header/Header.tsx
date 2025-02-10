@@ -1,6 +1,6 @@
 "use client";
 
-import ContentContainer from "../ContentContainer";
+import ContentContainer from "@/components/ContentContainer";
 import EnkaLogo from "./EnkaLogo";
 import Navigation from "./Navigation";
 import LocaleSwitcher from "./LocaleSwitcher";
