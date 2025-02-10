@@ -8,6 +8,31 @@
 @theme {
   --breakpoint-3xl: 120rem;
 
+  --color-primary: #ffd640;
+  --color-primary-50: #fffbeb;
+  --color-primary-100: #fff5c6;
+  --color-primary-200: #ffe988;
+  --color-primary-300: #ffd640;
+  --color-primary-400: #ffc520;
+  --color-primary-500: #f9a407;
+  --color-primary-600: #dd7b02;
+  --color-primary-700: #b75606;
+  --color-primary-800: #94420c;
+  --color-primary-900: #7a370d;
+  --color-primary-950: #461b02;
+  --color-secondary: #3a75bd;
+  --color-secondary-50: #f3f6fc;
+  --color-secondary-100: #e6edf8;
+  --color-secondary-200: #c7d8f0;
+  --color-secondary-300: #97b8e2;
+  --color-secondary-400: #5f93d1;
+  --color-secondary-500: #3a75bd;
+  --color-secondary-600: #2a5b9f;
+  --color-secondary-700: #234a81;
+  --color-secondary-800: #203f6c;
+  --color-secondary-900: #20375a;
+  --color-secondary-950: #15233c;
+
   --color-background: var(--background);
   --color-foreground: var(--foreground);
 
