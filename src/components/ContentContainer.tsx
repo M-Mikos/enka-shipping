@@ -1,9 +1,7 @@
-import { ReactNode } from "react";
-
-interface ContentContainerProps {
-  children: ReactNode;
-}
-
-export default function ContentContainer({ children }: ContentContainerProps) {
-  return <div className="mx-auto px-3 lg:px-6 w-full lg:container">{children}</div>;
+export default function ContentContainer({ children, className, ...props }: React.HTMLAttributes<HTMLElement>) {
+  return (
+    <div className={"mx-auto px-3 lg:px-20 w-full lg:container " + (className ? className : "")} {...props}>
+      {children}
+    </div>
+  );
 }
