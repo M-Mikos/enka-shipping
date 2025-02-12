@@ -33,9 +33,20 @@
   },
   "HomePage": {
     "HeroSection": {
-      "title": "Logistyka projektowa – dla każdej skali, zawsze na czas",
-      "subtitle": "Oferujemy pełną obsługę Twoich zleceń transportowych od planowania po realizację. Wspieramy projekty cargo o globalnym zasięgu, transport morski, rzeczny i lądowy.",
-      "contactButton": "Bezpłatna konsultacja"
+      "id": "hero",
+      "ariaLabel": "Sekcja startowa",
+      "header": "Project cargo<br></br>zawsze na czas",
+      "subHeader": "Niezawodna, profesjonalna obsługa Twoich potrzeb transportowych i\u00a0projektów logistycznych <important>od planowania po realizację.</important>",
+      "ActionButton": {
+        "label": "Bezpłatna konsultacja",
+        "link": "#kontakt",
+        "linkTitleAttribute": "Umów konsultację"
+      },
+      "ScrollButton": {
+        "link": "#o-nas",
+        "linkTitleAttribute": "Idź do sekcji o nas"
+      },
+      "backgroundImgAlt": "Kontenerowiec w porcie morskim w Hamburgu."
     }
   }
 }

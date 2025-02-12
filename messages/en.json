@@ -33,9 +33,20 @@
   },
   "HomePage": {
     "HeroSection": {
-      "title": "Project Logistics - for any scale, always on time",
-      "subtitle": "We provide full support for your freight forwarding needs from planning to execution. We support cargo projects with worldwide reach as well as marine, inland and land transportation.",
-      "contactButton": "Free consultation"
+      "id": "hero",
+      "ariaLabel": "Hero Section",
+      "header": "Project cargo<br></br>always on time",
+      "subHeader": "Reliable, professional service for your transport needs and logistics projects <important>from planning to completion.</important>",
+      "ActionButton": {
+        "label": "Free consultation",
+        "link": "#contact",
+        "linkTitleAttribute": "Go to contact"
+      },
+      "ScrollButton": {
+        "link": "#about",
+        "linkTitleAttribute": "Go to section about us"
+      },
+      "backgroundImgAlt": "Container vessel in the seaport of Hamburg."
     }
   }
 }
