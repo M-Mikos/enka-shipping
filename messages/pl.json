@@ -34,7 +34,6 @@
   "HomePage": {
     "HeroSection": {
       "id": "hero",
-      "ariaLabel": "Sekcja startowa",
       "header": "Project cargo<br></br>zawsze na czas",
       "subHeader": "Niezawodna, profesjonalna obsługa Twoich potrzeb transportowych i\u00a0projektów logistycznych <important>od planowania po realizację.</important>",
       "ActionButton": {
@@ -47,6 +46,15 @@
         "linkTitleAttribute": "Idź do sekcji o nas"
       },
       "backgroundImgAlt": "Kontenerowiec w porcie morskim w Hamburgu."
+    },
+    "AboutSection": {
+      "id": "o-nas",
+      "header": "Enka - Twój zaufany partner w\u00a0spedycji",
+      "textContent": "Enka świadczy globalne usługi transportowe dla firm na całym świecie. Nasz zespół doświadczonych profesjonalistów dostarczy Twój ładunek do Twojej lokalizacji w dokładnie określonym przez Ciebie czasie. Nasza siedziba znajduje się w Polsce, skąd współpracujemy z\u00a0naszą globalną siecią partnerów. Zrealizowaliśmy dziesiątki projektów, w tym złożone transporty ponadgabarytowe. Niezależnie od tego, czy jest to transport lądowy, śródlądowy czy morski, oferujemy rozwiązania dla każdego budżetu i\u00a0każdej branży. Zapewniamy płynne dostawy i\u00a0najwyższy poziom bezpieczeństwa ładunku.",
+      "PortfolioButton": {
+        "label": "Realizacje",
+        "linkTitleAttribute": "Idź do strony realizacji"
+      }
     }
   }
 }

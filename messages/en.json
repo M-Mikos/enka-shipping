@@ -34,7 +34,6 @@
   "HomePage": {
     "HeroSection": {
       "id": "hero",
-      "ariaLabel": "Hero Section",
       "header": "Project cargo<br></br>always on time",
       "subHeader": "Reliable, professional service for your transport needs and logistics projects <important>from planning to completion.</important>",
       "ActionButton": {
@@ -45,8 +44,16 @@
       "ScrollButton": {
         "link": "#about",
         "linkTitleAttribute": "Go to section about us"
-      },
-      "backgroundImgAlt": "Container vessel in the seaport of Hamburg."
+      }
+    },
+    "AboutSection": {
+      "id": "about",
+      "header": "Enka - your trusted partner for logistics at\u00a0any\u00a0scale",
+      "textContent": "Enka provides global transport services to companies all over the world. Our team of experienced professionals will deliver your cargo to your location at the exact time you specify. Our headquarters are based in Poland, from where we cooperate with our global network of partners. We have carried out dozens of projects, including complex oversize transports. Whether by land, sea or inland waterway, we offer solutions for every budget and every industry. We ensure smooth deliveries and the highest level of cargo security.",
+      "PortfolioButton": {
+        "label": "Our portfolio",
+        "linkTitleAttribute": "Go to portfolio"
+      }
     }
   }
 }
