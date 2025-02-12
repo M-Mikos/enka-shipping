@@ -4,13 +4,13 @@ import { Button } from "@/components/ui/button";
 import { Link } from "@/i18n/routing";
 import { useTranslations } from "next-intl";
 import ValueCard from "./ValueCard";
-import { Globe2 } from "lucide-react";
+import { Boxes, CalendarCheck, Globe2 } from "lucide-react";
 
 function AboutSection() {
   const t = useTranslations("HomePage");
   return (
-    <SectionContainer id={t("AboutSection.id")} className="py-12 lg:py-18 xl:py-24">
-      <ContentContainer className="grid grid-cols-1 grid-rows-[repeat(3,auto)] lg:grid-cols-[1fr_1fr] lg:grid-rows-[auto_auto] lg:flex-row gap-x-36 gap-y-12">
+    <SectionContainer id={t("AboutSection.id")}>
+      <ContentContainer className="grid grid-cols-1 grid-rows-[repeat(3,auto)] lg:grid-cols-[1fr_1fr] lg:grid-rows-[auto_auto] lg:flex-row gap-x-36 gap-y-12 py-12 lg:py-18 xl:py-24">
         <div className="column-[1/2] row-[1/2] ">
           <h2 className="text-3xl xl:text-5xl 2xl:text-6xl font-extrabold leading-none tracking-wide mb-12 lg:mb-16">
             {t("AboutSection.header")}
@@ -27,7 +27,23 @@ function AboutSection() {
         </div>
       </ContentContainer>
       <div className="w-full bg-slate-50 py-12 lg:py-18 xl:py-24">
-        <ContentContainer className="flex flex-col lg:flex-row gap-6 lg:gap-16"></ContentContainer>
+        <ContentContainer className="flex flex-col lg:flex-row gap-12 lg:gap-16">
+          <ValueCard
+            Icon={Globe2}
+            header={t("AboutSection.Values.GlobalCoverage.header")}
+            content={t("AboutSection.Values.GlobalCoverage.text")}
+          />
+          <ValueCard
+            Icon={Boxes}
+            header={t("AboutSection.Values.ProjectCargo.header")}
+            content={t("AboutSection.Values.ProjectCargo.text")}
+          />
+          <ValueCard
+            Icon={CalendarCheck}
+            header={t("AboutSection.Values.OnTime.header")}
+            content={t("AboutSection.Values.OnTime.text")}
+          />
+        </ContentContainer>
       </div>
     </SectionContainer>
   );

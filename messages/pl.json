@@ -54,6 +54,20 @@
       "PortfolioButton": {
         "label": "Realizacje",
         "linkTitleAttribute": "Idź do strony realizacji"
+      },
+      "Values": {
+        "GlobalCoverage": {
+          "header": "Globalny zasięg",
+          "text": "Operujemy w Polsce i\u00a0na całym świecie. Posiadamy filie w Gdańsku, Milanówku pod Warszawą oraz w\u00a0Mediolanie"
+        },
+        "ProjectCargo": {
+          "header": "Projekty logistyczne",
+          "text": "Twoja firma planuje złożony projekt logistyczny? Skorzystaj z transportu morskiego, lądowego lub za\u00a0pomocą barki."
+        },
+        "OnTime": {
+          "header": "Terminowość i\u00a0bezpieczeństwo",
+          "text": "Bezpośredni kontakt z\u00a0doświadczonym spedytorem gwarantuje realizację zlecenia w\u00a0każdych okolicznościach."
+        }
       }
     }
   }

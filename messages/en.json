@@ -53,6 +53,20 @@
       "PortfolioButton": {
         "label": "Our portfolio",
         "linkTitleAttribute": "Go to portfolio"
+      },
+      "Values": {
+        "GlobalCoverage": {
+          "header": "Global coverage",
+          "text": "We operate in Poland and all over the world. We have branches in Poland (Gdańsk and Milanówek) and Milan, Italy"
+        },
+        "ProjectCargo": {
+          "header": "Project cargo",
+          "text": "Planning a complex logistics project? Take advantage of transport by sea, overland or by barge."
+        },
+        "OnTime": {
+          "header": "On time and secure",
+          "text": "Direct contact with an experienced freight forwarder guarantees order fulfilment under all circumstances."
+        }
       }
     }
   }
