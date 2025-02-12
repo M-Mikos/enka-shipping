@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { useTranslations } from "next-intl";
 import heroBackground from "@/../public/home-hero-background.avif";
 import { ArrowDown, ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 function HeroSection() {
   const t = useTranslations("HomePage");
@@ -42,13 +43,13 @@ function HeroSection() {
             </a>
           </Button>
           <Button
-            className="bg-white border border-slate-100 hover:bg-white/90 aspect-square px-0 py-4"
+            className="bg-white border border-slate-100 hover:bg-white/90 w-[3.25rem] h-[3.25rem]"
             variant="default"
             asChild
           >
-            <a title={t("HeroSection.ScrollButton.linkTitleAttribute")} href={t("HeroSection.ScrollButton.link")}>
+            <Link title={t("HeroSection.ScrollButton.linkTitleAttribute")} href={t("HeroSection.ScrollButton.link")}>
               <ArrowDown />
-            </a>
+            </Link>
           </Button>
         </div>
       </ContentContainer>
