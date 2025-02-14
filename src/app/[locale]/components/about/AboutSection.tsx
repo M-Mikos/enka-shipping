@@ -27,7 +27,7 @@ function AboutSection() {
         </div>
       </ContentContainer>
       <div className="w-full bg-slate-50 py-12 lg:py-18 xl:py-24">
-        <ContentContainer className="flex flex-col lg:flex-row gap-12 lg:gap-16">
+        <ContentContainer className="flex flex-col md:flex-row gap-12 lg:gap-16">
           <ValueCard
             Icon={Globe2}
             header={t("AboutSection.Values.GlobalCoverage.header")}

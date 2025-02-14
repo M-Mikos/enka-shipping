@@ -9,8 +9,8 @@ interface ValueCardProps {
 
 function ValueCard({ Icon, header, content }: ValueCardProps) {
   return (
-    <div className="flex lg:flex-col gap-4 justify-start">
-      <div className="min-w-8 lg:w-8 lg:h-8">
+    <div className="flex md:flex-col gap-4 justify-start">
+      <div className="min-w-6 w-6 h-6 mt-0.5 lg:mt-0">
         <Icon className="stroke-secondary w-full h-full" />
       </div>
       <div>
