@@ -5,6 +5,7 @@ import { Link } from "@/i18n/routing";
 import { useTranslations } from "next-intl";
 import ValueCard from "./ValueCard";
 import { Boxes, CalendarCheck, Globe2 } from "lucide-react";
+import PortfolioCarousel from "./PortfolioCarousel";
 
 function AboutSection() {
   const t = useTranslations("HomePage");
@@ -17,8 +18,10 @@ function AboutSection() {
           </h2>
           <p className="text-base lg:text-lg text-slate-600">{t("AboutSection.textContent")}</p>
         </div>
-        <div className="row-[2/3] lg:column-[2/3] lg:row-[1/3]">test</div>
-        <div className="text-center lg:text-left row-[3/4] lg:column-[1/3] lg:row-[2/3]">
+        <div className="row-[2/3] lg:column-[2/3] lg:row-[1/3]">
+          <PortfolioCarousel />
+        </div>
+        <div className="text-center lg:text-left row-[3/4] lg:column-[1/3] lg:row-[2/3] self-end">
           <Button variant={"outline"} asChild>
             <Link title={t("AboutSection.PortfolioButton.linkTitleAttribute")} href="/realizations">
               {t("AboutSection.PortfolioButton.label")}
