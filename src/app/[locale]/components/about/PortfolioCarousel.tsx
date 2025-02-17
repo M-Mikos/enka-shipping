@@ -67,7 +67,7 @@ function PortfolioCarousel() {
       <div className="flex w-full h-14 justify-between items-center">
         <Button
           className="w-8 h-8 p-0"
-          variant={"outline"}
+          variant={"ghost"}
           disabled={!api?.canScrollPrev()}
           onClick={() => api?.scrollPrev()}
         >
@@ -81,7 +81,7 @@ function PortfolioCarousel() {
         </div>
         <Button
           className="w-8 h-8 p-0"
-          variant={"outline"}
+          variant={"ghost"}
           disabled={!api?.canScrollNext()}
           onClick={() => api?.scrollNext()}
         >
