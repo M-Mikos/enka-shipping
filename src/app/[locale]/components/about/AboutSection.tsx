@@ -16,7 +16,7 @@ function AboutSection() {
           <h2 className="text-3xl xl:text-5xl 2xl:text-6xl font-extrabold leading-none tracking-wide mb-12 lg:mb-16">
             {t("AboutSection.header")}
           </h2>
-          <p className="text-base lg:text-lg text-slate-600">{t("AboutSection.textContent")}</p>
+          <p className="text-base xl:text-lg text-slate-600">{t("AboutSection.textContent")}</p>
         </div>
         <div className="row-[2/3] lg:column-[2/3] lg:row-[1/3]">
           <PortfolioCarousel />

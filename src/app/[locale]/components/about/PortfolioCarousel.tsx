@@ -11,8 +11,7 @@ import photo7 from "@/../public/home/home-slider-photo-7.avif";
 import photo8 from "@/../public/home/home-slider-photo-8.avif";
 import PortfolioCarouselItem from "./PortfolioCarouselItem";
 import { useEffect, useState } from "react";
-import { Button } from "@/components/ui/button";
-import { ArrowLeft, ArrowRight } from "lucide-react";
+import CarouselNav from "@/components/ui/carousel-nav";
 
 function PortfolioCarousel() {
   const images = [
@@ -46,7 +45,7 @@ function PortfolioCarousel() {
   return (
     <div className="flex h-full flex-col justify-between">
       <Carousel
-        className="mb-2"
+        className="mb-2 lg:rounded-lg overflow-hidden"
         opts={{
           loop: false,
         }}
@@ -54,40 +53,11 @@ function PortfolioCarousel() {
       >
         <CarouselContent>
           {images.map((image, index) => (
-            <PortfolioCarouselItem
-              key={index}
-              src={image.src}
-              alt={image.alt}
-              slideIndex={index}
-              selectedSlideIndex={current - 1}
-            />
+            <PortfolioCarouselItem key={index} src={image.src} alt={image.alt} />
           ))}
         </CarouselContent>
       </Carousel>
-      <div className="flex w-full h-14 justify-between items-center">
-        <Button
-          className="w-8 h-8 p-0"
-          variant={"ghost"}
-          disabled={!api?.canScrollPrev()}
-          onClick={() => api?.scrollPrev()}
-        >
-          <ArrowLeft />
-        </Button>
-        <div className="relative w-20 h-0.25 bg-slate-300 rounded-full">
-          <div
-            className={`absolute h-full duration-700 ease-in-out bg-slate-600 `}
-            style={{ width: (current / count) * 100 + "%" }}
-          ></div>
-        </div>
-        <Button
-          className="w-8 h-8 p-0"
-          variant={"ghost"}
-          disabled={!api?.canScrollNext()}
-          onClick={() => api?.scrollNext()}
-        >
-          <ArrowRight />
-        </Button>
-      </div>
+      <CarouselNav api={api} current={current} count={count} />
     </div>
   );
 }
