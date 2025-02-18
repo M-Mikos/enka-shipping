@@ -10,6 +10,10 @@
     "LocaleSwitcher": {
       "label": "Zmień język",
       "locale": "{locale, select, pl {PL} en {EN} other {nieokreślony}}"
+    },
+    "CarouselControls": {
+      "nextButtonLabel": "Przejdź do następnego slajdu",
+      "prevButtonLabel": "Przejdź do poprzedniego slajdu"
     }
   },
   "Header": {
@@ -54,6 +58,16 @@
       "PortfolioButton": {
         "label": "Realizacje",
         "linkTitleAttribute": "Idź do strony realizacji"
+      },
+      "PortfolioItems": {
+        "photo1Alt": "testAlt",
+        "photo2Alt": "testAlt",
+        "photo3Alt": "testAlt",
+        "photo4Alt": "testAlt",
+        "photo5Alt": "testAlt",
+        "photo6Alt": "testAlt",
+        "photo7Alt": "testAlt",
+        "photo8Alt": "testAlt"
       },
       "Values": {
         "GlobalCoverage": {

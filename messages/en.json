@@ -10,6 +10,10 @@
     "LocaleSwitcher": {
       "label": "Change language",
       "locale": "{locale, select, pl {PL} en {EN} other {unknown}}"
+    },
+    "CarouselControls": {
+      "nextButtonLabel": "Show next slide",
+      "prevButtonLabel": "Show previous slide"
     }
   },
   "Header": {
@@ -53,6 +57,16 @@
       "PortfolioButton": {
         "label": "Our portfolio",
         "linkTitleAttribute": "Go to portfolio"
+      },
+      "PortfolioItems": {
+        "photo1Alt": "testAlt",
+        "photo2Alt": "testAlt",
+        "photo3Alt": "testAlt",
+        "photo4Alt": "testAlt",
+        "photo5Alt": "testAlt",
+        "photo6Alt": "testAlt",
+        "photo7Alt": "testAlt",
+        "photo8Alt": "testAlt"
       },
       "Values": {
         "GlobalCoverage": {
