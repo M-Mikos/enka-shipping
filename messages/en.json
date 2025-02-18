@@ -82,6 +82,37 @@
           "text": "Direct contact with an experienced freight forwarder guarantees order fulfilment under all circumstances."
         }
       }
+    },
+    "ServicesSection": {
+      "id": "services",
+      "header": "Choose the service",
+      "textContent": "We carefully tailor each of our services to the customer's needs and the type of the cargo - with us, your shipment is in the right hands.",
+      "ServicesList": {
+        "ProjectCargo": {
+          "title": "Project cargo",
+          "subtitle": "Complex logistics projects at any scale",
+          "linkTitleAttribute": "Go to Project Cargo",
+          "link": "#project-cargo"
+        },
+        "InlandTransport": {
+          "title": "Inland transport",
+          "subtitle": "Barges, pontoons, river transport",
+          "linkTitleAttribute": "Go to Inland Transport",
+          "link": "#inland-transport"
+        },
+        "MaritimeTransport": {
+          "title": "Maritime transport",
+          "subtitle": "Break bulk and container transport",
+          "linkTitleAttribute": "Go to Maritime Transport",
+          "link": "#maritime-transport"
+        },
+        "LandTransport": {
+          "title": "Land transport",
+          "subtitle": "Standard and oversize loads",
+          "linkTitleAttribute": "Go to Land Transport",
+          "link": "#land-transport"
+        }
+      }
     }
   }
 }
