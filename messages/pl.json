@@ -114,6 +114,36 @@
           "link": "#transport-ladawy"
         }
       }
+    },
+    "ExperienceSection": {
+      "id": "doswiadczenie",
+      "header": "Działamy globalnie",
+      "textContent": "Posiadamy szczególne doświadczenie w usługach na terenie Europy, bliskiego wschodu, oraz Azji Środkowej i Wschodniej. Poznaj nasze najczęściej obsługiwane rejony:",
+      "RegionsList": {
+        "regionItaly": "Włochy",
+        "regionScandinavia": "Kraje Skandynawskie",
+        "regionPoland": "Polska",
+        "regionSpain": "Hiszpania",
+        "regionKazakhstan": "Kazachstan",
+        "regionChina": "Chiny",
+        "regionIndia": "Indie",
+        "regionTurkey": "Turcja"
+      },
+      "dislaimerText": "Jesteś zainteresowany innym kierunkiem?<br></br>Skontaktuj się z nami - <strong>Enka operuje na całym świecie.</strong>",
+      "ExperienceStats": {
+        "Transports": {
+          "value": "250+",
+          "label": "wykonanych zleceń"
+        },
+        "Years": {
+          "value": "12 years",
+          "label": "na rynku transportowym"
+        },
+        "Value": {
+          "value": "$370m+",
+          "label": "łącznej wartości towarów"
+        }
+      }
     }
   }
 }

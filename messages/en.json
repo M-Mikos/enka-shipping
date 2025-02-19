@@ -113,6 +113,36 @@
           "link": "#land-transport"
         }
       }
+    },
+    "ExperienceSection": {
+      "id": "experience",
+      "header": "We operate globally",
+      "textContent": "We have particular experience in services across Europe, the Middle East, and Central and East Asia. Find out more about our most commonly served regions:",
+      "RegionsList": {
+        "regionItaly": "Italy",
+        "regionScandinavia": "Scandinavia",
+        "regionPoland": "Poland",
+        "regionSpain": "Spain",
+        "regionKazakhstan": "Kazakhstan",
+        "regionChina": "China",
+        "regionIndia": "India",
+        "regionTurkey": "Turkey"
+      },
+      "dislaimerText": "Interested in another direction?<br></br>Contact us - <strong>Enka operates worldwide.</strong>",
+      "ExperienceStats": {
+        "Transports": {
+          "value": "250+",
+          "label": "completed transports"
+        },
+        "Years": {
+          "value": "12 years",
+          "label": "in the logistics industry"
+        },
+        "Value": {
+          "value": "$370m+",
+          "label": "total cargo value"
+        }
+      }
     }
   }
 }
