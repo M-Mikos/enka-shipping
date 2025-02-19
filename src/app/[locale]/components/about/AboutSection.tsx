@@ -13,7 +13,7 @@ function AboutSection() {
     <SectionContainer id={t("AboutSection.id")}>
       <ContentContainer className="grid grid-cols-1 grid-rows-[repeat(3,auto)] lg:grid-cols-[1fr_1fr] lg:grid-rows-[auto_auto] lg:flex-row gap-x-36 gap-y-12 py-12 lg:py-18 xl:py-24">
         <div className="column-[1/2] row-[1/2] ">
-          <h2 className="text-3xl xl:text-5xl 2xl:text-6xl font-extrabold leading-none tracking-wide mb-12 lg:mb-16">
+          <h2 className="text-3xl xl:text-5xl 2xl:text-6xl font-extrabold leading-none tracking-wide mb-12">
             {t("AboutSection.header")}
           </h2>
           <p className="text-base xl:text-lg text-slate-600">{t("AboutSection.textContent")}</p>

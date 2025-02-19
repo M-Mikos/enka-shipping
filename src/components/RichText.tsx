@@ -9,11 +9,11 @@ type Props = {
 
 export default function RichText({ children }: Props) {
   return (
-    <div className="prose">
+    <>
       {children({
         br: () => <br />,
         strong: (chunks: ReactNode) => <strong className="font-bold">{chunks}</strong>,
       })}
-    </div>
+    </>
   );
 }

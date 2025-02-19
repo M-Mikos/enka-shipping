@@ -118,6 +118,7 @@
       "id": "experience",
       "header": "We operate globally",
       "textContent": "We have particular experience in services across Europe, the Middle East, and Central and East Asia. Find out more about our most commonly served regions:",
+      "mapImageAlt": "World map with highlighted regions most commonly served by Enka",
       "RegionsList": {
         "regionItaly": "Italy",
         "regionScandinavia": "Scandinavia",

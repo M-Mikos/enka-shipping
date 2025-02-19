@@ -119,9 +119,10 @@
       "id": "doswiadczenie",
       "header": "Działamy globalnie",
       "textContent": "Posiadamy szczególne doświadczenie w usługach na terenie Europy, bliskiego wschodu, oraz Azji Środkowej i Wschodniej. Poznaj nasze najczęściej obsługiwane rejony:",
+      "mapImageAlt": "Mapa świata z zaznaczonymi regionami zazwyczaj obsługiwanymi przez firmę Enka",
       "RegionsList": {
         "regionItaly": "Włochy",
-        "regionScandinavia": "Kraje Skandynawskie",
+        "regionScandinavia": "Skandynawia",
         "regionPoland": "Polska",
         "regionSpain": "Hiszpania",
         "regionKazakhstan": "Kazachstan",
