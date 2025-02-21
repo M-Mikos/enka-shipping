@@ -6,6 +6,7 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Map from "@/../public/home/enka-world-map.svg";
 import MapPin from "./MapPin";
+import Numbers from "./Numbers";
 
 function ExperienceSection() {
   const t = useTranslations("HomePage.ExperienceSection");
@@ -133,6 +134,7 @@ function ExperienceSection() {
           <RichText>{(tags) => t.rich("dislaimerText", tags)}</RichText>
         </div>
       </ContentContainer>
+      <Numbers />
     </SectionContainer>
   );
 }
