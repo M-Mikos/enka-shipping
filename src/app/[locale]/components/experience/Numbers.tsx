@@ -9,7 +9,7 @@ function Numbers() {
     { value: t("Value.value"), label: t("Value.label") },
   ];
   return (
-    <ContentContainer className="flex flex-col lg:flex-row gap-6 lg:gap-12">
+    <ContentContainer className="flex flex-col lg:flex-row  lg:gap-12">
       {nubersData.map((el) => (
         <div key={el.label} className="basis-1/3 text-center py-12 border-y border-slate-600">
           <div className="text-white text-7xl mb-3 font-semibold">{el.value}</div>
