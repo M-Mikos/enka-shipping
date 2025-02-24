@@ -3,22 +3,19 @@ import { useTranslations } from "next-intl";
 
 function Numbers() {
   const t = useTranslations("HomePage.ExperienceSection.ExperienceStats");
+  const nubersData = [
+    { value: t("Transports.value"), label: t("Transports.label") },
+    { value: t("Years.value"), label: t("Years.label") },
+    { value: t("Value.value"), label: t("Value.label") },
+  ];
   return (
     <ContentContainer className="flex flex-col lg:flex-row gap-6 lg:gap-12">
-      <div className="basis-1/3">
-        <div>{t("Transports.value")}</div>
-        <p>{t("Transports.label")}</p>
-      </div>
-      <div className="basis-1/3">
-        {" "}
-        <div>{t("Years.value")}</div>
-        <p>{t("Years.label")}</p>
-      </div>
-      <div className="basis-1/3">
-        {" "}
-        <div>{t("Value.value")}</div>
-        <p>{t("Value.label")}</p>
-      </div>
+      {nubersData.map((el) => (
+        <div key={el.label} className="basis-1/3 text-center py-12 border-y border-slate-600">
+          <div className="text-white text-7xl mb-3 font-semibold">{el.value}</div>
+          <p className="text-xl font-medium">{el.label}</p>
+        </div>
+      ))}
     </ContentContainer>
   );
 }
