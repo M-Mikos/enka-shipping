@@ -143,6 +143,21 @@
           "value": "$370m+",
           "label": "total cargo value"
         }
+      },
+      "TestimonialsSection": {
+        "id": "testimonials",
+        "Testimonials": {
+          "1": {
+            "content": "ENKA znacznie poprawiła sposób, w jaki prowadzę działalność. Nie musiałem martwić się o logistykę transportu moich towarów w całym kraju. Wszystko przebiegło gładko, co było dla mnie ogromną ulgą!",
+            "author": "Piotr Pogorzelski",
+            "title": "CEO of The Company"
+          },
+          "2": {
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies augue ligula, quis ornare nisi commodo sed. Quisque vitae odio iaculis, accumsan nulla nec, feugiat risus. Fusce semper faucibus ornare. Aliquam a sodales nisl. Duis tempus neque non libero pharetra tempus.",
+            "author": "Piotr Pogorzelski",
+            "title": "CEO of The Company"
+          }
+        }
       }
     }
   }

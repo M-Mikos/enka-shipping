@@ -145,6 +145,21 @@
           "label": "łącznej wartości towarów"
         }
       }
+    },
+    "TestimonialsSection": {
+      "id": "testimonials",
+      "Testimonials": {
+        "1": {
+          "content": "ENKA has greatly improved the way I do business. I didn't have to worry about the logistics of transporting my goods across the country. Everything ran smoothly, which was a huge relief for me!",
+          "author": "Piotr Pogorzelski",
+          "title": "CEO of The Company"
+        },
+        "2": {
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies augue ligula, quis ornare nisi commodo sed. Quisque vitae odio iaculis, accumsan nulla nec, feugiat risus. Fusce semper faucibus ornare. Aliquam a sodales nisl. Duis tempus neque non libero pharetra tempus.",
+          "author": "Piotr Pogorzelski",
+          "title": "CEO of The Company"
+        }
+      }
     }
   }
 }
