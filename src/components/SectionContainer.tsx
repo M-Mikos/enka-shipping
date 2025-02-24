@@ -11,7 +11,7 @@ interface SectionContainerProps extends React.HTMLAttributes<HTMLElement> {
   };
 }
 
-async function SectionContainer({ id, children, className, backgroundImage, ...props }: SectionContainerProps) {
+function SectionContainer({ id, children, className, backgroundImage, ...props }: SectionContainerProps) {
   return (
     <section id={id} className={"relative w-screen " + (className ? className : "")} {...props}>
       {children}
