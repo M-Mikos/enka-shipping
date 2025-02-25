@@ -3,6 +3,7 @@ import SectionContainer from "@/components/SectionContainer";
 import { Button } from "@/components/ui/button";
 import photo from "@/../public/home/krzysztof-pietrusiak.avif";
 import Image from "next/image";
+import { Heading } from "@/components/ui/heading";
 
 function ContactSection() {
   return (
@@ -13,7 +14,7 @@ function ContactSection() {
         </div>
         <div className="basis-2/3 flex flex-col justify-between p-20 bg-white">
           <div>
-            <h2>test</h2>
+            <Heading variant="h2">test</Heading>
             <p>test </p>
           </div>
           <div>

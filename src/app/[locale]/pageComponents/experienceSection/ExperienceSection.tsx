@@ -7,6 +7,7 @@ import Image from "next/image";
 import Map from "@/../public/home/enka-world-map.svg";
 import MapPin from "./MapPin";
 import Numbers from "./Numbers";
+import { Heading } from "@/components/ui/heading";
 
 function ExperienceSection() {
   const t = useTranslations("HomePage.ExperienceSection");
@@ -16,9 +17,9 @@ function ExperienceSection() {
       <ContentContainer className="lg:grid lg:gap-x-12 lg:grid-cols-[2fr_3fr] lg:grid-rows-[auto_auto] group">
         <div className="column-[1/2] row-[1/2] xl:text-lg">
           <div className="flex flex-col justify-between">
-            <h2 className="text-white text-3xl xl:text-5xl 2xl:text-6xl font-extrabold leading-none tracking-wide mb-12">
+            <Heading variant="h2" background="dark">
               {t("header")}
-            </h2>
+            </Heading>
             <p className="mb-12">{t("textContent")}</p>
             <ul className="flex flex-wrap mb-12">
               <li data-region="Italy" className="basis-1/2 flex gap-4">

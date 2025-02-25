@@ -6,6 +6,7 @@ import servicesInlandBackground from "@/../public/home/services-inland-backgroun
 import servicesLandBackground from "@/../public/home/services-land-background.avif";
 import servicesMarineBackground from "@/../public/home/services-marine-background.avif";
 import ServiceList from "./ServiceList";
+import { Heading } from "@/components/ui/heading";
 
 function ServicesSection() {
   const t = useTranslations("HomePage");
@@ -45,9 +46,7 @@ function ServicesSection() {
     <SectionContainer id={t("ServicesSection.id")}>
       <ContentContainer className="py-18 xl:py-24">
         <div className="flex flex-col lg:flex-row w-full gap-12 lg:gap-16 mb-16">
-          <h2 className="basis-1/2 text-3xl xl:text-5xl 2xl:text-6xl font-extrabold leading-none tracking-wide">
-            {t("ServicesSection.header")}
-          </h2>
+          <Heading variant="h2">{t("ServicesSection.header")}</Heading>
           <p className="basis-1/2 text-base xl:text-lg text-slate-600">{t("ServicesSection.textContent")}</p>
         </div>
         <ServiceList services={services} />
