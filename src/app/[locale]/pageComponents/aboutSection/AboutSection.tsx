@@ -10,6 +10,23 @@ import { Heading } from "@/components/ui/heading";
 
 function AboutSection() {
   const t = useTranslations("HomePage");
+  const values = [
+    {
+      icon: Globe2,
+      header: t("AboutSection.Values.GlobalCoverage.header"),
+      content: t("AboutSection.Values.GlobalCoverage.text"),
+    },
+    {
+      icon: Boxes,
+      header: t("AboutSection.Values.ProjectCargo.header"),
+      content: t("AboutSection.Values.ProjectCargo.text"),
+    },
+    {
+      icon: CalendarCheck,
+      header: t("AboutSection.Values.OnTime.header"),
+      content: t("AboutSection.Values.OnTime.text"),
+    },
+  ];
   return (
     <SectionContainer id={t("AboutSection.id")}>
       <ContentContainer className="grid grid-cols-1 grid-rows-[repeat(3,auto)] lg:grid-cols-[1fr_1fr] lg:grid-rows-[auto_auto] lg:flex-row gap-x-36 gap-y-12 py-12 lg:py-18 xl:py-24">
@@ -30,21 +47,9 @@ function AboutSection() {
       </ContentContainer>
       <div className="w-full bg-slate-50 py-12 lg:py-18 xl:py-24">
         <ContentContainer className="flex flex-col md:flex-row gap-12 lg:gap-16">
-          <ValueCard
-            Icon={Globe2}
-            header={t("AboutSection.Values.GlobalCoverage.header")}
-            content={t("AboutSection.Values.GlobalCoverage.text")}
-          />
-          <ValueCard
-            Icon={Boxes}
-            header={t("AboutSection.Values.ProjectCargo.header")}
-            content={t("AboutSection.Values.ProjectCargo.text")}
-          />
-          <ValueCard
-            Icon={CalendarCheck}
-            header={t("AboutSection.Values.OnTime.header")}
-            content={t("AboutSection.Values.OnTime.text")}
-          />
+          {values.map((value) => (
+            <ValueCard key={value.header} Icon={value.icon} header={value.header} content={value.content} />
+          ))}
         </ContentContainer>
       </div>
     </SectionContainer>
