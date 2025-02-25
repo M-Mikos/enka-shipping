@@ -7,9 +7,9 @@ function ContactButton() {
 
   return (
     <Button variant="outline" asChild>
-      <a title={t("ContactData.mainPhoneNumberLinkTitleAttribute")} href={t("ContactData.mainPhoneNumberLink")}>
+      <a title={t("ContactData.MainPhoneNumber.linkTitle")} href={t("ContactData.MainPhoneNumber.link")}>
         <Phone />
-        {t("ContactData.mainPhoneNumberLabel")}
+        {t("ContactData.MainPhoneNumber.label")}
       </a>
     </Button>
   );

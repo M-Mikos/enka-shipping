@@ -37,7 +37,7 @@ function HeroSection() {
         </div>
         <div className="flex justify-between">
           <Button variant="default" asChild>
-            <a title={t("HeroSection.ActionButton.linkTitleAttribute")} href={t("HeroSection.ActionButton.link")}>
+            <a title={t("HeroSection.ActionButton.linkTitle")} href={t("HeroSection.ActionButton.link")}>
               <ArrowRight />
               {t("HeroSection.ActionButton.label")}
             </a>
@@ -47,7 +47,7 @@ function HeroSection() {
             variant="default"
             asChild
           >
-            <Link title={t("HeroSection.ScrollButton.linkTitleAttribute")} href={t("HeroSection.ScrollButton.link")}>
+            <Link title={t("HeroSection.ScrollButton.linkTitle")} href={t("HeroSection.ScrollButton.link")}>
               <ArrowDown />
             </Link>
           </Button>

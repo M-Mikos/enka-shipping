@@ -24,7 +24,7 @@ function Navigation({ orientation, handleClose }: NavigationProps) {
     <NavigationMenu className={navigationMenuOrientationClasses} orientation={orientation}>
       <NavigationMenuList className={navigationMenuListOrientationClasses}>
         <NavigationMenuItem>
-          <Link title={t("Navigation.ServicesLink.titleAttribute")} href="/services" legacyBehavior passHref>
+          <Link title={t("Navigation.ServicesLink.linkTitle")} href="/services" legacyBehavior passHref>
             <NavigationMenuLink
               className={navigationMenuTriggerStyle()}
               onClick={handleClose}
@@ -35,7 +35,7 @@ function Navigation({ orientation, handleClose }: NavigationProps) {
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link title={t("Navigation.RealizationsLink.titleAttribute")} href="/realizations" legacyBehavior passHref>
+          <Link title={t("Navigation.RealizationsLink.linkTitle")} href="/realizations" legacyBehavior passHref>
             <NavigationMenuLink
               className={navigationMenuTriggerStyle()}
               onClick={handleClose}
@@ -46,7 +46,7 @@ function Navigation({ orientation, handleClose }: NavigationProps) {
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link title={t("Navigation.ContactLink.titleAttribute")} href="/#contact-section" legacyBehavior passHref>
+          <Link title={t("Navigation.ContactLink.linkTitle")} href="/#contact-section" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()} onClick={handleClose}>
               {t("Navigation.ContactLink.label")}
             </NavigationMenuLink>

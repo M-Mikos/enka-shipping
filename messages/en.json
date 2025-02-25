@@ -1,11 +1,18 @@
 {
   "Global": {
     "logoAlt": "Enka Shipping Logo",
-    "logoTitleAttribute": "Go to homepage",
+    "logoTitle": "Go to homepage",
     "ContactData": {
-      "mainPhoneNumberLabel": "+48 123 456 789",
-      "mainPhoneNumberLink": "tel:+48123456789",
-      "mainPhoneNumberLinkTitleAttribute": "Call +48 123 456 789"
+      "MainPhoneNumber": {
+        "label": "+48 123 456 789",
+        "link": "tel:+48123456789",
+        "linkTitle": "Call +48 123 456 789"
+      },
+      "MainEmailAdress": {
+        "label": "biuro@enka-spedycja.pl",
+        "link": "mailto:biuro@enka-spedycja.pl",
+        "linkTitle": "Send message to biuro@enka-spedycja.pl"
+      }
     },
     "LocaleSwitcher": {
       "label": "Change language",
@@ -20,15 +27,15 @@
     "Navigation": {
       "ServicesLink": {
         "label": "Services",
-        "titleAttribute": "Go to services"
+        "linkTitle": "Go to services"
       },
       "RealizationsLink": {
         "label": "Realizations",
-        "titleAttribute": "Go to realizations"
+        "linkTitle": "Go to realizations"
       },
       "ContactLink": {
         "label": "Contact",
-        "titleAttribute": "Go to contact"
+        "linkTitle": "Go to contact"
       }
     },
     "MobileDrawer": {
@@ -43,11 +50,11 @@
       "ActionButton": {
         "label": "Free consultation",
         "link": "#contact",
-        "linkTitleAttribute": "Go to contact"
+        "linkTitle": "Go to contact"
       },
       "ScrollButton": {
         "link": "#about",
-        "linkTitleAttribute": "Go to section about us"
+        "linkTitle": "Go to section about us"
       }
     },
     "AboutSection": {
@@ -56,7 +63,7 @@
       "textContent": "Enka provides global transport services to companies all over the world. Our team of experienced professionals will deliver your cargo to your location at the exact time you specify. Our headquarters are based in Poland, from where we cooperate with our global network of partners. We have carried out dozens of projects, including complex oversize transports. Whether by land, sea or inland waterway, we offer solutions for every budget and every industry. We ensure smooth deliveries and the highest level of cargo security.",
       "PortfolioButton": {
         "label": "Our portfolio",
-        "linkTitleAttribute": "Go to portfolio"
+        "linkTitle": "Go to portfolio"
       },
       "PortfolioItems": {
         "photo1Alt": "testAlt",
@@ -91,25 +98,25 @@
         "ProjectCargo": {
           "title": "Project cargo",
           "subtitle": "Complex logistics projects at any scale",
-          "linkTitleAttribute": "Go to Project Cargo",
+          "linkTitle": "Go to Project Cargo",
           "link": "#project-cargo"
         },
         "InlandTransport": {
           "title": "Inland transport",
           "subtitle": "Barges, pontoons, river transport",
-          "linkTitleAttribute": "Go to Inland Transport",
+          "linkTitle": "Go to Inland Transport",
           "link": "#inland-transport"
         },
         "MaritimeTransport": {
           "title": "Maritime transport",
           "subtitle": "Break bulk and container transport",
-          "linkTitleAttribute": "Go to Maritime Transport",
+          "linkTitle": "Go to Maritime Transport",
           "link": "#maritime-transport"
         },
         "LandTransport": {
           "title": "Land transport",
           "subtitle": "Standard and oversize loads",
-          "linkTitleAttribute": "Go to Land Transport",
+          "linkTitle": "Go to Land Transport",
           "link": "#land-transport"
         }
       }
@@ -159,6 +166,25 @@
           }
         }
       }
+    },
+    "ContactSection": {
+      "id": "contact",
+      "header": "Let us plan your logistics",
+      "textContent": "Are you looking for an experienced shipping company or do you have some questions? Feel free to contact us!",
+      "altText": "Zdjęcie Krzysztofa Pietrusiaka, Dyrektora Spedycji",
+      "name": "Krzysztof Pietrusiak",
+      "title": "Dyrektor Spedycji"
+    }
+  },
+  "Footer": {
+    "companyName": "ENKA Pietrusiak Krzysztof",
+    "companyAdress": "80-257 Gdańsk",
+    "copyright": "©2025 Enka",
+    "Credits": {
+      "prefix": "Designed and coded by ",
+      "author": "Marcin Mikos",
+      "link": "mailto:mikos.marcin.m@gmail.com",
+      "linkTitle": "Write to the Designer"
     }
   }
 }

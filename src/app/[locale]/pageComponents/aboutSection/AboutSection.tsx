@@ -23,7 +23,7 @@ function AboutSection() {
         </div>
         <div className="text-center lg:text-left row-[3/4] lg:column-[1/3] lg:row-[2/3] self-end">
           <Button variant={"outline"} asChild>
-            <Link title={t("AboutSection.PortfolioButton.linkTitleAttribute")} href="/realizations">
+            <Link title={t("AboutSection.PortfolioButton.linkTitle")} href="/realizations">
               {t("AboutSection.PortfolioButton.label")}
             </Link>
           </Button>

@@ -4,7 +4,8 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import type { Metadata } from "next";
 import "../globals.css";
-import Header from "./components/header/Header";
+import Header from "./layoutComponents/header/Header";
+import Footer from "./layoutComponents/footer/Footer";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -34,6 +35,7 @@ export default async function LocaleLayout({
         <NextIntlClientProvider messages={messages}>
           <Header />
           {children}
+          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>

@@ -6,7 +6,7 @@ import { Carousel, CarouselApi, CarouselContent, CarouselItem } from "@/componen
 import CarouselNav from "@/components/ui/carousel-nav";
 import { useEffect, useState } from "react";
 
-function Testimonials() {
+function TestimonialsSection() {
   const [api, setApi] = useState<CarouselApi>();
   const [current, setCurrent] = useState(0);
   const [count, setCount] = useState(0);
@@ -60,4 +60,4 @@ function Testimonials() {
   );
 }
 
-export default Testimonials;
+export default TestimonialsSection;

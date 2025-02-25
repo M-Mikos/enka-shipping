@@ -1,11 +1,18 @@
 {
   "Global": {
     "logoAlt": "Logo Enka Spedycja",
-    "logoTitleAttribute": "Idź do strony głównej",
+    "logoTitle": "Idź do strony głównej",
     "ContactData": {
-      "mainPhoneNumberLabel": "+48 123 456 789",
-      "mainPhoneNumberLink": "tel:+48123456789",
-      "mainPhoneNumberLinkTitleAttribute": "Zadzwoń +48 123 456 789"
+      "MainPhoneNumber": {
+        "label": "+48 123 456 789",
+        "link": "tel:+48123456789",
+        "linkTitle": "Zadzwoń +48 123 456 789"
+      },
+      "MainEmailAdress": {
+        "label": "biuro@enka-spedycja.pl",
+        "link": "mailto:biuro@enka-spedycja.pl",
+        "linkTitle": "Wyślij wiadomość na adres biuro@enka-spedycja.pl"
+      }
     },
     "LocaleSwitcher": {
       "label": "Zmień język",
@@ -20,15 +27,15 @@
     "Navigation": {
       "ServicesLink": {
         "label": "Usługi",
-        "titleAttribute": "Idź do strony usług"
+        "linkTitle": "Idź do strony usług"
       },
       "RealizationsLink": {
         "label": "Realizacje",
-        "titleAttribute": "Idź do strony realizacji"
+        "linkTitle": "Idź do strony realizacji"
       },
       "ContactLink": {
         "label": "Kontakt",
-        "titleAttribute": "Idź do strony kontaktu"
+        "linkTitle": "Idź do strony kontaktu"
       }
     },
     "MobileDrawer": {
@@ -43,11 +50,11 @@
       "ActionButton": {
         "label": "Bezpłatna konsultacja",
         "link": "#kontakt",
-        "linkTitleAttribute": "Umów konsultację"
+        "linkTitle": "Umów konsultację"
       },
       "ScrollButton": {
         "link": "#o-nas",
-        "linkTitleAttribute": "Idź do sekcji o nas"
+        "linkTitle": "Idź do sekcji o nas"
       },
       "backgroundImgAlt": "Kontenerowiec w porcie morskim w Hamburgu."
     },
@@ -57,7 +64,7 @@
       "textContent": "Enka świadczy globalne usługi transportowe dla firm na całym świecie. Nasz zespół doświadczonych profesjonalistów dostarczy Twój ładunek do Twojej lokalizacji w dokładnie określonym przez Ciebie czasie. Nasza siedziba znajduje się w Polsce, skąd współpracujemy z\u00a0naszą globalną siecią partnerów. Zrealizowaliśmy dziesiątki projektów, w tym złożone transporty ponadgabarytowe. Niezależnie od tego, czy jest to transport lądowy, śródlądowy czy morski, oferujemy rozwiązania dla każdego budżetu i\u00a0każdej branży. Zapewniamy płynne dostawy i\u00a0najwyższy poziom bezpieczeństwa ładunku.",
       "PortfolioButton": {
         "label": "Realizacje",
-        "linkTitleAttribute": "Idź do strony realizacji"
+        "linkTitle": "Idź do strony realizacji"
       },
       "PortfolioItems": {
         "photo1Alt": "testAlt",
@@ -92,25 +99,25 @@
         "ProjectCargo": {
           "title": "Project cargo",
           "subtitle": "Złożone projekty logistyczne dla każdej skali",
-          "linkTitleAttribute": "Idź do strony Project Cargo",
+          "linkTitle": "Idź do strony Project Cargo",
           "link": "#project-cargo"
         },
         "InlandTransport": {
           "title": "Transport śródlądowy",
           "subtitle": "Barki, pontony, transport rzeczny",
-          "linkTitleAttribute": "Idź do strony Transport śródlądowy",
+          "linkTitle": "Idź do strony Transport śródlądowy",
           "link": "#transport-srodladowy"
         },
         "MaritimeTransport": {
           "title": "Transport morski",
           "subtitle": "Break bulk i\u00a0transport kontenerowy",
-          "linkTitleAttribute": "Idź do strony Transport morski",
+          "linkTitle": "Idź do strony Transport morski",
           "link": "#transport-morski"
         },
         "LandTransport": {
           "title": "Transport lądowy",
           "subtitle": "Ładunki typowe i\u00a0ponadgabarytowe",
-          "linkTitleAttribute": "Idź do strony Transport lądowy",
+          "linkTitle": "Idź do strony Transport lądowy",
           "link": "#transport-ladawy"
         }
       }
@@ -160,6 +167,25 @@
           "title": "CEO of The Company"
         }
       }
+    },
+    "ContactSection": {
+      "id": "kontakt",
+      "header": "Zaplanuj z nami swoją logistykę",
+      "textContent": "Szukasz doświadczonej firmy spedycyjnej lub masz do nas pytania? <br></br> Zapraszamy do kontaktu!",
+      "altText": "Zdjęcie Krzysztofa Pietrusiaka, Dyrektora Spedycji",
+      "name": "Krzysztof Pietrusiak",
+      "title": "Dyrektor Spedycji"
+    }
+  },
+  "Footer": {
+    "companyName": "ENKA Pietrusiak Krzysztof",
+    "companyAdress": "80-257 Gdańsk",
+    "copyright": "©2025 Enka",
+    "Credits": {
+      "prefix": "Projekt i wykonanie: ",
+      "author": "Marcin Mikos",
+      "link": "mailto:mikos.marcin.m@gmail.com",
+      "linkTitle": "Napisz do projektanta"
     }
   }
 }

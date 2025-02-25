@@ -6,7 +6,7 @@ import { Link } from "@/i18n/routing";
 export default function EnkaLogo() {
   const t = useTranslations("Global");
   return (
-    <Link title={t("logoTitleAttribute")} href="/">
+    <Link title={t("logoTitle")} href="/">
       <Image
         className="aspect-[4] w-full"
         src={enkaLogo}
