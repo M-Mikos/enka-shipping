@@ -40,7 +40,7 @@ const ResponsiveBackgroundImage = ({
     <picture>
       <source media="(min-width: 600px)" srcSet={desktop} />
       <source media="(max-width: 599px)" srcSet={mobile} />
-      <img {...rest} className={clsx("absolute inset-0 w-full h-full object-cover -z-1", className)} />
+      <img {...rest} className={clsx("absolute inset-0 w-full h-auto object-cover -z-1", className)} />
     </picture>
   );
 };
