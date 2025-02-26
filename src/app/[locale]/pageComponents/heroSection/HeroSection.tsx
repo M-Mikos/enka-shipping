@@ -20,7 +20,8 @@ function HeroSection() {
         desktopImage={desktopHeroBackground.src}
         mobileSettings={{ fill: true }}
         desktopSettings={{ fill: true }}
-        commonSettings={{ sizes: "100vw", priority: true }}
+        commonSettings={{ sizes: "100vw" }}
+        className="max-h-[100rem] md:max-h-[150rem]"
       />
       <ContentContainer className="flex flex-col justify-between min-h-[calc(100vh-5rem)] h-auto gap-12 py-12 lg:py-18 xl:py-24">
         <div className="flex flex-col gap-4 lg:gap-6 w-full lg:max-w-[48rem] text-center lg:text-left">
