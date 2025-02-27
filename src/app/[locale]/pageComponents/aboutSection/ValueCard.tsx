@@ -1,3 +1,5 @@
+import { Heading } from "@/components/ui/heading";
+import { Paragraph } from "@/components/ui/paragraph";
 import { LucideProps } from "lucide-react";
 import { ForwardRefExoticComponent, RefAttributes } from "react";
 
@@ -14,8 +16,10 @@ function ValueCard({ Icon, header, content }: ValueCardProps) {
         <Icon className="stroke-secondary w-full h-full" />
       </div>
       <div>
-        <h3 className="mb-2 text-lg font-semibold">{header}</h3>
-        <p className="text-slate-600">{content}</p>
+        <Heading variant="h3" className="mb-2 text-lg xl:text-xl">
+          {header}
+        </Heading>
+        <Paragraph variant="small">{content}</Paragraph>
       </div>
     </div>
   );

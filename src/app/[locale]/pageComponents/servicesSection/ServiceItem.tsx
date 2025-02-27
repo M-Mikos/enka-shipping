@@ -1,3 +1,5 @@
+import { Heading } from "@/components/ui/heading";
+import { Paragraph } from "@/components/ui/paragraph";
 import { Link } from "@/i18n/routing";
 import { ArrowUpRight } from "lucide-react";
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
@@ -19,8 +21,12 @@ function ServiceItem({ title, subtitle, linkTitleAttribute, image, href }: Servi
           <ArrowUpRight className="stroke-primary" />
         </div>
         <div className="lg:w-56">
-          <h3 className="text-white text-2xl lg:text-3xl font-semibold mb-4">{title}</h3>
-          <p className=" xl:text-base text-white">{subtitle}</p>
+          <Heading variant="h3" shade="light">
+            {title}
+          </Heading>
+          <Paragraph variant="small" shade="light">
+            {subtitle}
+          </Paragraph>
         </div>
         <div className="absolute inset-0 w-full h-full -z-1 transition duration-200 bg-white opacity-0 group-hover:opacity-10"></div>
         <Image

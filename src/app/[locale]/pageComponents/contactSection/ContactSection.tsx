@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import photo from "@/../public/home/krzysztof-pietrusiak.avif";
 import Image from "next/image";
 import { Heading } from "@/components/ui/heading";
+import { Paragraph } from "@/components/ui/paragraph";
 
 function ContactSection() {
   return (
@@ -15,11 +16,13 @@ function ContactSection() {
         <div className="basis-2/3 flex flex-col justify-between p-20 bg-white">
           <div>
             <Heading variant="h2">test</Heading>
-            <p>test </p>
+            <Paragraph>test </Paragraph>
           </div>
           <div>
-            <p className="flex gap-1">test</p>
-            <p className="mb-6">test</p>
+            <Paragraph variant="large">test</Paragraph>
+            <Paragraph variant="large" className="text-secondary">
+              test
+            </Paragraph>
             <div className="flex gap-1">
               <Button asChild>
                 <a>tel</a>

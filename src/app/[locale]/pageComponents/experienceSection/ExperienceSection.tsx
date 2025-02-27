@@ -8,6 +8,7 @@ import Map from "@/../public/home/enka-world-map.svg";
 import MapPin from "./MapPin";
 import Numbers from "./Numbers";
 import { Heading } from "@/components/ui/heading";
+import { Paragraph } from "@/components/ui/paragraph";
 
 function ExperienceSection() {
   const t = useTranslations("HomePage.ExperienceSection");
@@ -17,60 +18,64 @@ function ExperienceSection() {
       <ContentContainer className="lg:grid lg:gap-x-12 lg:grid-cols-[2fr_3fr] lg:grid-rows-[auto_auto] group">
         <div className="column-[1/2] row-[1/2] xl:text-lg">
           <div className="flex flex-col justify-between">
-            <Heading variant="h2" background="dark">
+            <Heading variant="h2" shade="light">
               {t("header")}
             </Heading>
-            <p className="mb-12">{t("textContent")}</p>
-            <ul className="flex flex-wrap mb-12">
-              <li data-region="Italy" className="basis-1/2 flex gap-4">
-                <ChevronRight className="stroke-primary" />
-                <span className="hover:text-primary group-has-[div[data-region='Italy']:hover]:text-primary">
-                  {t("RegionsList.regionItaly")}
-                </span>
-              </li>
-              <li data-region="Scandinavia" className="basis-1/2 flex gap-4">
-                <ChevronRight className="stroke-primary" />
-                <span className="hover:text-primary group-has-[div[data-region='Scandinavia']:hover]:text-primary">
-                  {t("RegionsList.regionScandinavia")}
-                </span>
-              </li>
-              <li data-region="Poland" className="basis-1/2 flex gap-4">
-                <ChevronRight className="stroke-primary" />
-                <span className="hover:text-primary group-has-[div[data-region='Poland']:hover]:text-primary">
-                  {t("RegionsList.regionPoland")}
-                </span>
-              </li>
-              <li data-region="Spain" className="basis-1/2 flex gap-4">
-                <ChevronRight className="stroke-primary" />
-                <span className="hover:text-primary group-has-[div[data-region='Spain']:hover]:text-primary">
-                  {t("RegionsList.regionSpain")}
-                </span>
-              </li>
-              <li data-region="Kazakhstan" className="basis-1/2 flex gap-4">
-                <ChevronRight className="stroke-primary" />
-                <span className="hover:text-primary group-has-[div[data-region='Kazakhstan']:hover]:text-primary">
-                  {t("RegionsList.regionKazakhstan")}
-                </span>
-              </li>
-              <li data-region="China" className="basis-1/2 flex gap-4">
-                <ChevronRight className="stroke-primary" />
-                <span className="hover:text-primary group-has-[div[data-region='China']:hover]:text-primary">
-                  {t("RegionsList.regionChina")}
-                </span>
-              </li>
-              <li data-region="India" className="basis-1/2 flex gap-4">
-                <ChevronRight className="stroke-primary" />
-                <span className="hover:text-primary group-has-[div[data-region='India']:hover]:text-primary">
-                  {t("RegionsList.regionIndia")}
-                </span>
-              </li>
-              <li data-region="Turkey" className="basis-1/2 flex gap-4">
-                <ChevronRight className="stroke-primary" />
-                <span className="hover:text-primary group-has-[div[data-region='Turkey']:hover]:text-primary">
-                  {t("RegionsList.regionTurkey")}
-                </span>
-              </li>
-            </ul>
+            <Paragraph shade="light" className="mb-12">
+              {t("textContent")}
+            </Paragraph>
+            <Paragraph shade="light" asChild>
+              <ul className="flex flex-wrap mb-12">
+                <li data-region="Italy" className="basis-1/2 flex gap-4">
+                  <ChevronRight className="stroke-primary" />
+                  <span className="hover:text-primary group-has-[div[data-region='Italy']:hover]:text-primary">
+                    {t("RegionsList.regionItaly")}
+                  </span>
+                </li>
+                <li data-region="Scandinavia" className="basis-1/2 flex gap-4">
+                  <ChevronRight className="stroke-primary" />
+                  <span className="hover:text-primary group-has-[div[data-region='Scandinavia']:hover]:text-primary">
+                    {t("RegionsList.regionScandinavia")}
+                  </span>
+                </li>
+                <li data-region="Poland" className="basis-1/2 flex gap-4">
+                  <ChevronRight className="stroke-primary" />
+                  <span className="hover:text-primary group-has-[div[data-region='Poland']:hover]:text-primary">
+                    {t("RegionsList.regionPoland")}
+                  </span>
+                </li>
+                <li data-region="Spain" className="basis-1/2 flex gap-4">
+                  <ChevronRight className="stroke-primary" />
+                  <span className="hover:text-primary group-has-[div[data-region='Spain']:hover]:text-primary">
+                    {t("RegionsList.regionSpain")}
+                  </span>
+                </li>
+                <li data-region="Kazakhstan" className="basis-1/2 flex gap-4">
+                  <ChevronRight className="stroke-primary" />
+                  <span className="hover:text-primary group-has-[div[data-region='Kazakhstan']:hover]:text-primary">
+                    {t("RegionsList.regionKazakhstan")}
+                  </span>
+                </li>
+                <li data-region="China" className="basis-1/2 flex gap-4">
+                  <ChevronRight className="stroke-primary" />
+                  <span className="hover:text-primary group-has-[div[data-region='China']:hover]:text-primary">
+                    {t("RegionsList.regionChina")}
+                  </span>
+                </li>
+                <li data-region="India" className="basis-1/2 flex gap-4">
+                  <ChevronRight className="stroke-primary" />
+                  <span className="hover:text-primary group-has-[div[data-region='India']:hover]:text-primary">
+                    {t("RegionsList.regionIndia")}
+                  </span>
+                </li>
+                <li data-region="Turkey" className="basis-1/2 flex gap-4">
+                  <ChevronRight className="stroke-primary" />
+                  <span className="hover:text-primary group-has-[div[data-region='Turkey']:hover]:text-primary">
+                    {t("RegionsList.regionTurkey")}
+                  </span>
+                </li>
+              </ul>
+            </Paragraph>
           </div>
         </div>
 
@@ -128,10 +133,9 @@ function ExperienceSection() {
           </div>
         </div>
 
-        {/* Disclaimer Text */}
-        <div className="lg:column-[1/2] lg:row-[2/3]">
+        <Paragraph shade="light" className="lg:column-[1/2] lg:row-[2/3]">
           <RichText>{(tags) => t.rich("dislaimerText", tags)}</RichText>
-        </div>
+        </Paragraph>
       </ContentContainer>
       <Numbers />
     </SectionContainer>

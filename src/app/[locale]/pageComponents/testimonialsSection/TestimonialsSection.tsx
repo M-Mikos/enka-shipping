@@ -4,6 +4,7 @@ import ContentContainer from "@/components/ContentContainer";
 import SectionContainer from "@/components/SectionContainer";
 import { Carousel, CarouselApi, CarouselContent, CarouselItem } from "@/components/ui/carousel";
 import CarouselNav from "@/components/ui/carousel-nav";
+import { Paragraph } from "@/components/ui/paragraph";
 import { useEffect, useState } from "react";
 
 function TestimonialsSection() {
@@ -36,19 +37,14 @@ function TestimonialsSection() {
           <CarouselContent className="py-24">
             <CarouselItem className="flex items-center h-64 justify-center">
               <blockquote className="w-4xl">
-                <p className="text-2xl font-semibold mb-12 prose prose-no-quotes">Lorem ipsum</p>
+                <Paragraph variant="large" className="text-slate-950 mb-12">
+                  Lorem ipsum
+                </Paragraph>
                 <footer>
-                  <p className="font-bold">Piotr Pogorzelski</p>
-                  <p className="text-slate-600">CEO of The Company</p>
-                </footer>
-              </blockquote>
-            </CarouselItem>
-            <CarouselItem className="flex items-center h-64 justify-center">
-              <blockquote className="w-4xl">
-                <p className="text-2xl font-semibold mb-12">Lorem ipsum</p>
-                <footer>
-                  <p className="font-bold">Piotr Pogorzelski</p>
-                  <p className="text-slate-600">CEO of The Company</p>
+                  <Paragraph variant="small" className="font-bold text-slate-950">
+                    Piotr Pogorzelski
+                  </Paragraph>
+                  <Paragraph variant="small">CEO of The Company</Paragraph>
                 </footer>
               </blockquote>
             </CarouselItem>

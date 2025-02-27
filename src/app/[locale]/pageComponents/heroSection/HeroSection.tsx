@@ -9,6 +9,7 @@ import Link from "next/link";
 import { Heading } from "@/components/ui/heading";
 import RichText from "@/components/RichText";
 import ResponsiveBackgroundImage from "@/components/ResponsiveBackgroundImage";
+import { Paragraph } from "@/components/ui/paragraph";
 
 function HeroSection() {
   const t = useTranslations("HomePage");
@@ -18,21 +19,20 @@ function HeroSection() {
       <ResponsiveBackgroundImage
         mobileImage={mobileHeroBackground.src}
         desktopImage={desktopHeroBackground.src}
-        mobileSettings={{ fill: true }}
-        desktopSettings={{ fill: true }}
-        commonSettings={{ sizes: "100vw" }}
-        className="max-h-[100rem] md:max-h-[150rem]"
+        mobileSettings={{}}
+        desktopSettings={{}}
+        commonSettings={{ sizes: "100vw", fill: true }}
       />
       <ContentContainer className="flex flex-col justify-between min-h-[calc(100vh-5rem)] h-auto gap-12 py-12 lg:py-18 xl:py-24">
         <div className="flex flex-col gap-4 lg:gap-6 w-full lg:max-w-[48rem] text-center lg:text-left">
-          <Heading variant="h1" background="dark">
+          <Heading variant="h1" shade="light">
             <RichText>{(tags) => t.rich("HeroSection.header", tags)}</RichText>
           </Heading>
-          <p className="text-base lg:text-xl text-white">
+          <Paragraph variant="large" shade="light" className="text-white">
             {t.rich("HeroSection.subHeader", {
               important: (chunks) => <strong className="font-semibold">{chunks}</strong>,
             })}
-          </p>
+          </Paragraph>
         </div>
         <div className="flex justify-between">
           <Button variant="default" asChild>

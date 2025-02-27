@@ -7,6 +7,7 @@ import ValueCard from "./ValueCard";
 import { Boxes, CalendarCheck, Globe2 } from "lucide-react";
 import PortfolioCarousel from "./PortfolioCarousel";
 import { Heading } from "@/components/ui/heading";
+import { Paragraph } from "@/components/ui/paragraph";
 
 function AboutSection() {
   const t = useTranslations("HomePage");
@@ -32,7 +33,7 @@ function AboutSection() {
       <ContentContainer className="grid grid-cols-1 grid-rows-[repeat(3,auto)] lg:grid-cols-[1fr_1fr] lg:grid-rows-[auto_auto] lg:flex-row gap-x-36 gap-y-12 py-12 lg:py-18 xl:py-24">
         <div className="column-[1/2] row-[1/2] ">
           <Heading variant="h2">{t("AboutSection.header")}</Heading>
-          <p className="text-base xl:text-lg text-slate-600">{t("AboutSection.textContent")}</p>
+          <Paragraph>{t("AboutSection.textContent")}</Paragraph>
         </div>
         <div className="row-[2/3] lg:column-[2/3] lg:row-[1/3]">
           <PortfolioCarousel />
