@@ -10,10 +10,11 @@ function Numbers() {
     { value: t("Years.value"), label: t("Years.label") },
     { value: t("Value.value"), label: t("Value.label") },
   ];
+
   return (
-    <ContentContainer className="flex flex-col lg:flex-row  lg:gap-12">
+    <ContentContainer className="flex flex-col md:flex-row md:gap-16 2xl:gap-x-24">
       {nubersData.map((el) => (
-        <div key={el.label} className="basis-1/3 text-center py-12 border-y border-slate-600">
+        <div key={el.label} className="basis-1/3 text-center py-12 border-t last:border-b md:border-y border-slate-600">
           <Heading className="mb-3 font-semibold" variant="h1" shade="light" asChild>
             <div>{el.value}</div>
           </Heading>

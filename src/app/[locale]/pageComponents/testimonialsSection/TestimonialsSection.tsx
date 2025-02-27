@@ -2,44 +2,19 @@
 
 import ContentContainer from "@/components/ContentContainer";
 import SectionContainer from "@/components/SectionContainer";
-import { Carousel, CarouselApi, CarouselContent } from "@/components/ui/carousel";
-import CarouselNav from "@/components/ui/carousel-nav";
-import { useEffect, useState } from "react";
-import TestimonialItem from "./TestimonialItem";
+import TestimonialCarousel from "./TestimonialsCarousel";
+import { useTranslations } from "next-intl";
 
 function TestimonialsSection() {
-  const [api, setApi] = useState<CarouselApi>();
-  const [current, setCurrent] = useState(0);
-  const [count, setCount] = useState(0);
-
-  useEffect(() => {
-    if (!api) {
-      return;
-    }
-
-    setCount(api.scrollSnapList().length);
-    setCurrent(api.selectedScrollSnap() + 1);
-
-    api.on("select", () => {
-      setCurrent(api.selectedScrollSnap() + 1);
-    });
-  }, [api]);
-
+  const t = useTranslations("HomePage.TestimonialsSection");
+  const testimonials = [
+    { content: t("Testimonials.1.content"), author: t("Testimonials.1.author"), title: t("Testimonials.1.title") },
+    { content: t("Testimonials.2.content"), author: t("Testimonials.2.author"), title: t("Testimonials.2.title") },
+  ];
   return (
-    <SectionContainer>
+    <SectionContainer id={t("id")}>
       <ContentContainer className="mb-16">
-        <Carousel
-          opts={{
-            loop: true,
-          }}
-          setApi={setApi}
-        >
-          <CarouselContent className="py-24">
-            <TestimonialItem />
-            <TestimonialItem />
-          </CarouselContent>
-        </Carousel>
-        <CarouselNav api={api} current={current} count={count} />
+        <TestimonialCarousel testimonials={testimonials} />
       </ContentContainer>
     </SectionContainer>
   );

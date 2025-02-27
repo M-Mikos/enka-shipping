@@ -55,8 +55,7 @@
       "ScrollButton": {
         "link": "#o-nas",
         "linkTitle": "Idź do sekcji o nas"
-      },
-      "backgroundImgAlt": "Kontenerowiec w porcie morskim w Hamburgu."
+      }
     },
     "AboutSection": {
       "id": "o-nas",
@@ -94,7 +93,7 @@
     "ServicesSection": {
       "id": "services",
       "header": "Nasza oferta",
-      "textContent": "Każdą z naszych usług starannie dopasowujemy do potrzeb klienta i\u00a0charakterystyki ładunku - z nami Twoja przesyłka jest we właściwych rękach.",
+      "textContent": "Każdą z\u00a0naszych usług starannie dopasowujemy do potrzeb klienta i\u00a0charakterystyki ładunku - z\u00a0nami Twoja przesyłka jest we właściwych rękach.",
       "ServicesList": {
         "ProjectCargo": {
           "title": "Project cargo",
@@ -157,7 +156,7 @@
       "id": "testimonials",
       "Testimonials": {
         "1": {
-          "content": "ENKA has greatly improved the way I do business. I didn't have to worry about the logistics of transporting my goods across the country. Everything ran smoothly, which was a huge relief for me!",
+          "content": "ENKA znacznie poprawiła sposób, w\u00a0jaki prowadzę działalność. Nie musiałem martwić się o\u00a0logistykę transportu moich towarów w\u00a0całym kraju. Wszystko przebiegło gładko, co było dla mnie ogromną ulgą!",
           "author": "Piotr Pogorzelski",
           "title": "CEO of The Company"
         },
@@ -180,10 +179,10 @@
   "Footer": {
     "companyName": "ENKA Pietrusiak Krzysztof",
     "companyAdress": "80-257 Gdańsk",
-    "copyright": "©2025 Enka",
+    "copyright": "©{year}\u00a0Enka",
     "Credits": {
-      "prefix": "Projekt i wykonanie: ",
-      "author": "Marcin Mikos",
+      "prefix": "Projekt i\u00a0wykonanie: ",
+      "author": "Marcin\u00a0Mikos",
       "link": "mailto:mikos.marcin.m@gmail.com",
       "linkTitle": "Napisz do projektanta"
     }

@@ -15,7 +15,7 @@ function HeroSection() {
   const t = useTranslations("HomePage");
 
   return (
-    <SectionContainer id={t("HeroSection.id")} className="min-h-[calc(100vh-5rem)] h-auto">
+    <SectionContainer id={t("HeroSection.id")} className="min-h-[calc(100dvh-5rem)] h-auto">
       <ResponsiveBackgroundImage
         mobileImage={mobileHeroBackground.src}
         desktopImage={desktopHeroBackground.src}
@@ -23,8 +23,8 @@ function HeroSection() {
         desktopSettings={{}}
         commonSettings={{ sizes: "100vw", fill: true }}
       />
-      <ContentContainer className="flex flex-col justify-between min-h-[calc(100vh-5rem)] h-auto gap-12 py-12 lg:py-18 xl:py-24">
-        <div className="flex flex-col gap-4 lg:gap-6 w-full lg:max-w-[48rem] text-center lg:text-left">
+      <ContentContainer className="flex flex-col justify-between min-h-[calc(100dvh-5rem)] h-auto gap-12 py-16 lg:py-24">
+        <div className="flex flex-col gap-4 lg:gap-6 w-full lg:max-w-[36rem] text-center lg:text-left">
           <Heading variant="h1" shade="light">
             <RichText>{(tags) => t.rich("HeroSection.header", tags)}</RichText>
           </Heading>
@@ -34,15 +34,15 @@ function HeroSection() {
             })}
           </Paragraph>
         </div>
-        <div className="flex justify-between">
+        <div className="flex justify-center lg:justify-between">
           <Button variant="default" asChild>
-            <a title={t("HeroSection.ActionButton.linkTitle")} href={t("HeroSection.ActionButton.link")}>
+            <Link title={t("HeroSection.ActionButton.linkTitle")} href={t("HeroSection.ActionButton.link")}>
               <ArrowRight />
               {t("HeroSection.ActionButton.label")}
-            </a>
+            </Link>
           </Button>
           <Button
-            className="bg-white border border-slate-100 hover:bg-white/90 w-[3.25rem] h-[3.25rem]"
+            className="hidden lg:flex bg-white border border-slate-100 hover:bg-white/90 w-[3.25rem] h-[3.25rem]"
             variant="default"
             asChild
           >

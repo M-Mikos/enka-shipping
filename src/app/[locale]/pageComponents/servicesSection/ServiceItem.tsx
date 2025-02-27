@@ -16,7 +16,7 @@ interface ServiceItemProps {
 function ServiceItem({ title, subtitle, linkTitleAttribute, image, href }: ServiceItemProps) {
   return (
     <Link href={href} title={linkTitleAttribute}>
-      <article className="group relative flex flex-col justify-between p-9 h-48 sm:h-64 lg:h-[40rem]">
+      <article className="group relative flex flex-col justify-between p-6 2xl:p-8 h-48 sm:h-64 xl:h-[30rem] 3xl:h-[36rem]">
         <div className="w-full flex justify-end">
           <ArrowUpRight className="stroke-primary" />
         </div>

@@ -34,7 +34,7 @@ export default async function LocaleLayout({
       <body className="overflow-x-hidden">
         <NextIntlClientProvider messages={messages}>
           <Header />
-          {children}
+          <main className="pt-20">{children}</main>
           <Footer />
         </NextIntlClientProvider>
       </body>

@@ -16,9 +16,8 @@ const headingVariants = cva("", {
   variants: {
     variant: {
       h1: "text-3xl lg:text-5xl 3xl:text-7xl font-extrabold tracking-wide leading-[1.05]",
-      h2: "text-2xl lg:text-4xl 3xl:text-6xl font-extrabold leading-none tracking-wide mb-12",
-      h3: "text-xl lg:text-2xl 3xl:text-3xl font-semibold mb-4",
-      h4: "text-3xl lg:text-5xl 3xl:text-7xl font-extrabold tracking-wide leading-[1.05]",
+      h2: "text-2xl lg:text-4xl 3xl:text-6xl font-extrabold leading-none tracking-wide mb-6 lg:mb-8 3xl:mb-12",
+      h3: "text-lg 3xl:text-xl font-semibold mb-4",
     },
     shade: {
       light: "text-white",

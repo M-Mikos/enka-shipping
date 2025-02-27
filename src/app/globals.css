@@ -70,3 +70,56 @@
     --radius: 0.5rem;
   }
 }
+
+/* The styles below are responsible for bi-directional hover effect connection between MapPin and Region list item. Due to Tailwind v4 limitations (no Safelist configuration available), this rules had to be hardcoded for every pair. */
+
+@layer experienceSectionMap {
+  .group:has(div[data-region="Italy"]:hover) li[data-region="Italy"] {
+    @apply text-primary underline;
+  }
+  .group:has(li[data-region="Italy"]:hover) div[data-region="Italy"] {
+    @apply -translate-y-2;
+  }
+  .group:has(div[data-region="Scandinavia"]:hover) li[data-region="Scandinavia"] {
+    @apply text-primary underline;
+  }
+  .group:has(li[data-region="Scandinavia"]:hover) div[data-region="Scandinavia"] {
+    @apply -translate-y-2;
+  }
+  .group:has(div[data-region="Poland"]:hover) li[data-region="Poland"] {
+    @apply text-primary underline;
+  }
+  .group:has(li[data-region="Poland"]:hover) div[data-region="Poland"] {
+    @apply -translate-y-2;
+  }
+  .group:has(div[data-region="Spain"]:hover) li[data-region="Spain"] {
+    @apply text-primary underline;
+  }
+  .group:has(li[data-region="Spain"]:hover) div[data-region="Spain"] {
+    @apply -translate-y-2;
+  }
+  .group:has(div[data-region="Kazakhstan"]:hover) li[data-region="Kazakhstan"] {
+    @apply text-primary underline;
+  }
+  .group:has(li[data-region="Kazakhstan"]:hover) div[data-region="Kazakhstan"] {
+    @apply -translate-y-2;
+  }
+  .group:has(div[data-region="China"]:hover) li[data-region="China"] {
+    @apply text-primary underline;
+  }
+  .group:has(li[data-region="China"]:hover) div[data-region="China"] {
+    @apply -translate-y-2;
+  }
+  .group:has(div[data-region="India"]:hover) li[data-region="India"] {
+    @apply text-primary underline;
+  }
+  .group:has(li[data-region="India"]:hover) div[data-region="India"] {
+    @apply -translate-y-2;
+  }
+  .group:has(div[data-region="Turkey"]:hover) li[data-region="Turkey"] {
+    @apply text-primary underline;
+  }
+  .group:has(li[data-region="Turkey"]:hover) div[data-region="Turkey"] {
+    @apply -translate-y-2;
+  }
+}

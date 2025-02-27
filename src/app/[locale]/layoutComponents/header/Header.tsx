@@ -12,7 +12,7 @@ export default function Header() {
   const isDesktop = useMediaQuery("(min-width:64em)");
 
   return (
-    <header>
+    <header className="w-full fixed z-50 bg-white border-b border-slate-100">
       <ContentContainer>
         <div className="flex justify-between items-center h-20 py-4">
           <div className="w-20 lg:w-28 2xl:w-32">

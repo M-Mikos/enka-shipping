@@ -150,20 +150,20 @@
           "value": "$370m+",
           "label": "total cargo value"
         }
-      },
-      "TestimonialsSection": {
-        "id": "testimonials",
-        "Testimonials": {
-          "1": {
-            "content": "ENKA znacznie poprawiła sposób, w jaki prowadzę działalność. Nie musiałem martwić się o logistykę transportu moich towarów w całym kraju. Wszystko przebiegło gładko, co było dla mnie ogromną ulgą!",
-            "author": "Piotr Pogorzelski",
-            "title": "CEO of The Company"
-          },
-          "2": {
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies augue ligula, quis ornare nisi commodo sed. Quisque vitae odio iaculis, accumsan nulla nec, feugiat risus. Fusce semper faucibus ornare. Aliquam a sodales nisl. Duis tempus neque non libero pharetra tempus.",
-            "author": "Piotr Pogorzelski",
-            "title": "CEO of The Company"
-          }
+      }
+    },
+    "TestimonialsSection": {
+      "id": "testimonials",
+      "Testimonials": {
+        "1": {
+          "content": "ENKA has greatly improved the way I do business. I didn't have to worry about the logistics of transporting my goods across the country. Everything ran smoothly, which was a huge relief for me!",
+          "author": "Piotr Pogorzelski",
+          "title": "CEO of The Company"
+        },
+        "2": {
+          "content": "ENKA has greatly improved the way I do business. I didn't have to worry about the logistics of transporting my goods across the country. Everything ran smoothly, which was a huge relief for me!",
+          "author": "Piotr Pogorzelski",
+          "title": "CEO of The Company"
         }
       }
     },
@@ -179,10 +179,10 @@
   "Footer": {
     "companyName": "ENKA Pietrusiak Krzysztof",
     "companyAdress": "80-257 Gdańsk",
-    "copyright": "©2025 Enka",
+    "copyright": "©{year}\u00a0Enka",
     "Credits": {
-      "prefix": "Designed and coded by ",
-      "author": "Marcin Mikos",
+      "prefix": "Designed and coded\u00a0by ",
+      "author": "Marcin\u00a0Mikos",
       "link": "mailto:mikos.marcin.m@gmail.com",
       "linkTitle": "Write to the Designer"
     }

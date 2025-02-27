@@ -45,9 +45,11 @@ function ServicesSection() {
 
   return (
     <SectionContainer id={t("ServicesSection.id")}>
-      <ContentContainer className="py-18 xl:py-24">
-        <div className="flex flex-col lg:flex-row w-full gap-12 lg:gap-16 mb-16">
-          <Heading variant="h2">{t("ServicesSection.header")}</Heading>
+      <ContentContainer className="py-16 lg:py-24">
+        <div className="flex flex-col lg:flex-row w-full lg:gap-12 mb-16">
+          <Heading variant="h2" className="basis-1/2">
+            {t("ServicesSection.header")}
+          </Heading>
           <Paragraph className="basis-1/2">{t("ServicesSection.textContent")}</Paragraph>
         </div>
         <ServiceList services={services} />
