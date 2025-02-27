@@ -2,7 +2,6 @@ import { MenuIcon } from "lucide-react";
 import { Drawer, DrawerContent, DrawerTitle, DrawerTrigger } from "@/components/ui/drawer";
 import * as VisuallyHidden from "@radix-ui/react-visually-hidden";
 import Navigation from "./Navigation";
-import ContactButton from "./ContactButton";
 import LocaleSwitcher from "./LocaleSwitcher";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
@@ -22,9 +21,8 @@ function MobileDrawer() {
           <DrawerTitle>{t("MobileDrawer.hiddenTitle")}</DrawerTitle>
         </VisuallyHidden.Root>
         <Navigation orientation="vertical" handleClose={handleClose} />
-        <div className="pt-3 border-t self-stretch flex justify-between items-center">
+        <div className="pt-3 border-t justify-end self-stretch flex items-center">
           <LocaleSwitcher />
-          <ContactButton />
         </div>
       </DrawerContent>
     </Drawer>

@@ -15,7 +15,7 @@ export default function Header() {
     <header>
       <ContentContainer>
         <div className="flex justify-between items-center h-20 py-4">
-          <div className="w-32">
+          <div className="w-20 lg:w-28 2xl:w-32">
             <EnkaLogo />
           </div>
           {isDesktop ? (
@@ -25,7 +25,10 @@ export default function Header() {
               <LocaleSwitcher />
             </div>
           ) : (
-            <MobileDrawer />
+            <div className="flex items-center gap-4">
+              <ContactButton className="border-0" />
+              <MobileDrawer />
+            </div>
           )}
         </div>
       </ContentContainer>
