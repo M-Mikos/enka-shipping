@@ -2,9 +2,8 @@
 
 import ContentContainer from "@/components/ContentContainer";
 import SectionContainer from "@/components/SectionContainer";
-import { Carousel, CarouselApi, CarouselContent, CarouselItem } from "@/components/ui/carousel";
+import { Carousel, CarouselApi, CarouselContent } from "@/components/ui/carousel";
 import CarouselNav from "@/components/ui/carousel-nav";
-import { Paragraph } from "@/components/ui/paragraph";
 import { useEffect, useState } from "react";
 import TestimonialItem from "./TestimonialItem";
 
