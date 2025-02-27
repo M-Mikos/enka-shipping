@@ -94,7 +94,7 @@
     "ServicesSection": {
       "id": "services",
       "header": "Nasza oferta",
-      "textContent": "Każdą z naszych usług starannie dopasowujemy do potrzeb klienta i charakterystyki ładunku - z nami Twoja przesyłka jest we właściwych rękach.",
+      "textContent": "Każdą z naszych usług starannie dopasowujemy do potrzeb klienta i\u00a0charakterystyki ładunku - z nami Twoja przesyłka jest we właściwych rękach.",
       "ServicesList": {
         "ProjectCargo": {
           "title": "Project cargo",
