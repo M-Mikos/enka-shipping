@@ -19,7 +19,7 @@ function ContactSection() {
         <div className="flex flex-col md:flex-row md:px-8 lg:px-0 rounded-lg overflow-hidden bg-white">
           <div className="flex justify-center lg:justify-start items-center py-8 lg:py-0 md:basis-2/5">
             <Image
-              className="w-48 h-48 rounded-full lg:w-full lg:h-auto lg:rounded-none"
+              className="w-48 h-48 rounded-full lg:w-full lg:h-auto 2xl:rounded-none"
               src={photo}
               width="1024"
               height="1024"

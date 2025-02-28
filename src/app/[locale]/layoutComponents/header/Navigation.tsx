@@ -46,7 +46,12 @@ function Navigation({ orientation, handleClose }: NavigationProps) {
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link title={t("Navigation.ContactLink.linkTitle")} href="/#contact-section" legacyBehavior passHref>
+          <Link
+            title={t("Navigation.ContactLink.linkTitle")}
+            href={t("Navigation.ContactLink.link")}
+            legacyBehavior
+            passHref
+          >
             <NavigationMenuLink className={navigationMenuTriggerStyle()} onClick={handleClose}>
               {t("Navigation.ContactLink.label")}
             </NavigationMenuLink>

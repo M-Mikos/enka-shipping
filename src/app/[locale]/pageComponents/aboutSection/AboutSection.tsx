@@ -30,7 +30,7 @@ function AboutSection() {
   ];
   return (
     <SectionContainer id={t("AboutSection.id")}>
-      <ContentContainer className="grid grid-cols-1 grid-rows-[repeat(3,auto)] lg:grid-cols-[1fr_1fr] lg:grid-rows-[auto_auto] lg:flex-row lg:gap-x-16 2xl:gap-x-24 gap-y-12 py-16 lg:py-24">
+      <ContentContainer className="grid grid-cols-1 grid-rows-[repeat(3,auto)] lg:grid-cols-[1fr_1fr] 4xl:grid-cols-[3fr_2fr] lg:grid-rows-[auto_auto] lg:flex-row lg:gap-x-16 2xl:gap-x-24 gap-y-12 py-16 lg:py-24">
         <div className="column-[1/2] row-[1/2] ">
           <Heading variant="h2">{t("AboutSection.header")}</Heading>
           <Paragraph>{t("AboutSection.textContent")}</Paragraph>

@@ -6,9 +6,10 @@ import { Slot } from "@radix-ui/react-slot";
 const paragraphVariants = cva("", {
   variants: {
     variant: {
-      large: "text-lg xl:text-xl font-medium",
+      large: "text-lg xl:text-xl",
       base: "text-base xl:text-lg",
       small: "text-sm xl:text-base",
+      xs: "text-xs xl:sm",
     },
     shade: {
       light: "text-slate-300",
