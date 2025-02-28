@@ -34,6 +34,7 @@
         "linkTitle": "Idź do strony realizacji"
       },
       "ContactLink": {
+        "link": "#kontakt",
         "label": "Kontakt",
         "linkTitle": "Idź do strony kontaktu"
       }
@@ -176,10 +177,37 @@
       "title": "Dyrektor Spedycji"
     }
   },
+  "RealizationsPage": {
+    "title": "Realizacje",
+    "subtitle": "Poznaj galerię naszych realizacji, w której prezentujemy przykłady skutecznych transportów zrealizowanych przez Enka. Każde zdjęcie to dowód naszego zaangażowania w dostarczanie ładunków na czas, niezależnie od ich wielkości, trasy czy branży.",
+    "Gallery": {
+      "image1": "Opis obrazu 1",
+      "image2": "Opis obrazu 2",
+      "image3": "Opis obrazu 3",
+      "image4": "Opis obrazu 4",
+      "image5": "Opis obrazu 5",
+      "image6": "Opis obrazu 6",
+      "image7": "Opis obrazu 7",
+      "image8": "Opis obrazu 8",
+      "image9": "Opis obrazu 9",
+      "image10": "Opis obrazu 10",
+      "image11": "Opis obrazu 11",
+      "image12": "Opis obrazu 12",
+      "image13": "Opis obrazu 13",
+      "image14": "Opis obrazu 14",
+      "image15": "Opis obrazu 15",
+      "image16": "Opis obrazu 16",
+      "image17": "Opis obrazu 17",
+      "image18": "Opis obrazu 18",
+      "image19": "Opis obrazu 19",
+      "image20": "Opis obrazu 20"
+    }
+  },
   "Footer": {
     "companyName": "ENKA Pietrusiak Krzysztof",
     "companyAdress": "80-257 Gdańsk",
     "copyright": "©{year}\u00a0Enka",
+    "logoAlt": "Logo Enka Spedycja",
     "Credits": {
       "prefix": "Projekt i\u00a0wykonanie: ",
       "author": "Marcin\u00a0Mikos",
