@@ -7,6 +7,8 @@
 
 @theme {
   --breakpoint-3xl: 120rem;
+  --breakpoint-4xl: 160rem;
+  --breakpoint-5xl: 200rem;
 
   --color-primary: #ffd640;
   --color-primary-50: #fffbeb;
@@ -68,6 +70,16 @@
 @layer base {
   :root {
     --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  html {
+    font-size: 100%;
+  }
+
+  html {
+    @apply 5xl:text-[112.5%];
   }
 }
 
