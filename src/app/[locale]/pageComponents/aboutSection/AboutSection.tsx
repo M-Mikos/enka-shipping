@@ -3,11 +3,11 @@ import SectionContainer from "@/components/SectionContainer";
 import { Button } from "@/components/ui/button";
 import { Link } from "@/i18n/routing";
 import { useTranslations } from "next-intl";
-import ValueCard from "./ValueCard";
 import { Boxes, CalendarCheck, Globe2 } from "lucide-react";
 import PortfolioCarousel from "./PortfolioCarousel";
 import { Heading } from "@/components/ui/heading";
 import { Paragraph } from "@/components/ui/paragraph";
+import ValueCard from "@/components/ValueCard";
 
 function AboutSection() {
   const t = useTranslations("HomePage");

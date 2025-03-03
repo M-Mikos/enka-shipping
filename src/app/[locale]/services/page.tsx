@@ -3,6 +3,8 @@ import { Heading } from "@/components/ui/heading";
 import { useTranslations } from "next-intl";
 import ServiceSection from "./pageComponents/ServiceSection";
 import ContactSection from "../pageComponents/contactSection/ContactSection";
+import SectionContainer from "@/components/SectionContainer";
+import Placeholder from "public/services/services-cargo-background.avif";
 
 // import { useTranslations } from "next-intl";
 export default function Services() {
@@ -108,11 +110,13 @@ export default function Services() {
 
   return (
     <>
-      <ContentContainer id={t("id")}>
-        <Heading variant="h1">{t("title")}</Heading>
-      </ContentContainer>
+      <SectionContainer>
+        <ContentContainer className="py-16 lg:py-24">
+          <Heading variant="h1">{t("title")}</Heading>
+        </ContentContainer>
+      </SectionContainer>
       {services.map((service) => (
-        <ServiceSection key={service.title} messages={service} />
+        <ServiceSection key={service.title} messages={service} image={Placeholder} />
       ))}
       <ContactSection />
     </>
