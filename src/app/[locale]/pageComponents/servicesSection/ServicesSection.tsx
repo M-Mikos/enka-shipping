@@ -31,14 +31,14 @@ function ServicesSection() {
       title: t("ServicesSection.ServicesList.MaritimeTransport.title"),
       subtitle: t("ServicesSection.ServicesList.MaritimeTransport.subtitle"),
       linkTitleAttribute: t("ServicesSection.ServicesList.MaritimeTransport.linkTitle"),
-      image: servicesInlandBackground,
+      image: servicesMarineBackground,
       href: t("ServicesSection.ServicesList.MaritimeTransport.link"),
     },
     {
       title: t("ServicesSection.ServicesList.LandTransport.title"),
       subtitle: t("ServicesSection.ServicesList.LandTransport.subtitle"),
       linkTitleAttribute: t("ServicesSection.ServicesList.LandTransport.linkTitle"),
-      image: servicesMarineBackground,
+      image: servicesInlandBackground,
       href: t("ServicesSection.ServicesList.LandTransport.link"),
     },
   ];
