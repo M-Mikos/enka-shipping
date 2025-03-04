@@ -46,7 +46,7 @@
   "HomePage": {
     "HeroSection": {
       "id": "hero",
-      "header": "Carichi di progetto<br></br>sempre puntuali",
+      "header": "Project cargo<br></br>sempre puntuali",
       "subHeader": "Servizio affidabile e professionale per le tue esigenze di trasporto e progetti logistici <important>dalla pianificazione al completamento.</important>",
       "ActionButton": {
         "label": "Consulenza gratuita",
@@ -162,7 +162,7 @@
           "title": "CEO di The Company"
         },
         "2": {
-          "content": "ENKA ha notevolmente migliorato il modo in cui gestisco la mia attività. Non ho dovuto preoccuparmi della logistica per il trasporto delle mie merci attraverso il paese. Tutto è andato liscio, il che è stato un grande sollievo per me!",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies augue ligula, quis ornare nisi commodo sed. Quisque vitae odio iaculis, accumsan nulla nec, feugiat risus. Fusce semper faucibus ornare. Aliquam a sodales nisl. Duis tempus neque non libero pharetra tempus.",
           "author": "Piotr Pogorzelski",
           "title": "CEO di The Company"
         }
