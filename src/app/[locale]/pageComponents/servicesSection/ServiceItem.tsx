@@ -10,12 +10,18 @@ interface ServiceItemProps {
   subtitle: string;
   linkTitleAttribute: string;
   image: string | StaticImport;
-  href: string;
+  hash: string;
 }
 
-function ServiceItem({ title, subtitle, linkTitleAttribute, image, href }: ServiceItemProps) {
+function ServiceItem({ title, subtitle, linkTitleAttribute, image, hash }: ServiceItemProps) {
   return (
-    <Link href={href} title={linkTitleAttribute}>
+    <Link
+      href={{
+        pathname: "/services",
+        hash: hash,
+      }}
+      title={linkTitleAttribute}
+    >
       <article className="group relative flex flex-col justify-between p-6 2xl:p-8 h-48 sm:h-64 xl:h-[30rem] 3xl:h-[36rem]">
         <div className="w-full flex justify-end">
           <ArrowUpRight className="stroke-primary" />

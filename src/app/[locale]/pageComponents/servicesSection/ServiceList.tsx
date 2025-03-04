@@ -11,7 +11,7 @@ interface servicesProps {
     subtitle: string;
     linkTitleAttribute: string;
     image: string | StaticImport;
-    href: string;
+    hash: string;
   }[];
 }
 
@@ -37,7 +37,7 @@ function ServiceList({ services }: servicesProps) {
             title={service.title}
             subtitle={service.subtitle}
             linkTitleAttribute={service.linkTitleAttribute}
-            href={service.href}
+            hash={service.hash}
             image={service.image}
           />
         </div>

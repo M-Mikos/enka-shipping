@@ -18,28 +18,28 @@ function ServicesSection() {
       subtitle: t("ServicesSection.ServicesList.ProjectCargo.subtitle"),
       linkTitleAttribute: t("ServicesSection.ServicesList.ProjectCargo.linkTitle"),
       image: servicesCargoBackground,
-      href: t("ServicesSection.ServicesList.ProjectCargo.link"),
+      hash: t("ServicesSection.ServicesList.ProjectCargo.link"),
     },
     {
       title: t("ServicesSection.ServicesList.InlandTransport.title"),
       subtitle: t("ServicesSection.ServicesList.InlandTransport.subtitle"),
       linkTitleAttribute: t("ServicesSection.ServicesList.InlandTransport.linkTitle"),
       image: servicesLandBackground,
-      href: t("ServicesSection.ServicesList.InlandTransport.link"),
+      hash: t("ServicesSection.ServicesList.InlandTransport.link"),
     },
     {
       title: t("ServicesSection.ServicesList.MaritimeTransport.title"),
       subtitle: t("ServicesSection.ServicesList.MaritimeTransport.subtitle"),
       linkTitleAttribute: t("ServicesSection.ServicesList.MaritimeTransport.linkTitle"),
       image: servicesMarineBackground,
-      href: t("ServicesSection.ServicesList.MaritimeTransport.link"),
+      hash: t("ServicesSection.ServicesList.MaritimeTransport.link"),
     },
     {
       title: t("ServicesSection.ServicesList.LandTransport.title"),
       subtitle: t("ServicesSection.ServicesList.LandTransport.subtitle"),
       linkTitleAttribute: t("ServicesSection.ServicesList.LandTransport.linkTitle"),
       image: servicesInlandBackground,
-      href: t("ServicesSection.ServicesList.LandTransport.link"),
+      hash: t("ServicesSection.ServicesList.LandTransport.link"),
     },
   ];
 
