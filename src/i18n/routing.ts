@@ -7,6 +7,19 @@ export const routing = defineRouting({
 
   // Used when no locale matches
   defaultLocale: "pl",
+
+  pathnames: {
+    "/services": {
+      pl: "/uslugi",
+      en: "/services",
+      it: "/i-nostri-servizi",
+    },
+    "/realizations": {
+      pl: "/realizacje",
+      en: "/realizations",
+      it: "/realizzazioni",
+    },
+  },
 });
 
 // Lightweight wrappers around Next.js' navigation APIs
