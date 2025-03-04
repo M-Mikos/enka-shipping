@@ -22,7 +22,6 @@ import image20 from "@/../public/realizations/photo-20.avif";
 import clsx from "clsx";
 import { Paragraph } from "@/components/ui/paragraph";
 import { useTranslations } from "next-intl";
-import GalleryLightbox from "./GalleryLightbox";
 
 function GalleryGrid() {
   const t = useTranslations("RealizationsPage");
@@ -56,7 +55,6 @@ function GalleryGrid() {
 
   return (
     <>
-      <GalleryLightbox images={imageData} currentImage={1} />
       <div className="w-full grid grid-cols-2 md:grid-cols-3 gap-6">
         {imageData.map((image) => {
           const isHorizontal = image.orientation === "horizontal";

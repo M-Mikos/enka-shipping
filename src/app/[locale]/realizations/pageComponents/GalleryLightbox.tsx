@@ -1,8 +1,7 @@
 "use client";
-import { Carousel, CarouselApi, CarouselContent, CarouselItem } from "@/components/ui/carousel";
+import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import Image, { StaticImageData } from "next/image";
-import { useEffect, useState } from "react";
 
 interface GalleryLightboxProps {
   currentImage: number;
@@ -13,29 +12,29 @@ interface GalleryLightboxProps {
   }[];
 }
 
-function GalleryLightbox({ images, currentImage }: GalleryLightboxProps) {
-  const [api, setApi] = useState<CarouselApi>();
-  const [current, setCurrent] = useState(0);
-  const [count, setCount] = useState(0);
+function GalleryLightbox({ images }: GalleryLightboxProps) {
+  // const [api, setApi] = useState<CarouselApi>();
+  // const [current, setCurrent] = useState(0);
+  // const [count, setCount] = useState(0);
 
-  useEffect(() => {
-    if (!api) {
-      return;
-    }
+  // useEffect(() => {
+  //   if (!api) {
+  //     return;
+  //   }
 
-    setCount(api.scrollSnapList().length);
-    setCurrent(api.selectedScrollSnap() + 1);
+  //   setCount(api.scrollSnapList().length);
+  //   setCurrent(api.selectedScrollSnap() + 1);
 
-    api.on("select", () => {
-      setCurrent(api.selectedScrollSnap() + 1);
-    });
-  }, [api]);
+  //   api.on("select", () => {
+  //     setCurrent(api.selectedScrollSnap() + 1);
+  //   });
+  // }, [api]);
 
   return (
     <Dialog>
       <DialogTrigger>Dialog</DialogTrigger>
       <DialogContent className="sm:max-w-full w-full h-full bg-transparent border-0 rounded-none">
-        <Carousel className="flex flex-col w-full h-full" setApi={setApi}>
+        <Carousel className="flex flex-col w-full h-full">
           <CarouselContent>
             {images.map((image) => {
               const isHorizontal = image.orientation === "horizontal";
