@@ -16,7 +16,7 @@
     },
     "LocaleSwitcher": {
       "label": "Zmień język",
-      "locale": "{locale, select, pl {PL} en {EN} other {nieokreślony}}"
+      "locale": "{locale, select, pl {PL} en {EN} it {IT} other {nieokreślony}}"
     },
     "CarouselControls": {
       "nextButtonLabel": "Przejdź do następnego slajdu",

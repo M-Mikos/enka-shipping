@@ -16,7 +16,7 @@
     },
     "LocaleSwitcher": {
       "label": "Change language",
-      "locale": "{locale, select, pl {PL} en {EN} other {unknown}}"
+      "locale": "{locale, select, pl {PL} en {EN} it {IT} other {unknown}}"
     },
     "CarouselControls": {
       "nextButtonLabel": "Show next slide",
