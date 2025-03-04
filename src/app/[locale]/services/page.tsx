@@ -4,7 +4,10 @@ import { useTranslations } from "next-intl";
 import ServiceSection from "./pageComponents/ServiceSection";
 import ContactSection from "../pageComponents/contactSection/ContactSection";
 import SectionContainer from "@/components/SectionContainer";
-import Placeholder from "public/services/services-cargo-background.avif";
+import ImageProjectCargo from "public/services/services-project-cargo.avif";
+import ImageMaritimeTransport from "public/services/services-maritime-transport.avif";
+import ImageInlandTransport from "public/services/services-inland-transport.avif";
+import ImageLandTransport from "public/services/services-land-transport.avif";
 
 // import { useTranslations } from "next-intl";
 export default function Services() {
@@ -107,7 +110,7 @@ export default function Services() {
       },
     },
   ];
-
+  const servicesImages = [ImageProjectCargo, ImageMaritimeTransport, ImageInlandTransport, ImageLandTransport];
   return (
     <>
       <SectionContainer>
@@ -115,8 +118,8 @@ export default function Services() {
           <Heading variant="h1">{t("title")}</Heading>
         </ContentContainer>
       </SectionContainer>
-      {services.map((service) => (
-        <ServiceSection key={service.title} messages={service} image={Placeholder} />
+      {services.map((service, i) => (
+        <ServiceSection key={service.title} messages={service} image={servicesImages[i]} />
       ))}
       <ContactSection />
     </>
