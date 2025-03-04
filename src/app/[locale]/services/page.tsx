@@ -35,9 +35,9 @@ export default function Services() {
         },
       },
       button: {
-        link: t("Services.ContactButton.link"),
-        linkTitle: t("Services.ContactButton.linkTitle"),
-        linkLabel: t("Services.ContactButton.label"),
+        link: t("ContactButton.link"),
+        linkTitle: t("ContactButton.linkTitle"),
+        label: t("ContactButton.label"),
       },
     },
     {
@@ -64,9 +64,9 @@ export default function Services() {
         },
       },
       button: {
-        link: t("Services.ContactButton.link"),
-        linkTitle: t("Services.ContactButton.linkTitle"),
-        linkLabel: t("Services.ContactButton.label"),
+        link: t("ContactButton.link"),
+        linkTitle: t("ContactButton.linkTitle"),
+        label: t("ContactButton.label"),
       },
     },
     {
@@ -93,9 +93,9 @@ export default function Services() {
         },
       },
       button: {
-        link: t("Services.ContactButton.link"),
-        linkTitle: t("Services.ContactButton.linkTitle"),
-        linkLabel: t("Services.ContactButton.label"),
+        link: t("ContactButton.link"),
+        linkTitle: t("ContactButton.linkTitle"),
+        label: t("ContactButton.label"),
       },
     },
     {
@@ -122,16 +122,16 @@ export default function Services() {
         },
       },
       button: {
-        link: t("Services.ContactButton.link"),
-        linkTitle: t("Services.ContactButton.linkTitle"),
-        linkLabel: t("Services.ContactButton.label"),
+        link: t("ContactButton.link"),
+        linkTitle: t("ContactButton.linkTitle"),
+        label: t("ContactButton.label"),
       },
     },
   ];
   const servicesImages = [ImageProjectCargo, ImageInlandTransport, ImageMaritimeTransport, ImageLandTransport];
   return (
     <>
-      <PageTitle messages={{ title: t("title"), subtitle: "test" }} />
+      <PageTitle messages={{ title: t("title"), subtitle: t("subtitle") }} />
       {services.map((service, i) => (
         <ServiceSection key={service.title} messages={service} image={servicesImages[i]} />
       ))}

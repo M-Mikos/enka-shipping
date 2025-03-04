@@ -12,10 +12,18 @@ interface PageTitleProps {
 
 function PageTitle({ messages }: PageTitleProps) {
   return (
-    <SectionContainer className="bg-slate-50">
-      <ContentContainer className="py-16 lg:py-24 lg:min-h-64">
-        <Heading variant="h1">{messages.title}</Heading>
-        {messages.subtitle && <Paragraph variant="large">{messages.subtitle}</Paragraph>}
+    <SectionContainer>
+      <ContentContainer>
+        <div className="flex flex-col gap-8 lg:flex-row lg:items-center lg:gap-16 border-b-4 border-primary py-16 lg:py-24 lg:min-h-64 ">
+          <Heading className="lg:basis-1/2 mb-0 3xl:mb-0" variant="h1">
+            {messages.title}
+          </Heading>
+          {messages.subtitle && (
+            <Paragraph className="lg:basis-1/2" variant="large">
+              {messages.subtitle}
+            </Paragraph>
+          )}
+        </div>
       </ContentContainer>
     </SectionContainer>
   );

@@ -179,6 +179,8 @@
   },
   "ServicesPage": {
     "title": "Our Services",
+    "subtitle": "Discover Enka's reliable logistics solutions, from Project Cargo handling to inland transport, dedicated to businesses worldwide.",
+    "ContactButton": { "link": "#contact", "linkTitle": "Go to contact", "label": "More" },
     "Services": {
       "ProjectCargo": {
         "title": "Project Cargo",

@@ -36,7 +36,7 @@
       "ContactLink": {
         "link": "#kontakt",
         "label": "Kontakt",
-        "linkTitle": "Idź do strony kontaktu"
+        "linkTitle": "Idź do sekcji kontakt"
       }
     },
     "MobileDrawer": {
@@ -179,6 +179,8 @@
   },
   "ServicesPage": {
     "title": "Nasze usługi",
+    "subtitle": "Poznaj niezawodne rozwiązania logistyczne Enka, od obsługi Project Cargo po transport śródlądowy, dedykowane dla firm na całym świecie.",
+    "ContactButton": { "link": "#kontakt", "linkTitle": "Idź do sekcji kontakt", "label": "Dowiedz się więcej" },
     "Services": {
       "ProjectCargo": {
         "title": "Project Cargo",

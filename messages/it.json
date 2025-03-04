@@ -34,7 +34,7 @@
         "linkTitle": "Vai alle realizzazioni"
       },
       "ContactLink": {
-        "link": "#contact",
+        "link": "#contatto",
         "label": "Contatti",
         "linkTitle": "Vai ai contatti"
       }
@@ -50,16 +50,16 @@
       "subHeader": "Servizio affidabile e professionale per le tue esigenze di trasporto e progetti logistici <important>dalla pianificazione al completamento.</important>",
       "ActionButton": {
         "label": "Consulenza gratuita",
-        "link": "#contact",
+        "link": "#contatto",
         "linkTitle": "Vai ai contatti"
       },
       "ScrollButton": {
-        "link": "#about",
+        "link": "#chi-siamo",
         "linkTitle": "Vai alla sezione su di noi"
       }
     },
     "AboutSection": {
-      "id": "about",
+      "id": "chi-siamo",
       "header": "Enka - il tuo partner fidato per la logistica su qualsiasi scala",
       "textContent": "Enka offre servizi di trasporto globale alle aziende di tutto il mondo. Il nostro team di professionisti esperti consegnerà il tuo carico alla tua destinazione all'ora esatta specificata. La nostra sede centrale si trova in Polonia, da dove collaboriamo con la nostra rete globale di partner. Abbiamo realizzato decine di progetti, inclusi trasporti complessi di grandi dimensioni. Sia via terra, mare o corsi d'acqua interni, offriamo soluzioni per ogni budget e settore. Garantiamo consegne fluide e il massimo livello di sicurezza del carico.",
       "PortfolioButton": {
@@ -92,7 +92,7 @@
       }
     },
     "ServicesSection": {
-      "id": "services",
+      "id": "servizi",
       "header": "Scegli il servizio",
       "textContent": "Adattiamo accuratamente ciascuno dei nostri servizi alle esigenze del cliente e al tipo di carico - con noi, la tua spedizione è in buone mani.",
       "ServicesList": {
@@ -100,30 +100,30 @@
           "title": "Carichi di progetto",
           "subtitle": "Progetti logistici complessi su qualsiasi scala",
           "linkTitle": "Vai a Carichi di Progetto",
-          "link": "#project-cargo"
+          "link": "#trasporto-progetti"
         },
         "InlandTransport": {
-          "title": "Trasporto fluviale",
+          "title": "Trasporto interno",
           "subtitle": "Chiattini, pontoni, trasporti fluviali",
-          "linkTitle": "Vai a Trasporto Fluviale",
-          "link": "#inland-transport"
+          "linkTitle": "Vai a Trasporto interno",
+          "link": "#trasporto-interno"
         },
         "MaritimeTransport": {
           "title": "Trasporto marittimo",
           "subtitle": "Trasporto alla rinfusa e container",
           "linkTitle": "Vai a Trasporto Marittimo",
-          "link": "#maritime-transport"
+          "link": "#trasporto-marittimo"
         },
         "LandTransport": {
           "title": "Trasporto terrestre",
           "subtitle": "Carichi standard e di grandi dimensioni",
           "linkTitle": "Vai a Trasporto Terrestre",
-          "link": "#land-transport"
+          "link": "#trasporto-terrestre"
         }
       }
     },
     "ExperienceSection": {
-      "id": "experience",
+      "id": "esperienza",
       "header": "Operiamo a livello globale",
       "textContent": "Abbiamo particolare esperienza nei servizi in Europa, Medio Oriente e Asia Centrale e Orientale. Scopri di più sulle regioni che serviamo più frequentemente:",
       "mapImageAlt": "Mappa del mondo con evidenziate le regioni servite più frequentemente da Enka",
@@ -154,7 +154,7 @@
       }
     },
     "TestimonialsSection": {
-      "id": "testimonials",
+      "id": "raccomandazioni",
       "Testimonials": {
         "1": {
           "content": "ENKA ha notevolmente migliorato il modo in cui gestisco la mia attività. Non ho dovuto preoccuparmi della logistica per il trasporto delle mie merci attraverso il paese. Tutto è andato liscio, il che è stato un grande sollievo per me!",
@@ -169,7 +169,7 @@
       }
     },
     "ContactSection": {
-      "id": "contact",
+      "id": "contatto",
       "header": "Lascia che pianifichiamo la tua logistica",
       "textContent": "Cerchi una compagnia di spedizioni esperta o hai delle domande? Non esitare a contattarci!",
       "altText": "Foto di Krzysztof Pietrusiak, Direttore delle Spedizioni",
@@ -179,6 +179,8 @@
   },
   "ServicesPage": {
     "title": "I Nostri Servizi",
+    "subtitle": "Scopri le soluzioni logistiche affidabili di Enka, dalla gestione del Project Cargo al trasporto fluviale, dedicate alle aziende di tutto il mondo.",
+    "ContactButton": { "link": "#contatto", "linkTitle": "Vai al contatto", "label": "Ulteriori informazioni" },
     "Services": {
       "ProjectCargo": {
         "title": "Trasporto di Progetti",
