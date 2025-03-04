@@ -44,13 +44,7 @@ function PortfolioCarousel() {
 
   return (
     <div className="flex h-full flex-col justify-between">
-      <Carousel
-        className="mb-2 lg:rounded-lg overflow-hidden"
-        opts={{
-          loop: false,
-        }}
-        setApi={setApi}
-      >
+      <Carousel className="mb-2 lg:rounded-lg overflow-hidden" setApi={setApi}>
         <CarouselContent>
           {images.map((image, index) => (
             <PortfolioCarouselItem key={index} src={image.src} alt={image.alt} />
