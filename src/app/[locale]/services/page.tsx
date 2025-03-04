@@ -1,13 +1,11 @@
-import ContentContainer from "@/components/ContentContainer";
-import { Heading } from "@/components/ui/heading";
 import { useTranslations } from "next-intl";
 import ServiceSection from "./pageComponents/ServiceSection";
 import ContactSection from "../pageComponents/contactSection/ContactSection";
-import SectionContainer from "@/components/SectionContainer";
 import ImageProjectCargo from "public/services/services-project-cargo.avif";
 import ImageMaritimeTransport from "public/services/services-maritime-transport.avif";
 import ImageInlandTransport from "public/services/services-inland-transport.avif";
 import ImageLandTransport from "public/services/services-land-transport.avif";
+import PageTitle from "@/components/PageTitle";
 
 // import { useTranslations } from "next-intl";
 export default function Services() {
@@ -36,6 +34,11 @@ export default function Services() {
           textContent: t("Services.ProjectCargo.Values.4.textContent"),
         },
       },
+      button: {
+        link: t("Services.ContactButton.link"),
+        linkTitle: t("Services.ContactButton.linkTitle"),
+        linkLabel: t("Services.ContactButton.label"),
+      },
     },
     {
       title: t("Services.InlandTransport.title"),
@@ -59,6 +62,11 @@ export default function Services() {
           title: t("Services.InlandTransport.Values.4.title"),
           textContent: t("Services.InlandTransport.Values.4.textContent"),
         },
+      },
+      button: {
+        link: t("Services.ContactButton.link"),
+        linkTitle: t("Services.ContactButton.linkTitle"),
+        linkLabel: t("Services.ContactButton.label"),
       },
     },
     {
@@ -84,6 +92,11 @@ export default function Services() {
           textContent: t("Services.MaritimeTransport.Values.4.textContent"),
         },
       },
+      button: {
+        link: t("Services.ContactButton.link"),
+        linkTitle: t("Services.ContactButton.linkTitle"),
+        linkLabel: t("Services.ContactButton.label"),
+      },
     },
     {
       title: t("Services.LandTransport.title"),
@@ -108,16 +121,17 @@ export default function Services() {
           textContent: t("Services.LandTransport.Values.4.textContent"),
         },
       },
+      button: {
+        link: t("Services.ContactButton.link"),
+        linkTitle: t("Services.ContactButton.linkTitle"),
+        linkLabel: t("Services.ContactButton.label"),
+      },
     },
   ];
-  const servicesImages = [ImageProjectCargo, ImageMaritimeTransport, ImageInlandTransport, ImageLandTransport];
+  const servicesImages = [ImageProjectCargo, ImageInlandTransport, ImageMaritimeTransport, ImageLandTransport];
   return (
     <>
-      <SectionContainer>
-        <ContentContainer className="py-16 lg:py-24">
-          <Heading variant="h1">{t("title")}</Heading>
-        </ContentContainer>
-      </SectionContainer>
+      <PageTitle messages={{ title: t("title"), subtitle: "test" }} />
       {services.map((service, i) => (
         <ServiceSection key={service.title} messages={service} image={servicesImages[i]} />
       ))}

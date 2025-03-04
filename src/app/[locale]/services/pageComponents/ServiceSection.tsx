@@ -5,6 +5,8 @@ import { CheckCircle2Icon } from "lucide-react";
 import ValueCard from "@/components/ValueCard";
 import { Heading } from "@/components/ui/heading";
 import Image, { StaticImageData } from "next/image";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 interface ServiceSectionProps {
   messages: {
@@ -30,6 +32,11 @@ interface ServiceSectionProps {
         textContent: string;
       };
     };
+    button: {
+      link: string;
+      linkTitle: string;
+      label: string;
+    };
   };
   image: string | StaticImageData;
 }
@@ -39,7 +46,7 @@ function ServiceSection({ messages, image }: ServiceSectionProps) {
     <SectionContainer id={messages.id} className="py-16 lg:py-24">
       <ContentContainer className="lg:grid lg:grid-cols-[1fr_1fr] lg:grid-rows-[auto_1fr_auto] lg:gap-x-16 3xl:gap-x-24">
         <Heading className="lg:row-[1/2] lg:col-[1/2]">{messages.title}</Heading>
-        <div className="lg:row-[1/3] lg:col-[2/3]">
+        <div className="lg:row-[1/3] lg:col-[2/3] mb-8 lg:mb-0">
           <Image
             className="w-full h-auto rounded-lg"
             src={image}
@@ -54,6 +61,13 @@ function ServiceSection({ messages, image }: ServiceSectionProps) {
           {Object.values(messages.values).map((value) => (
             <ValueCard key={value.title} Icon={CheckCircle2Icon} header={value.title} content={value.textContent} />
           ))}
+        </div>
+        <div className="text-center lg:text-left row-[3/4] lg:column-[1/3] lg:row-[2/3] self-end">
+          <Button variant={"outline"} asChild>
+            <Link title={messages.button.linkTitle} href={messages.button.link}>
+              {messages.button.label}
+            </Link>
+          </Button>
         </div>
       </ContentContainer>
     </SectionContainer>
