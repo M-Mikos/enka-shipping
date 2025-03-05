@@ -6,6 +6,11 @@ import "../globals.css";
 import Header from "./layoutComponents/header/Header";
 import Footer from "./layoutComponents/footer/Footer";
 import ClientProviders from "./layoutComponents/ClientProviders";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Enka Spedycja",
+};
 
 export default async function LocaleLayout({
   children,
