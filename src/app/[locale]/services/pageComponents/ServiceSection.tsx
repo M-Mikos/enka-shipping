@@ -39,9 +39,10 @@ interface ServiceSectionProps {
     };
   };
   image: string | StaticImageData;
+  priority: boolean;
 }
 
-function ServiceSection({ messages, image }: ServiceSectionProps) {
+function ServiceSection({ messages, image, priority }: ServiceSectionProps) {
   return (
     <SectionContainer id={messages.id} className="py-16 lg:py-24">
       <ContentContainer className="lg:grid lg:grid-cols-[1fr_1fr] lg:grid-rows-[auto_1fr_auto_auto] lg:gap-x-16 3xl:gap-x-24">
@@ -53,6 +54,7 @@ function ServiceSection({ messages, image }: ServiceSectionProps) {
             height={1000}
             alt={messages.altText}
             placeholder="blur"
+            priority={priority}
           />
         </div>
         <Heading className="lg:row-[1/2] lg:col-[1/2]">{messages.title}</Heading>

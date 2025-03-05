@@ -133,7 +133,7 @@ export default function Services() {
     <>
       <PageTitle messages={{ title: t("title"), subtitle: t("subtitle") }} />
       {services.map((service, i) => (
-        <ServiceSection key={service.title} messages={service} image={servicesImages[i]} />
+        <ServiceSection key={service.title} messages={service} image={servicesImages[i]} priority={i === 0} />
       ))}
       <ContactSection />
     </>
