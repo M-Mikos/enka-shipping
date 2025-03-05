@@ -67,7 +67,7 @@ function GalleryGrid() {
               )}
             >
               <Image
-                className="flex-1 object-cover transition group-hover:brightness-110"
+                className="flex-1 object-cover transition group-hover:brightness-110 rounded-lg"
                 src={image.src}
                 width={isHorizontal ? "1920" : "1280"}
                 height={isHorizontal ? "1280" : "1920"}

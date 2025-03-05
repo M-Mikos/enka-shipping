@@ -14,7 +14,7 @@ function PageTitle({ messages }: PageTitleProps) {
   return (
     <SectionContainer>
       <ContentContainer>
-        <div className="flex flex-col gap-8 lg:flex-row lg:items-center lg:gap-16 border-b-4 border-primary py-16 lg:py-24 lg:min-h-72 ">
+        <div className="flex flex-col gap-8 lg:flex-row lg:items-center lg:gap-16 border-b-2 border-slate-950 py-16 lg:py-24 lg:min-h-72 ">
           <Heading className="lg:basis-1/2 mb-0 3xl:mb-0" variant="h1">
             {messages.title}
           </Heading>
