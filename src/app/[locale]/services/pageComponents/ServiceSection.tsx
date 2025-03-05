@@ -64,7 +64,7 @@ function ServiceSection({ messages, image }: ServiceSectionProps) {
         </div>
         <div className="text-center lg:text-left lg:col-[1/2] lg:row-[3/4] mt-12">
           <Button variant={"outline"} asChild>
-            <Link title={messages.button.linkTitle} href={messages.button.link}>
+            <Link title={messages.button.linkTitle} href={{ hash: messages.button.link }}>
               {messages.button.label}
               <ArrowRight />
             </Link>

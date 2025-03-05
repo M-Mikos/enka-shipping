@@ -48,7 +48,7 @@ function Navigation({ orientation, handleClose }: NavigationProps) {
         <NavigationMenuItem>
           <Link
             title={t("Navigation.ContactLink.linkTitle")}
-            href={t("Navigation.ContactLink.link")}
+            href={{ pathname: pathname, hash: t("Navigation.ContactLink.link") }}
             legacyBehavior
             passHref
           >
