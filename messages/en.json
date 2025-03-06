@@ -1,5 +1,9 @@
 {
   "Global": {
+    "Metadata": {
+      "titleSuffix": "Enka Shipping",
+      "titleDefault": "World-class freight forwarding services | Enka Shipping"
+    },
     "logoAlt": "Enka Shipping Logo",
     "logoTitle": "Go to homepage",
     "ContactData": {
