@@ -1,5 +1,6 @@
 import { clsx, type ClassValue } from "clsx";
-import { useTranslations } from "next-intl";
+import { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 import { twMerge } from "tailwind-merge";
 
 export function cn(...inputs: ClassValue[]) {
@@ -7,7 +8,7 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 // Generate locale specific metadata title template
-export function generateDefaultMetadata(t: typeof useTranslations) {
+export function generateDefaultMetadata(t: Awaited<ReturnType<typeof getTranslations>>): Metadata {
   if (!t) {
     throw new Error(`Default metadata messages not found.`);
   }
@@ -21,7 +22,7 @@ export function generateDefaultMetadata(t: typeof useTranslations) {
 }
 
 // Generate locale specific metadata
-export function generatePageMetadata(route: string, t: typeof useTranslations) {
+export function generatePageMetadata(route: string, t: Awaited<ReturnType<typeof getTranslations>>) {
   if (!t) {
     throw new Error(`Metadata messages not found for route: ${route}`);
   }

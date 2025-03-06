@@ -1,5 +1,5 @@
 import { NextIntlClientProvider } from "next-intl";
-import { getMessages } from "next-intl/server";
+import { getMessages, getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import "../globals.css";
@@ -7,10 +7,12 @@ import Header from "./layoutComponents/header/Header";
 import Footer from "./layoutComponents/footer/Footer";
 import ClientProviders from "./layoutComponents/ClientProviders";
 import { Metadata } from "next";
+import { generateDefaultMetadata } from "@/lib/utils";
 
-export const metadata: Metadata = {
-  title: "Enka Spedycja",
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const t = await getTranslations("Global.Metadata");
+  return generateDefaultMetadata(t);
+}
 
 export default async function LocaleLayout({
   children,
