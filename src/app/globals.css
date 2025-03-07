@@ -135,3 +135,29 @@
     @apply -translate-y-2;
   }
 }
+
+@layer selection {
+  ::selection {
+    @apply text-slate-950 bg-primary;
+  }
+}
+
+@layer scrollbar {
+  /* Firefox */
+  * {
+    scrollbar-width: thin;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 1rem;
+  }
+
+  *::-webkit-scrollbar-track {
+    border-radius: 0.5rem;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    border-radius: 1rem;
+  }
+}
