@@ -55,7 +55,7 @@ function GalleryGrid() {
 
   return (
     <>
-      <div className="w-full grid grid-cols-2 md:grid-cols-3 gap-6">
+      <div className="w-full grid grid-cols-2 md:grid-cols-3 gap-1 lg:gap-6">
         {imageData.map((image) => {
           const isHorizontal = image.orientation === "horizontal";
           return (
@@ -67,7 +67,7 @@ function GalleryGrid() {
               )}
             >
               <Image
-                className="flex-1 object-cover transition group-hover:brightness-110 rounded-lg"
+                className="flex-1 object-cover transition group-hover:brightness-110 rounded-sm lg:rounded"
                 src={image.src}
                 width={isHorizontal ? "1920" : "1280"}
                 height={isHorizontal ? "1280" : "1920"}
