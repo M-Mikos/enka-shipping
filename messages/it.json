@@ -50,14 +50,14 @@
   "HomePage": {
     "Metadata": {
       "locale": "it",
-      "route": "/",
-      "title": "Servizi di spedizione professionali",
+      "route": "",
+      "title": "Servizi di spedizione professionali | Enka Shipping",
       "description": "ENKA offre servizi di spedizione completi in Italia, Europa e Asia. Garantiamo puntualità, sicurezza e un approccio individuale a ogni ordine.",
       "keywords": "enka, enka shipping, enka forwarding, spedizioni, logistica, trasporto, fluviale, oversize, interno, marittimo, camion, FTL, project cargo, breakbulk, pontoni, chiatte, gru",
-      "ogTitle": "ENKA Shipping - Servizi professionali di trasporto e spedizione",
+      "ogTitle": "ENKA Shipping - Servizi di project cargo e spedizione",
       "ogDescription": "Scoprite le nostre soluzioni complete di trasporto e spedizione, su misura per le vostre esigenze.",
       "ogImage": "",
-      "twitterTitle": "ENKA Shipping - Servizi professionali di trasporto e spedizione",
+      "twitterTitle": "ENKA Shipping - Servizi di project cargo e spedizione",
       "twitterDescription": "Offriamo servizi di trasporto e spedizione affidabili in tutta Italia, Europa e Asia. Scoprite la nostra offerta!",
       "twitterImage": ""
     },
@@ -195,6 +195,19 @@
     }
   },
   "ServicesPage": {
+    "Metadata": {
+      "locale": "it",
+      "route": "i-nostri-servizi",
+      "title": "I Nostri Servizi",
+      "description": "ENKA offre servizi di spedizione completi in Italia, Europa e Asia. Garantiamo puntualità, sicurezza e un approccio individuale a ogni ordine.",
+      "keywords": "enka, enka shipping, enka forwarding, spedizioni, logistica, trasporto, fluviale, oversize, interno, marittimo, camion, FTL, project cargo, breakbulk, pontoni, chiatte, gru",
+      "ogTitle": "",
+      "ogDescription": "",
+      "ogImage": "",
+      "twitterTitle": "",
+      "twitterDescription": "",
+      "twitterImage": ""
+    },
     "title": "I Nostri Servizi",
     "subtitle": "Scopri le soluzioni logistiche affidabili di Enka, dalla gestione del Project Cargo al trasporto fluviale, dedicate alle aziende di tutto il mondo.",
     "ContactButton": { "link": "#contatto", "linkTitle": "Vai al contatto", "label": "Ulteriori informazioni" },
@@ -298,6 +311,19 @@
     }
   },
   "RealizationsPage": {
+    "Metadata": {
+      "locale": "it",
+      "route": "realizzazioni",
+      "title": "Realizzazioni",
+      "description": "Dai un'occhiata alla galleria delle nostre realizzazioni, in cui presentiamo esempi di trasporti di successo effettuati da Enka.",
+      "keywords": "enka, enka shipping, enka forwarding, spedizioni, logistica, trasporto, fluviale, oversize, interno, marittimo, camion, FTL, project cargo, breakbulk, pontoni, chiatte, gru",
+      "ogTitle": "",
+      "ogDescription": "",
+      "ogImage": "",
+      "twitterTitle": "",
+      "twitterDescription": "",
+      "twitterImage": ""
+    },
     "title": "Realizzazioni",
     "subtitle": "Dai un'occhiata alla galleria delle nostre realizzazioni, in cui presentiamo esempi di trasporti di successo effettuati da Enka. Ogni foto è la prova del nostro impegno nel consegnare le vostre merci in tempo, indipendentemente dalle dimensioni, dal percorso o dal settore.",
     "Gallery": {

@@ -51,13 +51,13 @@
     "Metadata": {
       "locale": "en",
       "route": "",
-      "title": "Servizi di spedizione professionali",
+      "title": "World-class shipping services | Enka Shipping",
       "description": "ENKA offers comprehensive shipping services in Europe and Asia. We guarantee on-time delivery, reliability and an individual approach to each order.",
       "keywords": "enka, enka shipping, enka forwarding, shipping, logistics, transportation, river, oversize, inland, marine, truck, FTL, project cargo, breakbulk, pontoons, barges, cranes",
-      "ogTitle": "ENKA Shipping - Professional transportation and shipping services",
+      "ogTitle": "ENKA Shipping - Project cargo and shipping services",
       "ogDescription": "Discover our complete transportation and shipping solutions tailored to your needs.",
       "ogImage": "",
-      "twitterTitle": "ENKA Shipping - Professional transportation and shipping services",
+      "twitterTitle": "ENKA Shipping - Project cargo and shipping services",
       "twitterDescription": "We offer reliable transportation and shipping services in Europe and Asia. Check out our offer!",
       "twitterImage": ""
     },
@@ -195,6 +195,19 @@
     }
   },
   "ServicesPage": {
+    "Metadata": {
+      "locale": "en",
+      "route": "services",
+      "title": "Our services",
+      "description": "ENKA offers comprehensive shipping services in Europe and Asia. We guarantee on-time delivery, reliability and an individual approach to each order.",
+      "keywords": "enka, enka shipping, enka forwarding, shipping, logistics, transportation, river, oversize, inland, marine, truck, FTL, project cargo, breakbulk, pontoons, barges, cranes",
+      "ogTitle": "",
+      "ogDescription": "",
+      "ogImage": "",
+      "twitterTitle": "",
+      "twitterDescription": "",
+      "twitterImage": ""
+    },
     "title": "Our Services",
     "subtitle": "Discover Enka's reliable logistics solutions, from Project Cargo handling to inland transport, dedicated to businesses worldwide.",
     "ContactButton": { "link": "#contact", "linkTitle": "Go to contact", "label": "More" },
@@ -298,6 +311,19 @@
     }
   },
   "RealizationsPage": {
+    "Metadata": {
+      "locale": "en",
+      "route": "realizations",
+      "title": "Our realizations",
+      "description": "Take a look at the gallery of our realisations, in which we present examples of successful transports carried out by Enka.",
+      "keywords": "enka, enka shipping, enka forwarding, shipping, logistics, transportation, river, oversize, inland, marine, truck, FTL, project cargo, breakbulk, pontoons, barges, cranes",
+      "ogTitle": "",
+      "ogDescription": "",
+      "ogImage": "",
+      "twitterTitle": "",
+      "twitterDescription": "",
+      "twitterImage": ""
+    },
     "title": "Realizations",
     "subtitle": "Take a look at the gallery of our realisations, in which we present examples of successful transports carried out by Enka. Each photo is proof of our commitment to delivering your goods on time, regardless of size, route or industry.",
     "Gallery": {

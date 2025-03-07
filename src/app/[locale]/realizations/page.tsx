@@ -4,6 +4,14 @@ import GalleryGrid from "./pageComponents/GalleryGrid";
 import ContactSection from "../pageComponents/contactSection/ContactSection";
 import PageTitle from "@/components/PageTitle";
 import { useTranslations } from "next-intl";
+import { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
+import { generatePageMetadata } from "@/lib/utils";
+
+export async function generateMetadata(): Promise<Metadata> {
+  const t = await getTranslations("RealizationsPage.Metadata");
+  return generatePageMetadata(t);
+}
 
 export default function Realizacje() {
   const t = useTranslations("RealizationsPage");

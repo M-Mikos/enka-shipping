@@ -48,13 +48,13 @@
     "Metadata": {
       "locale": "pl",
       "route": "",
-      "title": "Profesjonalne usługi spedycyjne",
+      "title": "Profesjonalne usługi spedycyjne | Enka Spedycja",
       "description": "ENKA oferuje kompleksowe usługi spedycyjne w Polsce, Europie i Azji. Gwarantujemy terminowość, bezpieczeństwo oraz indywidualne podejście do każdego zlecenia.",
       "keywords": "enka, enka shipping, enka spedycja, spedycjia, logistyka, transport, transport rzeczny, ponadgabarytowy, śródlądowy, morski, ciężarówki, FTL, project cargo, breakbulk, pontony, barki, dźwigi",
-      "ogTitle": "ENKA Spedycja – Profesjonalne Usługi Transportowe i Spedycyjne",
+      "ogTitle": "ENKA Spedycja – Project cargo i usługi transportowe",
       "ogDescription": "Poznaj nasze kompleksowe rozwiązania w zakresie transportu i spedycji, dostosowane do Twoich potrzeb.",
       "ogImage": "",
-      "twitterTitle": "ENKA Spedycja – Profesjonalne Usługi Transportowe i Spedycyjne",
+      "twitterTitle": "ENKA Spedycja – Project cargo i usługi transportowe",
       "twitterDescription": "Oferujemy niezawodne usługi transportowe i spedycyjne na terenie Polski, Europy i Azji. Sprawdź naszą ofertę!",
       "twitterImage": ""
     },
@@ -192,6 +192,19 @@
     }
   },
   "ServicesPage": {
+    "Metadata": {
+      "locale": "pl",
+      "route": "uslugi",
+      "title": "Nasze usługi",
+      "description": "ENKA oferuje kompleksowe usługi spedycyjne w Polsce, Europie i Azji. Gwarantujemy terminowość, bezpieczeństwo oraz indywidualne podejście do każdego zlecenia.",
+      "keywords": "enka, enka shipping, enka spedycja, spedycjia, logistyka, transport, transport rzeczny, ponadgabarytowy, śródlądowy, morski, ciężarówki, FTL, project cargo, breakbulk, pontony, barki, dźwigi",
+      "ogTitle": "",
+      "ogDescription": "",
+      "ogImage": "",
+      "twitterTitle": "",
+      "twitterDescription": "",
+      "twitterImage": ""
+    },
     "title": "Nasze usługi",
     "subtitle": "Poznaj niezawodne rozwiązania logistyczne Enka, od obsługi Project Cargo po transport śródlądowy, dedykowane dla firm na całym świecie.",
     "ContactButton": { "link": "#kontakt", "linkTitle": "Idź do sekcji kontakt", "label": "Dowiedz się więcej" },
@@ -295,6 +308,19 @@
     }
   },
   "RealizationsPage": {
+    "Metadata": {
+      "locale": "pl",
+      "route": "realizacje",
+      "title": "Realizacje",
+      "description": "Poznaj galerię naszych realizacji, w której prezentujemy przykłady skutecznych transportów zrealizowanych przez Enka.",
+      "keywords": "enka, enka shipping, enka spedycja, spedycjia, logistyka, transport, transport rzeczny, ponadgabarytowy, śródlądowy, morski, ciężarówki, FTL, project cargo, breakbulk, pontony, barki, dźwigi",
+      "ogTitle": "ENKA Spedycja – Project cargo i usługi transportowe",
+      "ogDescription": "Poznaj nasze kompleksowe rozwiązania w zakresie transportu i spedycji, dostosowane do Twoich potrzeb.",
+      "ogImage": "",
+      "twitterTitle": "ENKA Spedycja – Project cargo i usługi transportowe",
+      "twitterDescription": "Oferujemy niezawodne usługi transportowe i spedycyjne na terenie Polski, Europy i Azji. Sprawdź naszą ofertę!",
+      "twitterImage": ""
+    },
     "title": "Realizacje",
     "subtitle": "Poznaj galerię naszych realizacji, w której prezentujemy przykłady skutecznych transportów zrealizowanych przez Enka. Każde zdjęcie to dowód naszego zaangażowania w dostarczanie ładunków na czas, niezależnie od ich wielkości, trasy czy branży.",
     "Gallery": {

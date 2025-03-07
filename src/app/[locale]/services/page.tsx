@@ -6,8 +6,15 @@ import ImageMaritimeTransport from "public/services/services-maritime-transport.
 import ImageInlandTransport from "public/services/services-inland-transport.avif";
 import ImageLandTransport from "public/services/services-land-transport.avif";
 import PageTitle from "@/components/PageTitle";
+import { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
+import { generatePageMetadata } from "@/lib/utils";
 
-// import { useTranslations } from "next-intl";
+export async function generateMetadata(): Promise<Metadata> {
+  const t = await getTranslations("ServicesPage.Metadata");
+  return generatePageMetadata(t);
+}
+
 export default function Services() {
   const t = useTranslations("ServicesPage");
   const services = [
