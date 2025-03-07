@@ -24,7 +24,7 @@ function HeroSection() {
         commonSettings={{ sizes: "100vw", fill: true }}
       />
       <ContentContainer className="flex flex-col justify-between min-h-[calc(100dvh-5rem)] h-auto gap-12 py-16 lg:py-24">
-        <div className="flex flex-col gap-4 lg:gap-6 w-full lg:max-w-[36rem] text-center lg:text-left">
+        <div className="flex flex-col w-full lg:max-w-[36rem] text-center lg:text-left">
           <Heading variant="h1" shade="light">
             <RichText>{(tags) => t.rich("HeroSection.header", tags)}</RichText>
           </Heading>
