@@ -48,6 +48,19 @@
     }
   },
   "HomePage": {
+    "Metadata": {
+      "locale": "it",
+      "route": "/",
+      "title": "Servizi di spedizione professionali",
+      "description": "ENKA offre servizi di spedizione completi in Italia, Europa e Asia. Garantiamo puntualità, sicurezza e un approccio individuale a ogni ordine.",
+      "keywords": "enka, enka shipping, enka forwarding, spedizioni, logistica, trasporto, fluviale, oversize, interno, marittimo, camion, FTL, project cargo, breakbulk, pontoni, chiatte, gru",
+      "ogTitle": "ENKA Shipping - Servizi professionali di trasporto e spedizione",
+      "ogDescription": "Scoprite le nostre soluzioni complete di trasporto e spedizione, su misura per le vostre esigenze.",
+      "ogImage": "",
+      "twitterTitle": "ENKA Shipping - Servizi professionali di trasporto e spedizione",
+      "twitterDescription": "Offriamo servizi di trasporto e spedizione affidabili in tutta Italia, Europa e Asia. Scoprite la nostra offerta!",
+      "twitterImage": ""
+    },
     "HeroSection": {
       "id": "hero",
       "header": "Project cargo<br></br>sempre puntuali",

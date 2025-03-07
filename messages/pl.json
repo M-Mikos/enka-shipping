@@ -45,6 +45,19 @@
     }
   },
   "HomePage": {
+    "Metadata": {
+      "locale": "pl",
+      "route": "",
+      "title": "Profesjonalne usługi spedycyjne",
+      "description": "ENKA oferuje kompleksowe usługi spedycyjne w Polsce, Europie i Azji. Gwarantujemy terminowość, bezpieczeństwo oraz indywidualne podejście do każdego zlecenia.",
+      "keywords": "enka, enka shipping, enka spedycja, spedycjia, logistyka, transport, transport rzeczny, ponadgabarytowy, śródlądowy, morski, ciężarówki, FTL, project cargo, breakbulk, pontony, barki, dźwigi",
+      "ogTitle": "ENKA Spedycja – Profesjonalne Usługi Transportowe i Spedycyjne",
+      "ogDescription": "Poznaj nasze kompleksowe rozwiązania w zakresie transportu i spedycji, dostosowane do Twoich potrzeb.",
+      "ogImage": "",
+      "twitterTitle": "ENKA Spedycja – Profesjonalne Usługi Transportowe i Spedycyjne",
+      "twitterDescription": "Oferujemy niezawodne usługi transportowe i spedycyjne na terenie Polski, Europy i Azji. Sprawdź naszą ofertę!",
+      "twitterImage": ""
+    },
     "HeroSection": {
       "id": "hero",
       "header": "Project cargo<br></br>zawsze na czas",

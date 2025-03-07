@@ -48,6 +48,19 @@
     }
   },
   "HomePage": {
+    "Metadata": {
+      "locale": "en",
+      "route": "",
+      "title": "Servizi di spedizione professionali",
+      "description": "ENKA offers comprehensive shipping services in Europe and Asia. We guarantee on-time delivery, reliability and an individual approach to each order.",
+      "keywords": "enka, enka shipping, enka forwarding, shipping, logistics, transportation, river, oversize, inland, marine, truck, FTL, project cargo, breakbulk, pontoons, barges, cranes",
+      "ogTitle": "ENKA Shipping - Professional transportation and shipping services",
+      "ogDescription": "Discover our complete transportation and shipping solutions tailored to your needs.",
+      "ogImage": "",
+      "twitterTitle": "ENKA Shipping - Professional transportation and shipping services",
+      "twitterDescription": "We offer reliable transportation and shipping services in Europe and Asia. Check out our offer!",
+      "twitterImage": ""
+    },
     "HeroSection": {
       "id": "hero",
       "header": "Project cargo<br></br>always on time",

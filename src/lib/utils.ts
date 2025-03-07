@@ -22,9 +22,9 @@ export function generateDefaultMetadata(t: Awaited<ReturnType<typeof getTranslat
 }
 
 // Generate locale specific metadata
-export function generatePageMetadata(route: string, t: Awaited<ReturnType<typeof getTranslations>>) {
+export function generatePageMetadata(t: Awaited<ReturnType<typeof getTranslations>>) {
   if (!t) {
-    throw new Error(`Metadata messages not found for route: ${route}`);
+    throw new Error(`Metadata messages not found.`);
   }
 
   return {
@@ -32,19 +32,19 @@ export function generatePageMetadata(route: string, t: Awaited<ReturnType<typeof
     description: t("description"),
     keywords: t("keywords"),
     alternates: {
-      canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/${t("locale")}/${route}`,
+      canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/${t("locale")}/${t("route")}`,
     },
     openGraph: {
       title: t("ogTitle") || t("title"),
       description: t("ogDescription") || t("description"),
-      url: `${process.env.NEXT_PUBLIC_SITE_URL}/${t("locale")}/${route}`,
-      images: [t("ogImage") || `${process.env.NEXT_PUBLIC_SITE_URL}/default-og-image.jpg`],
+      url: `${process.env.NEXT_PUBLIC_SITE_URL}/${t("locale")}/${t("route")}`,
+      images: [t("ogImage") || `${process.env.NEXT_PUBLIC_SITE_URL}/opengraph-image.jpg`],
     },
     twitter: {
       card: "summary_large_image",
       title: t("twitterTitle") || t("title"),
       description: t("twitterDescription") || t("description"),
-      images: [t("twitterImage") || t("ogImage") || `${process.env.NEXT_PUBLIC_SITE_URL}/default-twitter-image.jpg`],
+      images: [t("twitterImage") || t("ogImage") || `${process.env.NEXT_PUBLIC_SITE_URL}/twitter-image.jpg`],
     },
   };
 }
