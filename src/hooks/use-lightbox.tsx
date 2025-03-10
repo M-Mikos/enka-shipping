@@ -86,7 +86,7 @@ export function useLightbox(gallery: galleryImage[]) {
   const Lightbox: React.FC = () => (
     <Dialog open={open} onOpenChange={handleOpenChange}>
       <DialogContent
-        className="sm:max-w-full w-full h-full bg-transparent border-0 rounded-none p-0 md:p-4"
+        className="sm:max-w-full w-full h-full bg-transparent border-0 rounded-none p-0"
         defaultCloseButton={false}
       >
         <VisuallyHidden>
@@ -95,7 +95,7 @@ export function useLightbox(gallery: galleryImage[]) {
           </DialogHeader>
         </VisuallyHidden>
         <Carousel
-          className="flex flex-col w-full h-full"
+          className="flex flex-col w-full h-full "
           setApi={(newApi) => {
             if (!apiRef.current && newApi) {
               apiRef.current = newApi;
@@ -103,7 +103,7 @@ export function useLightbox(gallery: galleryImage[]) {
             }
           }}
         >
-          <div className="flex justify-between items-center w-full h-12 text-white">
+          <div className="flex justify-between items-center w-full h-12 text-white px-4">
             <span>
               {current}/{count}
             </span>
@@ -118,11 +118,11 @@ export function useLightbox(gallery: galleryImage[]) {
               </Button>
             </div>
           </div>
-          <CarouselContent className="h-full">
+          <CarouselContent className="h-full w-[calc(100vw-1rem)]">
             {gallery.map((image) => {
               return (
-                <CarouselItem key={image.description} className="h-[calc(100vh-5rem)]">
-                  <div className="h-full flex flex-col w-full">
+                <CarouselItem key={image.description} className="h-[calc(100vh-5rem)] ">
+                  <div className="relative h-full flex flex-col items-center">
                     <div className="relative flex-1 w-full">
                       <Image
                         className="object-contain"
@@ -132,9 +132,9 @@ export function useLightbox(gallery: galleryImage[]) {
                         placeholder="blur"
                       />
                     </div>
-                    {/* <div className="basis-24 w-full flex justify-center items-center text-white">
+                    <div className="w-full basis-18 flex justify-center items-center text-white px-2 pt-4">
                       {image.description}
-                    </div> */}
+                    </div>
                   </div>
                 </CarouselItem>
               );
