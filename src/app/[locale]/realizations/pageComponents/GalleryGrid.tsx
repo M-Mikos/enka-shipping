@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import image1 from "@/../public/realizations/photo-1.avif";
 import image2 from "@/../public/realizations/photo-2.avif";
@@ -22,20 +24,22 @@ import image20 from "@/../public/realizations/photo-20.avif";
 import clsx from "clsx";
 import { Paragraph } from "@/components/ui/paragraph";
 import { useTranslations } from "next-intl";
+import { useLightbox } from "@/hooks/use-lightbox";
+import { galleryImage } from "@/types";
 
 function GalleryGrid() {
   const t = useTranslations("RealizationsPage");
 
-  const imageData = [
+  const gallery: galleryImage[] = [
     { src: image10, orientation: "horizontal", description: t("Gallery.image10") },
-    { src: image17, orientation: "vartical", description: t("Gallery.image17") },
+    { src: image17, orientation: "vertical", description: t("Gallery.image17") },
     { src: image2, orientation: "horizontal", description: t("Gallery.image5") },
     { src: image5, orientation: "horizontal", description: t("Gallery.image8") },
     { src: image8, orientation: "horizontal", description: t("Gallery.image2") },
     { src: image3, orientation: "horizontal", description: t("Gallery.image3") },
     { src: image4, orientation: "horizontal", description: t("Gallery.image4") },
     { src: image6, orientation: "horizontal", description: t("Gallery.image6") },
-    { src: image18, orientation: "vaertical", description: t("Gallery.image18") },
+    { src: image18, orientation: "vertical", description: t("Gallery.image18") },
     { src: image7, orientation: "horizontal", description: t("Gallery.image7") },
     { src: image9, orientation: "horizontal", description: t("Gallery.image9") },
     { src: image1, orientation: "horizontal", description: t("Gallery.image1") },
@@ -53,10 +57,12 @@ function GalleryGrid() {
     },
   ];
 
+  const { Lightbox, openLightbox } = useLightbox(gallery);
+
   return (
     <>
       <div className="w-full grid grid-cols-2 md:grid-cols-3 gap-1 lg:gap-6">
-        {imageData.map((image) => {
+        {gallery.map((image, i) => {
           const isHorizontal = image.orientation === "horizontal";
           return (
             <div
@@ -65,6 +71,7 @@ function GalleryGrid() {
                 "group flex flex-col not-first:col-span-1 overflow-hidden ",
                 isHorizontal ? "row-span-1" : "row-span-2"
               )}
+              onClick={() => openLightbox(i)}
             >
               <Image
                 className="flex-1 object-cover transition group-hover:brightness-110 rounded-sm lg:rounded"
@@ -83,6 +90,7 @@ function GalleryGrid() {
           );
         })}
       </div>
+      <Lightbox />
     </>
   );
 }
