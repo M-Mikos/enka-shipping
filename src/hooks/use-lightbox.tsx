@@ -22,7 +22,6 @@ export function useLightbox(gallery: galleryImage[]) {
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [current, setCurrent] = useState(0);
   const [count, setCount] = useState(0);
-  const [api, setApi] = useState<CarouselApi>();
 
   const openLightbox = (openAt: number) => {
     setInitialSlide(openAt);
@@ -57,6 +56,7 @@ export function useLightbox(gallery: galleryImage[]) {
   }, [isFullscreen]);
 
   useEffect(() => {
+    const api = apiRef.current;
     if (!api) {
       return;
     }
@@ -67,7 +67,7 @@ export function useLightbox(gallery: galleryImage[]) {
     api.on("select", () => {
       setCurrent(api.selectedScrollSnap() + 1);
     });
-  }, [api]);
+  }, []);
 
   // Synchronize isFullscreen state with native fullscreen changes
   useEffect(() => {
@@ -99,7 +99,6 @@ export function useLightbox(gallery: galleryImage[]) {
           setApi={(newApi) => {
             if (!apiRef.current && newApi) {
               apiRef.current = newApi;
-              setApi(apiRef.current);
               apiRef.current.on("init", scrollTo);
             }
           }}
@@ -109,10 +108,10 @@ export function useLightbox(gallery: galleryImage[]) {
               {current}/{count}
             </span>
             <div className="flex g-2 h-full  text-white">
-              <Button variant={"ghost"} className="focus-visible:ring-slate-300" onClick={toggleFullScreen}>
+              <Button variant={"ghost"} className="focus-visible:ring-slate-300 px-2" onClick={toggleFullScreen}>
                 {isFullscreen ? <Minimize /> : <Maximize />}
               </Button>
-              <Button variant={"ghost"} className="focus-visible:ring-slate-300" asChild>
+              <Button variant={"ghost"} className="focus-visible:ring-slate-300 px-2" asChild>
                 <DialogClose>
                   <X />
                 </DialogClose>
@@ -123,8 +122,8 @@ export function useLightbox(gallery: galleryImage[]) {
             {gallery.map((image) => {
               return (
                 <CarouselItem key={image.description} className="h-[calc(100vh-5rem)]">
-                  <div className="h-full flex flex-col">
-                    <div className="relative flex-1">
+                  <div className="h-full flex flex-col w-full">
+                    <div className="relative flex-1 w-full">
                       <Image
                         className="object-contain"
                         src={image.src}
@@ -133,7 +132,9 @@ export function useLightbox(gallery: galleryImage[]) {
                         placeholder="blur"
                       />
                     </div>
-                    <div className="basis-24 flex justify-center items-center text-white">{image.description}</div>
+                    {/* <div className="basis-24 w-full flex justify-center items-center text-white">
+                      {image.description}
+                    </div> */}
                   </div>
                 </CarouselItem>
               );
