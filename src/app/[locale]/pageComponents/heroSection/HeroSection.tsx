@@ -15,7 +15,7 @@ function HeroSection() {
   const t = useTranslations("HomePage");
 
   return (
-    <SectionContainer id={t("HeroSection.id")} className="min-h-[calc(100dvh-5rem)] h-auto">
+    <SectionContainer id={t("HeroSection.id")} className="min-h-[calc(100lvh-5rem)] h-auto">
       <ResponsiveBackgroundImage
         mobileImage={mobileHeroBackground.src}
         desktopImage={desktopHeroBackground.src}
@@ -23,7 +23,7 @@ function HeroSection() {
         desktopSettings={{}}
         commonSettings={{ sizes: "100vw", fill: true }}
       />
-      <ContentContainer className="flex flex-col justify-between min-h-[calc(100dvh-5rem)] h-auto gap-12 py-16 lg:py-24">
+      <ContentContainer className="flex flex-col justify-between min-h-[calc(100svh-5rem)] h-auto gap-12 py-16 lg:py-24">
         <div className="flex flex-col w-full lg:max-w-[36rem] text-center lg:text-left">
           <Heading variant="h1" shade="light">
             <RichText>{(tags) => t.rich("HeroSection.header", tags)}</RichText>
