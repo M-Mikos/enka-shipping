@@ -53,7 +53,7 @@ function ServiceSection({ messages, image, priority }: ServiceSectionProps) {
             width={1500}
             height={1000}
             alt={messages.altText}
-            placeholder="blur"
+            placeholder={priority ? "empty" : "blur"}
             priority={priority}
           />
         </div>
