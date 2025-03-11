@@ -40,10 +40,7 @@ function HeroSection() {
         </div>
         <div className="flex justify-center lg:justify-between">
           <Button variant="default" asChild>
-            <Link
-              title={t("HeroSection.ActionButton.linkTitle")}
-              href={{ pathname: "/", hash: t("HeroSection.ActionButton.link") }}
-            >
+            <Link title={t("HeroSection.ActionButton.linkTitle")} href={{ hash: t("HeroSection.ActionButton.link") }}>
               <ArrowRight />
               {t("HeroSection.ActionButton.label")}
             </Link>
