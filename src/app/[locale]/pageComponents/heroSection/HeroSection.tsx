@@ -15,13 +15,17 @@ function HeroSection() {
   const t = useTranslations("HomePage");
 
   return (
-    <SectionContainer id={t("HeroSection.id")} className="min-h-[calc(100lvh-5rem)] h-auto">
+    <SectionContainer
+      id={t("HeroSection.id")}
+      className="h-[calc(100lvh-5rem)] max-h-[60rem] lg:max-h-[80rem] 3xl:max-h-[135rem]"
+    >
       <ResponsiveBackgroundImage
         mobileImage={mobileHeroBackground.src}
         desktopImage={desktopHeroBackground.src}
         mobileSettings={{}}
         desktopSettings={{}}
         commonSettings={{ sizes: "100vw", fill: true }}
+        className="max-h-lvh"
       />
       <ContentContainer className="flex flex-col justify-between min-h-[calc(100svh-5rem)] h-auto gap-12 py-16 lg:py-24">
         <div className="flex flex-col w-full lg:max-w-[36rem] text-center lg:text-left">

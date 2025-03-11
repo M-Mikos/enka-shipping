@@ -93,7 +93,7 @@ function LightboxContent({ gallery, initialSlide, isFullscreen, toggleFullscreen
       <CarouselContent className="h-full w-[calc(100vw-1rem)]">
         {gallery.map((image) => {
           return (
-            <CarouselItem key={image.description} className="h-[calc(100vh-5rem)] ">
+            <CarouselItem key={image.description} className="h-[calc(100svh-5rem)] ">
               <div className="relative h-full flex flex-col items-center">
                 <div className="relative flex-1 flex w-full justify-center items-center text-slate-300">
                   <ImageLoader
