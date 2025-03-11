@@ -25,6 +25,11 @@
     "CarouselControls": {
       "nextButtonLabel": "Mostra la diapositiva successiva",
       "prevButtonLabel": "Mostra la diapositiva precedente"
+    },
+    "LightboxControls": {
+      "closeLightboxButtonLabel": "Chiudere la galleria",
+      "openFullscreenButtonLabel": "Aprire la modalità a schermo intero",
+      "closeFullscreenButtonLabel": "Chiudere la modalità a schermo intero"
     }
   },
   "Header": {
@@ -44,6 +49,7 @@
       }
     },
     "MobileDrawer": {
+      "triggerLabel": "Aprire il menu di navigazione",
       "hiddenTitle": "Menu di navigazione"
     }
   },
@@ -216,7 +222,7 @@
         "title": "Trasporto di Progetti",
         "id": "trasporto-progetti",
         "textContent": "Il trasporto di progetti è un servizio specializzato pensato per aziende che eseguono progetti complessi che richiedono il trasporto di carichi fuori misura, unici o di alto valore. Enka offre soluzioni di trasporto complete, adattate alle esigenze individuali del cliente. Con anni di esperienza e una rete globale di partner, garantiamo puntualità e sicurezza, indipendentemente dalla scala e dalla posizione del progetto.",
-        "altText": "",
+        "altText": "Attracco di navi container in un porto mercis",
         "Values": {
           "1": {
             "title": "Servizio Completo",
@@ -240,7 +246,7 @@
         "title": "Trasporto Interno (Fluviale)",
         "id": "trasporto-interno",
         "textContent": "Enka offre trasporti interni utilizzando chiatte fluviali, un'alternativa economica ed ecologica ai metodi di trasporto tradizionali. Questo servizio è dedicato al trasporto di grandi quantità di merci sfuse, come materie prime o prodotti industriali, attraverso le vie navigabili in Polonia e in Europa.",
-        "altText": "",
+        "altText": "Chiatta da carico sul fiume",
         "Values": {
           "1": {
             "title": "Ambiente e Risparmio",
@@ -264,7 +270,7 @@
         "title": "Trasporto Marittimo",
         "id": "trasporto-marittimo",
         "textContent": "Il trasporto marittimo è la soluzione ideale per le aziende che cercano un modo economico per trasportare merci su lunghe distanze. Grazie alla collaborazione con linee di navigazione globali, Enka offre accesso alle rotte e ai porti più efficienti in tutto il mondo. Il servizio include un'ampia gamma di attività: dal carico allo sdoganamento.",
-        "altText": "",
+        "altText": "Nave da carico in mare",
         "Values": {
           "1": {
             "title": "Convenienza",
@@ -288,7 +294,7 @@
         "title": "Trasporto Terrestre",
         "id": "trasporto-terrestre",
         "textContent": "Il trasporto terrestre è un modo rapido e flessibile per spostare merci in tutta la Polonia, l'Europa e l'Asia. Enka opera con un team di autisti esperti, garantendo consegne efficienti in qualsiasi condizione. Indipendentemente dal tipo di carico, offriamo un approccio personalizzato per ogni ordine.",
-        "altText": "",
+        "altText": "Terminale di trasporto",
         "Values": {
           "1": {
             "title": "Velocità e Flessibilità",

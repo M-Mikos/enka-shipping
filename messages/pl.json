@@ -22,6 +22,11 @@
     "CarouselControls": {
       "nextButtonLabel": "Przejdź do następnego slajdu",
       "prevButtonLabel": "Przejdź do poprzedniego slajdu"
+    },
+    "LightboxControls": {
+      "closeLightboxButtonLabel": "Zamknij galerię",
+      "openFullscreenButtonLabel": "Otwórz tryb pełnoekranowy",
+      "closeFullscreenButtonLabel": "Zamknij tryb pełnoekranowy"
     }
   },
   "Header": {
@@ -41,6 +46,7 @@
       }
     },
     "MobileDrawer": {
+      "triggerLabel": "Otwórz menu nawigacji",
       "hiddenTitle": "Menu Nawigacji"
     }
   },
@@ -213,7 +219,7 @@
         "title": "Project Cargo",
         "id": "project-cargo",
         "textContent": "Transport Project Cargo to specjalistyczna usługa skierowana do firm realizujących złożone projekty wymagające przewozu ładunków ponadgabarytowych, nietypowych lub o dużej wartości. Enka zapewnia kompleksowe rozwiązania transportowe dopasowane do indywidualnych potrzeb klienta. Dzięki wieloletniemu doświadczeniu oraz globalnej sieci partnerów, gwarantujemy terminowość i bezpieczeństwo, niezależnie od skali i lokalizacji projektu.",
-        "altText": "",
+        "altText": "Dokujące kontenerowce w porcie towarowym",
         "Values": {
           "1": {
             "title": "Kompleksowa obsługa",
@@ -237,7 +243,7 @@
         "title": "Transport Śródlądowy (rzeczny)",
         "id": "transport-srodladawy",
         "textContent": "Enka oferuje transport śródlądowy za pomocą barek rzecznych, które są ekonomiczną i ekologiczną alternatywą dla tradycyjnych metod przewozu. Usługa ta dedykowana jest przewozowi dużych ilości ładunków masowych, takich jak surowce czy produkty przemysłowe, na trasach wodnych w Polsce i Europie.",
-        "altText": "",
+        "altText": "Barka towarowa płynąca po rzece",
         "Values": {
           "1": {
             "title": "Środowisko i oszczędność",
@@ -261,7 +267,7 @@
         "title": "Transport Morski",
         "id": "transport-morski",
         "textContent": "Transport morski to idealne rozwiązanie dla firm poszukujących ekonomicznego sposobu przewozu ładunków na dużą odległość. Dzięki współpracy z globalnymi armatorami, Enka oferuje dostęp do najbardziej efektywnych tras i portów na całym świecie. Usługa obejmuje pełen zakres działań: od załadunku po odprawy celne.",
-        "altText": "",
+        "altText": "Kontenerowiec na morzu",
         "Values": {
           "1": {
             "title": "Ekonomiczność",
@@ -285,7 +291,7 @@
         "title": "Transport Lądowy",
         "id": "transport-ladawy",
         "textContent": "Transport lądowy (drogowy) to szybki i elastyczny sposób przewozu ładunków na terenie Polski, Europy i Azji. Enka operuje przy pomocy doświadczonego zespołu kierowców, zapewniając sprawną realizację dostaw w każdych warunkach. Niezależnie od rodzaju ładunku, oferujemy indywidualne podejście do każdego zlecenia.",
-        "altText": "",
+        "altText": "Terminal transporowy",
         "Values": {
           "1": {
             "title": "Szybkość i elastyczność",

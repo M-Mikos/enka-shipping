@@ -78,7 +78,9 @@ function GalleryGrid() {
                 width={isHorizontal ? "1920" : "1280"}
                 height={isHorizontal ? "1280" : "1920"}
                 alt={image.description}
-                placeholder="blur"
+                placeholder={i < 6 ? "empty" : "blur"}
+                priority={i < 6}
+                sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, (max-width: 1280px) 272px, (max-width: 1535px) 360px, (max-width: 1920px) 450px, 900px"
               />
             </div>
           );

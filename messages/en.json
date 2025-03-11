@@ -25,6 +25,11 @@
     "CarouselControls": {
       "nextButtonLabel": "Show next slide",
       "prevButtonLabel": "Show previous slide"
+    },
+    "LightboxControls": {
+      "closeLightboxButtonLabel": "Close gallery",
+      "openFullscreenButtonLabel": "Open fullscreen mode",
+      "closeFullscreenButtonLabel": "Close fullscreen mode"
     }
   },
   "Header": {
@@ -44,6 +49,7 @@
       }
     },
     "MobileDrawer": {
+      "triggerLabel": "Open navigation menu",
       "hiddenTitle": "Navigation menu"
     }
   },
@@ -216,7 +222,7 @@
         "title": "Project Cargo",
         "id": "project-cargo",
         "textContent": "Project Cargo transport is a specialized service designed for companies executing complex projects requiring the transport of oversized, unique, or high-value cargo. Enka provides comprehensive transport solutions tailored to the individual needs of the client. With years of experience and a global network of partners, we ensure timeliness and safety, regardless of the scale and location of the project.",
-        "altText": "",
+        "altText": "Docking of container ships at a cargo port",
         "Values": {
           "1": {
             "title": "Comprehensive Service",
@@ -240,7 +246,7 @@
         "title": "Inland Transport (River)",
         "id": "inland-transport",
         "textContent": "Enka offers inland transport using river barges, which are an economical and environmentally friendly alternative to traditional transport methods. This service is dedicated to transporting large quantities of bulk cargo, such as raw materials or industrial products, on waterways in Poland and Europe.",
-        "altText": "",
+        "altText": "A cargo barge sailing on the river",
         "Values": {
           "1": {
             "title": "Environment and Savings",
@@ -264,7 +270,7 @@
         "title": "Maritime Transport",
         "id": "maritime-transport",
         "textContent": "Maritime transport is the ideal solution for companies looking for an economical way to transport cargo over long distances. Through cooperation with global shipping lines, Enka offers access to the most efficient routes and ports worldwide. The service includes a full range of activities: from loading to customs clearance.",
-        "altText": "",
+        "altText": "Cargo ship on sea",
         "Values": {
           "1": {
             "title": "Cost-Effectiveness",
@@ -288,7 +294,7 @@
         "title": "Land Transport",
         "id": "land-transport",
         "textContent": "Land transport is a fast and flexible way to move cargo across Poland, Europe, and Asia. Enka operates with an experienced team of drivers, ensuring efficient delivery under any conditions. Regardless of the type of cargo, we offer a personalized approach to each order.",
-        "altText": "",
+        "altText": "Transport terminal",
         "Values": {
           "1": {
             "title": "Speed and Flexibility",

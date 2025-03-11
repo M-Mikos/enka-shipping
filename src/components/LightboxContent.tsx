@@ -12,6 +12,8 @@ import { Maximize, Minimize, X } from "lucide-react";
 import React, { useCallback, useEffect, useState } from "react";
 import { DialogClose } from "./ui/dialog";
 import ImageLoader from "./ui/imageLoader";
+import { useTranslations } from "next-intl";
+import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 
 interface LightboxContentProps {
   gallery: galleryImage[];
@@ -24,6 +26,7 @@ function LightboxContent({ gallery, initialSlide, isFullscreen, toggleFullscreen
   const [api, setApi] = useState<CarouselApi>();
   const [current, setCurrent] = useState(0);
   const [count, setCount] = useState(0);
+  const t = useTranslations("Global.LightboxControls");
 
   const scrollTo = useCallback(
     (index: number) => {
@@ -62,7 +65,17 @@ function LightboxContent({ gallery, initialSlide, isFullscreen, toggleFullscreen
             className="text-slate-300 hover:text-white hover:bg-white/5 focus-visible:ring-slate-300"
             onClick={toggleFullscreen}
           >
-            {isFullscreen ? <Minimize /> : <Maximize />}
+            {isFullscreen ? (
+              <>
+                <Minimize />
+                <VisuallyHidden>{t("closeFullscreenButtonLabel")}</VisuallyHidden>
+              </>
+            ) : (
+              <>
+                <Maximize />
+                <VisuallyHidden>{t("openFullscreenButtonLabel")}</VisuallyHidden>
+              </>
+            )}
           </Button>
           <Button
             variant="subtle"
@@ -72,6 +85,7 @@ function LightboxContent({ gallery, initialSlide, isFullscreen, toggleFullscreen
           >
             <DialogClose>
               <X />
+              <VisuallyHidden>{t("closeLightboxButtonLabel")}</VisuallyHidden>
             </DialogClose>
           </Button>
         </div>
