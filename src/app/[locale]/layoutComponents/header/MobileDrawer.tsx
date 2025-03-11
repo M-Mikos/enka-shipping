@@ -15,6 +15,7 @@ function MobileDrawer() {
     <Drawer open={isOpen} onOpenChange={setIsOpen}>
       <DrawerTrigger>
         <MenuIcon />
+        <VisuallyHidden.Root>{t("MobileDrawer.triggerLabel")}</VisuallyHidden.Root>
       </DrawerTrigger>
       <DrawerContent className="min-h-[60vh] items-end px-3 py-2">
         <VisuallyHidden.Root>

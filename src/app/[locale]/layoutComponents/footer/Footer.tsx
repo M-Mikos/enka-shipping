@@ -23,7 +23,7 @@ export default function Footer() {
             </Paragraph>
           </div>
         </div>
-        <div className="flex justify-between items-center gap-2 py-6 text-sm text-slate-600">
+        <div className="flex justify-between items-center gap-2 py-6 text-sm text-slate-400">
           <span>{t("copyright", { year: year })}</span>
           <span className="text-right">
             {t("Credits.prefix")}
