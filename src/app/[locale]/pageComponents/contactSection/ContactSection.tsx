@@ -17,13 +17,15 @@ function ContactSection() {
     <SectionContainer id={tContact("id")} className="bg-slate-50 py-16 lg:py-24 align-middle">
       <ContentContainer>
         <div className="flex flex-col md:flex-row md:px-8 lg:px-0 rounded-lg overflow-hidden bg-white">
-          <div className="flex justify-center lg:justify-start items-center py-8 lg:py-0 md:basis-2/5">
+          <div className="flex justify-center lg:justify-start items-center py-8 lg:py-0 lg:pl-12 2xl:pl-0 md:basis-2/5">
             <Image
-              className="w-48 h-48 rounded-full lg:w-full lg:h-auto 2xl:rounded-none"
+              className="min-w-48 w-48 h-48 rounded-full lg:w-full lg:h-auto 2xl:rounded-none object-fit"
               src={photo}
               width="1024"
               height="1024"
               alt={tContact("altText")}
+              sizes="(max-width: 768px) 200px, (max-width: 1280px) 400px, 750px"
+              placeholder="blur"
             />
           </div>
           <div className="md:basis-3/5 flex flex-col justify-between px-6 pb-16 md:px-8 md:py-8 lg:px-20 lg:py-20 text-center md:text-left">

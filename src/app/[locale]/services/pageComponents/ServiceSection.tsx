@@ -55,6 +55,7 @@ function ServiceSection({ messages, image, priority }: ServiceSectionProps) {
             alt={messages.altText}
             placeholder={priority ? "empty" : "blur"}
             priority={priority}
+            sizes="(max-width: 1080px) 100vw, (max-width: 1920px) 640px, 848px"
           />
         </div>
         <Heading className="lg:row-[1/2] lg:col-[1/2]">{messages.title}</Heading>
