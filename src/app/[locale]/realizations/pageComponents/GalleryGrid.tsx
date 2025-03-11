@@ -22,7 +22,6 @@ import image18 from "@/../public/realizations/photo-18.avif";
 import image19 from "@/../public/realizations/photo-19.avif";
 import image20 from "@/../public/realizations/photo-20.avif";
 import clsx from "clsx";
-import { Paragraph } from "@/components/ui/paragraph";
 import { useTranslations } from "next-intl";
 import { useLightbox } from "@/hooks/use-lightbox";
 import { galleryImage } from "@/types";
@@ -61,7 +60,7 @@ function GalleryGrid() {
 
   return (
     <>
-      <div className="w-full grid grid-cols-2 md:grid-cols-3 gap-1 lg:gap-6">
+      <div className="w-full grid grid-cols-2 md:grid-cols-3 gap-1 lg:gap-2">
         {gallery.map((image, i) => {
           const isHorizontal = image.orientation === "horizontal";
           return (
@@ -74,18 +73,13 @@ function GalleryGrid() {
               onClick={() => openLightbox(i)}
             >
               <Image
-                className="flex-1 object-cover transition group-hover:brightness-110 rounded-sm lg:rounded"
+                className="flex-1 object-cover transition group-hover:brightness-110 "
                 src={image.src}
                 width={isHorizontal ? "1920" : "1280"}
                 height={isHorizontal ? "1280" : "1920"}
                 alt={image.description}
                 placeholder="blur"
               />
-              <div className="flex items-center w-full h-10  ">
-                <Paragraph className="truncate" variant="xs">
-                  {image.description}
-                </Paragraph>
-              </div>
             </div>
           );
         })}
