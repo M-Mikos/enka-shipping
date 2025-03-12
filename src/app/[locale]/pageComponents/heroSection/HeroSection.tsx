@@ -11,7 +11,7 @@ import RichText from "@/components/RichText";
 import { Paragraph } from "@/components/ui/paragraph";
 import ResponsiveBackgroundImage from "@/components/ResponsiveBackgroundImage";
 
-function HeroSection({ isMobile }: { isMobile: boolean }) {
+function HeroSection() {
   const t = useTranslations("HomePage");
   return (
     <SectionContainer
@@ -21,7 +21,8 @@ function HeroSection({ isMobile }: { isMobile: boolean }) {
       <ResponsiveBackgroundImage
         mobileImage={mobileHeroBackground}
         desktopImage={desktopHeroBackground}
-        isMobileAtLoad={isMobile}
+        breakpoint={640}
+        className="absolute inset-0 w-full h-auto object-cover -z-1 max-h-lvh"
       />
       <ContentContainer className="flex flex-col justify-between min-h-[calc(100svh-5rem)] max-h-[60rem] lg:max-h-[80rem] 3xl:max-h-[135rem] gap-12 py-16 lg:py-24">
         <div className="flex flex-col w-full lg:max-w-[36rem] text-center lg:text-left">

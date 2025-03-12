@@ -48,8 +48,3 @@ export function generatePageMetadata(t: Awaited<ReturnType<typeof getTranslation
     },
   };
 }
-
-// Check if User Agent is a mobile device
-export const isMobile = (userAgent: string): boolean => {
-  return /android.+mobile|ip(hone|[oa]d)/i.test(userAgent);
-};
