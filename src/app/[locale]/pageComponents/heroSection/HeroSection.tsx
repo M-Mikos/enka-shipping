@@ -8,26 +8,22 @@ import { ArrowDown, ArrowRight } from "lucide-react";
 import Link from "next/link";
 import { Heading } from "@/components/ui/heading";
 import RichText from "@/components/RichText";
-import ResponsiveBackgroundImage from "@/components/ResponsiveBackgroundImage";
 import { Paragraph } from "@/components/ui/paragraph";
+import ResponsiveBackgroundImage from "@/components/ResponsiveBackgroundImage";
 
-function HeroSection() {
+function HeroSection({ isMobile }: { isMobile: boolean }) {
   const t = useTranslations("HomePage");
-
   return (
     <SectionContainer
       id={t("HeroSection.id")}
       className="h-[calc(100lvh-5rem)] max-h-[60rem] lg:max-h-[80rem] 3xl:max-h-[135rem]"
     >
       <ResponsiveBackgroundImage
-        mobileImage={mobileHeroBackground.src}
-        desktopImage={desktopHeroBackground.src}
-        mobileSettings={{}}
-        desktopSettings={{}}
-        commonSettings={{ sizes: "100vw", fill: true, loading: "eager" }}
-        className="max-h-lvh"
+        mobileImage={mobileHeroBackground}
+        desktopImage={desktopHeroBackground}
+        isMobileAtLoad={isMobile}
       />
-      <ContentContainer className="flex flex-col justify-between min-h-[calc(100svh-5rem)] h-auto gap-12 py-16 lg:py-24">
+      <ContentContainer className="flex flex-col justify-between min-h-[calc(100svh-5rem)] max-h-[60rem] lg:max-h-[80rem] 3xl:max-h-[135rem] gap-12 py-16 lg:py-24">
         <div className="flex flex-col w-full lg:max-w-[36rem] text-center lg:text-left">
           <Heading variant="h1" shade="light">
             <RichText>{(tags) => t.rich("HeroSection.header", tags)}</RichText>

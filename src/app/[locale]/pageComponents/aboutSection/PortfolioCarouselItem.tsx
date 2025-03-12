@@ -11,8 +11,7 @@ function PortfolioCarouselItem({ src, alt, ...props }: ImageProps) {
         width={1280}
         height={1280}
         alt={alt}
-        loading="eager"
-        sizes="(min-width: 1024px) 360px, (min-width: 1280px) 488px, (min-width: 1536px) 616px, (min-width: 1920px) 808px, 100vw"
+        sizes="(max-width: 1024px) 360px, (max-width: 1280px) 488px, (max-width: 1536px) 616px, 1200px"
         {...props}
       />
     </CarouselItem>

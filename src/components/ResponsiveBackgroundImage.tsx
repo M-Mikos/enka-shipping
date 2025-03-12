@@ -1,48 +1,35 @@
-/* eslint-disable jsx-a11y/alt-text */
-import clsx from "clsx";
-import { getImageProps, ImageProps } from "next/image";
+"use client";
+
+import { useMediaQuery } from "@/hooks/use-media-query";
+
+import Image, { ImageProps, StaticImageData } from "next/image";
+
+// For optimalization reazons, this component is preloading images. Use only for critical resources.
 
 type ResponsiveBackgroundImageProps = {
-  mobileImage: string;
-  desktopImage: string;
-  mobileSettings: Partial<ImageProps>;
-  desktopSettings: Partial<ImageProps>;
-  commonSettings: Partial<ImageProps>;
-  className?: string;
+  mobileImage: StaticImageData;
+  desktopImage: StaticImageData;
+  settings?: Partial<ImageProps>;
+  isMobileAtLoad: boolean;
 };
 
 const ResponsiveBackgroundImage = ({
   mobileImage,
   desktopImage,
-  mobileSettings,
-  desktopSettings,
-  commonSettings,
-  className,
+  settings,
+  isMobileAtLoad,
 }: ResponsiveBackgroundImageProps) => {
-  const {
-    props: { srcSet: desktop },
-  } = getImageProps({
-    ...commonSettings,
-    ...desktopSettings,
-    alt: commonSettings.alt ? commonSettings.alt : "",
-    src: desktopImage,
-  });
-
-  const {
-    props: { srcSet: mobile, ...rest },
-  } = getImageProps({
-    ...commonSettings,
-    ...mobileSettings,
-    alt: commonSettings.alt ? commonSettings.alt : "",
-    src: mobileImage,
-  });
-
+  const isCurrentlyMobile = useMediaQuery("(max-width:60em");
   return (
-    <picture>
-      <source media="(min-width: 600px)" srcSet={desktop} />
-      <source media="(max-width: 599px)" srcSet={mobile} />
-      <img {...rest} className={clsx("absolute inset-0 w-full h-auto object-cover -z-1", className)} />
-    </picture>
+    <Image
+      className="absolute inset-0 w-full h-auto object-cover -z-1 max-h-lvh"
+      src={isMobileAtLoad && isCurrentlyMobile ? mobileImage : desktopImage}
+      fill
+      alt=""
+      sizes="100vw"
+      priority
+      {...settings}
+    />
   );
 };
 
