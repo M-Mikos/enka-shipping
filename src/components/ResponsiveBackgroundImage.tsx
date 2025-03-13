@@ -30,17 +30,15 @@ const ResponsiveBackgroundImage = ({
   ...props
 }: ResponsiveBackgroundImageProps) => {
   useEffect(() => {
-    // Generate srcSet strings for desktop and mobile
+    // Generate srcSet strings for desktop
     const desktopProps = getImageProps({ src: desktopImage, sizes, alt: "" }).props;
-    const mobileProps = getImageProps({ src: mobileImage, sizes, alt: "" }).props;
 
     // Preload desktop and mobile primary images
     ReactDOM.preload(desktopImage.src, { as: "image" });
     ReactDOM.preload(mobileImage.src, { as: "image" });
 
-    // Preload all sources from srcSet
+    // Preload all desktop sources from srcSet
     preloadImage(desktopProps.srcSet as string);
-    preloadImage(mobileProps.srcSet as string);
   }, [desktopImage, mobileImage, sizes]);
 
   // Common attributes for the image sources
