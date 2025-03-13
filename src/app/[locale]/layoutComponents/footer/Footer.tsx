@@ -3,6 +3,7 @@ import { Paragraph } from "@/components/ui/paragraph";
 import { useTranslations } from "next-intl";
 import enkaTransparentLogo from "@/../public/logo-enka-dark-transparent.svg";
 import Image from "next/image";
+import RichText from "@/components/RichText";
 
 export default function Footer() {
   const t = useTranslations("Footer");
@@ -19,7 +20,7 @@ export default function Footer() {
               {t("companyName")}
             </Paragraph>
             <Paragraph className="text-right" variant="small" shade="light">
-              {t("companyAdress")}
+              <RichText>{(tags) => t.rich("companyAdress", tags)}</RichText>
             </Paragraph>
           </div>
         </div>
