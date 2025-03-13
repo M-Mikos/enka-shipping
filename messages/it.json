@@ -163,16 +163,16 @@
       "dislaimerText": "Interessato ad un'altra destinazione?<br></br>Contattaci - <strong>Enka opera a livello mondiale.</strong>",
       "ExperienceStats": {
         "Transports": {
-          "value": "250+",
-          "label": "trasporti completati"
+          "value": "270 tonnellate",
+          "label": "il carico più pesante trasportato"
         },
         "Years": {
-          "value": "12 anni",
+          "value": "14 anni",
           "label": "nell'industria della logistica"
         },
         "Value": {
-          "value": "$370m+",
-          "label": "valore totale del carico"
+          "value": "€1m+",
+          "label": "valore del progetto più grande"
         }
       }
     },
@@ -357,7 +357,7 @@
   },
   "Footer": {
     "companyName": "ENKA Pietrusiak Krzysztof",
-    "companyAdress": "80-257 Gdańsk",
+    "companyAdress": "Kilińskiego 140a<br></br>80-299 Gdańsk",
     "copyright": "©{year}\u00a0Enka",
     "logoAlt": "Logo Enka Spedycja",
     "Credits": {

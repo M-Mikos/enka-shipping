@@ -160,16 +160,16 @@
       "dislaimerText": "Jesteś zainteresowany innym kierunkiem?<br></br>Skontaktuj się z nami - <strong>Enka operuje na całym świecie.</strong>",
       "ExperienceStats": {
         "Transports": {
-          "value": "250+",
-          "label": "wykonanych zleceń"
+          "value": "270 ton",
+          "label": "najcięższy transportowany ładunek"
         },
         "Years": {
-          "value": "12 lat",
+          "value": "14 lat",
           "label": "na rynku transportowym"
         },
         "Value": {
-          "value": "$370m+",
-          "label": "łącznej wartości towarów"
+          "value": "€1m+",
+          "label": "wartość największego projektu"
         }
       }
     },
@@ -354,7 +354,7 @@
   },
   "Footer": {
     "companyName": "ENKA Pietrusiak Krzysztof",
-    "companyAdress": "80-257 Gdańsk",
+    "companyAdress": "Kilińskiego 140a<br></br>80-299 Gdańsk",
     "copyright": "©{year}\u00a0Enka",
     "logoAlt": "Logo Enka Spedycja",
     "Credits": {
