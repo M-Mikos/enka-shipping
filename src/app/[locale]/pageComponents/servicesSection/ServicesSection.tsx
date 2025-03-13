@@ -24,7 +24,7 @@ function ServicesSection() {
       title: t("ServicesSection.ServicesList.InlandTransport.title"),
       subtitle: t("ServicesSection.ServicesList.InlandTransport.subtitle"),
       linkTitleAttribute: t("ServicesSection.ServicesList.InlandTransport.linkTitle"),
-      image: servicesLandBackground,
+      image: servicesInlandBackground,
       hash: t("ServicesSection.ServicesList.InlandTransport.link"),
     },
     {
@@ -38,7 +38,7 @@ function ServicesSection() {
       title: t("ServicesSection.ServicesList.LandTransport.title"),
       subtitle: t("ServicesSection.ServicesList.LandTransport.subtitle"),
       linkTitleAttribute: t("ServicesSection.ServicesList.LandTransport.linkTitle"),
-      image: servicesInlandBackground,
+      image: servicesLandBackground,
       hash: t("ServicesSection.ServicesList.LandTransport.link"),
     },
   ];
