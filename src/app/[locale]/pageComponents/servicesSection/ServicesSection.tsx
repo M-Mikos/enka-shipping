@@ -5,6 +5,10 @@ import servicesCargoBackground from "@/../public/home/services-cargo-background.
 import servicesInlandBackground from "@/../public/home/services-inland-background.avif";
 import servicesLandBackground from "@/../public/home/services-land-background.avif";
 import servicesMarineBackground from "@/../public/home/services-marine-background.avif";
+import servicesCargoIcon from "@/../public/home/services-cargo-icon.avif";
+import servicesInlandIcon from "@/../public/home/services-inland-icon.avif";
+import servicesLandIcon from "@/../public/home/services-land-icon.avif";
+import servicesMaritimeIcon from "@/../public/home/services-maritime-icon.avif";
 import ServiceList from "./ServiceList";
 import { Heading } from "@/components/ui/heading";
 import { Paragraph } from "@/components/ui/paragraph";
@@ -18,6 +22,7 @@ function ServicesSection() {
       subtitle: t("ServicesSection.ServicesList.ProjectCargo.subtitle"),
       linkTitleAttribute: t("ServicesSection.ServicesList.ProjectCargo.linkTitle"),
       image: servicesCargoBackground,
+      icon: servicesCargoIcon,
       hash: t("ServicesSection.ServicesList.ProjectCargo.link"),
     },
     {
@@ -25,6 +30,7 @@ function ServicesSection() {
       subtitle: t("ServicesSection.ServicesList.InlandTransport.subtitle"),
       linkTitleAttribute: t("ServicesSection.ServicesList.InlandTransport.linkTitle"),
       image: servicesInlandBackground,
+      icon: servicesInlandIcon,
       hash: t("ServicesSection.ServicesList.InlandTransport.link"),
     },
     {
@@ -32,6 +38,7 @@ function ServicesSection() {
       subtitle: t("ServicesSection.ServicesList.MaritimeTransport.subtitle"),
       linkTitleAttribute: t("ServicesSection.ServicesList.MaritimeTransport.linkTitle"),
       image: servicesMarineBackground,
+      icon: servicesMaritimeIcon,
       hash: t("ServicesSection.ServicesList.MaritimeTransport.link"),
     },
     {
@@ -39,6 +46,7 @@ function ServicesSection() {
       subtitle: t("ServicesSection.ServicesList.LandTransport.subtitle"),
       linkTitleAttribute: t("ServicesSection.ServicesList.LandTransport.linkTitle"),
       image: servicesLandBackground,
+      icon: servicesLandIcon,
       hash: t("ServicesSection.ServicesList.LandTransport.link"),
     },
   ];

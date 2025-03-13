@@ -11,6 +11,7 @@ interface servicesProps {
     subtitle: string;
     linkTitleAttribute: string;
     image: string | StaticImport;
+    icon: string | StaticImport;
     hash: string;
   }[];
 }
@@ -39,6 +40,7 @@ function ServiceList({ services }: servicesProps) {
             linkTitleAttribute={service.linkTitleAttribute}
             hash={service.hash}
             image={service.image}
+            icon={service.icon}
           />
         </div>
       ))}

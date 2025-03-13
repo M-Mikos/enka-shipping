@@ -10,10 +10,11 @@ interface ServiceItemProps {
   subtitle: string;
   linkTitleAttribute: string;
   image: string | StaticImport;
+  icon: string | StaticImport;
   hash: string;
 }
 
-function ServiceItem({ title, subtitle, linkTitleAttribute, image, hash }: ServiceItemProps) {
+function ServiceItem({ title, subtitle, linkTitleAttribute, image, icon, hash }: ServiceItemProps) {
   return (
     <Link
       href={{
@@ -27,6 +28,7 @@ function ServiceItem({ title, subtitle, linkTitleAttribute, image, hash }: Servi
           <ArrowUpRight className="stroke-primary" />
         </div>
         <div className="lg:w-56">
+          <Image className="w-16 xl:w-32 h-auto mb-4" src={icon} width="350" height="200" alt="" placeholder="blur" />
           <Heading variant="h3" shade="light">
             {title}
           </Heading>
