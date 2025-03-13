@@ -1,0 +1,370 @@
+{
+  "Global": {
+    "Metadata": {
+      "titleSuffix": "Enka Spedition",
+      "titleDefault": "Professionelle Speditionsdienstleistungen | Enka Spedition"
+    },
+    "logoAlt": "Logo Enka Spedition",
+    "logoTitle": "Zur Startseite gehen",
+    "ContactData": {
+      "MainPhoneNumber": {
+        "label": "+48 607 920 878",
+        "link": "tel:+48607920878",
+        "linkTitle": "Anrufen +48 607 920 878"
+      },
+      "MainEmailAdress": {
+        "label": "biuro@enka-spedycja.pl",
+        "link": "mailto:biuro@enka-spedycja.pl",
+        "linkTitle": "Nachricht senden an biuro@enka-spedycja.pl"
+      }
+    },
+    "LocaleSwitcher": {
+      "label": "Sprache ändern",
+      "locale": "{locale, select, pl {PL} en {EN} it {IT} de {DE} other {nicht spezifiziert}}"
+    },
+    "CarouselControls": {
+      "nextButtonLabel": "Zum nächsten Slide gehen",
+      "prevButtonLabel": "Zum vorherigen Slide gehen"
+    },
+    "LightboxControls": {
+      "closeLightboxButtonLabel": "Galerie schließen",
+      "openFullscreenButtonLabel": "Vollbildmodus öffnen",
+      "closeFullscreenButtonLabel": "Vollbildmodus schließen"
+    }
+  },
+  "Header": {
+    "Navigation": {
+      "ServicesLink": {
+        "label": "Dienstleistungen",
+        "linkTitle": "Zur Dienstleistungsseite gehen"
+      },
+      "RealizationsLink": {
+        "label": "Realisierungen",
+        "linkTitle": "Zur Realisierungsseite gehen"
+      },
+      "ContactLink": {
+        "link": "#kontakt",
+        "label": "Kontakt",
+        "linkTitle": "Zur Kontaktsektion gehen"
+      }
+    },
+    "MobileDrawer": {
+      "triggerLabel": "Navigationsmenü öffnen",
+      "hiddenTitle": "Navigationsmenü"
+    }
+  },
+  "HomePage": {
+    "Metadata": {
+      "locale": "de",
+      "route": "",
+      "title": "Professionelle Speditionsdienstleistungen | Enka Spedition",
+      "description": "ENKA bietet umfassende Speditionsdienstleistungen in Polen, Europa und Asien. Wir garantieren Pünktlichkeit, Sicherheit und einen individuellen Ansatz für jeden Auftrag.",
+      "keywords": "enka, enka shipping, Enka Spedition, spedition, logistik, transport, fluss, übergroß, binnen, see, lkw, FTL, projektladung, breakbulk, pontons, schlepper, krane",
+      "ogTitle": "Enka Spedition – Projektladung und Transportdienstleistungen",
+      "ogDescription": "Entdecken Sie unsere umfassenden Lösungen im Bereich Transport und Spedition, maßgeschneidert auf Ihre Bedürfnisse.",
+      "ogImage": "",
+      "twitterTitle": "Enka Spedition – Projektladung und Transportdienstleistungen",
+      "twitterDescription": "Wir bieten zuverlässige Transport- und Speditionsdienstleistungen in Polen, Europa und Asien. Entdecken Sie unser Angebot!",
+      "twitterImage": ""
+    },
+    "HeroSection": {
+      "id": "hero",
+      "header": "Projektladung<br></br>immer pünktlich",
+      "subHeader": "Zuverlässige, professionelle Betreuung Ihrer Transport- und Logistikprojekte <important>von der Planung bis zur Umsetzung.</important>",
+      "ActionButton": {
+        "label": "Kostenlose Beratung",
+        "link": "#kontakt",
+        "linkTitle": "Beratung vereinbaren"
+      },
+      "ScrollButton": {
+        "link": "#uber-uns",
+        "linkTitle": "Zur Sektion Über uns gehen"
+      }
+    },
+    "AboutSection": {
+      "id": "uber-uns",
+      "header": "Enka - Ihr vertrauenswürdiger Partner in der Spedition",
+      "textContent": "Enka bietet weltweit Transportdienstleistungen für Unternehmen an. Unser erfahrenes Team liefert Ihre Ladung genau nach Ihren Vorgaben an Ihren Standort. Unser Hauptsitz befindet sich in Polen, von wo aus wir mit unserem globalen Partnernetzwerk zusammenarbeiten. Wir haben Dutzende von Projekten abgeschlossen, darunter komplexe Schwertransporte. Ob Land-, Binnen- oder Seetransport – wir bieten Lösungen für jedes Budget und jede Branche. Wir garantieren reibungslose Lieferungen und höchste Ladungssicherheit.",
+      "PortfolioButton": {
+        "label": "Realisierungen",
+        "linkTitle": "Zur Realisierungsseite gehen"
+      },
+      "PortfolioItems": {
+        "photo1Alt": "testAlt",
+        "photo2Alt": "testAlt",
+        "photo3Alt": "testAlt",
+        "photo4Alt": "testAlt",
+        "photo5Alt": "testAlt",
+        "photo6Alt": "testAlt",
+        "photo7Alt": "testAlt",
+        "photo8Alt": "testAlt"
+      },
+      "Values": {
+        "GlobalCoverage": {
+          "header": "Globale Abdeckung",
+          "text": "Wir operieren in Polen und weltweit. Unsere Niederlassungen befinden sich in Danzig, Milanówek bei Warschau und Mailand."
+        },
+        "ProjectCargo": {
+          "header": "Logistikprojekte",
+          "text": "Plant Ihr Unternehmen ein komplexes Logistikprojekt? Nutzen Sie See-, Land- oder Binnenschifffahrt."
+        },
+        "OnTime": {
+          "header": "Pünktlichkeit und Sicherheit",
+          "text": "Direkter Kontakt mit einem erfahrenen Spediteur garantiert die Ausführung Ihres Auftrags unter allen Umständen."
+        }
+      }
+    },
+    "ServicesSection": {
+      "id": "angebot",
+      "header": "Unser Angebot",
+      "textContent": "Jede unserer Dienstleistungen passen wir sorgfältig an die Bedürfnisse unserer Kunden und die Eigenschaften der Ladung an – mit uns ist Ihre Sendung in guten Händen.",
+      "ServicesList": {
+        "ProjectCargo": {
+          "title": "Projektladung",
+          "subtitle": "Komplexe Logistikprojekte für jede Größenordnung",
+          "linkTitle": "Zur Seite Projektladung gehen",
+          "link": "#projektladung"
+        },
+        "InlandTransport": {
+          "title": "Binnenschifffahrt",
+          "subtitle": "Schlepper, Pontons, Flussverkehr",
+          "linkTitle": "Zur Seite Binnenschifffahrt gehen",
+          "link": "#binnenschifffahrt"
+        },
+        "MaritimeTransport": {
+          "title": "Seetransport",
+          "subtitle": "Break Bulk und Containerverkehr",
+          "linkTitle": "Zur Seite Seetransport gehen",
+          "link": "#seetransport"
+        },
+        "LandTransport": {
+          "title": "Landtransport",
+          "subtitle": "Standard- und Schwertransporte",
+          "linkTitle": "Zur Seite Landtransport gehen",
+          "link": "#landtransport"
+        }
+      }
+    },
+    "ExperienceSection": {
+      "id": "erleben",
+      "header": "Wir agieren global",
+      "textContent": "Wir verfügen über umfangreiche Erfahrung in Dienstleistungen in Europa, dem Nahen Osten sowie Zentral- und Ostasien. Lernen Sie unsere meist bedienten Regionen kennen:",
+      "mapImageAlt": "Weltkarte mit hervorgehobenen Regionen, die von Enka Spedition häufig bedient werden",
+      "RegionsList": {
+        "regionItaly": "Italien",
+        "regionScandinavia": "Skandinavien",
+        "regionPoland": "Polen",
+        "regionSpain": "Spanien",
+        "regionKazakhstan": "Kasachstan",
+        "regionChina": "China",
+        "regionIndia": "Indien",
+        "regionTurkey": "Türkei"
+      },
+      "dislaimerText": "Sind Sie an einer anderen Destination interessiert?<br></br>Kontaktieren Sie uns – <strong>Enka operiert weltweit.</strong>",
+      "ExperienceStats": {
+        "Transports": {
+          "value": "250+",
+          "label": "ausgeführte Aufträge"
+        },
+        "Years": {
+          "value": "12 Jahre",
+          "label": "auf dem Transportmarkt"
+        },
+        "Value": {
+          "value": "$370m+",
+          "label": "Gesamtwert der Güter"
+        }
+      }
+    },
+    "TestimonialsSection": {
+      "id": "empfehlungsschreiben",
+      "Testimonials": {
+        "1": {
+          "content": "ENKA hat die Art und Weise, wie ich mein Geschäft führe, erheblich verbessert. Ich musste mir keine Sorgen um die Logistik meiner Waren im ganzen Land machen. Alles lief reibungslos, was für mich eine große Erleichterung war!",
+          "author": "Piotr Pogorzelski",
+          "title": "CEO des Unternehmens"
+        },
+        "2": {
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies augue ligula, quis ornare nisi commodo sed. Quisque vitae odio iaculis, accumsan nulla nec, feugiat risus. Fusce semper faucibus ornare. Aliquam a sodales nisl. Duis tempus neque non libero pharetra tempus.",
+          "author": "Piotr Pogorzelski",
+          "title": "CEO des Unternehmens"
+        }
+      }
+    },
+    "ContactSection": {
+      "id": "kontakt",
+      "header": "Planen Sie Ihre Logistik mit uns",
+      "textContent": "Suchen Sie ein erfahrenes Speditionsunternehmen oder haben Sie Fragen an uns? <br></br> Kontaktieren Sie uns!",
+      "altText": "Foto von Krzysztof Pietrusiak, Direktor der Spedition",
+      "name": "Krzysztof Pietrusiak",
+      "title": "Direktor der Spedition"
+    }
+  },
+  "ServicesPage": {
+    "Metadata": {
+      "locale": "de",
+      "route": "dienstleistungen",
+      "title": "Unsere Dienstleistungen",
+      "description": "ENKA bietet umfassende Speditionsdienstleistungen in Deutschland, Europa und Asien an. Wir garantieren Pünktlichkeit, Sicherheit und einen individuellen Ansatz für jede Bestellung.",
+      "keywords": "enka, enka shipping, enka spedition, spedition, logistik, transport, binnenschifffahrt, überdimensioniert, binnenland, see, lkw, FTL, projektladung, breakbulk, pontons, bargen, krane",
+      "ogTitle": "",
+      "ogDescription": "",
+      "ogImage": "",
+      "twitterTitle": "",
+      "twitterDescription": "",
+      "twitterImage": ""
+    },
+    "title": "Unsere Dienstleistungen",
+    "subtitle": "Entdecken Sie die zuverlässigen Logistiklösungen von Enka, von der Abwicklung von Projektladungen bis zum Binnentransport, maßgeschneidert für Unternehmen weltweit.",
+    "ContactButton": { "link": "#kontakt", "linkTitle": "Zur Kontaktsektion", "label": "Erfahren Sie mehr" },
+    "Services": {
+      "ProjectCargo": {
+        "title": "Projektladung",
+        "id": "projektladung",
+        "textContent": "Der Transport von Projektladungen ist ein spezialisierter Service, der sich an Unternehmen richtet, die komplexe Projekte mit übergroßen, ungewöhnlichen oder wertvollen Ladungen durchführen. Enka bietet umfassende Transportlösungen, die auf die individuellen Bedürfnisse des Kunden zugeschnitten sind. Dank langjähriger Erfahrung und einem globalen Partnernetzwerk garantieren wir Pünktlichkeit und Sicherheit, unabhängig von der Größe und dem Standort des Projekts.",
+        "altText": "Containerschiffe, die in einem Frachthafen anlegen",
+        "Values": {
+          "1": {
+            "title": "Umfassender Service",
+            "textContent": "Von der Routenplanung bis zur Lieferung – alles unter der Aufsicht eines erfahrenen Experten."
+          },
+          "2": {
+            "title": "Spezialisierte Ausrüstung",
+            "textContent": "Zugang zu modernster Transportausrüstung und Technologie für den Transport von Spezialladungen."
+          },
+          "3": {
+            "title": "Globale Reichweite",
+            "textContent": "Wir führen Projekte in Deutschland und weltweit durch, um Kunden bei ihren internationalen Vorhaben zu unterstützen."
+          },
+          "4": {
+            "title": "Für wen?",
+            "textContent": "Besonders geeignet für Unternehmen aus der Bau-, Energie- und Industriebranche."
+          }
+        }
+      },
+      "InlandTransport": {
+        "title": "Binnenschifffahrt",
+        "id": "binnenschifffahrt",
+        "textContent": "Enka bietet Binnenschifffahrt mit Flussbargen an, die eine wirtschaftliche und ökologische Alternative zu traditionellen Transportmethoden darstellen. Dieser Service ist für den Transport großer Mengen von Massengütern wie Rohstoffen oder Industrieprodukten auf Wasserstraßen in Deutschland und Europa ausgelegt.",
+        "altText": "Ein Frachtschiff auf einem Fluss",
+        "Values": {
+          "1": {
+            "title": "Umweltfreundlichkeit und Einsparungen",
+            "textContent": "Binnenschifffahrt reduziert Emissionen und senkt Logistikkosten."
+          },
+          "2": {
+            "title": "Ladekapazität und Effizienz",
+            "textContent": "Ideale Lösung für große Gütermengen und überdimensionierte Ladungen."
+          },
+          "3": {
+            "title": "Sicherheit",
+            "textContent": "Professioneller Service und ständige Überwachung der Ladungsroute."
+          },
+          "4": {
+            "title": "Für wen?",
+            "textContent": "Speziell für Unternehmen aus der Rohstoff-, Bau- und Chemieindustrie geeignet, die Binnenschifffahrtsrouten nutzen."
+          }
+        }
+      },
+      "MaritimeTransport": {
+        "title": "Seetransport",
+        "id": "seetransport",
+        "textContent": "Der Seetransport ist die ideale Lösung für Unternehmen, die nach einer wirtschaftlichen Möglichkeit suchen, Ladungen über große Entfernungen zu transportieren. Durch die Zusammenarbeit mit globalen Reedern bietet Enka Zugang zu den effizientesten Routen und Häfen weltweit. Der Service umfasst alle Tätigkeiten: vom Beladen bis zur Zollabfertigung.",
+        "altText": "Ein Containerschiff auf dem Meer",
+        "Values": {
+          "1": {
+            "title": "Wirtschaftlichkeit",
+            "textContent": "Das beste Preis-Leistungs-Verhältnis für den Transport über große Entfernungen."
+          },
+          "2": {
+            "title": "Globales Netzwerk",
+            "textContent": "Zugang zu den wichtigsten Seehäfen weltweit."
+          },
+          "3": {
+            "title": "Zollunterstützung",
+            "textContent": "Umfassender Service rund um Zollabfertigung und Dokumentation."
+          },
+          "4": {
+            "title": "Für wen?",
+            "textContent": "Unternehmen, die im internationalen Handel tätig sind oder globale Logistik benötigen."
+          }
+        }
+      },
+      "LandTransport": {
+        "title": "Landtransport",
+        "id": "landtransport",
+        "textContent": "Der Straßentransport ist eine schnelle und flexible Möglichkeit, Ladungen innerhalb Deutschlands, Europas und Asiens zu transportieren. Enka arbeitet mit einem erfahrenen Team von Fahrern, um eine reibungslose Abwicklung der Lieferungen unter allen Bedingungen zu gewährleisten. Unabhängig von der Art der Ladung bieten wir einen individuellen Ansatz für jede Bestellung.",
+        "altText": "Ein Verkehrsterminal",
+        "Values": {
+          "1": {
+            "title": "Geschwindigkeit und Flexibilität",
+            "textContent": "Transport, der auf die individuellen Zeitpläne des Kunden abgestimmt ist."
+          },
+          "2": {
+            "title": "Sichere Lieferungen",
+            "textContent": "Volle Sicherung der Ladung in jeder Transportphase."
+          },
+          "3": {
+            "title": "Vielfalt der Dienstleistungen",
+            "textContent": "Abwicklung von Standardladungen, überdimensionierten Ladungen und Gefahrgut (ADR)."
+          },
+          "4": {
+            "title": "Für wen?",
+            "textContent": "Unternehmen, die schnellen Transport auf kurzen und mittleren Strecken benötigen."
+          }
+        }
+      }
+    }
+  },
+  "RealizationsPage": {
+    "Metadata": {
+      "locale": "de",
+      "route": "realisierungen",
+      "title": "Realisierungen",
+      "description": "Entdecken Sie unsere Galerie von Projekten, in der wir Beispiele für erfolgreiche Transporte vorstellen, die von Enka durchgeführt wurden.",
+      "keywords": "enka, enka shipping, enka spedition, spedition, logistik, transport, binnenschifffahrt, überdimensioniert, binnenland, see, lkw, FTL, projektladung, breakbulk, pontons, bargen, krane",
+      "ogTitle": "ENKA Spedition – Projektladung und Transportdienstleistungen",
+      "ogDescription": "Entdecken Sie unsere umfassenden Lösungen im Bereich Transport und Spedition, angepasst an Ihre Bedürfnisse.",
+      "ogImage": "",
+      "twitterTitle": "ENKA Spedition – Projektladung und Transportdienstleistungen",
+      "twitterDescription": "Wir bieten zuverlässige Transport- und Speditionsdienstleistungen in Deutschland, Europa und Asien. Sehen Sie sich unser Angebot an!",
+      "twitterImage": ""
+    },
+    "title": "Realisierungen",
+    "subtitle": "Entdecken Sie unsere Galerie von Projekten, in der wir Beispiele für erfolgreiche Transporte vorstellen, die von Enka durchgeführt wurden. Jedes Bild ist ein Beweis für unser Engagement, Ladungen pünktlich zu liefern, unabhängig von Größe, Route oder Branche.",
+    "Gallery": {
+      "image1": "Bildbeschreibung 1",
+      "image2": "Bildbeschreibung 2",
+      "image3": "Bildbeschreibung 3",
+      "image4": "Bildbeschreibung 4",
+      "image5": "Bildbeschreibung 5",
+      "image6": "Bildbeschreibung 6",
+      "image7": "Bildbeschreibung 7",
+      "image8": "Bildbeschreibung 8",
+      "image9": "Bildbeschreibung 9",
+      "image10": "Bildbeschreibung 10",
+      "image11": "Bildbeschreibung 11",
+      "image12": "Bildbeschreibung 12",
+      "image13": "Bildbeschreibung 13",
+      "image14": "Bildbeschreibung 14",
+      "image15": "Bildbeschreibung 15",
+      "image16": "Bildbeschreibung 16",
+      "image17": "Bildbeschreibung 17",
+      "image18": "Bildbeschreibung 18",
+      "image19": "Bildbeschreibung 19",
+      "image20": "Bildbeschreibung 20"
+    }
+  },
+  "Footer": {
+    "companyName": "ENKA Pietrusiak Krzysztof",
+    "companyAdress": "80-257 Gdańsk",
+    "copyright": "©{year}\u00a0Enka",
+    "logoAlt": "Logo Enka Spedition",
+    "Credits": {
+      "prefix": "Design und Umsetzung: ",
+      "author": "Marcin\u00a0Mikos",
+      "link": "mailto:mikos.marcin.m@gmail.com",
+      "linkTitle": "Schreiben Sie dem Designer"
+    }
+  }
+}
