@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function PortfolioCarouselItem({ src, alt, ...props }: ImageProps) {
   return (
-    <CarouselItem className="sm:basis-[40%] transition duration lg:basis-[75%]">
+    <CarouselItem className="sm:basis-[40%] transition duration xl:basis-[75%]">
       <Image
         className="rounded-lg aspect-square"
         src={src}

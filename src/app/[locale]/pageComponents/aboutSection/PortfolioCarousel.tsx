@@ -1,6 +1,6 @@
 "use client";
 
-import { Carousel, CarouselApi, CarouselContent } from "@/components/ui/carousel";
+import { Carousel, CarouselContent, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import photo1 from "@/../public/home/home-slider-photo-1.avif";
 import photo2 from "@/../public/home/home-slider-photo-2.avif";
 import photo3 from "@/../public/home/home-slider-photo-3.avif";
@@ -10,8 +10,6 @@ import photo6 from "@/../public/home/home-slider-photo-6.avif";
 import photo7 from "@/../public/home/home-slider-photo-7.avif";
 import photo8 from "@/../public/home/home-slider-photo-8.avif";
 import PortfolioCarouselItem from "./PortfolioCarouselItem";
-import { useEffect, useState } from "react";
-import CarouselNav from "@/components/ui/carousel-nav";
 
 function PortfolioCarousel() {
   const images = [
@@ -25,33 +23,17 @@ function PortfolioCarousel() {
     { src: photo8, alt: "" },
   ];
 
-  const [api, setApi] = useState<CarouselApi>();
-  const [current, setCurrent] = useState(0);
-  const [count, setCount] = useState(0);
-
-  useEffect(() => {
-    if (!api) {
-      return;
-    }
-
-    setCount(api.scrollSnapList().length);
-    setCurrent(api.selectedScrollSnap() + 1);
-
-    api.on("select", () => {
-      setCurrent(api.selectedScrollSnap() + 1);
-    });
-  }, [api]);
-
   return (
     <div className="flex h-full flex-col justify-between">
-      <Carousel className="mb-2 lg:rounded-lg overflow-hidden" setApi={setApi}>
+      <Carousel className="px-12 xl:rounded-lg overflow-hidden">
         <CarouselContent>
           {images.map((image, index) => (
             <PortfolioCarouselItem key={index} src={image.src} alt={image.alt} />
           ))}
         </CarouselContent>
+        <CarouselPrevious className="left-0 border-none" />
+        <CarouselNext className="right-0 border-none" />
       </Carousel>
-      <CarouselNav api={api} current={current} count={count} />
     </div>
   );
 }
