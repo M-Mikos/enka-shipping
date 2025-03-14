@@ -50,11 +50,13 @@ const ResponsiveBackgroundImage = ({
   const mobileMedia = `(max-width: ${breakpoint - 1}px)`;
 
   return (
-    <picture>
-      <source media={desktopMedia} srcSet={desktop} />
-      <source media={mobileMedia} srcSet={mobile} />
-      <img className={className} fetchPriority="high" {...rest} alt={alt} />
-    </picture>
+    <div className={className}>
+      <picture>
+        <source media={desktopMedia} srcSet={desktop} />
+        <source media={mobileMedia} srcSet={mobile} />
+        <img className={className} fetchPriority="high" {...rest} alt={alt} />
+      </picture>
+    </div>
   );
 };
 
