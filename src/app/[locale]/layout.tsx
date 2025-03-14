@@ -8,6 +8,16 @@ import Footer from "./layoutComponents/footer/Footer";
 import ClientProviders from "./layoutComponents/ClientProviders";
 import { Metadata } from "next";
 import { generateDefaultMetadata } from "@/lib/utils";
+import { Inter } from "next/font/google";
+import clsx from "clsx";
+
+// If loading a variable font, you don't need to specify the font weight
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap",
+  axes: ["opsz"],
+  variable: "--font-inter",
+});
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("Global.Metadata");
@@ -33,7 +43,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale}>
-      <body className="overflow-x-hidden">
+      <body className={clsx("overflow-x-hidden", inter.className)}>
         <NextIntlClientProvider messages={messages}>
           <ClientProviders>
             <Header />
