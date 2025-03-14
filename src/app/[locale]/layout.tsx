@@ -5,7 +5,7 @@ import { routing } from "@/i18n/routing";
 import "../globals.css";
 import Header from "./layoutComponents/header/Header";
 import Footer from "./layoutComponents/footer/Footer";
-// import ClientProviders from "./layoutComponents/ClientProviders";
+import ClientProviders from "./layoutComponents/ClientProviders";
 import { Metadata } from "next";
 import { generateDefaultMetadata } from "@/lib/utils";
 
@@ -35,11 +35,11 @@ export default async function LocaleLayout({
     <html lang={locale}>
       <body className="overflow-x-hidden">
         <NextIntlClientProvider messages={messages}>
-          {/* <ClientProviders> */}
-          <Header />
-          <main className="pt-20">{children}</main>
-          <Footer />
-          {/* </ClientProviders> */}
+          <ClientProviders>
+            <Header />
+            <main className="pt-20">{children}</main>
+            <Footer />
+          </ClientProviders>
         </NextIntlClientProvider>
       </body>
     </html>
