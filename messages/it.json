@@ -20,7 +20,7 @@
     },
     "LocaleSwitcher": {
       "label": "Cambia lingua",
-      "locale": "{locale, select, pl {PL} en {EN} it {IT} de {DE} other {sconosciuto}}"
+      "locale": "{locale, select, pl {PL} en {EN} it {IT} de {DE} zh {ZH} other {sconosciuto}}"
     },
     "CarouselControls": {
       "nextButtonLabel": "Mostra la diapositiva successiva",

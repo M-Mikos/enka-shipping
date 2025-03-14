@@ -1,0 +1,370 @@
+{
+  "Global": {
+    "Metadata": {
+      "titleSuffix": "Enka 运输",
+      "titleDefault": "世界级货运代理服务 | Enka 运输"
+    },
+    "logoAlt": "Enka 运输标志",
+    "logoTitle": "返回主页",
+    "ContactData": {
+      "MainPhoneNumber": {
+        "label": "+48 607 920 878",
+        "link": "tel:+48607920878",
+        "linkTitle": "拨打 +48 607 920 878"
+      },
+      "MainEmailAdress": {
+        "label": "biuro@enka-spedycja.pl",
+        "link": "mailto:biuro@enka-spedycja.pl",
+        "linkTitle": "发送邮件至 biuro@enka-spedycja.pl"
+      }
+    },
+    "LocaleSwitcher": {
+      "label": "切换语言",
+      "locale": "{locale, select, pl {PL} en {EN} it {IT} de {DE} zh {ZH} other {未知}}"
+    },
+    "CarouselControls": {
+      "nextButtonLabel": "显示下一张幻灯片",
+      "prevButtonLabel": "显示上一张幻灯片"
+    },
+    "LightboxControls": {
+      "closeLightboxButtonLabel": "关闭图库",
+      "openFullscreenButtonLabel": "打开全屏模式",
+      "closeFullscreenButtonLabel": "关闭全屏模式"
+    }
+  },
+  "Header": {
+    "Navigation": {
+      "ServicesLink": {
+        "label": "服务",
+        "linkTitle": "跳转至服务"
+      },
+      "RealizationsLink": {
+        "label": "项目",
+        "linkTitle": "跳转至项目"
+      },
+      "ContactLink": {
+        "link": "#contact",
+        "label": "联系我们",
+        "linkTitle": "跳转至联系我们"
+      }
+    },
+    "MobileDrawer": {
+      "triggerLabel": "打开导航菜单",
+      "hiddenTitle": "导航菜单"
+    }
+  },
+  "HomePage": {
+    "Metadata": {
+      "locale": "zh",
+      "route": "",
+      "title": "世界级货运服务 | Enka 运输",
+      "description": "ENKA 提供欧洲和亚洲的全面运输服务。我们保证准时交付、可靠性以及对每个订单的个性化处理。",
+      "keywords": "enka, enka 运输, enka 货运, 运输, 物流, 交通, 河运, 超大件, 内河, 海运, 卡车, FTL, 项目货物, 散货, 驳船, 起重机",
+      "ogTitle": "ENKA 运输 - 项目货物与运输服务",
+      "ogDescription": "发现我们为您量身定制的完整运输和物流解决方案。",
+      "ogImage": "",
+      "twitterTitle": "ENKA 运输 - 项目货物与运输服务",
+      "twitterDescription": "我们提供欧洲和亚洲可靠的运输和物流服务。了解我们的服务！",
+      "twitterImage": ""
+    },
+    "HeroSection": {
+      "id": "hero",
+      "header": "项目货物<br></br>总是准时",
+      "subHeader": "可靠、专业的服务满足您的运输需求和物流项目 <important>从规划到完成。</important>",
+      "ActionButton": {
+        "label": "免费咨询",
+        "link": "#contact",
+        "linkTitle": "跳转至联系我们"
+      },
+      "ScrollButton": {
+        "link": "#about",
+        "linkTitle": "跳转至关于我们"
+      }
+    },
+    "AboutSection": {
+      "id": "about",
+      "header": "Enka - 您的可信任物流伙伴",
+      "textContent": "Enka 向全球公司提供运输服务。我们经验丰富的专业团队将按照您指定的时间将货物送达目的地。我们的总部位于波兰，我们与全球合作伙伴网络合作。我们已经完成了数十个项目，包括复杂的超大件运输。无论是通过陆地、海洋还是内河，我们为每个预算和行业提供解决方案。我们确保顺畅交付和最高水平的货物安全。",
+      "PortfolioButton": {
+        "label": "我们的项目",
+        "linkTitle": "跳转至项目"
+      },
+      "PortfolioItems": {
+        "photo1Alt": "示例图片1",
+        "photo2Alt": "示例图片2",
+        "photo3Alt": "示例图片3",
+        "photo4Alt": "示例图片4",
+        "photo5Alt": "示例图片5",
+        "photo6Alt": "示例图片6",
+        "photo7Alt": "示例图片7",
+        "photo8Alt": "示例图片8"
+      },
+      "Values": {
+        "GlobalCoverage": {
+          "header": "全球覆盖",
+          "text": "我们在波兰及世界各地开展业务。我们在波兰（格但斯克和米兰诺维克）和意大利米兰设有分支机构。"
+        },
+        "ProjectCargo": {
+          "header": "项目货物",
+          "text": "规划一个复杂的物流项目？利用海运、陆运或驳船运输。"
+        },
+        "OnTime": {
+          "header": "准时且安全",
+          "text": "与经验丰富的货运代理直接联系，保证在任何情况下完成订单。"
+        }
+      }
+    },
+    "ServicesSection": {
+      "id": "services",
+      "header": "选择服务",
+      "textContent": "我们根据客户需求和货物类型精心定制每一项服务 - 在我们手中，您的货物得到了妥善处理。",
+      "ServicesList": {
+        "ProjectCargo": {
+          "title": "项目货物",
+          "subtitle": "任何规模的复杂物流项目",
+          "linkTitle": "跳转至项目货物",
+          "link": "#project-cargo"
+        },
+        "InlandTransport": {
+          "title": "内河运输",
+          "subtitle": "驳船、浮桥、河流运输",
+          "linkTitle": "跳转至内河运输",
+          "link": "#inland-transport"
+        },
+        "MaritimeTransport": {
+          "title": "海运",
+          "subtitle": "散货与集装箱运输",
+          "linkTitle": "跳转至海运",
+          "link": "#maritime-transport"
+        },
+        "LandTransport": {
+          "title": "陆运",
+          "subtitle": "标准与超大件货物",
+          "linkTitle": "跳转至陆运",
+          "link": "#land-transport"
+        }
+      }
+    },
+    "ExperienceSection": {
+      "id": "experience",
+      "header": "我们在全球运营",
+      "textContent": "我们在欧洲、中东和中亚、东亚等地区拥有丰富的服务经验。了解更多关于我们最常服务的地区：",
+      "mapImageAlt": "世界地图，标注了 Enka 最常服务的地区",
+      "RegionsList": {
+        "regionItaly": "意大利",
+        "regionScandinavia": "斯堪的纳维亚",
+        "regionPoland": "波兰",
+        "regionSpain": "西班牙",
+        "regionKazakhstan": "哈萨克斯坦",
+        "regionChina": "中国",
+        "regionIndia": "印度",
+        "regionTurkey": "土耳其"
+      },
+      "dislaimerText": "对其他方向感兴趣？<br></br>联系我们 - <strong>Enka 在全球范围内开展业务。</strong>",
+      "ExperienceStats": {
+        "Transports": {
+          "value": "270 吨",
+          "label": "运输的最重货物"
+        },
+        "Years": {
+          "value": "14 年",
+          "label": "物流行业经验"
+        },
+        "Value": {
+          "value": "€1m+",
+          "label": "最大项目的价值"
+        }
+      }
+    },
+    "TestimonialsSection": {
+      "id": "testimonials",
+      "Testimonials": {
+        "1": {
+          "content": "ENKA 极大地改善了我的业务方式。我不再需要担心货物在全国范围内运输的物流问题。一切都运行得非常顺利，这对我来说是一种巨大的解脱！",
+          "author": "Piotr Pogorzelski",
+          "title": "公司首席执行官"
+        },
+        "2": {
+          "content": "ENKA 极大地改善了我的业务方式。我不再需要担心货物在全国范围内运输的物流问题。一切都运行得非常顺利，这对我来说是一种巨大的解脱！",
+          "author": "Piotr Pogorzelski",
+          "title": "公司首席执行官"
+        }
+      }
+    },
+    "ContactSection": {
+      "id": "contact",
+      "header": "让我们为您规划物流",
+      "textContent": "您是否在寻找经验丰富的运输公司，或者您有一些问题？请随时联系我们！",
+      "altText": "Krzysztof Pietrusiak 的照片，运输总监",
+      "name": "Krzysztof Pietrusiak",
+      "title": "运输总监"
+    }
+  },
+  "ServicesPage": {
+    "Metadata": {
+      "locale": "zh",
+      "route": "services",
+      "title": "我们的服务",
+      "description": "ENKA 在欧洲和亚洲提供全面的运输服务。我们保证按时交付，可靠性以及对每个订单的个性化处理。",
+      "keywords": "enka, enka shipping, enka forwarding, shipping, logistics, transportation, river, oversize, inland, marine, truck, FTL, project cargo, breakbulk, pontoons, barges, cranes",
+      "ogTitle": "",
+      "ogDescription": "",
+      "ogImage": "",
+      "twitterTitle": "",
+      "twitterDescription": "",
+      "twitterImage": ""
+    },
+    "title": "我们的服务",
+    "subtitle": "探索 Enka 提供的可靠物流解决方案，从项目货物处理到内陆运输，为全球企业服务。",
+    "ContactButton": { "link": "#contact", "linkTitle": "前往联系", "label": "更多" },
+    "Services": {
+      "ProjectCargo": {
+        "title": "项目货物",
+        "id": "project-cargo",
+        "textContent": "项目货物运输是一项专为执行复杂项目的公司设计的服务，适用于需要运输超大、独特或高价值货物的情况。Enka 提供根据客户个人需求定制的综合运输解决方案。凭借多年的经验和全球合作伙伴网络，无论项目的规模和位置，我们都能确保及时性和安全性。",
+        "altText": "货船在码头停靠",
+        "Values": {
+          "1": {
+            "title": "全面服务",
+            "textContent": "从路线规划到交付执行，均由经验丰富的专家监督完成。"
+          },
+          "2": {
+            "title": "专业设备",
+            "textContent": "可使用先进的运输设备和技术运输专业货物。"
+          },
+          "3": {
+            "title": "全球覆盖",
+            "textContent": "我们在波兰和世界各地执行项目，支持客户的国际业务。"
+          },
+          "4": {
+            "title": "适合对象",
+            "textContent": "特别适合建筑、能源和工业领域的公司。"
+          }
+        }
+      },
+      "InlandTransport": {
+        "title": "内陆运输（河流）",
+        "id": "inland-transport",
+        "textContent": "Enka 提供使用河流驳船的内陆运输，这是一种经济且环保的传统运输方式的替代方案。此服务专注于通过波兰和欧洲的水路运输大量散装货物，例如原材料或工业产品。",
+        "altText": "货物驳船在河上航行",
+        "Values": {
+          "1": {
+            "title": "环保与节省",
+            "textContent": "河流运输可减少排放并降低物流成本。"
+          },
+          "2": {
+            "title": "高效与容量",
+            "textContent": "大型货物和超大货物的理想选择。"
+          },
+          "3": {
+            "title": "安全",
+            "textContent": "专业服务和对货物路线的持续监控。"
+          },
+          "4": {
+            "title": "适合对象",
+            "textContent": "特别适合使用内陆航线的原材料、建筑和化工行业公司。"
+          }
+        }
+      },
+      "MaritimeTransport": {
+        "title": "海运",
+        "id": "maritime-transport",
+        "textContent": "海运是寻找经济方式进行长途货物运输的公司的理想解决方案。通过与全球航运公司的合作，Enka 提供进入最有效航线和全球主要港口的机会。服务包括从装货到清关的一整套活动。",
+        "altText": "海上的货船",
+        "Values": {
+          "1": {
+            "title": "成本效益",
+            "textContent": "长途运输的最佳性价比。"
+          },
+          "2": {
+            "title": "全球网络",
+            "textContent": "接入世界主要海港。"
+          },
+          "3": {
+            "title": "清关支持",
+            "textContent": "全面处理清关和文件事务。"
+          },
+          "4": {
+            "title": "适合对象",
+            "textContent": "从事国际贸易或需要全球物流的公司。"
+          }
+        }
+      },
+      "LandTransport": {
+        "title": "陆运",
+        "id": "land-transport",
+        "textContent": "陆运是跨波兰、欧洲和亚洲快速灵活地运输货物的一种方式。Enka 拥有一支经验丰富的司机团队，确保在任何情况下高效交付。无论货物类型如何，我们都为每个订单提供个性化的解决方案。",
+        "altText": "运输终端",
+        "Values": {
+          "1": {
+            "title": "速度与灵活性",
+            "textContent": "根据客户的个性化时间表定制的运输服务。"
+          },
+          "2": {
+            "title": "安全交付",
+            "textContent": "在运输的每个阶段提供全面的货物保护。"
+          },
+          "3": {
+            "title": "多样化服务",
+            "textContent": "处理标准、超大和危险品运输。"
+          },
+          "4": {
+            "title": "适合对象",
+            "textContent": "需要快速运输中短途货物的公司。"
+          }
+        }
+      }
+    }
+  },
+  "RealizationsPage": {
+    "Metadata": {
+      "locale": "zh",
+      "route": "realizations",
+      "title": "我们的案例",
+      "description": "浏览我们成功完成的运输项目图库，展示了 Enka 执行的成功案例。",
+      "keywords": "enka, enka shipping, enka forwarding, shipping, logistics, transportation, river, oversize, inland, marine, truck, FTL, project cargo, breakbulk, pontoons, barges, cranes",
+      "ogTitle": "",
+      "ogDescription": "",
+      "ogImage": "",
+      "twitterTitle": "",
+      "twitterDescription": "",
+      "twitterImage": ""
+    },
+    "title": "案例展示",
+    "subtitle": "浏览我们成功完成的运输项目图库，展示了 Enka 执行的成功案例。每张照片都证明了我们按时交付货物的承诺，无论货物大小、运输路线或所属行业。",
+    "Gallery": {
+      "image1": "图片描述 1",
+      "image2": "图片描述 2",
+      "image3": "图片描述 3",
+      "image4": "图片描述 4",
+      "image5": "图片描述 5",
+      "image6": "图片描述 6",
+      "image7": "图片描述 7",
+      "image8": "图片描述 8",
+      "image9": "图片描述 9",
+      "image10": "图片描述 10",
+      "image11": "图片描述 11",
+      "image12": "图片描述 12",
+      "image13": "图片描述 13",
+      "image14": "图片描述 14",
+      "image15": "图片描述 15",
+      "image16": "图片描述 16",
+      "image17": "图片描述 17",
+      "image18": "图片描述 18",
+      "image19": "图片描述 19",
+      "image20": "图片描述 20"
+    }
+  },
+  "Footer": {
+    "companyName": "ENKA Pietrusiak Krzysztof",
+    "companyAdress": "Kilińskiego 140a<br></br>80-299 Gdańsk",
+    "copyright": "©{year}\u00a0Enka",
+    "logoAlt": "Enka Spedycja 标志",
+    "Credits": {
+      "prefix": "设计和编码\u00a0by ",
+      "author": "Marcin\u00a0Mikos",
+      "link": "mailto:mikos.marcin.m@gmail.com",
+      "linkTitle": "写信给设计师"
+    }
+  }
+}

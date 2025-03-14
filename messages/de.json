@@ -20,7 +20,7 @@
     },
     "LocaleSwitcher": {
       "label": "Sprache ändern",
-      "locale": "{locale, select, pl {PL} en {EN} it {IT} de {DE} other {nicht spezifiziert}}"
+      "locale": "{locale, select, pl {PL} en {EN} it {IT} de {DE} zh {ZH} other {nicht spezifiziert}}"
     },
     "CarouselControls": {
       "nextButtonLabel": "Zum nächsten Slide gehen",
