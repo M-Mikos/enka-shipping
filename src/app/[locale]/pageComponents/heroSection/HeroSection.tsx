@@ -23,7 +23,7 @@ function HeroSection() {
         mobileImage={mobileHeroBackground}
         desktopImage={desktopHeroBackground}
         breakpoint={640}
-        className="absolute left-0 bottom-0 w-full object-contain object-bottom h-full -z-1 sm:object-cover sm:object-center"
+        className="absolute left-0 bottom-0 w-full aspect-[3/2] h-auto object-cover sm:h-full sm:aspect-auto -z-1 sm:object-center"
       />
       <ContentContainer className="flex flex-col lg:justify-between min-h-[calc(100svh-5rem)] max-h-[60rem] lg:max-h-[80rem] 3xl:max-h-[135rem] gap-12 py-16 lg:py-24">
         <div className="flex flex-col w-full lg:max-w-[36rem] text-center lg:text-left">
