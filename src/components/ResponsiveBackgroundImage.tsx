@@ -1,62 +1,35 @@
 "use client";
 
-import React, { useEffect } from "react";
-import ReactDOM from "react-dom";
-import { getImageProps, ImageProps, StaticImageData } from "next/image";
+import React from "react";
+import { StaticImageData } from "next/image";
+import Image from "next/image";
 
 type ResponsiveBackgroundImageProps = {
   mobileImage: StaticImageData;
   desktopImage: StaticImageData;
   breakpoint: number;
-} & Partial<ImageProps>;
-
-const preloadImage = (srcSet: string) => {
-  // Split the srcSet into individual URLs and preload them
-  srcSet.split(",").forEach((src) => {
-    const [url] = src.trim().split(" "); // Extract the URL part
-    ReactDOM.preload(url, { as: "image" });
-  });
+  className?: string;
+  alt?: string;
+  sizes?: string;
 };
 
-const ResponsiveBackgroundImage = ({
+const ResponsiveBackgroundImage: React.FC<ResponsiveBackgroundImageProps> = ({
   mobileImage,
   desktopImage,
   breakpoint = 640,
-  className,
-  sizes = "100vw",
+  className = "",
   alt = "",
-  fill = true,
-  priority = true,
-  ...props
-}: ResponsiveBackgroundImageProps) => {
-  useEffect(() => {
-    // Generate srcSet strings for desktop
-    const desktopProps = getImageProps({ src: desktopImage, sizes, alt: "" }).props;
-
-    // Preload desktop and mobile primary images
-    ReactDOM.preload(desktopImage.src, { as: "image" });
-    ReactDOM.preload(mobileImage.src, { as: "image" });
-
-    // Preload all desktop sources from srcSet
-    preloadImage(desktopProps.srcSet as string);
-  }, [desktopImage, mobileImage, sizes]);
-
-  // Common attributes for the image sources
-  const commonImageAttributes = { alt, fill, priority, sizes, ...props };
-  const { srcSet: desktop } = getImageProps({ ...commonImageAttributes, src: desktopImage }).props;
-  const { srcSet: mobile, ...rest } = getImageProps({ ...commonImageAttributes, src: mobileImage }).props;
-
-  const desktopMedia = `(min-width: ${breakpoint}px)`;
-  const mobileMedia = `(max-width: ${breakpoint - 1}px)`;
-
+  sizes = "100vw",
+}) => {
   return (
-    <div className={className}>
-      <picture>
-        <source media={desktopMedia} srcSet={desktop} />
-        <source media={mobileMedia} srcSet={mobile} />
-        <img className={className} fetchPriority="high" {...rest} alt={alt} />
-      </picture>
-    </div>
+    <picture className={className}>
+      {/* Source for desktop */}
+      <source srcSet={desktopImage.src} media={`(min-width: ${breakpoint}px)`} sizes={sizes} />
+      {/* Source for mobile */}
+      <source srcSet={mobileImage.src} media={`(max-width: ${breakpoint - 1}px)`} sizes={sizes} />
+      {/* Fallback image */}
+      <Image src={mobileImage} alt={alt} sizes={sizes} className="object-cover w-full h-full" priority />
+    </picture>
   );
 };
 
