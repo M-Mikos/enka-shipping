@@ -1,10 +1,15 @@
+"use client";
+
 import { MenuIcon } from "lucide-react";
 import { Drawer, DrawerContent, DrawerTitle, DrawerTrigger } from "@/components/ui/drawer";
 import * as VisuallyHidden from "@radix-ui/react-visually-hidden";
-import Navigation from "./Navigation";
-import LocaleSwitcher from "./LocaleSwitcher";
+import dynamic from "next/dynamic"; // Import dynamic for lazy loading
 import { useTranslations } from "next-intl";
 import { useState } from "react";
+
+// Lazy-load Navigation and LocaleSwitcher
+const Navigation = dynamic(() => import("./Navigation"), { ssr: false });
+const LocaleSwitcher = dynamic(() => import("./LocaleSwitcher"), { ssr: false });
 
 function MobileDrawer() {
   const t = useTranslations("Header");
@@ -17,7 +22,7 @@ function MobileDrawer() {
         <MenuIcon />
         <VisuallyHidden.Root>{t("MobileDrawer.triggerLabel")}</VisuallyHidden.Root>
       </DrawerTrigger>
-      <DrawerContent className="min-h-[60vh] items-end px-3 py-2 ">
+      <DrawerContent className="min-h-[60vh] items-end px-3 py-2">
         <VisuallyHidden.Root>
           <DrawerTitle>{t("MobileDrawer.hiddenTitle")}</DrawerTitle>
         </VisuallyHidden.Root>
