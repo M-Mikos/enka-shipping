@@ -4,10 +4,14 @@ import { Button } from "@/components/ui/button";
 import { Link } from "@/i18n/routing";
 import { useTranslations } from "next-intl";
 import { Boxes, CalendarCheck, Globe2 } from "lucide-react";
-import PortfolioCarousel from "./PortfolioCarousel";
 import { Heading } from "@/components/ui/heading";
 import { Paragraph } from "@/components/ui/paragraph";
 import ValueCard from "@/components/ValueCard";
+import dynamic from "next/dynamic";
+
+const PortfolioCarousel = dynamic(() => import("./PortfolioCarousel"), {
+  ssr: false,
+});
 
 function AboutSection() {
   const t = useTranslations("HomePage");

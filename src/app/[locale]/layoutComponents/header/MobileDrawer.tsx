@@ -7,8 +7,6 @@ import { Dispatch, SetStateAction } from "react";
 import Navigation from "./Navigation";
 import LocaleSwitcher from "./LocaleSwitcher";
 
-// Lazy-load Navigation and LocaleSwitcher
-
 function MobileDrawer({ isOpen, setIsOpen }: { isOpen: boolean; setIsOpen: Dispatch<SetStateAction<boolean>> }) {
   const t = useTranslations("Header");
 
