@@ -13,11 +13,11 @@ function MobileDrawer() {
 
   return (
     <Drawer open={isOpen} onOpenChange={setIsOpen}>
-      <DrawerTrigger>
+      <DrawerTrigger className="mr-2">
         <MenuIcon />
         <VisuallyHidden.Root>{t("MobileDrawer.triggerLabel")}</VisuallyHidden.Root>
       </DrawerTrigger>
-      <DrawerContent className="min-h-[60vh] items-end px-3 py-2">
+      <DrawerContent className="min-h-[60vh] items-end px-3 py-2 ">
         <VisuallyHidden.Root>
           <DrawerTitle>{t("MobileDrawer.hiddenTitle")}</DrawerTitle>
         </VisuallyHidden.Root>
