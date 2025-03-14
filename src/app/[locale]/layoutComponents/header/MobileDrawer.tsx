@@ -3,12 +3,11 @@
 import { Drawer, DrawerContent, DrawerTitle } from "@/components/ui/drawer";
 import * as VisuallyHidden from "@radix-ui/react-visually-hidden";
 import { useTranslations } from "next-intl";
-import dynamic from "next/dynamic"; // Import dynamic for lazy loading
 import { Dispatch, SetStateAction } from "react";
+import Navigation from "./Navigation";
+import LocaleSwitcher from "./LocaleSwitcher";
 
 // Lazy-load Navigation and LocaleSwitcher
-const Navigation = dynamic(() => import("./Navigation"), { ssr: false });
-const LocaleSwitcher = dynamic(() => import("./LocaleSwitcher"), { ssr: false });
 
 function MobileDrawer({ isOpen, setIsOpen }: { isOpen: boolean; setIsOpen: Dispatch<SetStateAction<boolean>> }) {
   const t = useTranslations("Header");

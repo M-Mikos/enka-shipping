@@ -37,8 +37,8 @@ export default function Header() {
             </div>
           ) : (
             <div className="flex items-center gap-4">
-              <ContactButton className="border-0" />
-              <Button onClick={() => setIsOpen(true)} variant="subtle">
+              <ContactButton className="border-0 px-2" />
+              <Button onClick={() => setIsOpen(true)} variant="subtle" className="px-2">
                 <MenuIcon />
                 <VisuallyHidden>{t("MobileDrawer.triggerLabel")}</VisuallyHidden>
               </Button>
