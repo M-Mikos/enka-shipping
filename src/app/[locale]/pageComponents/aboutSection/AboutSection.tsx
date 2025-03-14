@@ -9,9 +9,7 @@ import { Paragraph } from "@/components/ui/paragraph";
 import ValueCard from "@/components/ValueCard";
 import dynamic from "next/dynamic";
 
-const PortfolioCarousel = dynamic(() => import("./PortfolioCarousel"), {
-  ssr: false,
-});
+const PortfolioCarousel = dynamic(() => import("./PortfolioCarousel"));
 
 function AboutSection() {
   const t = useTranslations("HomePage");
