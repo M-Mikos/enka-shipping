@@ -67,7 +67,7 @@
     "HeroSection": {
       "id": "hero",
       "header": "Project cargo<br></br>zawsze na czas",
-      "subHeader": "Niezawodna, profesjonalna obsługa Twoich potrzeb transportowych i\u00a0projektów logistycznych <important>od planowania po realizację.</important>",
+      "subHeader": "Niezawodna, profesjonalna obsługa Twoich potrzeb transportowych i\u00a0projektów logistycznych <strong>od planowania po realizację.</strong>",
       "ActionButton": {
         "label": "Bezpłatna konsultacja",
         "link": "#kontakt",
@@ -312,6 +312,129 @@
         }
       }
     }
+  },
+  "ProjectCargoPage": {
+    "Metadata": {
+      "locale": "pl",
+      "route": "project-cargo",
+      "title": "Project Cargo",
+      "description": "Transport ładunków projektowych to nasza kluczowa specjalizacja. Organizujemy transporty wymagających ładunków na terenie całej Europy i poza jej granicami.",
+      "keywords": "enka, enka shipping, enka spedycja, spedycja, logistyka, transport, project cargo, dźwigi, logistyka projektowa, projekty logistyczne",
+      "ogTitle": "",
+      "ogDescription": "",
+      "ogImage": "",
+      "twitterTitle": "",
+      "twitterDescription": "",
+      "twitterImage": ""
+    },
+    "title": "Project Cargo",
+    "subtitle": "Transport ładunków projektowych to nasza kluczowa specjalizacja. Dzięki doświadczeniu, nowoczesnemu sprzętowi oraz sprawdzonym procedurom jesteśmy w\u00a0stanie organizować transporty wymagających, ciężkich i\u00a0ponadgabarytowych ładunków na terenie całej Europy i\u00a0poza jej granicami. Każdy projekt traktujemy indywidualnie, dobierając optymalne rozwiązania logistyczne, zapewniając pełne bezpieczeństwo oraz terminową realizację.",
+    "ContactButton": { "link": "#kontakt", "linkTitle": "Idź do sekcji kontakt", "label": "Dowiedz się więcej" },
+    "OfferCranes": {
+      "title": "Specjalistyczne dźwigi i\u00a0systemy podnoszenia",
+      "subtitle": "Dysponujemy własnym zapleczem dźwigowym, co pozwala nam oferować kompleksową obsługę załadunków i\u00a0rozładunków ciężkich i\u00a0wielkogabarytowych elementów.",
+      "altText": "Dźwig DEMAG 2800",
+      "List": {
+        "1": {
+          "header": "DEMAG 2800",
+          "content": "DEMAG 2800 to gąsienicowy dźwig o\u00a0dużej nośności, doskonały do podnoszenia najcięższych komponentów"
+        },
+        "2": {
+          "header": "Dopasowane suwnice",
+          "content": "Możliwość organizacji dźwigów mobilnych oraz suwnic dostosowanych do specyfiki projektu"
+        },
+        "3": {
+          "header": "Kadra",
+          "content": "Profesjonalna kadra operatorska z wieloletnim doświadczeniem w pracy na największych inwestycjach infrastrukturalnych"
+        }
+      }
+    },
+    "OfferSpmt": {
+      "title": "Zaawansowane systemy transportowe –\u00a0SPMT",
+      "subtitle": "Dysponujemy <strong>95 modułami SPMT (Self-Propelled Modular Transporter)</strong> – samobieżnymi jednostkami transportowymi, umożliwiającymi przewóz ekstremalnie ciężkich ładunków w\u00a0trudno dostępnych lokalizacjach, na ograniczonej przestrzeni i\u00a0w\u00a0wymagających warunkach terenowych.",
+      "altText": "System SPMT",
+      "List": {
+        "1": {
+          "header": "Dla każdego ładunku",
+          "content": "Każda jednostka składa się z\u00a05-6 osi, które można dowolnie konfigurować, aby dopasować się do specyfiki ładunku"
+        },
+        "2": {
+          "header": "Na każdy teren",
+          "content": "Możliwość poruszania się w\u00a0ograniczonych przestrzeniach –\u00a0w\u00a0tym precyzyjnego manewrowania w\u00a0obiektach przemysłowych i\u00a0na terenach budowy"
+        },
+        "3": {
+          "header": "Ponad 1000 ton ładunku",
+          "content": "Możliwość łączenia wielu modułów dla transportu ładunków o\u00a0masie przekraczającej nawet 1000 ton!"
+        }
+      }
+    },
+    "OfferPlatforms": {
+      "title": "Specjalistyczne platformy i\u00a0naczepy",
+      "subtitle": "Dzięki dostępowi do różnorodnych zestawów transportowych możemy przewozić zarówno standardowe, jak i\u00a0niestandardowe ładunki.",
+      "altText": "",
+      "List": {
+        "1": {
+          "header": "Naczepy wieloosiowe",
+          "content": "Naczepy wieloosiowe do transportu długich i\u00a0ciężkich elementów"
+        },
+        "2": {
+          "header": "Naczepy niskopodwoziowe",
+          "content": "Naczepy niskopodwoziowe do transportu maszyn budowlanych i\u00a0elementów infrastruktury,"
+        },
+        "3": {
+          "header": "Mocnowanie",
+          "content": "Własne systemy mocowania i\u00a0stabilizacji ładunków, zapewniające pełne bezpieczeństwo transportowanych elementów."
+        }
+      }
+    },
+    "OfferSupport": {
+      "title": "Pełne wsparcie techniczne i\u00a0dokumentacyjne",
+      "subtitle": "Realizacja skomplikowanych projektów wymaga nie tylko odpowiedniego sprzętu, ale także perfekcyjnego przygotowania. Zapewniamy kompleksowe wsparcie na każdym etapie transportu:",
+      "altText": "",
+      "List": {
+        "1": {
+          "header": "Method of Statement",
+          "content": "Opracowanie szczegółowych procedur transportowych, w\u00a0tym planowania tras, analizy ryzyka i\u00a0logistyki przeładunkowej."
+        },
+        "2": {
+          "header": "Certyfikacja mocowań i\u00a0zabezpieczeń",
+          "content": "Przeprowadzanie niezbędnych testów i\u00a0uzyskiwanie wymaganych atestów bezpieczeństwa"
+        },
+        "3": {
+          "header": "Raporty Surveyor",
+          "content": "Współpraca z\u00a0niezależnymi inspektorami, którzy potwierdzają prawidłowość załadunku, mocowania oraz zgodność transportu z\u00a0przepisami krajowymi i\u00a0międzynarodowymi"
+        },
+        "4": {
+          "header": "Organizacja pozwoleń i\u00a0eskorta",
+          "content": "Zajmujemy się wszelkimi formalnościami, od uzyskania pozwoleń na transport ponadnormatywny po organizację eskorty i\u00a0zabezpieczenie tras przejazdu."
+        }
+      }
+    },
+    "OfferRealization": {
+      "title": "Realizacja projektów w\u00a0Europie i\u00a0poza nią",
+      "subtitle": "Jesteśmy obecni na rynkach całej Europy, ale realizujemy również projekty w bardziej wymagających regionach.",
+      "altText": "",
+      "List": {
+        "1": {
+          "header": "Europia Zachodnia i\u00a0Skandynawia",
+          "content": "Wykonujemy transporty w rozwiniętych regionach, gdzie kluczowe są ścisłe przepisy i\u00a0wymagania dotyczące transportów specjalnych"
+        },
+        "2": {
+          "header": "Europa Wschodnia, Kazachstan, Uzbekistan, Chiny",
+          "content": "Posiadamy doświadczenie w specyfice lokalnych regulacji i\u00a0procedur celnych"
+        },
+        "3": {
+          "header": "Turcja i Bliski Wschód",
+          "content": "Regiony o dynamicznie rozwijającym się rynku transportowym, gdzie nasze doświadczenie pozwala realizować skomplikowane projekty infrastrukturalne"
+        },
+        "4": {
+          "header": "Jordania",
+          "content": "Wykonaliśmy transporty ładunków dla dużych projektów budowlanych, m.in. dla jednej z największych inwestycji w\u00a0regionie."
+        }
+      }
+    },
+    "summaryTitle": "Podsumowanie",
+    "summaryContent": "ENKA Project jest w stanie zrealizować najbardziej wymagające transporty na całym świecie. Jeżeli szukasz sprawdzonego partnera do obsługi projektów ponadgabarytowych –\u00a0jesteśmy do Twojej dyspozycji!"
   },
   "RealizationsPage": {
     "Metadata": {
