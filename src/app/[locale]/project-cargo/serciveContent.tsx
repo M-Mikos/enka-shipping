@@ -46,10 +46,6 @@ function OfferItem({ translationsKey, pageKey }: { translationsKey: string; page
         <div className="lg:row-[4/5] lg:col-[1/3] lg:flex lg:flex-row gap-12 lg:gap-16 mt-16 lg:py-16 lg:border-t">
           {listItems.map((listItem) => (
             <div key={listItem.header} className={`basis-1/${listItems.length}`}>
-              {(() => {
-                console.log(listItem);
-                return <></>;
-              })()}
               <ValueCard Icon={CheckCircle2Icon} header={listItem.header} content={listItem.content} />
             </div>
           ))}
