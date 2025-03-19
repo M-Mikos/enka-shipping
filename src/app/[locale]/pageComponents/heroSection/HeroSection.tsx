@@ -31,9 +31,7 @@ function HeroSection() {
             <RichText>{(tags) => t.rich("HeroSection.header", tags)}</RichText>
           </Heading>
           <Paragraph variant="large" shade="light" className="text-white">
-            {t.rich("HeroSection.subHeader", {
-              important: (chunks) => <strong className="font-semibold">{chunks}</strong>,
-            })}
+            <RichText>{(tags) => t.rich("HeroSection.subHeader", tags)}</RichText>
           </Paragraph>
         </div>
         <div className="flex justify-center lg:justify-between">

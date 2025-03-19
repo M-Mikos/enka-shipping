@@ -7,7 +7,7 @@ import { Paragraph } from "@/components/ui/paragraph";
 import ValueCard from "@/components/ValueCard";
 import { ArrowRight, CheckCircle2Icon } from "lucide-react";
 import { useMessages, useTranslations } from "next-intl";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 
 interface Messages {
@@ -18,7 +18,15 @@ interface Messages {
   };
 }
 
-function OfferItem({ translationsKey, pageKey }: { translationsKey: string; pageKey: string }) {
+function OfferItem({
+  translationsKey,
+  pageKey,
+  image,
+}: {
+  translationsKey: string;
+  pageKey: string;
+  image: string | StaticImageData;
+}) {
   const t = useTranslations(`${pageKey}Page.Offer${translationsKey}`);
   const pageT = useTranslations(`${pageKey}Page`);
   const messages = useMessages() as Messages;
@@ -32,7 +40,7 @@ function OfferItem({ translationsKey, pageKey }: { translationsKey: string; page
         <div className="lg:row-[1/4] lg:col-[2/3] mb-8 lg:mb-0">
           <Image
             className="w-full h-auto rounded-lg"
-            src=""
+            src={image}
             width={1200}
             height={600}
             alt={t("altText")}
