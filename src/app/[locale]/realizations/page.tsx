@@ -1,7 +1,7 @@
 import ContentContainer from "@/components/ContentContainer";
 import SectionContainer from "@/components/SectionContainer";
-import GalleryGrid from "./pageComponents/GalleryGrid";
-import ContactSection from "../pageComponents/contactSection/ContactSection";
+import GalleryGrid from "./_components/GalleryGrid";
+import ContactSection from "../_components/page-components/contactSection/ContactSection";
 import PageTitle from "@/components/PageTitle";
 import { useTranslations } from "next-intl";
 import { Metadata } from "next";

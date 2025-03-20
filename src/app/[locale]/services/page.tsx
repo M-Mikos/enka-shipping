@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
 import ServiceSection from "./pageComponents/ServiceSection";
-import ContactSection from "../pageComponents/contactSection/ContactSection";
+import ContactSection from "../_components/page-components/contactSection/ContactSection";
 import ImageProjectCargo from "public/services/services-project-cargo.avif";
 import ImageMaritimeTransport from "public/services/services-maritime-transport.avif";
 import ImageInlandTransport from "public/services/services-inland-transport.avif";

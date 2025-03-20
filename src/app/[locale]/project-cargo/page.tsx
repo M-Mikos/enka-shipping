@@ -1,10 +1,10 @@
 import { useTranslations } from "next-intl";
-import ContactSection from "../pageComponents/contactSection/ContactSection";
+import ContactSection from "../_components/page-components/contactSection/ContactSection";
 import PageTitle from "@/components/PageTitle";
 import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { generatePageMetadata } from "@/lib/utils";
-import OfferItem from "./serciveContent";
+import OfferItem from "./_components/serciveContent";
 import imageCranes from "@/../public/services/project-cargo/projectcargo-cranes.avif";
 import imagePlatforms from "@/../public/services/project-cargo/projectcargo-platforms.avif";
 import imageRealization from "@/../public/services/project-cargo/projectcargo-realization.avif";
