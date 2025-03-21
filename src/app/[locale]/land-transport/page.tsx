@@ -12,12 +12,12 @@ import imageSpmt from "@/../public/services/project-cargo/projectcargo-spmt.avif
 import imageSupport from "@/../public/services/project-cargo/projectcargo-support.avif";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const t = await getTranslations("ProjectCargoPage.Metadata");
+  const t = await getTranslations("LandTransportPage.Metadata");
   return generatePageMetadata(t);
 }
 
-export default function ProjectCargo() {
-  const t = useTranslations("ProjectCargoPage");
+export default function LandTransport() {
+  const t = useTranslations("LandTransportPage");
   const offerKeys = ["Cranes", "Spmt", "Platforms", "Support", "Realization"];
   const listImages = [imageCranes, imageSpmt, imagePlatforms, imageSupport, imageRealization];
 
@@ -25,7 +25,7 @@ export default function ProjectCargo() {
     <>
       <PageTitle messages={{ title: t("title"), subtitle: t("subtitle") }} />
       {offerKeys.map((key, i) => (
-        <OfferItem key={key} pageKey="ProjectCargo" translationsKey={key} image={listImages[i]} />
+        <OfferItem key={key} pageKey="LandTransport" translationsKey={key} image={listImages[i]} />
       ))}
       <ContactSection />
     </>
