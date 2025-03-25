@@ -48,12 +48,14 @@ function OfferItem({
           />
         </div>
         <Heading className="lg:row-[1/2] lg:col-[1/2]">{t("title")}</Heading>
-        <Paragraph className="lg:row-[2/3] lg:col-[1/2] mb-6 lg:mb-8 3xl:mb-12">
-          <RichText>{(tags) => t.rich("subtitle", tags)}</RichText>
+        <Paragraph className="lg:row-[2/3] lg:col-[1/2] mb-6 lg:mb-8 3xl:mb-12" asChild>
+          <div>
+            <RichText>{(tags) => t.rich("subtitle", tags)}</RichText>
+          </div>
         </Paragraph>
         <div className="lg:row-[4/5] lg:col-[1/3] lg:flex lg:flex-row gap-12 lg:gap-16 mt-16 lg:py-16 lg:border-t">
           {listItems.map((listItem) => (
-            <div key={listItem.header} className={`basis-1/${listItems.length}`}>
+            <div key={listItem.header} className={`basis-full`}>
               <ValueCard Icon={CheckCircle2Icon} header={listItem.header} content={listItem.content} />
             </div>
           ))}
