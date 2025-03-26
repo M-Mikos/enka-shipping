@@ -200,13 +200,13 @@
       "title": "Dyrektor Spedycji"
     }
   },
-  "ServicesPage": {
+  "ProjectCargoPage": {
     "Metadata": {
       "locale": "en",
-      "route": "services",
-      "title": "Our services",
-      "description": "ENKA offers comprehensive shipping services in Europe and Asia. We guarantee on-time delivery, reliability and an individual approach to each order.",
-      "keywords": "enka, enka shipping, enka forwarding, shipping, logistics, transportation, river, oversize, inland, marine, truck, FTL, project cargo, breakbulk, pontoons, barges, cranes",
+      "route": "project-cargo",
+      "title": "Project Cargo",
+      "description": "Transporting project cargo is our key specialization. We organize the transportation of demanding cargo across Europe and beyond.",
+      "keywords": "enka, enka shipping, enka forwarding, forwarding, logistics, transport, project cargo, cranes, project logistics, logistics projects",
       "ogTitle": "",
       "ogDescription": "",
       "ogImage": "",
@@ -214,107 +214,489 @@
       "twitterDescription": "",
       "twitterImage": ""
     },
-    "title": "Our Services",
-    "subtitle": "Discover Enka's reliable logistics solutions, from Project Cargo handling to inland transport, dedicated to businesses worldwide.",
-    "ContactButton": { "link": "#contact", "linkTitle": "Go to contact", "label": "More" },
-    "Services": {
-      "ProjectCargo": {
-        "title": "Project Cargo",
-        "id": "project-cargo",
-        "textContent": "Project Cargo transport is a specialized service designed for companies executing complex projects requiring the transport of oversized, unique, or high-value cargo. Enka provides comprehensive transport solutions tailored to the individual needs of the client. With years of experience and a global network of partners, we ensure timeliness and safety, regardless of the scale and location of the project.",
-        "altText": "Docking of container ships at a cargo port",
-        "Values": {
-          "1": {
-            "title": "Comprehensive Service",
-            "textContent": "From route planning to delivery execution, all under the supervision of an experienced expert."
-          },
-          "2": {
-            "title": "Specialized Equipment",
-            "textContent": "Access to advanced transport equipment and technologies for the transport of specialized cargo."
-          },
-          "3": {
-            "title": "Global Reach",
-            "textContent": "We execute projects in Poland and worldwide, supporting clients in their international ventures."
-          },
-          "4": {
-            "title": "Who is it for?",
-            "textContent": "A service particularly dedicated to companies in the construction, energy, and industrial sectors."
-          }
-        }
-      },
-      "InlandTransport": {
-        "title": "Inland Transport (River)",
-        "id": "inland-transport",
-        "textContent": "Enka offers inland transport using river barges, which are an economical and environmentally friendly alternative to traditional transport methods. This service is dedicated to transporting large quantities of bulk cargo, such as raw materials or industrial products, on waterways in Poland and Europe.",
-        "altText": "A cargo barge sailing on the river",
-        "Values": {
-          "1": {
-            "title": "Environment and Savings",
-            "textContent": "River transport reduces emissions and lowers logistics costs."
-          },
-          "2": {
-            "title": "Capacity and Efficiency",
-            "textContent": "An ideal solution for large volumes of goods and oversized cargo."
-          },
-          "3": {
-            "title": "Safety",
-            "textContent": "Professional service and continuous monitoring of cargo routes."
-          },
-          "4": {
-            "title": "Who is it for?",
-            "textContent": "A service especially dedicated to companies in the raw materials, construction, and chemical industries using inland routes."
-          }
-        }
-      },
-      "MaritimeTransport": {
-        "title": "Maritime Transport",
-        "id": "maritime-transport",
-        "textContent": "Maritime transport is the ideal solution for companies looking for an economical way to transport cargo over long distances. Through cooperation with global shipping lines, Enka offers access to the most efficient routes and ports worldwide. The service includes a full range of activities: from loading to customs clearance.",
-        "altText": "Cargo ship on sea",
-        "Values": {
-          "1": {
-            "title": "Cost-Effectiveness",
-            "textContent": "The best price-to-capacity ratio for long-distance transport."
-          },
-          "2": {
-            "title": "Global Network",
-            "textContent": "Access to key seaports around the world."
-          },
-          "3": {
-            "title": "Customs Support",
-            "textContent": "Comprehensive handling of customs clearance and documentation."
-          },
-          "4": {
-            "title": "Who is it for?",
-            "textContent": "Companies engaged in international trade or requiring global logistics."
-          }
-        }
-      },
-      "LandTransport": {
-        "title": "Land Transport",
-        "id": "land-transport",
-        "textContent": "Land transport is a fast and flexible way to move cargo across Poland, Europe, and Asia. Enka operates with an experienced team of drivers, ensuring efficient delivery under any conditions. Regardless of the type of cargo, we offer a personalized approach to each order.",
-        "altText": "Transport terminal",
-        "Values": {
-          "1": {
-            "title": "Speed and Flexibility",
-            "textContent": "Transport tailored to the client's individual schedules."
-          },
-          "2": {
-            "title": "Secure Deliveries",
-            "textContent": "Full cargo protection at every stage of transport."
-          },
-          "3": {
-            "title": "Diverse Services",
-            "textContent": "Handling of standard, oversized, and ADR cargo."
-          },
-          "4": {
-            "title": "Who is it for?",
-            "textContent": "Companies requiring fast transport of goods over short and medium distances."
-          }
+    "title": "Project Cargo",
+    "subtitle": "Transporting project cargo is our key specialization. With experience, modern equipment, and proven procedures, we are able to organize the transportation of demanding, heavy, and oversized cargo across Europe and beyond. Each project is treated individually, selecting optimal logistics solutions to ensure complete safety and timely execution.",
+    "ContactButton": { "link": "#contact", "linkTitle": "Go to contact section", "label": "Learn more" },
+    "OfferCranes": {
+      "title": "Specialized Cranes and Lifting Systems",
+      "subtitle": "We have our own crane resources, allowing us to offer comprehensive handling of loading and unloading heavy and oversized elements.",
+      "altText": "DEMAG CC 2800 crawler crane at a construction site",
+      "List": {
+        "1": {
+          "header": "DEMAG 2800",
+          "content": "The DEMAG 2800 is a crawler crane with high lifting capacity, perfect for lifting the heaviest components."
+        },
+        "2": {
+          "header": "Tailored Gantries",
+          "content": "Capability to organize mobile cranes and gantries tailored to the project specifics."
+        },
+        "3": {
+          "header": "Team",
+          "content": "A professional operator team with many years of experience on major infrastructure investments."
         }
       }
-    }
+    },
+    "OfferSpmt": {
+      "title": "Advanced Transport Systems – SPMT",
+      "subtitle": "We have <strong>95 SPMT modules (Self-Propelled Modular Transporter)</strong> – self-propelled transport units enabling the transportation of extremely heavy loads in hard-to-reach locations, confined spaces, and challenging terrain conditions.",
+      "altText": "Two SPMT modules remotely controlled by a specialist transport a structural element",
+      "List": {
+        "1": {
+          "header": "For Every Load",
+          "content": "Each unit consists of 5-6 axles that can be configured to suit the load specifics."
+        },
+        "2": {
+          "header": "For Any Terrain",
+          "content": "Ability to operate in confined spaces – including precise maneuvering in industrial facilities and construction sites."
+        },
+        "3": {
+          "header": "Over 1000 Tons of Load",
+          "content": "Capability to combine multiple modules for transporting loads exceeding 1000 tons!"
+        }
+      }
+    },
+    "OfferPlatforms": {
+      "title": "Specialized Platforms and Trailers",
+      "subtitle": "With access to various transport sets, we can transport both standard and non-standard loads.",
+      "altText": "Self-propelled harvester transported on a low-loader trailer",
+      "List": {
+        "1": {
+          "header": "Multi-Axle Trailers",
+          "content": "Multi-axle trailers for transporting long and heavy elements."
+        },
+        "2": {
+          "header": "Low-Bed Trailers",
+          "content": "Low-bed trailers for transporting construction machinery and infrastructure elements."
+        },
+        "3": {
+          "header": "Securing Systems",
+          "content": "Our own load securing and stabilization systems ensure the complete safety of transported elements."
+        }
+      }
+    },
+    "OfferSupport": {
+      "title": "Full Technical and Documentation Support",
+      "subtitle": "The execution of complex projects requires not only appropriate equipment but also perfect preparation. We provide comprehensive support at every stage of transport:",
+      "altText": "Two people writing on paper with open laptops nearby",
+      "List": {
+        "1": {
+          "header": "Method of Statement",
+          "content": "Preparation of detailed transport procedures, including route planning, risk analysis, and transshipment logistics."
+        },
+        "2": {
+          "header": "Certification of Securing Systems",
+          "content": "Conducting necessary tests and obtaining required safety certifications."
+        },
+        "3": {
+          "header": "Surveyor Reports",
+          "content": "Cooperation with independent inspectors who confirm proper loading, securing, and compliance with national and international transport regulations."
+        },
+        "4": {
+          "header": "Permit Organization and Escort",
+          "content": "Handling all formalities, from obtaining permits for oversized transport to organizing escorts and securing travel routes."
+        }
+      }
+    },
+    "OfferRealization": {
+      "title": "Project Execution in Europe and Beyond",
+      "subtitle": "We are active in markets across Europe but also carry out projects in more challenging regions.",
+      "altText": "View of the earth at night from space",
+      "List": {
+        "1": {
+          "header": "Western Europe and Scandinavia",
+          "content": "We perform transports in developed regions where strict regulations and requirements for special transports are crucial."
+        },
+        "2": {
+          "header": "Eastern Europe, Kazakhstan, Uzbekistan, China",
+          "content": "We have experience with the specifics of local regulations and customs procedures."
+        },
+        "3": {
+          "header": "Turkey and the Middle East",
+          "content": "Regions with a dynamically developing transport market, where our experience allows us to execute complex infrastructure projects."
+        },
+        "4": {
+          "header": "Jordan",
+          "content": "We have transported cargo for major construction projects, including one of the largest investments in the region."
+        }
+      }
+    },
+    "summaryTitle": "Summary",
+    "summaryContent": "ENKA Project is capable of executing the most demanding transports worldwide. If you are looking for a reliable partner for handling oversized projects – we are at your service!"
+  },
+  "InlandTransportPage": {
+    "Metadata": {
+      "locale": "en",
+      "route": "inland-transport",
+      "title": "Inland Transport",
+      "description": "Our company offers full logistics support for inland and combined transports with seaports.",
+      "keywords": "enka, enka shipping, enka forwarding, forwarding, logistics, transport, inland, river, river-sea, barges, pontoons, ferries, ships",
+      "ogTitle": "",
+      "ogDescription": "",
+      "ogImage": "",
+      "twitterTitle": "",
+      "twitterDescription": "",
+      "twitterImage": ""
+    },
+    "title": "Inland and River-Sea Transport",
+    "subtitle": "River and river-sea transport is an efficient alternative to road and rail transport, especially for oversized and bulk cargo. Our company offers full logistics support for inland and combined transports with seaports.",
+    "ContactButton": { "link": "#contact", "linkTitle": "Go to contact section", "label": "Learn more" },
+    "OfferFleet": {
+      "title": "Specialized Fleet",
+      "subtitle": "Thanks to cooperation with renowned shipowners and operators, we have access to a wide range of vessels tailored to different cargo types.",
+      "altText": "Cargo ship sailing on a lake",
+      "List": {
+        "1": {
+          "header": "Motor Barges and Push Sets",
+          "content": "An ideal solution for oversized transport."
+        },
+        "2": {
+          "header": "Pontoon Transport Units",
+          "content": "Units designed for transporting exceptionally heavy and large elements."
+        },
+        "3": {
+          "header": "Container Barges",
+          "content": "Container barges allow for the transport of goods in containers."
+        },
+        "4": {
+          "header": "Ferries and River-Sea Ships",
+          "content": "We handle direct connections of inland transport with seaports."
+        }
+      }
+    },
+    "OfferEquipment": {
+      "title": "Complete Loading and Securing Equipment",
+      "subtitle": "We have our own specialized equipment for safe securing, lifting, and handling of cargo.",
+      "altText": "Loading a cargo ship with a crane",
+      "List": {
+        "1": {
+          "header": "Load Beams, Spreaders, and Supports",
+          "content": "Solutions ensuring even weight distribution, stabilization, and proper support for the cargo."
+        },
+        "2": {
+          "header": "Hydraulic Jacks (Jack-Up Systems)",
+          "content": "Solutions enabling precise positioning of heavy elements."
+        },
+        "3": {
+          "header": "Securing Systems and Lashings (Chains, Straps, Storm Lashes)",
+          "content": "Solutions ensuring safety during transport."
+        },
+        "4": {
+          "header": "Crane Arms and Booms",
+          "content": "Solutions enabling the execution of complex transshipment operations."
+        }
+      }
+    },
+    "OfferOrganizing": {
+      "title": "Comprehensive Organization",
+      "subtitle": "We execute transports on major rivers and port channels in Poland and Europe, with the possibility of integration with sea transport.",
+      "altText": "A river barge transporting coal passing under a bridge",
+      "List": {
+        "1": {
+          "header": "Port Channels",
+          "content": "We provide transshipment and storage in seaports."
+        },
+        "2": {
+          "header": "Inland Rivers in Poland and Europe",
+          "content": "We handle the largest European rivers, including the Oder, Vistula, Elbe, and Danube."
+        },
+        "3": {
+          "header": "Multimodal Connections",
+          "content": "Solutions enabling the minimization of road transport."
+        }
+      }
+    },
+    "OfferSupport": {
+      "title": "Logistical and Operational Support",
+      "subtitle": "Our company provides full organization of transport from planning to execution.",
+      "altText": "Two people writing on paper with open laptops nearby",
+      "List": {
+        "1": {
+          "header": "Analysis and Strategy",
+          "content": "We analyze routes and select optimal floating units."
+        },
+        "2": {
+          "header": "Logistical Operations",
+          "content": "We organize transshipment operations, securing, and stabilizing cargo."
+        },
+        "3": {
+          "header": "Regulatory Compliance",
+          "content": "We ensure compliance with regulations and safety standards."
+        }
+      }
+    },
+    "OfferApplications": {
+      "title": "Project Execution in Europe and Beyond",
+      "subtitle": "We execute transports for various industrial sectors, including: <ul><li>Energy and heavy industry (technological modules, steel structures)</li><li>Road and rail infrastructure (bridge sections, prefabricates)</li><li>Construction and offshore (wind tower elements, platforms)</li></ul>",
+      "altText": "River flowing through a modern city, a group of cargo ships visible on the sea horizon",
+      "List": {}
+    },
+    "summaryTitle": "Summary",
+    "summaryContent": "With experience, equipment, and technical facilities, ENKA Project is capable of organizing the transport of oversized and heavy loads via inland routes. Contact us to discuss your project!"
+  },
+  "LandTransportPage": {
+    "Metadata": {
+      "locale": "en",
+      "route": "land-transport",
+      "title": "Land Transport",
+      "description": "We offer full support in planning and executing transports, optimizing routes and tailoring them to the requirements of the cargo and client.",
+      "keywords": "enka, enka shipping, enka forwarding, forwarding, logistics, transport, land, ftl, ltl, oversized cargo, intermodal logistics, door-to-door, adr, refrigerated, trucks, road transport",
+      "ogTitle": "",
+      "ogDescription": "",
+      "ogImage": "",
+      "twitterTitle": "",
+      "twitterDescription": "",
+      "twitterImage": ""
+    },
+    "title": "Land Transport",
+    "subtitle": "",
+    "ContactButton": {
+      "link": "#contact",
+      "linkTitle": "Go to the contact section",
+      "label": "Learn more"
+    },
+    "OfferServices": {
+      "title": "Standard and Oversized Transport",
+      "subtitle": "With a modern transport fleet, we provide a wide range of services tailored to individual client needs.",
+      "altText": "Transport hub with a parking lot full of trucks and transport trains",
+      "List": {
+        "1": {
+          "header": "FTL and LTL Transport",
+          "content": "Full Truck Load (FTL) and Less Than Truck Load (LTL) for various industries."
+        },
+        "2": {
+          "header": "Oversized and Heavy Cargo Transport",
+          "content": "Specialized low-loader trailers, modular transport sets, and systems for transporting heavy machinery, steel structures, turbines, or transformers."
+        },
+        "3": {
+          "header": "Refrigerated Transport",
+          "content": "Transport of goods requiring controlled temperature."
+        },
+        "4": {
+          "header": "ADR Transport",
+          "content": "Handling the transport of hazardous materials in compliance with international regulations."
+        }
+      }
+    },
+    "OfferPlanning": {
+      "title": "Advanced Logistics and Route Planning",
+      "subtitle": "We offer full support in planning and executing transports, optimizing routes and tailoring them to specific cargo and client requirements.",
+      "altText": "Map with a marked route",
+      "List": {
+        "1": {
+          "header": "Precise Route Analysis",
+          "content": "Adjusting routes to road and infrastructure limitations."
+        },
+        "2": {
+          "header": "Expertise and Permit Preparation",
+          "content": "Organizing documentation for oversized transports."
+        },
+        "3": {
+          "header": "Piloting and Escort",
+          "content": "Ensuring the safety of oversized cargo on national and international roads."
+        },
+        "4": {
+          "header": "Crane Arms and Boom Systems",
+          "content": "Enabling complex loading and unloading operations."
+        }
+      }
+    },
+    "OfferRange": {
+      "title": "International and Intercontinental Transport",
+      "subtitle": "Thanks to an extensive network of logistics partners, we provide transport not only in Europe but also in CIS countries, Central Asia, and the Middle East.",
+      "altText": "Truck driving over a bridge above a green valley",
+      "List": {
+        "1": {
+          "header": "Road Transport in the EU",
+          "content": "Fast and efficient deliveries between European Union countries."
+        },
+        "2": {
+          "header": "Transport to CIS Countries (Russia, Kazakhstan, Belarus, Ukraine)",
+          "content": "Experience in handling cargo in demanding eastern markets."
+        },
+        "3": {
+          "header": "Intermodal Logistics",
+          "content": "The ability to integrate road transport with rail and sea to optimize costs and delivery time."
+        }
+      }
+    },
+    "OfferFlexibility": {
+      "title": "Flexibility and Adaptation to Client Needs",
+      "subtitle": "Each transport is individually tailored to the client's requirements, ensuring maximum efficiency and transport safety.",
+      "altText": "Truck carrying a container through a container yard",
+      "List": {
+        "1": {
+          "header": "Real-Time Shipment Monitoring",
+          "content": "Tracking cargo using modern GPS systems."
+        },
+        "2": {
+          "header": "Fast Response and Execution Time",
+          "content": "Capability for express dedicated transports."
+        },
+        "3": {
+          "header": "Door-to-Door Option",
+          "content": "Comprehensive service from the loading point to the final delivery point."
+        }
+      }
+    },
+    "OfferSupport": {
+      "title": "Full Formal and Customs Support",
+      "subtitle": "For international transports, we offer support in handling formalities and customs procedures.",
+      "altText": "Two people writing on a paper beside open laptops",
+      "List": {
+        "1": {
+          "header": "Customs Clearance Support",
+          "content": "Complete documentation for export and import cargo."
+        },
+        "2": {
+          "header": "Transport Regulation Advisory",
+          "content": "Adjusting transport to national and international regulations."
+        },
+        "3": {
+          "header": "Transport Insurance",
+          "content": "Protecting cargo along the entire transport route."
+        }
+      }
+    },
+    "summaryTitle": "Summary",
+    "summaryContent": "Looking for a reliable partner in land transport? Contact us, and we will prepare the best logistics solution for you!"
+  },
+  "MaritimeTransportPage": {
+    "Metadata": {
+      "locale": "en",
+      "route": "maritime-transport",
+      "title": "Maritime Transport",
+      "description": "We offer comprehensive maritime transport services tailored to individual client needs.",
+      "keywords": "enka, enka shipping, enka forwarding, forwarding, logistics, transport, maritime transport, containers, ships, FCL, LCL, container ships, bulk carriers, oversized cargo, project cargo, bulk cargo, intermodal, door-to-door, maritime forwarding, customs clearance",
+      "ogTitle": "",
+      "ogDescription": "",
+      "ogImage": "",
+      "twitterTitle": "",
+      "twitterDescription": "",
+      "twitterImage": ""
+    },
+    "title": "Maritime Transport",
+    "subtitle": "Maritime transport is one of the pillars of global logistics, enabling efficient and economical transportation of goods over long distances. Through cooperation with major shipping lines and port terminals worldwide, we offer comprehensive maritime transport services tailored to our clients' individual needs.",
+    "ContactButton": {
+      "link": "#contact",
+      "linkTitle": "Go to the contact section",
+      "label": "Learn more"
+    },
+    "OfferServices": {
+      "title": "Container Transport – FCL and LCL",
+      "subtitle": "We offer full service for all types of containers tailored to client needs.",
+      "altText": "Two docking container ships at a cargo port",
+      "List": {
+        "1": {
+          "header": "Full Container Load (FCL)",
+          "content": "Full-container transport for large cargo."
+        },
+        "2": {
+          "header": "Less than Container Load (LCL)",
+          "content": "Consolidation of smaller shipments into one container to optimize costs."
+        },
+        "3": {
+          "header": "Handling All Types of Containers",
+          "content": "Standard, refrigerated (reefer), open-top, flat rack, and others."
+        }
+      }
+    },
+    "OfferOversize": {
+      "title": "Oversized Cargo and Project Cargo",
+      "subtitle": "We provide professional handling of large and complex transport projects.",
+      "altText": "Cargo ship with a crane docking at the port",
+      "List": {
+        "1": {
+          "header": "Oversized and Heavy Cargo",
+          "content": "Organizing transport of industrial equipment, steel structures, turbines, generators."
+        },
+        "2": {
+          "header": "Specialized Unit Transport",
+          "content": "Transport of construction machinery, energy equipment, infrastructure elements."
+        },
+        "3": {
+          "header": "Handling Complex Port Operations",
+          "content": "Loading and unloading using port cranes and RO-RO and LO-LO systems."
+        }
+      }
+    },
+    "OfferBulk": {
+      "title": "Bulk and Breakbulk Cargo Transport",
+      "subtitle": "We offer efficient and tailored solutions for bulk cargo transportation.",
+      "altText": "Group of bulk carriers at sea near the coast",
+      "List": {
+        "1": {
+          "header": "Dry and Liquid Bulk Cargo",
+          "content": "Transporting raw materials, chemicals, grains, metal ores, fuels."
+        },
+        "2": {
+          "header": "Breakbulk Cargo",
+          "content": "Transporting goods requiring individual logistical approaches."
+        },
+        "3": {
+          "header": "Chartered Vessel Transport",
+          "content": "Adapting vessels to specific client needs."
+        }
+      }
+    },
+    "OfferIntermodal": {
+      "title": "Intermodal and Door-to-Door Logistics",
+      "subtitle": "Comprehensive supply chain service in a door-to-door model.",
+      "altText": "Container ship docked at a coastal port",
+      "List": {
+        "1": {
+          "header": "Integration with Rail and Road Transport",
+          "content": "Capability to collect and deliver cargo in an intermodal system."
+        },
+        "2": {
+          "header": "Last-Mile Delivery Service",
+          "content": "Ensuring cargo delivery from the port to the destination."
+        },
+        "3": {
+          "header": "Complete Logistics Coordination",
+          "content": "Managing the entire supply chain in a door-to-door model."
+        }
+      }
+    },
+    "OfferPort": {
+      "title": "Port Services and Maritime Forwarding",
+      "subtitle": "We provide support in port formalities and administrative processes.",
+      "altText": "Cargo ship departing from a port near a raised crane",
+      "List": {
+        "1": {
+          "header": "Customs Clearance and Documentation",
+          "content": "Comprehensive organization of customs and administrative formalities."
+        },
+        "2": {
+          "header": "Warehousing and Transshipment",
+          "content": "Possibility of storing cargo in port terminals."
+        },
+        "3": {
+          "header": "Quality and Safety Control",
+          "content": "Supervising loading and unloading, monitoring transport conditions."
+        }
+      }
+    },
+    "OfferRoutes": {
+      "title": "Maritime Transport on All Routes",
+      "subtitle": "We carry out transport on key maritime routes worldwide.",
+      "altText": "Loaded deck of a container ship sailing through the sea",
+      "List": {
+        "1": {
+          "header": "Transoceanic Routes",
+          "content": "Asia, North and South America, the Middle East."
+        },
+        "2": {
+          "header": "Transport within Europe",
+          "content": "Shipments on Baltic and Mediterranean routes."
+        },
+        "3": {
+          "header": "Specialized Logistics Routes",
+          "content": "Deliveries to hard-to-reach locations organized according to client requirements."
+        }
+      }
+    },
+    "summaryTitle": "Summary",
+    "summaryContent": "Looking for a maritime transport partner? Contact us – we will find the best solution for your business!"
   },
   "RealizationsPage": {
     "Metadata": {

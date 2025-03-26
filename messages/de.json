@@ -70,7 +70,7 @@
     "HeroSection": {
       "id": "hero",
       "header": "Projektladung<br></br>immer pünktlich",
-      "subHeader": "Zuverlässige, professionelle Betreuung Ihrer Transport- und Logistikprojekte <important>von der Planung bis zur Umsetzung.</important>",
+      "subHeader": "Zuverlässige, professionelle Betreuung Ihrer Transport- und Logistikprojekte <strong>von der Planung bis zur Umsetzung.</strong>",
       "ActionButton": {
         "label": "Kostenlose Beratung",
         "link": "#kontakt",
@@ -200,13 +200,13 @@
       "title": "Direktor der Spedition"
     }
   },
-  "ServicesPage": {
+  "ProjectCargoPage": {
     "Metadata": {
       "locale": "de",
-      "route": "dienstleistungen",
-      "title": "Unsere Dienstleistungen",
-      "description": "ENKA bietet umfassende Speditionsdienstleistungen in Deutschland, Europa und Asien an. Wir garantieren Pünktlichkeit, Sicherheit und einen individuellen Ansatz für jede Bestellung.",
-      "keywords": "enka, enka shipping, enka spedition, spedition, logistik, transport, binnenschifffahrt, überdimensioniert, binnenland, see, lkw, FTL, projektladung, breakbulk, pontons, bargen, krane",
+      "route": "projektladung",
+      "title": "Projektladung",
+      "description": "Der Transport von Projektladungen ist unsere Schlüsselkompetenz. Wir organisieren Transporte von anspruchsvollen Ladungen in ganz Europa und darüber hinaus.",
+      "keywords": "enka, enka shipping, enka speditionsdienst, spedition, logistik, transport, projektladung, kräne, projektlogistik, logistische projekte",
       "ogTitle": "",
       "ogDescription": "",
       "ogImage": "",
@@ -214,107 +214,489 @@
       "twitterDescription": "",
       "twitterImage": ""
     },
-    "title": "Unsere Dienstleistungen",
-    "subtitle": "Entdecken Sie die zuverlässigen Logistiklösungen von Enka, von der Abwicklung von Projektladungen bis zum Binnentransport, maßgeschneidert für Unternehmen weltweit.",
-    "ContactButton": { "link": "#kontakt", "linkTitle": "Zur Kontaktsektion", "label": "Erfahren Sie mehr" },
-    "Services": {
-      "ProjectCargo": {
-        "title": "Projektladung",
-        "id": "projektladung",
-        "textContent": "Der Transport von Projektladungen ist ein spezialisierter Service, der sich an Unternehmen richtet, die komplexe Projekte mit übergroßen, ungewöhnlichen oder wertvollen Ladungen durchführen. Enka bietet umfassende Transportlösungen, die auf die individuellen Bedürfnisse des Kunden zugeschnitten sind. Dank langjähriger Erfahrung und einem globalen Partnernetzwerk garantieren wir Pünktlichkeit und Sicherheit, unabhängig von der Größe und dem Standort des Projekts.",
-        "altText": "Containerschiffe, die in einem Frachthafen anlegen",
-        "Values": {
-          "1": {
-            "title": "Umfassender Service",
-            "textContent": "Von der Routenplanung bis zur Lieferung – alles unter der Aufsicht eines erfahrenen Experten."
-          },
-          "2": {
-            "title": "Spezialisierte Ausrüstung",
-            "textContent": "Zugang zu modernster Transportausrüstung und Technologie für den Transport von Spezialladungen."
-          },
-          "3": {
-            "title": "Globale Reichweite",
-            "textContent": "Wir führen Projekte in Deutschland und weltweit durch, um Kunden bei ihren internationalen Vorhaben zu unterstützen."
-          },
-          "4": {
-            "title": "Für wen?",
-            "textContent": "Besonders geeignet für Unternehmen aus der Bau-, Energie- und Industriebranche."
-          }
-        }
-      },
-      "InlandTransport": {
-        "title": "Binnenschifffahrt",
-        "id": "binnenschifffahrt",
-        "textContent": "Enka bietet Binnenschifffahrt mit Flussbargen an, die eine wirtschaftliche und ökologische Alternative zu traditionellen Transportmethoden darstellen. Dieser Service ist für den Transport großer Mengen von Massengütern wie Rohstoffen oder Industrieprodukten auf Wasserstraßen in Deutschland und Europa ausgelegt.",
-        "altText": "Ein Frachtschiff auf einem Fluss",
-        "Values": {
-          "1": {
-            "title": "Umweltfreundlichkeit und Einsparungen",
-            "textContent": "Binnenschifffahrt reduziert Emissionen und senkt Logistikkosten."
-          },
-          "2": {
-            "title": "Ladekapazität und Effizienz",
-            "textContent": "Ideale Lösung für große Gütermengen und überdimensionierte Ladungen."
-          },
-          "3": {
-            "title": "Sicherheit",
-            "textContent": "Professioneller Service und ständige Überwachung der Ladungsroute."
-          },
-          "4": {
-            "title": "Für wen?",
-            "textContent": "Speziell für Unternehmen aus der Rohstoff-, Bau- und Chemieindustrie geeignet, die Binnenschifffahrtsrouten nutzen."
-          }
-        }
-      },
-      "MaritimeTransport": {
-        "title": "Seetransport",
-        "id": "seetransport",
-        "textContent": "Der Seetransport ist die ideale Lösung für Unternehmen, die nach einer wirtschaftlichen Möglichkeit suchen, Ladungen über große Entfernungen zu transportieren. Durch die Zusammenarbeit mit globalen Reedern bietet Enka Zugang zu den effizientesten Routen und Häfen weltweit. Der Service umfasst alle Tätigkeiten: vom Beladen bis zur Zollabfertigung.",
-        "altText": "Ein Containerschiff auf dem Meer",
-        "Values": {
-          "1": {
-            "title": "Wirtschaftlichkeit",
-            "textContent": "Das beste Preis-Leistungs-Verhältnis für den Transport über große Entfernungen."
-          },
-          "2": {
-            "title": "Globales Netzwerk",
-            "textContent": "Zugang zu den wichtigsten Seehäfen weltweit."
-          },
-          "3": {
-            "title": "Zollunterstützung",
-            "textContent": "Umfassender Service rund um Zollabfertigung und Dokumentation."
-          },
-          "4": {
-            "title": "Für wen?",
-            "textContent": "Unternehmen, die im internationalen Handel tätig sind oder globale Logistik benötigen."
-          }
-        }
-      },
-      "LandTransport": {
-        "title": "Landtransport",
-        "id": "landtransport",
-        "textContent": "Der Straßentransport ist eine schnelle und flexible Möglichkeit, Ladungen innerhalb Deutschlands, Europas und Asiens zu transportieren. Enka arbeitet mit einem erfahrenen Team von Fahrern, um eine reibungslose Abwicklung der Lieferungen unter allen Bedingungen zu gewährleisten. Unabhängig von der Art der Ladung bieten wir einen individuellen Ansatz für jede Bestellung.",
-        "altText": "Ein Verkehrsterminal",
-        "Values": {
-          "1": {
-            "title": "Geschwindigkeit und Flexibilität",
-            "textContent": "Transport, der auf die individuellen Zeitpläne des Kunden abgestimmt ist."
-          },
-          "2": {
-            "title": "Sichere Lieferungen",
-            "textContent": "Volle Sicherung der Ladung in jeder Transportphase."
-          },
-          "3": {
-            "title": "Vielfalt der Dienstleistungen",
-            "textContent": "Abwicklung von Standardladungen, überdimensionierten Ladungen und Gefahrgut (ADR)."
-          },
-          "4": {
-            "title": "Für wen?",
-            "textContent": "Unternehmen, die schnellen Transport auf kurzen und mittleren Strecken benötigen."
-          }
+    "title": "Projektladung",
+    "subtitle": "Der Transport von Projektladungen ist unsere Schlüsselkompetenz. Dank unserer Erfahrung, moderner Ausrüstung und bewährter Verfahren sind wir in der Lage, Transporte von anspruchsvollen, schweren und übergroßen Ladungen in ganz Europa und darüber hinaus zu organisieren. Jedes Projekt behandeln wir individuell, indem wir optimale logistische Lösungen auswählen, vollständige Sicherheit gewährleisten und termingerechte Ausführung garantieren.",
+    "ContactButton": { "link": "#kontakt", "linkTitle": "Gehe zum Kontaktbereich", "label": "Erfahren Sie mehr" },
+    "OfferCranes": {
+      "title": "Spezialisierte Kräne und Hebesysteme",
+      "subtitle": "Wir verfügen über eigene Kranressourcen, die es uns ermöglichen, eine umfassende Betreuung beim Be- und Entladen schwerer und großvolumiger Elemente anzubieten.",
+      "altText": "Demag CC 2800 Raupenkran auf einer Baustelle",
+      "List": {
+        "1": {
+          "header": "DEMAG 2800",
+          "content": "Der DEMAG 2800 ist ein Raupenkran mit hoher Tragfähigkeit, ideal für das Heben schwerster Komponenten."
+        },
+        "2": {
+          "header": "Angepasste Laufkrane",
+          "content": "Möglichkeit zur Organisation von mobilen Kränen und Laufkranen, die auf die Projektanforderungen abgestimmt sind."
+        },
+        "3": {
+          "header": "Fachpersonal",
+          "content": "Professionelles Bedienungspersonal mit langjähriger Erfahrung bei großen Infrastrukturprojekten."
         }
       }
-    }
+    },
+    "OfferSpmt": {
+      "title": "Fortschrittliche Transportsysteme – SPMT",
+      "subtitle": "Wir verfügen über <strong>95 SPMT-Module (Self-Propelled Modular Transporter)</strong> – selbstfahrende Transporteinheiten, die den Transport extrem schwerer Ladungen an schwer zugänglichen Orten, auf begrenztem Raum und unter schwierigen Gelände- und Umweltbedingungen ermöglichen.",
+      "altText": "Zwei SPMT-Module, die von einem Spezialisten ferngesteuert werden und ein Bauelement transportieren",
+      "List": {
+        "1": {
+          "header": "Für jede Ladung",
+          "content": "Jede Einheit besteht aus 5–6 Achsen, die flexibel konfiguriert werden können, um sich den Anforderungen der Ladung anzupassen."
+        },
+        "2": {
+          "header": "Für jedes Gelände",
+          "content": "Fähigkeit zur Bewegung auf begrenztem Raum, einschließlich präziser Manöver in Industrieanlagen und auf Baustellen."
+        },
+        "3": {
+          "header": "Über 1000 Tonnen Ladung",
+          "content": "Möglichkeit, mehrere Module zu kombinieren, um Ladungen von über 1000 Tonnen zu transportieren!"
+        }
+      }
+    },
+    "OfferPlatforms": {
+      "title": "Spezialisierte Plattformen und Anhänger",
+      "subtitle": "Dank unseres Zugangs zu einer Vielzahl von Transportlösungen können wir sowohl Standard- als auch Sonderladungen transportieren.",
+      "altText": "Transport eines selbstfahrenden Mähdreschers auf einem Tieflader",
+      "List": {
+        "1": {
+          "header": "Mehrachsige Anhänger",
+          "content": "Mehrachsige Anhänger für den Transport langer und schwerer Elemente."
+        },
+        "2": {
+          "header": "Tieflader",
+          "content": "Tieflader für den Transport von Baumaschinen und Infrastrukturkomponenten."
+        },
+        "3": {
+          "header": "Befestigungssysteme",
+          "content": "Eigene Befestigungs- und Stabilisierungssysteme, die die Sicherheit der transportierten Elemente gewährleisten."
+        }
+      }
+    },
+    "OfferSupport": {
+      "title": "Umfassende technische und dokumentarische Unterstützung",
+      "subtitle": "Die Umsetzung komplexer Projekte erfordert nicht nur geeignete Ausrüstung, sondern auch perfekte Vorbereitung. Wir bieten umfassende Unterstützung in jeder Phase des Transports:",
+      "altText": "Zwei Personen schreiben auf Papier mit offenen Laptops",
+      "List": {
+        "1": {
+          "header": "Method of Statement",
+          "content": "Erstellung detaillierter Transportverfahren, einschließlich Routenplanung, Risikobewertung und Umschlagslogistik."
+        },
+        "2": {
+          "header": "Zertifizierung von Befestigungen und Sicherungen",
+          "content": "Durchführung notwendiger Tests und Erhalt erforderlicher Sicherheitszertifikate."
+        },
+        "3": {
+          "header": "Surveyor-Berichte",
+          "content": "Zusammenarbeit mit unabhängigen Inspektoren, die die korrekte Beladung, Befestigung und Konformität des Transports mit nationalen und internationalen Vorschriften bestätigen."
+        },
+        "4": {
+          "header": "Genehmigungs- und Begleitorganisation",
+          "content": "Wir übernehmen alle Formalitäten, von der Erlangung von Genehmigungen für übergroße Transporte bis hin zur Organisation von Begleitungen und Sicherung der Routen."
+        }
+      }
+    },
+    "OfferRealization": {
+      "title": "Projektabwicklung in Europa und darüber hinaus",
+      "subtitle": "Wir sind auf den Märkten in ganz Europa vertreten, führen jedoch auch Projekte in anspruchsvolleren Regionen durch.",
+      "altText": "Ein Ausschnitt der Erde bei Nacht aus dem Weltraum",
+      "List": {
+        "1": {
+          "header": "Westeuropa und Skandinavien",
+          "content": "Wir führen Transporte in entwickelten Regionen durch, in denen strenge Vorschriften und Anforderungen für Spezialtransporte gelten."
+        },
+        "2": {
+          "header": "Osteuropa, Kasachstan, Usbekistan, China",
+          "content": "Wir verfügen über Erfahrung mit den spezifischen lokalen Vorschriften und Zollverfahren."
+        },
+        "3": {
+          "header": "Türkei und Naher Osten",
+          "content": "Regionen mit einem dynamisch wachsenden Transportmarkt, in denen unsere Erfahrung die Durchführung komplexer Infrastrukturprojekte ermöglicht."
+        },
+        "4": {
+          "header": "Jordanien",
+          "content": "Wir haben Ladungstransporte für große Bauprojekte durchgeführt, darunter eine der größten Investitionen in der Region."
+        }
+      }
+    },
+    "summaryTitle": "Zusammenfassung",
+    "summaryContent": "ENKA Project ist in der Lage, die anspruchsvollsten Transporte weltweit durchzuführen. Wenn Sie einen zuverlässigen Partner für übergroße Projektabwicklungen suchen – wir stehen Ihnen zur Verfügung!"
+  },
+  "InlandTransportPage": {
+    "Metadata": {
+      "locale": "de",
+      "route": "binnentransport",
+      "title": "Binnentransport",
+      "description": "Unser Unternehmen bietet umfassende logistische Unterstützung für den Binnentransport und kombinierte Transporte mit Seehäfen.",
+      "keywords": "enka, enka shipping, enka speditionsdienst, spedition, logistik, transport, binnentransport, fluss, fluss-seetransport, schubleichter, pontons, fähren, schiffe",
+      "ogTitle": "",
+      "ogDescription": "",
+      "ogImage": "",
+      "twitterTitle": "",
+      "twitterDescription": "",
+      "twitterImage": ""
+    },
+    "title": "Binnenschifffahrt und Fluss-Seetransport",
+    "subtitle": "Fluss- und Fluss-Seetransport ist eine effiziente Alternative zum Straßen- und Schienentransport, insbesondere für großvolumige und massenhafte Ladungen. Unser Unternehmen bietet umfassende logistische Unterstützung für Binnentransporte und kombinierte Transporte mit Seehäfen.",
+    "ContactButton": { "link": "#kontakt", "linkTitle": "Gehe zum Kontaktbereich", "label": "Erfahren Sie mehr" },
+    "OfferFleet": {
+      "title": "Spezialisierte Flotte",
+      "subtitle": "Dank der Zusammenarbeit mit renommierten Reedereien und Betreibern haben wir Zugang zu einer breiten Palette von Wasserfahrzeugen, die auf unterschiedliche Ladungstypen abgestimmt sind.",
+      "altText": "Frachtschiff auf einem See",
+      "List": {
+        "1": {
+          "header": "Motorschubleichter und Schubverbände",
+          "content": "Ideale Lösung für den Transport von Großladungen."
+        },
+        "2": {
+          "header": "Pontoneinheiten",
+          "content": "Einheiten für den Transport besonders schwerer und großer Elemente."
+        },
+        "3": {
+          "header": "Containerleichter",
+          "content": "Containerleichter ermöglichen den Transport von Stückgut in Containern."
+        },
+        "4": {
+          "header": "Fähren und Fluss-Seeschiffe",
+          "content": "Direkte Verbindung des Binnentransports mit Seehäfen."
+        }
+      }
+    },
+    "OfferEquipment": {
+      "title": "Komplette Ausrüstung für Verladung und Sicherung",
+      "subtitle": "Wir verfügen über eigene, spezialisierte Ausrüstung für die sichere Befestigung, das Heben und die Handhabung von Ladungen.",
+      "altText": "Verladung eines Frachtschiffs mit einem Kran",
+      "List": {
+        "1": {
+          "header": "Trägerbalken, Traversen und Unterlagen",
+          "content": "Lösungen, die eine gleichmäßige Gewichtsverteilung, Stabilisierung und angemessene Unterstützung der Ladung gewährleisten."
+        },
+        "2": {
+          "header": "Hydraulische Hebesysteme (Jack-Up-Systeme)",
+          "content": "Lösungen, die eine präzise Platzierung schwerer Elemente ermöglichen."
+        },
+        "3": {
+          "header": "Befestigungs- und Sicherungssysteme (Ketten, Gurte, Sturmlaschen)",
+          "content": "Lösungen, die Sicherheit während des Transports gewährleisten."
+        },
+        "4": {
+          "header": "Kranarme und Ausleger",
+          "content": "Lösungen für die Durchführung komplexer Umschlagsoperationen."
+        }
+      }
+    },
+    "OfferOrganizing": {
+      "title": "Umfassende Organisation",
+      "subtitle": "Wir führen Transporte auf den Hauptflüssen und Hafenkanälen in Polen und ganz Europa durch, einschließlich:",
+      "altText": "Ein Flusskahn, der Kohle transportiert, fährt unter einer Brücke hindurch",
+      "List": {
+        "1": {
+          "header": "Port-Kanäle",
+          "content": "Wir bieten Umschlag und Lagerung in Seehäfen."
+        },
+        "2": {
+          "header": "Binnenflüsse in Polen und Europa",
+          "content": "Wir bearbeiten die größten europäischen Flüsse, darunter die Oder, die Weichsel, die Elbe und die Donau."
+        },
+        "3": {
+          "header": "Multimodale Verbindungen",
+          "content": "Lösungen, die eine Minimierung des Straßentransports ermöglichen."
+        }
+      }
+    },
+    "OfferSupport": {
+      "title": "Logistische und operationelle Unterstützung",
+      "subtitle": "Unser Unternehmen bietet die komplette Organisation des Transports von der Planung bis zur Ausführung.",
+      "altText": "Zwei Personen schreiben auf Papier mit offenen Laptops in der Nähe",
+      "List": {
+        "1": {
+          "header": "Analyse und Strategie",
+          "content": "Wir analysieren die Routen und wählen die optimalen schwimmenden Einheiten aus."
+        },
+        "2": {
+          "header": "Logistische Maßnahmen",
+          "content": "Wir organisieren den Umschlag, die Sicherung und die Stabilisierung der Ladung."
+        },
+        "3": {
+          "header": "Einhaltung von Vorschriften",
+          "content": "Wir sorgen für die Einhaltung von Vorschriften und Sicherheitsstandards."
+        }
+      }
+    },
+    "OfferApplications": {
+      "title": "Projektdurchführung in Europa und darüber hinaus",
+      "subtitle": "We execute transports for various industrial sectors, including: <ul><li>Energy and heavy industry (technological modules, steel structures)</li><li>Road and rail infrastructure (bridge sections, prefabricates)</li><li>Construction and offshore (wind tower elements, platforms)</li></ul>",
+      "altText": "Fluss, der durch eine moderne Stadt fließt, eine Gruppe von Frachtschiffen am Meereshorizont sichtbar",
+      "List": {}
+    },
+    "summaryTitle": "Zusammenfassung",
+    "summaryContent": "Mit seiner Erfahrung, seiner Ausrüstung und seinen technischen Möglichkeiten ist ENKA Project in der Lage, den Transport von übergroßen und schweren Lasten über die Binnenschifffahrtswege zu organisieren. Kontaktieren Sie uns, um Ihr Projekt zu besprechen!"
+  },
+  "LandTransportPage": {
+    "Metadata": {
+      "locale": "de",
+      "route": "land-transport",
+      "title": "Landtransport",
+      "description": "Wir bieten umfassende Unterstützung bei der Planung und Durchführung von Transporten, optimieren Routen und passen diese an die Anforderungen der Ladung und des Kunden an.",
+      "keywords": "enka, enka shipping, enka forwarding, spedition, logistik, transport, land, ftl, ltl, übergroße ladung, intermodal, door-to-door, adr, kühltransport, lkw, straßentransport",
+      "ogTitle": "",
+      "ogDescription": "",
+      "ogImage": "",
+      "twitterTitle": "",
+      "twitterDescription": "",
+      "twitterImage": ""
+    },
+    "title": "Landtransport",
+    "subtitle": "",
+    "ContactButton": {
+      "link": "#kontakt",
+      "linkTitle": "Zur Kontaktsektion gehen",
+      "label": "Mehr erfahren"
+    },
+    "OfferServices": {
+      "title": "Standard- und Übergroßtransporte",
+      "subtitle": "Mit einer modernen Transportflotte bieten wir eine Vielzahl von Dienstleistungen, die auf die individuellen Bedürfnisse der Kunden zugeschnitten sind.",
+      "altText": "Transportzentrum mit einem Parkplatz voller Lkw und Transportzüge",
+      "List": {
+        "1": {
+          "header": "FTL- und LTL-Transport",
+          "content": "Full Truck Load (FTL) und Less Than Truck Load (LTL) für verschiedene Branchen."
+        },
+        "2": {
+          "header": "Transport von Übergroßen und Schwerladungen",
+          "content": "Spezialisierte Tieflader, modulare Transportsysteme und Systeme für den Transport von schweren Maschinen, Stahlkonstruktionen, Turbinen oder Transformatoren."
+        },
+        "3": {
+          "header": "Kühltransport",
+          "content": "Transport von Waren, die eine kontrollierte Temperatur erfordern."
+        },
+        "4": {
+          "header": "ADR-Transport",
+          "content": "Handhabung des Transports von Gefahrgut gemäß internationalen Vorschriften."
+        }
+      }
+    },
+    "OfferPlanning": {
+      "title": "Erweiterte Logistik- und Routenplanung",
+      "subtitle": "Wir bieten umfassende Unterstützung bei der Planung und Durchführung von Transporten, optimieren Routen und passen diese an spezifische Ladungen und Kundenanforderungen an.",
+      "altText": "Karte mit markierter Route",
+      "List": {
+        "1": {
+          "header": "Präzise Routenanalyse",
+          "content": "Anpassung der Routen an Straßen- und Infrastrukturbegrenzungen."
+        },
+        "2": {
+          "header": "Fachwissen und Genehmigungsvorbereitung",
+          "content": "Organisation der Dokumentation für übergroße Transporte."
+        },
+        "3": {
+          "header": "Begleitung und Eskortierung",
+          "content": "Sicherstellung der Sicherheit von übergroßen Ladungen auf nationalen und internationalen Straßen."
+        },
+        "4": {
+          "header": "Kranausleger und Bühnensysteme",
+          "content": "Ermöglichen komplexer Lade- und Entladevorgänge."
+        }
+      }
+    },
+    "OfferRange": {
+      "title": "Internationaler und interkontinentaler Transport",
+      "subtitle": "Dank eines umfangreichen Netzwerks von Logistikpartnern bieten wir Transporte nicht nur in Europa, sondern auch in GUS-Staaten, Zentralasien und dem Nahen Osten an.",
+      "altText": "Lkw überquert eine Brücke über einem grünen Tal",
+      "List": {
+        "1": {
+          "header": "Straßentransport in der EU",
+          "content": "Schnelle und effiziente Lieferungen zwischen EU-Ländern."
+        },
+        "2": {
+          "header": "Transport zu GUS-Staaten (Russland, Kasachstan, Weißrussland, Ukraine)",
+          "content": "Erfahrung im Umgang mit Ladungen in anspruchsvollen östlichen Märkten."
+        },
+        "3": {
+          "header": "Intermodale Logistik",
+          "content": "Möglichkeit der Integration von Straßenverkehr mit Schiene und See zur Optimierung von Kosten und Lieferzeit."
+        }
+      }
+    },
+    "OfferFlexibility": {
+      "title": "Flexibilität und Anpassung an Kundenbedürfnisse",
+      "subtitle": "Jeder Transport wird individuell an die Anforderungen des Kunden angepasst, um maximale Effizienz und Transportsicherheit zu gewährleisten.",
+      "altText": "Lkw transportiert einen Container durch ein Containerlager",
+      "List": {
+        "1": {
+          "header": "Echtzeit-Transportüberwachung",
+          "content": "Verfolgung der Ladung mit modernen GPS-Systemen."
+        },
+        "2": {
+          "header": "Schnelle Reaktions- und Durchführungszeit",
+          "content": "Möglichkeit für Express- und dedizierte Transporte."
+        },
+        "3": {
+          "header": "Door-to-Door-Option",
+          "content": "Umfassender Service vom Ladepunkt bis zum endgültigen Lieferpunkt."
+        }
+      }
+    },
+    "OfferSupport": {
+      "title": "Vollständige formale und zolltechnische Unterstützung",
+      "subtitle": "Für internationale Transporte bieten wir Unterstützung bei der Erledigung von Formalitäten und Zollverfahren an.",
+      "altText": "Zwei Personen schreiben auf einem Papier neben offenen Laptops",
+      "List": {
+        "1": {
+          "header": "Unterstützung bei der Zollabfertigung",
+          "content": "Vollständige Dokumentation für Export- und Importladungen."
+        },
+        "2": {
+          "header": "Beratung zu Transportvorschriften",
+          "content": "Anpassung des Transports an nationale und internationale Vorschriften."
+        },
+        "3": {
+          "header": "Transportversicherung",
+          "content": "Schutz der Ladung entlang der gesamten Transportstrecke."
+        }
+      }
+    },
+    "summaryTitle": "Zusammenfassung",
+    "summaryContent": "Suchen Sie einen zuverlässigen Partner im Landtransport? Kontaktieren Sie uns, und wir erstellen die beste Logistiklösung für Sie!"
+  },
+  "MaritimeTransportPage": {
+    "Metadata": {
+      "locale": "de",
+      "route": "maritime-transport",
+      "title": "Seetransport",
+      "description": "Wir bieten umfassende Seetransportdienstleistungen, die individuell auf die Bedürfnisse unserer Kunden zugeschnitten sind.",
+      "keywords": "enka, enka shipping, enka forwarding, spedition, logistik, transport, seetransport, container, schiffe, fcl, lcl, containerschiffe, massengutfrachter, übergroßes ladungsgut, projektladungen, massengut, intermodal, door-to-door, maritime spedition, zollabfertigung",
+      "ogTitle": "",
+      "ogDescription": "",
+      "ogImage": "",
+      "twitterTitle": "",
+      "twitterDescription": "",
+      "twitterImage": ""
+    },
+    "title": "Seetransport",
+    "subtitle": "Der Seetransport ist eine der Säulen der globalen Logistik und ermöglicht die effiziente und wirtschaftliche Beförderung von Waren über weite Entfernungen. Durch die Zusammenarbeit mit großen Reedereien und Hafenterminals weltweit bieten wir umfassende Seetransportdienstleistungen, die individuell auf die Bedürfnisse unserer Kunden zugeschnitten sind.",
+    "ContactButton": {
+      "link": "#kontakt",
+      "linkTitle": "Zur Kontaktsektion gehen",
+      "label": "Mehr erfahren"
+    },
+    "OfferServices": {
+      "title": "Containertransport – FCL und LCL",
+      "subtitle": "Wir bieten einen umfassenden Service für alle Arten von Containern, die auf die Bedürfnisse der Kunden zugeschnitten sind.",
+      "altText": "Zwei anlegende Containerschiffe in einem Frachthafen",
+      "List": {
+        "1": {
+          "header": "Full Container Load (FCL)",
+          "content": "Vollcontainer-Transport für große Ladungen."
+        },
+        "2": {
+          "header": "Less than Container Load (LCL)",
+          "content": "Konsolidierung kleinerer Sendungen in einem Container zur Kostenoptimierung."
+        },
+        "3": {
+          "header": "Handhabung aller Containertypen",
+          "content": "Standard-, Kühl- (Reefer), Open-Top-, Flat-Rack- und andere Container."
+        }
+      }
+    },
+    "OfferOversize": {
+      "title": "Übergroßes Ladungsgut und Projektladungen",
+      "subtitle": "Wir bieten professionelle Handhabung großer und komplexer Transportprojekte.",
+      "altText": "Frachtschiff mit einem Kran, das am Hafen anlegt",
+      "List": {
+        "1": {
+          "header": "Übergroßes und Schwerladungen",
+          "content": "Organisation des Transports von Industrieanlagen, Stahlkonstruktionen, Turbinen, Generatoren."
+        },
+        "2": {
+          "header": "Transport spezialisierter Einheiten",
+          "content": "Transport von Baumaschinen, Energieanlagen, Infrastrukturelementen."
+        },
+        "3": {
+          "header": "Handhabung komplexer Hafenoperationen",
+          "content": "Laden und Entladen mit Hafenkraänen sowie RO-RO- und LO-LO-Systemen."
+        }
+      }
+    },
+    "OfferBulk": {
+      "title": "Massengut- und Stückguttransporte",
+      "subtitle": "Wir bieten effiziente und auf die Anforderungen zugeschnittene Lösungen für den Transport von Massengütern.",
+      "altText": "Gruppe von Massengutfrachtern auf See nahe der Küste",
+      "List": {
+        "1": {
+          "header": "Trockene und flüssige Massengüter",
+          "content": "Transport von Rohstoffen, Chemikalien, Getreide, Metallerzen, Kraftstoffen."
+        },
+        "2": {
+          "header": "Stückgut",
+          "content": "Transport von Waren, die individuelle logistische Ansätze erfordern."
+        },
+        "3": {
+          "header": "Charter-Transporte",
+          "content": "Anpassung von Schiffen an spezifische Kundenbedürfnisse."
+        }
+      }
+    },
+    "OfferIntermodal": {
+      "title": "Intermodale und Door-to-Door-Logistik",
+      "subtitle": "Umfassender Lieferkettenservice im Door-to-Door-Modell.",
+      "altText": "Containerschiff, das an einem Küstenhafen anlegt",
+      "List": {
+        "1": {
+          "header": "Integration mit Bahn- und Straßenverkehr",
+          "content": "Möglichkeit zur Abholung und Lieferung von Ladungen im intermodalen System."
+        },
+        "2": {
+          "header": "Last-Mile-Lieferservice",
+          "content": "Sicherstellung der Lieferung von der Hafenanlegestelle bis zum Bestimmungsort."
+        },
+        "3": {
+          "header": "Komplette Logistikkoordination",
+          "content": "Verwaltung der gesamten Lieferkette im Door-to-Door-Modell."
+        }
+      }
+    },
+    "OfferPort": {
+      "title": "Hafendienstleistungen und maritime Spedition",
+      "subtitle": "Wir bieten Unterstützung bei Hafenformalitäten und administrativen Prozessen.",
+      "altText": "Frachtschiff verlässt einen Hafen nahe einem hochgezogenen Kran",
+      "List": {
+        "1": {
+          "header": "Zollabfertigung und Dokumentation",
+          "content": "Umfassende Organisation von Zoll- und Verwaltungsformalitäten."
+        },
+        "2": {
+          "header": "Lagerung und Umladung",
+          "content": "Möglichkeit der Lagerung von Ladungen in Hafenterminals."
+        },
+        "3": {
+          "header": "Qualitäts- und Sicherheitskontrolle",
+          "content": "Überwachung von Be- und Entladevorgängen, Kontrolle der Transportbedingungen."
+        }
+      }
+    },
+    "OfferRoutes": {
+      "title": "Seetransport auf allen Routen",
+      "subtitle": "Wir führen Transporte auf wichtigen Seerouten weltweit durch.",
+      "altText": "Beladetes Deck eines Containerschiffs, das durch das Meer segelt",
+      "List": {
+        "1": {
+          "header": "Transozeanische Routen",
+          "content": "Asien, Nord- und Südamerika, Naher Osten."
+        },
+        "2": {
+          "header": "Transport innerhalb Europas",
+          "content": "Sendungen auf Ostsee- und Mittelmeer-Routen."
+        },
+        "3": {
+          "header": "Spezialisierte Logistikrouten",
+          "content": "Lieferungen an schwer zugängliche Orte, die gemäß den Anforderungen des Kunden organisiert werden."
+        }
+      }
+    },
+    "summaryTitle": "Zusammenfassung",
+    "summaryContent": "Suchen Sie einen Partner im Seetransport? Kontaktieren Sie uns – wir finden die beste Lösung für Ihr Unternehmen!"
   },
   "RealizationsPage": {
     "Metadata": {

@@ -1,6 +1,9 @@
 {
   "Global": {
-    "Metadata": { "titleSuffix": "Enka Spedycja", "titleDefault": "Profesjonalne usługi spedycyjne | Enka Spedycja" },
+    "Metadata": {
+      "titleSuffix": "Enka Spedycja",
+      "titleDefault": "Profesjonalne usługi spedycyjne | Enka Spedycja"
+    },
     "logoAlt": "Logo Enka Spedycja",
     "logoTitle": "Idź do strony głównej",
     "ContactData": {
@@ -197,122 +200,6 @@
       "title": "Dyrektor Spedycji"
     }
   },
-  "ServicesPage": {
-    "Metadata": {
-      "locale": "pl",
-      "route": "uslugi",
-      "title": "Nasze usługi",
-      "description": "ENKA oferuje kompleksowe usługi spedycyjne w\u00a0Polsce, Europie i\u00a0Azji. Gwarantujemy terminowość, bezpieczeństwo oraz indywidualne podejście do każdego zlecenia.",
-      "keywords": "enka, enka shipping, enka spedycja, spedycjia, logistyka, transport, transport rzeczny, ponadgabarytowy, śródlądowy, morski, ciężarówki, FTL, project cargo, breakbulk, pontony, barki, dźwigi",
-      "ogTitle": "",
-      "ogDescription": "",
-      "ogImage": "",
-      "twitterTitle": "",
-      "twitterDescription": "",
-      "twitterImage": ""
-    },
-    "title": "Nasze usługi",
-    "subtitle": "Poznaj niezawodne rozwiązania logistyczne Enka, od obsługi Project Cargo po transport śródlądowy, dedykowane dla firm na całym świecie.",
-    "ContactButton": { "link": "#kontakt", "linkTitle": "Idź do sekcji kontakt", "label": "Dowiedz się więcej" },
-    "Services": {
-      "ProjectCargo": {
-        "title": "Project Cargo",
-        "id": "project-cargo",
-        "textContent": "Transport Project Cargo to specjalistyczna usługa skierowana do firm realizujących złożone projekty wymagające przewozu ładunków ponadgabarytowych, nietypowych lub o\u00a0dużej wartości. Enka zapewnia kompleksowe rozwiązania transportowe dopasowane do indywidualnych potrzeb klienta. Dzięki wieloletniemu doświadczeniu oraz globalnej sieci partnerów, gwarantujemy terminowość i\u00a0bezpieczeństwo, niezależnie od skali i\u00a0lokalizacji projektu.",
-        "altText": "Dokujące kontenerowce w\u00a0porcie towarowym",
-        "Values": {
-          "1": {
-            "title": "Kompleksowa obsługa",
-            "textContent": "Od planowania trasy po realizację dostawy, wszystko pod nadzorem doświadczonego eksperta."
-          },
-          "2": {
-            "title": "Specjalistyczny sprzęt",
-            "textContent": "Dostęp do zaawansowanego sprzętu transportowego i\u00a0technologii umożliwiających przewóz ładunków specjalnych."
-          },
-          "3": {
-            "title": "Globalny zasięg",
-            "textContent": "Realizujemy projekty w\u00a0Polsce i\u00a0na całym świecie, wspierając klientów w\u00a0ich międzynarodowych przedsięwzięciach."
-          },
-          "4": {
-            "title": "Dla kogo?",
-            "textContent": "Usługa szczególnie dedykowana firmom z\u00a0branży budowlanej, energetycznej i\u00a0przemysłowej."
-          }
-        }
-      },
-      "InlandTransport": {
-        "title": "Transport Śródlądowy (rzeczny)",
-        "id": "transport-srodladawy",
-        "textContent": "Enka oferuje transport śródlądowy za pomocą barek rzecznych, które są ekonomiczną i\u00a0ekologiczną alternatywą dla tradycyjnych metod przewozu. Usługa ta dedykowana jest przewozowi dużych ilości ładunków masowych, takich jak surowce czy produkty przemysłowe, na trasach wodnych w\u00a0Polsce i\u00a0Europie.",
-        "altText": "Barka towarowa płynąca po rzece",
-        "Values": {
-          "1": {
-            "title": "Środowisko i\u00a0oszczędność",
-            "textContent": "Transport rzeczny redukuje emisję zanieczyszczeń i\u00a0obniża koszty logistyczne."
-          },
-          "2": {
-            "title": "Ładowność i\u00a0efektywność",
-            "textContent": "Idealne rozwiązanie dla dużych wolumenów towarów oraz ładunków ponadgabarytowych."
-          },
-          "3": {
-            "title": "Bezpieczeństwo",
-            "textContent": "Profesjonalna obsługa oraz stały monitoring trasy ładunku."
-          },
-          "4": {
-            "title": "Dla kogo?",
-            "textContent": "Usługa dedykowana szczególnie firmom z\u00a0branży surowcowej, budowlanej oraz chemicznej korzystających z\u00a0tras śródlądowych."
-          }
-        }
-      },
-      "MaritimeTransport": {
-        "title": "Transport Morski",
-        "id": "transport-morski",
-        "textContent": "Transport morski to idealne rozwiązanie dla firm poszukujących ekonomicznego sposobu przewozu ładunków na dużą odległość. Dzięki współpracy z\u00a0globalnymi armatorami, Enka oferuje dostęp do najbardziej efektywnych tras i\u00a0portów na całym świecie. Usługa obejmuje pełen zakres działań: od załadunku po odprawy celne.",
-        "altText": "Kontenerowiec na morzu",
-        "Values": {
-          "1": {
-            "title": "Ekonomiczność",
-            "textContent": "Najlepszy stosunek ceny do możliwości przewozowych na dużych odległościach."
-          },
-          "2": {
-            "title": "Globalna sieć",
-            "textContent": "Dostęp do kluczowych portów morskich na całym świecie."
-          },
-          "3": {
-            "title": "Wsparcie celne",
-            "textContent": "Kompleksowa obsługa związana z\u00a0odprawami celnymi i\u00a0dokumentacją."
-          },
-          "4": {
-            "title": "Dla kogo?",
-            "textContent": "Firmy zajmujące się handlem międzynarodowym lub wymagające globalnej logistyki."
-          }
-        }
-      },
-      "LandTransport": {
-        "title": "Transport Lądowy",
-        "id": "transport-ladawy",
-        "textContent": "Transport lądowy (drogowy) to szybki i\u00a0elastyczny sposób przewozu ładunków na terenie Polski, Europy i\u00a0Azji. Enka operuje przy pomocy doświadczonego zespołu kierowców, zapewniając sprawną realizację dostaw w\u00a0każdych warunkach. Niezależnie od rodzaju ładunku, oferujemy indywidualne podejście do każdego zlecenia.",
-        "altText": "Terminal transporowy",
-        "Values": {
-          "1": {
-            "title": "Szybkość i\u00a0elastyczność",
-            "textContent": "Transport dostosowany do indywidualnych harmonogramów klienta."
-          },
-          "2": {
-            "title": "Bezpieczne dostawy",
-            "textContent": "Pełne zabezpieczenie ładunku na każdym etapie transportu."
-          },
-          "3": {
-            "title": "Różnorodność usług",
-            "textContent": "Obsługa ładunków standardowych, ponadgabarytowych oraz ADR."
-          },
-          "4": {
-            "title": "Dla kogo?",
-            "textContent": "Firmy potrzebujące szybkiego transportu towarów na krótkich i\u00a0średnich dystansach."
-          }
-        }
-      }
-    }
-  },
   "ProjectCargoPage": {
     "Metadata": {
       "locale": "pl",
@@ -456,7 +343,7 @@
     "OfferFleet": {
       "title": "Specjalistyczna flota",
       "subtitle": " Dzięki współpracy z\u00a0renomowanymi armatorami i\u00a0operatorami posiadamy dostęp do szerokiej gamy jednostek pływających, dostosowanych do różnych typów ładunków.",
-      "altText": "Barka towarowa płynąca na rzece",
+      "altText": "Statek towarowy płynąca na jeziorze",
       "List": {
         "1": {
           "header": "Barki motorowe i\u00a0zestawy pchane",
@@ -479,7 +366,7 @@
     "OfferEquipment": {
       "title": "Kompletny osprzęt do\u00a0załadunku i\u00a0mocowania",
       "subtitle": "Dysponujemy własnym, specjalistycznym sprzętem do bezpiecznego mocowania, podnoszenia i\u00a0manipulacji ładunkami.",
-      "altText": "",
+      "altText": "Załadunek statku towarowego przez dźwig",
       "List": {
         "1": {
           "header": "Belki nośne, trawersy i\u00a0podkłady",
@@ -502,7 +389,7 @@
     "OfferOrganizing": {
       "title": "Kompleksowa organizacja",
       "subtitle": "Realizujemy transporty na głównych rzekach i\u00a0kanałach portowych w\u00a0Polsce i\u00a0Europie, z\u00a0możliwością integracji z\u00a0transportem morskim. ",
-      "altText": "",
+      "altText": "Barka rzeczna transportująca węgiel przepływa pod mostem",
       "List": {
         "1": {
           "header": "Kanały portowe",
@@ -521,7 +408,7 @@
     "OfferSupport": {
       "title": "Obsługa logistyczna i\u00a0operacyjna",
       "subtitle": "Nasza firma zapewnia pełną organizację transportu od planowania po realizację.",
-      "altText": "",
+      "altText": "Dwóch ludzi piszących na kartce przy otwartych laptopach",
       "List": {
         "1": {
           "header": "Analiza i\u00a0strategia",
@@ -540,7 +427,7 @@
     "OfferApplications": {
       "title": "Realizacja projektów w\u00a0Europie i\u00a0poza nią",
       "subtitle": "Realizujemy transporty dla wielu sektorów przemysłu, w\u00a0tym: <ul><li>Energetyki i\u00a0przemysłu ciężkiego (moduły technologiczne, konstrukcje stalowe)</li><li>Infrastruktury drogowej i\u00a0kolejowej (sekcje mostów, prefabrykaty)</li><li>Budownictwa i\u00a0offshore (elementy wież wiatrowych, platformy)</li></ul>",
-      "altText": "",
+      "altText": "Rzeka przepływająca przez nowoczesne miasto, grupa statków towarowych widoczna na morzu horyzoncie",
       "List": {}
     },
     "summaryTitle": "Podsumowanie",
@@ -562,11 +449,15 @@
     },
     "title": "Transport Lądowy",
     "subtitle": "",
-    "ContactButton": { "link": "#kontakt", "linkTitle": "Idź do sekcji kontakt", "label": "Dowiedz się więcej" },
+    "ContactButton": {
+      "link": "#kontakt",
+      "linkTitle": "Idź do sekcji kontakt",
+      "label": "Dowiedz się więcej"
+    },
     "OfferServices": {
       "title": "Transport standardowy i\u00a0ponadgabarytowy",
       "subtitle": "Dzięki nowoczesnemu zapleczu transportowemu realizujemy szeroki wachlarz usług, dostosowanych do indywidualnych potrzeb klientów. ",
-      "altText": "",
+      "altText": "Hub transportowy z parkingiem pełnym ciężarówek i pociągów transportowych",
       "List": {
         "1": {
           "header": "Transport FTL i\u00a0LTL",
@@ -589,7 +480,7 @@
     "OfferPlanning": {
       "title": "Zaawansowana logistyka i\u00a0planowanie tras",
       "subtitle": "Oferujemy pełne wsparcie w\u00a0planowaniu i\u00a0realizacji transportów, optymalizując trasy oraz dostosowując je do specyficznych wymagań ładunku i\u00a0klienta.",
-      "altText": "",
+      "altText": "Mapa z zaznaczoną trasą",
       "List": {
         "1": {
           "header": "Precyzyjna analiza trasy",
@@ -612,7 +503,7 @@
     "OfferRange": {
       "title": "Transport międzynarodowy i\u00a0międzykontynentalny",
       "subtitle": "Dzięki rozbudowanej sieci partnerów logistycznych realizujemy transporty nie tylko w\u00a0Europie, ale również w\u00a0krajach WNP, Azji Środkowej i\u00a0na Bliskim Wschodzie.",
-      "altText": "",
+      "altText": "Ciężarówka jadąca przez most nad zalezioną doliną",
       "List": {
         "1": {
           "header": "Transport drogowy w\u00a0UE",
@@ -631,7 +522,7 @@
     "OfferFlexibility": {
       "title": "Elastyczność i\u00a0dostosowanie do potrzeb klienta",
       "subtitle": "Każdy transport jest indywidualnie dopasowywany do wymagań klienta, co pozwala na osiągnięcie maksymalnej efektywności i\u00a0bezpieczeństwa przewozu.",
-      "altText": "",
+      "altText": "Ciężarówka wioząca kontener przez magazyn kontenerowy",
       "List": {
         "1": {
           "header": "Monitorowanie przesyłek w\u00a0czasie rzeczywistym",
@@ -650,7 +541,7 @@
     "OfferSupport": {
       "title": "Pełna obsługa formalna i\u00a0celna",
       "subtitle": "W przypadku transportów międzynarodowych oferujemy wsparcie w\u00a0zakresie formalności i\u00a0procedur celnych.",
-      "altText": "",
+      "altText": "Dwóch ludzi piszących na kartce przy otwartych laptopach",
       "List": {
         "1": {
           "header": "Obsługa odpraw celnych",
@@ -685,11 +576,15 @@
     },
     "title": "Transport Morski",
     "subtitle": "Transport morski stanowi jeden z\u00a0filarów globalnej logistyki, pozwalając na efektywny \u00a0ekonomiczny przewóz ładunków na duże odległości. Dzięki współpracy z\u00a0największymi armatorami i\u00a0terminalami portowymi na świecie, oferujemy kompleksową obsługę transportu morskiego, dostosowaną do indywidualnych potrzeb naszych klientów.",
-    "ContactButton": { "link": "#kontakt", "linkTitle": "Idź do sekcji kontakt", "label": "Dowiedz się więcej" },
+    "ContactButton": {
+      "link": "#kontakt",
+      "linkTitle": "Idź do sekcji kontakt",
+      "label": "Dowiedz się więcej"
+    },
     "OfferServices": {
       "title": "Transport kontenerowy – FCL i\u00a0LCL",
       "subtitle": "Oferujemy pełną obsługę wszystkich rodzajów kontenerów, dostosowaną do potrzeb klienta.",
-      "altText": "",
+      "altText": "Dwa dokujące kontenerowce w porcie towarowym",
       "List": {
         "1": {
           "header": "Full Container Load (FCL)",
@@ -708,7 +603,7 @@
     "OfferOversize": {
       "title": "Transport ładunków ponadgabarytowych i\u00a0project cargo",
       "subtitle": "Zapewniamy profesjonalną obsługę dużych i\u00a0skomplikowanych projektów transportowych.",
-      "altText": "",
+      "altText": "Statek towarowy z dźwigiem dokujący w porcie",
       "List": {
         "1": {
           "header": "Ładunki wielkogabarytowe i\u00a0ciężkie",
@@ -727,7 +622,7 @@
     "OfferBulk": {
       "title": "Transport masowy (bulk cargo i\u00a0breakbulk cargo)",
       "subtitle": "Oferujemy efektywne i\u00a0dostosowane rozwiązania dla przewozu ładunków masowych.",
-      "altText": "",
+      "altText": "Grupa masowców na morzu przy wybrzeżu",
       "List": {
         "1": {
           "header": "Ładunki sypkie i\u00a0płynne",
@@ -746,7 +641,7 @@
     "OfferIntermodal": {
       "title": "Logistyka intermodalna i\u00a0door-to-door",
       "subtitle": "Kompleksowa obsługa łańcucha dostaw w\u00a0modelu door-to-door.",
-      "altText": "",
+      "altText": "Kontenerowiec zacumowany przy wybrzeżu portowym",
       "List": {
         "1": {
           "header": "Integracja z\u00a0transportem kolejowym i\u00a0drogowym",
@@ -765,7 +660,7 @@
     "OfferPort": {
       "title": "Obsługa portowa i\u00a0spedycja morska",
       "subtitle": "Zapewniamy wsparcie w\u00a0zakresie formalności portowych i\u00a0administracyjnych.",
-      "altText": "",
+      "altText": "Statek towarowy wypływający z portu obok podniesionego żurawia",
       "List": {
         "1": {
           "header": "Odprawy celne i\u00a0dokumentacja",
@@ -784,7 +679,7 @@
     "OfferRoutes": {
       "title": "Transport morski na wszystkich trasach",
       "subtitle": "Realizujemy transporty na kluczowych trasach morskich na całym świecie.",
-      "altText": "",
+      "altText": "Załadowany pokład kontenerowca płynące przez morze",
       "List": {
         "1": {
           "header": "Szlaki transoceaniczne",
