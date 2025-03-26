@@ -220,7 +220,7 @@
     "OfferCranes": {
       "title": "Spezialisierte Kräne und Hebesysteme",
       "subtitle": "Wir verfügen über eigene Kranressourcen, die es uns ermöglichen, eine umfassende Betreuung beim Be- und Entladen schwerer und großvolumiger Elemente anzubieten.",
-      "altText": "Demag CC 2800 Raupenkran auf einer Baustelle",
+      "altText": "Installation einer Industrieanlage vor Ort mit Hilfe eines Krans",
       "List": {
         "1": {
           "header": "DEMAG 2800",
@@ -339,7 +339,11 @@
     },
     "title": "Binnenschifffahrt und Fluss-Seetransport",
     "subtitle": "Fluss- und Fluss-Seetransport ist eine effiziente Alternative zum Straßen- und Schienentransport, insbesondere für großvolumige und massenhafte Ladungen. Unser Unternehmen bietet umfassende logistische Unterstützung für Binnentransporte und kombinierte Transporte mit Seehäfen.",
-    "ContactButton": { "link": "#kontakt", "linkTitle": "Gehe zum Kontaktbereich", "label": "Erfahren Sie mehr" },
+    "ContactButton": {
+      "link": "#kontakt",
+      "linkTitle": "Gehe zum Kontaktbereich",
+      "label": "Erfahren Sie mehr"
+    },
     "OfferFleet": {
       "title": "Spezialisierte Flotte",
       "subtitle": "Dank der Zusammenarbeit mit renommierten Reedereien und Betreibern haben wir Zugang zu einer breiten Palette von Wasserfahrzeugen, die auf unterschiedliche Ladungstypen abgestimmt sind.",
@@ -734,7 +738,19 @@
       "image17": "Bildbeschreibung 17",
       "image18": "Bildbeschreibung 18",
       "image19": "Bildbeschreibung 19",
-      "image20": "Bildbeschreibung 20"
+      "image20": "Bildbeschreibung 20",
+      "image21": "Bildbeschreibung 21",
+      "image22": "Bildbeschreibung 22",
+      "image23": "Bildbeschreibung 23",
+      "image24": "Bildbeschreibung 24",
+      "image25": "Bildbeschreibung 25",
+      "image26": "Bildbeschreibung 26",
+      "image27": "Bildbeschreibung 27",
+      "image28": "Bildbeschreibung 28",
+      "image29": "Bildbeschreibung 29",
+      "image30": "Bildbeschreibung 30",
+      "image31": "Bildbeschreibung 31",
+      "image32": "Bildbeschreibung 32"
     }
   },
   "Footer": {

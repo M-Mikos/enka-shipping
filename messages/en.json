@@ -220,7 +220,7 @@
     "OfferCranes": {
       "title": "Specialized Cranes and Lifting Systems",
       "subtitle": "We have our own crane resources, allowing us to offer comprehensive handling of loading and unloading heavy and oversized elements.",
-      "altText": "DEMAG CC 2800 crawler crane at a construction site",
+      "altText": "Installation of an industrial device on a construction site with the help of a crane",
       "List": {
         "1": {
           "header": "DEMAG 2800",
@@ -339,7 +339,11 @@
     },
     "title": "Inland and River-Sea Transport",
     "subtitle": "River and river-sea transport is an efficient alternative to road and rail transport, especially for oversized and bulk cargo. Our company offers full logistics support for inland and combined transports with seaports.",
-    "ContactButton": { "link": "#contact", "linkTitle": "Go to contact section", "label": "Learn more" },
+    "ContactButton": {
+      "link": "#contact",
+      "linkTitle": "Go to contact section",
+      "label": "Learn more"
+    },
     "OfferFleet": {
       "title": "Specialized Fleet",
       "subtitle": "Thanks to cooperation with renowned shipowners and operators, we have access to a wide range of vessels tailored to different cargo types.",
@@ -734,7 +738,19 @@
       "image17": "Opis obrazu 17",
       "image18": "Opis obrazu 18",
       "image19": "Opis obrazu 19",
-      "image20": "Opis obrazu 20"
+      "image20": "Opis obrazu 20",
+      "image21": "Opis obrazu 21",
+      "image22": "Opis obrazu 22",
+      "image23": "Opis obrazu 23",
+      "image24": "Opis obrazu 24",
+      "image25": "Opis obrazu 25",
+      "image26": "Opis obrazu 26",
+      "image27": "Opis obrazu 27",
+      "image28": "Opis obrazu 28",
+      "image29": "Opis obrazu 29",
+      "image30": "Opis obrazu 30",
+      "image31": "Opis obrazu 31",
+      "image32": "Opis obrazu 32"
     }
   },
   "Footer": {

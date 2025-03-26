@@ -220,7 +220,7 @@
     "OfferCranes": {
       "title": "Specjalistyczne dźwigi i\u00a0systemy podnoszenia",
       "subtitle": "Dysponujemy własnym zapleczem dźwigowym, co pozwala nam oferować kompleksową obsługę załadunków i\u00a0rozładunków ciężkich i\u00a0wielkogabarytowych elementów.",
-      "altText": "Żuraw gąsienicowy DEMAG CC 2800 na placu budowy",
+      "altText": "Montaż urządzenia przemysłowego na placu budowy za pomocą dźwigu",
       "List": {
         "1": {
           "header": "DEMAG 2800",
@@ -339,7 +339,11 @@
     },
     "title": "Transport Śródlądowy i\u00a0Rzeczno-Morski ",
     "subtitle": "Transport rzeczny i\u00a0rzeczo-morski to efektywna alternatywa dla transportu drogowego i\u00a0kolejowego, szczególnie w\u00a0przypadku ładunków wielkogabarytowych i\u00a0masowych. Nasza firma oferuje pełne wsparcie logistyczne w\u00a0akresie przewozów śródlądowych oraz transportów łączonych z\u00a0portami morskimi.",
-    "ContactButton": { "link": "#kontakt", "linkTitle": "Idź do sekcji kontakt", "label": "Dowiedz się więcej" },
+    "ContactButton": {
+      "link": "#kontakt",
+      "linkTitle": "Idź do sekcji kontakt",
+      "label": "Dowiedz się więcej"
+    },
     "OfferFleet": {
       "title": "Specjalistyczna flota",
       "subtitle": " Dzięki współpracy z\u00a0renomowanymi armatorami i\u00a0operatorami posiadamy dostęp do szerokiej gamy jednostek pływających, dostosowanych do różnych typów ładunków.",
@@ -734,7 +738,19 @@
       "image17": "Opis obrazu 17",
       "image18": "Opis obrazu 18",
       "image19": "Opis obrazu 19",
-      "image20": "Opis obrazu 20"
+      "image20": "Opis obrazu 20",
+      "image21": "Opis obrazu 21",
+      "image22": "Opis obrazu 22",
+      "image23": "Opis obrazu 23",
+      "image24": "Opis obrazu 24",
+      "image25": "Opis obrazu 25",
+      "image26": "Opis obrazu 26",
+      "image27": "Opis obrazu 27",
+      "image28": "Opis obrazu 28",
+      "image29": "Opis obrazu 29",
+      "image30": "Opis obrazu 30",
+      "image31": "Opis obrazu 31",
+      "image32": "Opis obrazu 32"
     }
   },
   "Footer": {

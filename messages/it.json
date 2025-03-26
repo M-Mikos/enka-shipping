@@ -200,13 +200,13 @@
       "title": "Direttore delle Spedizioni"
     }
   },
-  "ServicesPage": {
+  "ProjectCargoPage": {
     "Metadata": {
       "locale": "it",
-      "route": "i-nostri-servizi",
-      "title": "I Nostri Servizi",
-      "description": "ENKA offre servizi di spedizione completi in Italia, Europa e Asia. Garantiamo puntualità, sicurezza e un approccio individuale a ogni ordine.",
-      "keywords": "enka, enka shipping, enka forwarding, spedizioni, logistica, trasporto, fluviale, oversize, interno, marittimo, camion, FTL, project cargo, breakbulk, pontoni, chiatte, gru",
+      "route": "project-cargo",
+      "title": "Project Cargo",
+      "description": "Il trasporto di carichi eccezionali è la nostra specializzazione principale. Organizziamo trasporti di carichi impegnativi in tutta Europa e oltre i suoi confini.",
+      "keywords": "enka, enka shipping, enka spedizione, spedizione, logistica, trasporto, project cargo, gru, logistica di progetto, progetti logistici",
       "ogTitle": "",
       "ogDescription": "",
       "ogImage": "",
@@ -214,107 +214,493 @@
       "twitterDescription": "",
       "twitterImage": ""
     },
-    "title": "I Nostri Servizi",
-    "subtitle": "Scopri le soluzioni logistiche affidabili di Enka, dalla gestione del Project Cargo al trasporto fluviale, dedicate alle aziende di tutto il mondo.",
-    "ContactButton": { "link": "#contatto", "linkTitle": "Vai al contatto", "label": "Ulteriori informazioni" },
-    "Services": {
-      "ProjectCargo": {
-        "title": "Trasporto di Progetti",
-        "id": "trasporto-progetti",
-        "textContent": "Il trasporto di progetti è un servizio specializzato pensato per aziende che eseguono progetti complessi che richiedono il trasporto di carichi fuori misura, unici o di alto valore. Enka offre soluzioni di trasporto complete, adattate alle esigenze individuali del cliente. Con anni di esperienza e una rete globale di partner, garantiamo puntualità e sicurezza, indipendentemente dalla scala e dalla posizione del progetto.",
-        "altText": "Attracco di navi container in un porto mercis",
-        "Values": {
-          "1": {
-            "title": "Servizio Completo",
-            "textContent": "Dalla pianificazione del percorso all'esecuzione della consegna, tutto sotto la supervisione di un esperto esperto."
-          },
-          "2": {
-            "title": "Attrezzature Specializzate",
-            "textContent": "Accesso a tecnologie e attrezzature di trasporto avanzate per il trasporto di carichi specializzati."
-          },
-          "3": {
-            "title": "Copertura Globale",
-            "textContent": "Realizziamo progetti in Polonia e in tutto il mondo, supportando i clienti nei loro progetti internazionali."
-          },
-          "4": {
-            "title": "A chi è rivolto?",
-            "textContent": "Un servizio particolarmente dedicato ad aziende nei settori delle costruzioni, dell'energia e dell'industria."
-          }
-        }
-      },
-      "InlandTransport": {
-        "title": "Trasporto Interno (Fluviale)",
-        "id": "trasporto-interno",
-        "textContent": "Enka offre trasporti interni utilizzando chiatte fluviali, un'alternativa economica ed ecologica ai metodi di trasporto tradizionali. Questo servizio è dedicato al trasporto di grandi quantità di merci sfuse, come materie prime o prodotti industriali, attraverso le vie navigabili in Polonia e in Europa.",
-        "altText": "Chiatta da carico sul fiume",
-        "Values": {
-          "1": {
-            "title": "Ambiente e Risparmio",
-            "textContent": "Il trasporto fluviale riduce le emissioni e abbassa i costi logistici."
-          },
-          "2": {
-            "title": "Capacità ed Efficienza",
-            "textContent": "Una soluzione ideale per grandi volumi di merci e carichi fuori misura."
-          },
-          "3": {
-            "title": "Sicurezza",
-            "textContent": "Servizio professionale e monitoraggio continuo dei percorsi di trasporto."
-          },
-          "4": {
-            "title": "A chi è rivolto?",
-            "textContent": "Un servizio particolarmente dedicato ad aziende nei settori delle materie prime, delle costruzioni e dell'industria chimica che utilizzano percorsi interni."
-          }
-        }
-      },
-      "MaritimeTransport": {
-        "title": "Trasporto Marittimo",
-        "id": "trasporto-marittimo",
-        "textContent": "Il trasporto marittimo è la soluzione ideale per le aziende che cercano un modo economico per trasportare merci su lunghe distanze. Grazie alla collaborazione con linee di navigazione globali, Enka offre accesso alle rotte e ai porti più efficienti in tutto il mondo. Il servizio include un'ampia gamma di attività: dal carico allo sdoganamento.",
-        "altText": "Nave da carico in mare",
-        "Values": {
-          "1": {
-            "title": "Convenienza",
-            "textContent": "Il miglior rapporto prezzo/capacità per il trasporto a lunga distanza."
-          },
-          "2": {
-            "title": "Rete Globale",
-            "textContent": "Accesso ai principali porti marittimi del mondo."
-          },
-          "3": {
-            "title": "Supporto Doganale",
-            "textContent": "Gestione completa dello sdoganamento e della documentazione."
-          },
-          "4": {
-            "title": "A chi è rivolto?",
-            "textContent": "Aziende impegnate nel commercio internazionale o che necessitano di logistica globale."
-          }
-        }
-      },
-      "LandTransport": {
-        "title": "Trasporto Terrestre",
-        "id": "trasporto-terrestre",
-        "textContent": "Il trasporto terrestre è un modo rapido e flessibile per spostare merci in tutta la Polonia, l'Europa e l'Asia. Enka opera con un team di autisti esperti, garantendo consegne efficienti in qualsiasi condizione. Indipendentemente dal tipo di carico, offriamo un approccio personalizzato per ogni ordine.",
-        "altText": "Terminale di trasporto",
-        "Values": {
-          "1": {
-            "title": "Velocità e Flessibilità",
-            "textContent": "Trasporto adattato agli orari individuali del cliente."
-          },
-          "2": {
-            "title": "Consegne Sicure",
-            "textContent": "Protezione completa del carico in ogni fase del trasporto."
-          },
-          "3": {
-            "title": "Servizi Diversificati",
-            "textContent": "Gestione di carichi standard, fuori misura e ADR."
-          },
-          "4": {
-            "title": "A chi è rivolto?",
-            "textContent": "Aziende che necessitano di un trasporto rapido di merci su brevi e medie distanze."
-          }
+    "title": "Project Cargo",
+    "subtitle": "Il trasporto di carichi eccezionali è la nostra specializzazione principale. Grazie all'esperienza, alle attrezzature moderne e alle procedure consolidate, siamo in grado di organizzare trasporti di carichi impegnativi, pesanti e fuori sagoma in tutta Europa e oltre i suoi confini. Ogni progetto viene trattato individualmente, selezionando le soluzioni logistiche ottimali, garantendo piena sicurezza e una realizzazione puntuale.",
+    "ContactButton": { "link": "#contatto", "linkTitle": "Vai alla sezione contatto", "label": "Scopri di più" },
+    "OfferCranes": {
+      "title": "Gru e sistemi di sollevamento specializzati",
+      "subtitle": "Disponiamo di un parco gru proprio, che ci consente di offrire un servizio completo per il carico e lo scarico di elementi pesanti e di grandi dimensioni.",
+      "altText": "Installazione di un impianto industriale in loco con l'ausilio di una gru",
+      "List": {
+        "1": {
+          "header": "DEMAG 2800",
+          "content": "DEMAG 2800 è una gru cingolata con grande capacità di carico, ideale per il sollevamento dei componenti più pesanti."
+        },
+        "2": {
+          "header": "Carroponti adattati",
+          "content": "Possibilità di organizzare gru mobili e carroponti adattati alle specificità del progetto."
+        },
+        "3": {
+          "header": "Personale qualificato",
+          "content": "Personale operativo professionale con anni di esperienza nei più grandi progetti infrastrutturali."
         }
       }
-    }
+    },
+    "OfferSpmt": {
+      "title": "Sistemi di trasporto avanzati – SPMT",
+      "subtitle": "Disponiamo di <strong>95 moduli SPMT (Self-Propelled Modular Transporter)</strong>, unità di trasporto semoventi che consentono il trasporto di carichi estremamente pesanti in aree difficili da raggiungere, spazi limitati e condizioni difficili.",
+      "altText": "Due moduli SPMT comandati a distanza da un operatore trasportano un elemento strutturale",
+      "List": {
+        "1": {
+          "header": "Per ogni carico",
+          "content": "Ogni unità è composta da 5-6 assi che possono essere configurati per adattarsi alle specificità del carico."
+        },
+        "2": {
+          "header": "Per ogni terreno",
+          "content": "Possibilità di muoversi in spazi limitati, incluso il manovrare con precisione in ambienti industriali e aree di cantiere."
+        },
+        "3": {
+          "header": "Oltre 1000 tonnellate di carico",
+          "content": "Possibilità di combinare più moduli per il trasporto di carichi con una massa che supera le 1000 tonnellate!"
+        }
+      }
+    },
+    "OfferPlatforms": {
+      "title": "Piattaforme e semirimorchi specializzati",
+      "subtitle": "Grazie all'accesso a diversi tipi di veicoli di trasporto, possiamo trasportare carichi sia standard che non standard.",
+      "altText": "Trasporto di una mietitrebbia su un semirimorchio ribassato",
+      "List": {
+        "1": {
+          "header": "Semirimorchi multiassi",
+          "content": "Semirimorchi multiassi per il trasporto di elementi lunghi e pesanti."
+        },
+        "2": {
+          "header": "Semirimorchi ribassati",
+          "content": "Semirimorchi ribassati per il trasporto di macchine da costruzione e elementi infrastrutturali."
+        },
+        "3": {
+          "header": "Sistemi di fissaggio",
+          "content": "Sistemi di fissaggio e stabilizzazione dei carichi che garantiscono la massima sicurezza degli elementi trasportati."
+        }
+      }
+    },
+    "OfferSupport": {
+      "title": "Supporto tecnico e documentale completo",
+      "subtitle": "La realizzazione di progetti complessi richiede non solo attrezzature adeguate, ma anche una preparazione perfetta. Offriamo supporto completo in ogni fase del trasporto:",
+      "altText": "Due persone che scrivono su un foglio accanto a laptop aperti",
+      "List": {
+        "1": {
+          "header": "Method of Statement",
+          "content": "Elaborazione di procedure di trasporto dettagliate, inclusa la pianificazione delle rotte, l'analisi dei rischi e la logistica di movimentazione."
+        },
+        "2": {
+          "header": "Certificazione di fissaggi e sicurezza",
+          "content": "Esecuzione di test necessari e ottenimento delle certificazioni di sicurezza richieste."
+        },
+        "3": {
+          "header": "Rapporti Surveyor",
+          "content": "Collaborazione con ispettori indipendenti che verificano la correttezza del carico, del fissaggio e la conformità del trasporto con le normative nazionali e internazionali."
+        },
+        "4": {
+          "header": "Organizzazione permessi ed escort",
+          "content": "Gestiamo tutte le formalità, dall'ottenimento dei permessi per trasporti eccezionali all'organizzazione di scorte e sicurezza delle rotte."
+        }
+      }
+    },
+    "OfferRealization": {
+      "title": "Realizzazione di progetti in Europa e oltre",
+      "subtitle": "Siamo presenti sui mercati di tutta Europa, ma realizziamo anche progetti in regioni più impegnative.",
+      "altText": "Vista notturna di un frammento della Terra dallo spazio",
+      "List": {
+        "1": {
+          "header": "Europa occidentale e Scandinavia",
+          "content": "Effettuiamo trasporti in regioni sviluppate, dove sono fondamentali normative rigorose e requisiti per trasporti speciali."
+        },
+        "2": {
+          "header": "Europa orientale, Kazakistan, Uzbekistan, Cina",
+          "content": "Abbiamo esperienza nella specificità delle normative locali e delle procedure doganali."
+        },
+        "3": {
+          "header": "Turchia e Medio Oriente",
+          "content": "Regioni con un mercato del trasporto in rapido sviluppo, dove la nostra esperienza ci consente di realizzare progetti infrastrutturali complessi."
+        },
+        "4": {
+          "header": "Giordania",
+          "content": "Abbiamo effettuato trasporti di carichi per grandi progetti edilizi, tra cui una delle maggiori opere infrastrutturali della regione."
+        }
+      }
+    },
+    "summaryTitle": "Riassunto",
+    "summaryContent": "ENKA Project è in grado di realizzare i trasporti più impegnativi in tutto il mondo. Se cerchi un partner affidabile per la gestione di progetti fuori sagoma, siamo a tua disposizione!"
+  },
+  "InlandTransportPage": {
+    "Metadata": {
+      "locale": "it",
+      "route": "trasporto-fluviale",
+      "title": "Trasporto Fluviale",
+      "description": "La nostra azienda offre un supporto logistico completo per i trasporti fluviali e i trasporti combinati con i porti marittimi.",
+      "keywords": "enka, enka shipping, enka spedizione, spedizione, logistica, trasporto, fluviale, fluvio-marittimo, chiatte, pontoni, traghetti, navi",
+      "ogTitle": "",
+      "ogDescription": "",
+      "ogImage": "",
+      "twitterTitle": "",
+      "twitterDescription": "",
+      "twitterImage": ""
+    },
+    "title": "Trasporto Fluviale e Fluvio-Marittimo",
+    "subtitle": "Il trasporto fluviale e fluvio-marittimo rappresenta un'alternativa efficiente al trasporto su strada e ferroviario, in particolare per i carichi di grandi dimensioni e di massa. La nostra azienda offre un supporto logistico completo per i trasporti fluviali e combinati con i porti marittimi.",
+    "ContactButton": {
+      "link": "#contatto",
+      "linkTitle": "Vai alla sezione contatto",
+      "label": "Scopri di più"
+    },
+    "OfferFleet": {
+      "title": "Flotta Specializzata",
+      "subtitle": "Grazie alla collaborazione con armatori e operatori rinomati, disponiamo di una vasta gamma di unità galleggianti adatte a diversi tipi di carico.",
+      "altText": "Nave da carico che naviga su un lago",
+      "List": {
+        "1": {
+          "header": "Chiattini motorizzati e convogli spinti",
+          "content": "Una soluzione ideale per il trasporto di carichi di grandi dimensioni."
+        },
+        "2": {
+          "header": "Unità di trasporto su pontoni",
+          "content": "Unità progettate per il trasporto di elementi eccezionalmente pesanti e grandi."
+        },
+        "3": {
+          "header": "Chiattini per container",
+          "content": "Chiattini per container consentono il trasporto di merci in container."
+        },
+        "4": {
+          "header": "Traghetti e navi fluvio-marittime",
+          "content": "Gestiamo il collegamento diretto tra il trasporto fluviale e i porti marittimi."
+        }
+      }
+    },
+    "OfferEquipment": {
+      "title": "Attrezzature Complete per Carico e Fissaggio",
+      "subtitle": "Disponiamo di attrezzature specializzate per il fissaggio, il sollevamento e la manipolazione sicura dei carichi.",
+      "altText": "Carico di una nave da carico tramite gru",
+      "List": {
+        "1": {
+          "header": "Travi portanti, traverse e basi di appoggio",
+          "content": "Soluzioni che garantiscono una distribuzione uniforme del peso, stabilizzazione e supporto adeguato del carico."
+        },
+        "2": {
+          "header": "Sollevatori idraulici (sistemi jack-up)",
+          "content": "Soluzioni che consentono il posizionamento preciso di elementi pesanti."
+        },
+        "3": {
+          "header": "Sistemi di fissaggio e tiranti (catene, cinghie, fermacarichi)",
+          "content": "Soluzioni che garantiscono la sicurezza durante il trasporto."
+        },
+        "4": {
+          "header": "Bracci di gru e prolunghe",
+          "content": "Soluzioni per eseguire operazioni di carico complesse."
+        }
+      }
+    },
+    "OfferOrganizing": {
+      "title": "Organizzazione Completa",
+      "subtitle": "Gestiamo trasporti sui principali fiumi e canali portuali in Polonia e in Europa, con la possibilità di integrazione con il trasporto marittimo.",
+      "altText": "Chiattino fluviale che trasporta carbone attraversa un ponte",
+      "List": {
+        "1": {
+          "header": "Canali portuali",
+          "content": "Garantiamo operazioni di carico e stoccaggio nei porti marittimi."
+        },
+        "2": {
+          "header": "Fiumi fluviali in Polonia e Europa",
+          "content": "Operiamo sui principali fiumi europei, tra cui Oder, Vistola, Elba e Danubio."
+        },
+        "3": {
+          "header": "Collegamenti multimodali",
+          "content": "Soluzioni che riducono al minimo il trasporto su strada."
+        }
+      }
+    },
+    "OfferSupport": {
+      "title": "Assistenza Logistica e Operativa",
+      "subtitle": "La nostra azienda fornisce un'organizzazione completa del trasporto, dalla pianificazione alla realizzazione.",
+      "altText": "Due persone che scrivono su un foglio con laptop aperti",
+      "List": {
+        "1": {
+          "header": "Analisi e strategia",
+          "content": "Analizziamo i percorsi e selezioniamo le unità galleggianti ottimali."
+        },
+        "2": {
+          "header": "Operazioni logistiche",
+          "content": "Organizziamo operazioni di carico, fissaggio e sicurezza dei carichi."
+        },
+        "3": {
+          "header": "Conformità normativa",
+          "content": "Garantiamo la conformità a regolamenti e norme di sicurezza."
+        }
+      }
+    },
+    "OfferApplications": {
+      "title": "Realizzazione di Progetti in Europa e Oltre",
+      "subtitle": "Eseguiamo trasporti per vari settori industriali, tra cui: <ul><li>Energia e industria pesante (moduli tecnologici, strutture in acciaio)</li><li>Infrastrutture stradali e ferroviarie (sezioni di ponti, prefabbricati)</li><li>Costruzioni e offshore (elementi di torri eoliche, piattaforme)</li></ul>",
+      "altText": "Fiume che attraversa una città moderna, gruppo di navi da carico visibili sul mare all'orizzonte",
+      "List": {}
+    },
+    "summaryTitle": "Riepilogo",
+    "summaryContent": "Grazie all'esperienza, alle attrezzature e all'accesso a una vasta flotta, garantiamo soluzioni logistiche sicure ed efficienti, adattate alle esigenze individuali dei clienti. Vi invitiamo a collaborare con noi!"
+  },
+  "LandTransportPage": {
+    "Metadata": {
+      "locale": "it",
+      "route": "trasporto-terrestre",
+      "title": "Trasporto Terrestre",
+      "description": "Offriamo pieno supporto nella pianificazione e realizzazione dei trasporti, ottimizzando i percorsi e adattandoli alle esigenze del carico e del cliente.",
+      "keywords": "enka, enka shipping, enka spedizione, spedizione, logistica, trasporto, terrestre, ftl, ltl, carichi fuori misura, logistica intermodale, door-to-door, adr, refrigerato, camion, trasporto su strada",
+      "ogTitle": "",
+      "ogDescription": "",
+      "ogImage": "",
+      "twitterTitle": "",
+      "twitterDescription": "",
+      "twitterImage": ""
+    },
+    "title": "Trasporto Terrestre",
+    "subtitle": "",
+    "ContactButton": {
+      "link": "#contatto",
+      "linkTitle": "Vai alla sezione contatti",
+      "label": "Scopri di più"
+    },
+    "OfferServices": {
+      "title": "Trasporto standard e fuori misura",
+      "subtitle": "Grazie a moderne risorse di trasporto, offriamo un'ampia gamma di servizi, adattati alle esigenze individuali dei clienti.",
+      "altText": "Hub di trasporto con un parcheggio pieno di camion e treni merci",
+      "List": {
+        "1": {
+          "header": "Trasporto FTL e LTL",
+          "content": "Carichi completi (Full Truck Load) e carichi parziali (Less Than Truck Load) per vari settori."
+        },
+        "2": {
+          "header": "Trasporto di carichi fuori misura e pesanti",
+          "content": "Rimorchi speciali a pianale ribassato, set modulari di trasporto e sistemi per il trasporto di macchinari pesanti, strutture in acciaio, turbine o trasformatori."
+        },
+        "3": {
+          "header": "Trasporto refrigerato",
+          "content": "Trasporto di merci che richiedono una temperatura controllata."
+        },
+        "4": {
+          "header": "Trasporto ADR",
+          "content": "Gestione del trasporto di materiali pericolosi secondo le normative internazionali."
+        }
+      }
+    },
+    "OfferPlanning": {
+      "title": "Logistica avanzata e pianificazione delle rotte",
+      "subtitle": "Offriamo pieno supporto nella pianificazione e realizzazione dei trasporti, ottimizzando i percorsi e adattandoli alle esigenze specifiche del carico e del cliente.",
+      "altText": "Mappa con un percorso evidenziato",
+      "List": {
+        "1": {
+          "header": "Analisi precisa del percorso",
+          "content": "Adattamento delle rotte in base alle limitazioni stradali e infrastrutturali."
+        },
+        "2": {
+          "header": "Perizie e preparazione delle autorizzazioni",
+          "content": "Organizzazione della documentazione per trasporti fuori norma."
+        },
+        "3": {
+          "header": "Servizi di scorta e pilota",
+          "content": "Garanzia di sicurezza per i carichi fuori misura sulle strade nazionali e internazionali."
+        },
+        "4": {
+          "header": "Bracci di gru e bracci di sollevamento",
+          "content": "Permettono la realizzazione di operazioni di carico complesse."
+        }
+      }
+    },
+    "OfferRange": {
+      "title": "Trasporto internazionale e intercontinentale",
+      "subtitle": "Grazie a una vasta rete di partner logistici, realizziamo trasporti non solo in Europa, ma anche nei paesi CSI, in Asia centrale e nel Medio Oriente.",
+      "altText": "Camion che attraversa un ponte sopra una valle verdeggiante",
+      "List": {
+        "1": {
+          "header": "Trasporto su strada nell'UE",
+          "content": "Consegne rapide ed efficienti tra i paesi dell'Unione Europea."
+        },
+        "2": {
+          "header": "Trasporto verso i paesi CSI (Russia, Kazakistan, Bielorussia, Ucraina)",
+          "content": "Esperienza nella gestione di carichi in mercati esigenti dell'est."
+        },
+        "3": {
+          "header": "Logistica intermodale",
+          "content": "Possibilità di integrare il trasporto stradale con quello ferroviario e marittimo per ottimizzare costi e tempi di consegna."
+        }
+      }
+    },
+    "OfferFlexibility": {
+      "title": "Flessibilità e adattamento alle esigenze del cliente",
+      "subtitle": "Ogni trasporto è personalizzato per soddisfare i requisiti del cliente, garantendo la massima efficienza e sicurezza durante il trasporto.",
+      "altText": "Camion che trasporta un container in un deposito di container",
+      "List": {
+        "1": {
+          "header": "Monitoraggio delle spedizioni in tempo reale",
+          "content": "Tracciamento dei carichi tramite moderni sistemi GPS."
+        },
+        "2": {
+          "header": "Tempi di risposta e realizzazione rapidi",
+          "content": "Possibilità di trasporti dedicati in modalità espressa."
+        },
+        "3": {
+          "header": "Opzione door-to-door",
+          "content": "Gestione completa dal luogo di carico al punto di consegna finale."
+        }
+      }
+    },
+    "OfferSupport": {
+      "title": "Gestione completa delle pratiche formali e doganali",
+      "subtitle": "Per i trasporti internazionali, offriamo supporto per le formalità e le procedure doganali.",
+      "altText": "Due persone che scrivono su un foglio accanto a laptop aperti",
+      "List": {
+        "1": {
+          "header": "Gestione delle dichiarazioni doganali",
+          "content": "Documentazione completa per carichi destinati all'esportazione e all'importazione."
+        },
+        "2": {
+          "header": "Consulenza sulle normative di trasporto",
+          "content": "Adattamento del trasporto alle normative nazionali e internazionali."
+        },
+        "3": {
+          "header": "Assicurazione sul trasporto",
+          "content": "Protezione del carico lungo tutto il percorso."
+        }
+      }
+    },
+    "summaryTitle": "Riassunto",
+    "summaryContent": "Se stai cercando un partner affidabile nel trasporto terrestre, contattaci e prepareremo per te la migliore soluzione logistica!"
+  },
+  "MaritimeTransportPage": {
+    "Metadata": {
+      "locale": "it",
+      "route": "trasporto-marittimo",
+      "title": "Trasporto Marittimo",
+      "description": "Offriamo un servizio completo di trasporto marittimo, adattato alle esigenze individuali dei clienti.",
+      "keywords": "enka, enka shipping, enka spedizione, spedizione, logistica, trasporto, trasporto marittimo, container, navi, FCL, LCL, portacontainer, bulk carrier, carichi eccezionali, project cargo, bulk cargo, intermodale, door-to-door, spedizione marittima, sdoganamenti",
+      "ogTitle": "",
+      "ogDescription": "",
+      "ogImage": "",
+      "twitterTitle": "",
+      "twitterDescription": "",
+      "twitterImage": ""
+    },
+    "title": "Trasporto Marittimo",
+    "subtitle": "Il trasporto marittimo è uno dei pilastri della logistica globale, permettendo il trasporto economico ed efficiente di merci su lunghe distanze. Grazie alla collaborazione con i principali armatori e terminal portuali nel mondo, offriamo un servizio completo di trasporto marittimo adattato alle esigenze individuali dei nostri clienti.",
+    "ContactButton": {
+      "link": "#contatto",
+      "linkTitle": "Vai alla sezione contatto",
+      "label": "Scopri di più"
+    },
+    "OfferServices": {
+      "title": "Trasporto container – FCL e LCL",
+      "subtitle": "Offriamo un servizio completo per tutti i tipi di container, adattato alle esigenze del cliente.",
+      "altText": "Due navi portacontainer in un porto merci",
+      "List": {
+        "1": {
+          "header": "Full Container Load (FCL)",
+          "content": "Trasporto di container completi per carichi di grandi dimensioni."
+        },
+        "2": {
+          "header": "Less than Container Load (LCL)",
+          "content": "Consolidamento di spedizioni più piccole in un unico container, ottimizzando i costi."
+        },
+        "3": {
+          "header": "Gestione di tutti i tipi di container",
+          "content": "Standard, refrigerati (reefer), open-top, flat rack e altri."
+        }
+      }
+    },
+    "OfferOversize": {
+      "title": "Trasporto di carichi eccezionali e project cargo",
+      "subtitle": "Garantiamo un servizio professionale per progetti di trasporto di grandi dimensioni e complessi.",
+      "altText": "Nave da carico con gru che attracca in un porto",
+      "List": {
+        "1": {
+          "header": "Carichi di grandi dimensioni e pesanti",
+          "content": "Organizzazione del trasporto di attrezzature industriali, strutture in acciaio, turbine, generatori."
+        },
+        "2": {
+          "header": "Trasporto di unità specialistiche",
+          "content": "Trasporto di macchine da costruzione, attrezzature energetiche, componenti infrastrutturali."
+        },
+        "3": {
+          "header": "Gestione di operazioni portuali complesse",
+          "content": "Carico e scarico con gru portuali e sistemi RO-RO e LO-LO."
+        }
+      }
+    },
+    "OfferBulk": {
+      "title": "Trasporto di merci alla rinfusa (bulk cargo e breakbulk cargo)",
+      "subtitle": "Offriamo soluzioni efficienti e su misura per il trasporto di merci alla rinfusa.",
+      "altText": "Un gruppo di bulk carrier vicino alla costa",
+      "List": {
+        "1": {
+          "header": "Carichi sfusi e liquidi",
+          "content": "Trasporto di materie prime, prodotti chimici, cereali, minerali, carburanti."
+        },
+        "2": {
+          "header": "Carichi frazionati (breakbulk)",
+          "content": "Trasporto di merci che richiedono un approccio logistico personalizzato."
+        },
+        "3": {
+          "header": "Organizzazione di trasporti con navi a noleggio",
+          "content": "Adattamento delle unità alle esigenze specifiche del cliente."
+        }
+      }
+    },
+    "OfferIntermodal": {
+      "title": "Logistica intermodale e door-to-door",
+      "subtitle": "Gestione completa della catena di fornitura nel modello door-to-door.",
+      "altText": "Nave portacontainer attraccata in un porto",
+      "List": {
+        "1": {
+          "header": "Integrazione con il trasporto ferroviario e su strada",
+          "content": "Possibilità di ritiro e consegna delle merci nel sistema intermodale."
+        },
+        "2": {
+          "header": "Gestione della consegna dell'ultimo miglio",
+          "content": "Assicurare la consegna delle merci dal porto alla destinazione finale."
+        },
+        "3": {
+          "header": "Coordinamento logistico completo",
+          "content": "Gestione dell'intera catena di fornitura nel modello door-to-door."
+        }
+      }
+    },
+    "OfferPort": {
+      "title": "Servizi portuali e spedizione marittima",
+      "subtitle": "Offriamo supporto nelle formalità portuali e amministrative.",
+      "altText": "Nave cargo che lascia il porto vicino a una gru sollevata",
+      "List": {
+        "1": {
+          "header": "Sdoganamenti e documentazione",
+          "content": "Gestione completa delle formalità doganali e amministrative."
+        },
+        "2": {
+          "header": "Stoccaggio e movimentazione",
+          "content": "Possibilità di immagazzinamento delle merci nei terminal portuali."
+        },
+        "3": {
+          "header": "Controllo qualità e sicurezza",
+          "content": "Monitoraggio del carico e scarico, controllo delle condizioni di trasporto."
+        }
+      }
+    },
+    "OfferRoutes": {
+      "title": "Trasporto marittimo su tutte le rotte",
+      "subtitle": "Effettuiamo trasporti sulle principali rotte marittime di tutto il mondo.",
+      "altText": "Ponte di una nave portacontainer carica in mare aperto",
+      "List": {
+        "1": {
+          "header": "Rotte transoceaniche",
+          "content": "Asia, Nord America, Sud America, Medio Oriente."
+        },
+        "2": {
+          "header": "Trasporti all'interno dell'Europa",
+          "content": "Spedizioni sulle rotte baltiche e del Mediterraneo."
+        },
+        "3": {
+          "header": "Rotte logistiche specialistiche",
+          "content": "Consegne in località difficili da raggiungere organizzate in base alle esigenze del cliente."
+        }
+      }
+    },
+    "summaryTitle": "Riepilogo",
+    "summaryContent": "Cerchi un partner per il trasporto marittimo? Contattaci – troveremo la soluzione migliore per il tuo business!"
   },
   "RealizationsPage": {
     "Metadata": {
@@ -352,7 +738,19 @@
       "image17": "Descrizione immagine 17",
       "image18": "Descrizione immagine 18",
       "image19": "Descrizione immagine 19",
-      "image20": "Descrizione immagine 20"
+      "image20": "Descrizione immagine 20",
+      "image21": "Descrizione immagine 21",
+      "image22": "Descrizione immagine 22",
+      "image23": "Descrizione immagine 23",
+      "image24": "Descrizione immagine 24",
+      "image25": "Descrizione immagine 25",
+      "image26": "Descrizione immagine 26",
+      "image27": "Descrizione immagine 27",
+      "image28": "Descrizione immagine 28",
+      "image29": "Descrizione immagine 29",
+      "image30": "Descrizione immagine 30",
+      "image31": "Descrizione immagine 31",
+      "image32": "Descrizione immagine 32"
     }
   },
   "Footer": {
