@@ -440,7 +440,7 @@
   "LandTransportPage": {
     "Metadata": {
       "locale": "de",
-      "route": "land-transport",
+      "route": "landtransport",
       "title": "Landtransport",
       "description": "Wir bieten umfassende Unterstützung bei der Planung und Durchführung von Transporten, optimieren Routen und passen diese an die Anforderungen der Ladung und des Kunden an.",
       "keywords": "enka, enka shipping, enka forwarding, spedition, logistik, transport, land, ftl, ltl, übergroße ladung, intermodal, door-to-door, adr, kühltransport, lkw, straßentransport",
@@ -567,7 +567,7 @@
   "MaritimeTransportPage": {
     "Metadata": {
       "locale": "de",
-      "route": "maritime-transport",
+      "route": "seetransport",
       "title": "Seetransport",
       "description": "Wir bieten umfassende Seetransportdienstleistungen, die individuell auf die Bedürfnisse unserer Kunden zugeschnitten sind.",
       "keywords": "enka, enka shipping, enka forwarding, spedition, logistik, transport, seetransport, container, schiffe, fcl, lcl, containerschiffe, massengutfrachter, übergroßes ladungsgut, projektladungen, massengut, intermodal, door-to-door, maritime spedition, zollabfertigung",
