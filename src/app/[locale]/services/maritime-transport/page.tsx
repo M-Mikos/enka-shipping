@@ -5,11 +5,12 @@ import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { generatePageMetadata } from "@/lib/utils";
 import OfferItem from "../_components/OfferItem";
-import imageCranes from "@/../public/services/project-cargo/projectcargo-cranes.avif";
-import imagePlatforms from "@/../public/services/project-cargo/projectcargo-platforms.avif";
-import imageRealization from "@/../public/services/project-cargo/projectcargo-realization.avif";
-import imageSpmt from "@/../public/services/project-cargo/projectcargo-spmt.avif";
-import imageSupport from "@/../public/services/project-cargo/projectcargo-support.avif";
+import imageBulk from "@/../public/services/maritime-transport/maritimetransport-bulk.avif";
+import imageIntermodal from "@/../public/services/maritime-transport/maritimetransport-intermodal.avif";
+import imageOversize from "@/../public/services/maritime-transport/maritimetransport-oversize.avif";
+import imagePort from "@/../public/services/maritime-transport/maritimetransport-port.avif";
+import imageRoutes from "@/../public/services/maritime-transport/maritimetransport-routes.avif";
+import imageServices from "@/../public/services/maritime-transport/maritimetransport-services.avif";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("MaritimeTransportPage.Metadata");
@@ -19,7 +20,7 @@ export async function generateMetadata(): Promise<Metadata> {
 export default function MaritimeTransport() {
   const t = useTranslations("MaritimeTransportPage");
   const offerKeys = ["Services", "Oversize", "Bulk", "Intermodal", "Port", "Routes"];
-  const listImages = [imageCranes, imageSpmt, imagePlatforms, imageSupport, imageRealization, imageRealization];
+  const listImages = [imageServices, imageOversize, imageBulk, imageIntermodal, imagePort, imageRoutes];
 
   return (
     <>
