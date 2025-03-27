@@ -70,7 +70,7 @@
     "HeroSection": {
       "id": "hero",
       "header": "Project cargo<br></br>always on time",
-      "subHeader": "Reliable, professional service for your transport needs and logistics projects <important>from planning to completion.</important>",
+      "subHeader": "Reliable, professional service for your transport needs and logistics projects <strong>from planning to completion.</strong>",
       "ActionButton": {
         "label": "Free consultation",
         "link": "#contact",

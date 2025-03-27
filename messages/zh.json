@@ -70,7 +70,7 @@
     "HeroSection": {
       "id": "hero",
       "header": "项目货物<br></br>总是准时",
-      "subHeader": "可靠、专业的服务满足您的运输需求和物流项目 <important>从规划到完成。</important>",
+      "subHeader": "可靠、专业的服务满足您的运输需求和物流项目 <strong>从规划到完成。</strong>",
       "ActionButton": {
         "label": "免费咨询",
         "link": "#contact",

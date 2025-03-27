@@ -70,7 +70,7 @@
     "HeroSection": {
       "id": "hero",
       "header": "Project cargo<br></br>sempre puntuali",
-      "subHeader": "Servizio affidabile e professionale per le tue esigenze di trasporto e progetti logistici <important>dalla pianificazione al completamento.</important>",
+      "subHeader": "Servizio affidabile e professionale per le tue esigenze di trasporto e progetti logistici <strong>dalla pianificazione al completamento.</strong>",
       "ActionButton": {
         "label": "Consulenza gratuita",
         "link": "#contatto",
