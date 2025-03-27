@@ -21,6 +21,18 @@ import image17 from "@/../public/realizations/photo-17.avif";
 import image18 from "@/../public/realizations/photo-18.avif";
 import image19 from "@/../public/realizations/photo-19.avif";
 import image20 from "@/../public/realizations/photo-20.avif";
+import image21 from "@/../public/realizations/photo-21.avif";
+import image22 from "@/../public/realizations/photo-22.avif";
+import image23 from "@/../public/realizations/photo-23.avif";
+import image24 from "@/../public/realizations/photo-24.avif";
+import image25 from "@/../public/realizations/photo-25.avif";
+import image26 from "@/../public/realizations/photo-26.avif";
+import image27 from "@/../public/realizations/photo-27.avif";
+import image28 from "@/../public/realizations/photo-28.avif";
+import image29 from "@/../public/realizations/photo-29.avif";
+import image30 from "@/../public/realizations/photo-30.avif";
+import image31 from "@/../public/realizations/photo-31.avif";
+import image32 from "@/../public/realizations/photo-32.avif";
 import clsx from "clsx";
 import { useTranslations } from "next-intl";
 import { useLightbox } from "@/hooks/use-lightbox";
@@ -54,6 +66,18 @@ function GalleryGrid() {
       orientation: "horizontal",
       description: t("Gallery.image16"),
     },
+    { src: image21, orientation: "horizontal", description: t("Gallery.image21") },
+    { src: image22, orientation: "horizontal", description: t("Gallery.image22") },
+    { src: image23, orientation: "vertical", description: t("Gallery.image23") },
+    { src: image24, orientation: "vertical", description: t("Gallery.image24") },
+    { src: image25, orientation: "vertical", description: t("Gallery.image25") },
+    { src: image26, orientation: "vertical", description: t("Gallery.image26") },
+    { src: image27, orientation: "vertical", description: t("Gallery.image27") },
+    { src: image28, orientation: "vertical", description: t("Gallery.image28") },
+    { src: image29, orientation: "vertical", description: t("Gallery.image29") },
+    { src: image30, orientation: "horizontal", description: t("Gallery.image30") },
+    { src: image31, orientation: "horizontal", description: t("Gallery.image31") },
+    { src: image32, orientation: "horizontal", description: t("Gallery.image32") },
   ];
 
   const { Lightbox, openLightbox } = useLightbox(gallery);
