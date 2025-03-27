@@ -12,18 +12,19 @@ import servicesMaritimeIcon from "@/../public/home/services-maritime-icon.avif";
 import ServiceList from "./ServiceList";
 import { Heading } from "@/components/ui/heading";
 import { Paragraph } from "@/components/ui/paragraph";
+import { ServiceItemProps } from "./types";
 
 function ServicesSection() {
   const t = useTranslations("HomePage");
 
-  const services = [
+  const services: ServiceItemProps[] = [
     {
       title: t("ServicesSection.ServicesList.ProjectCargo.title"),
       subtitle: t("ServicesSection.ServicesList.ProjectCargo.subtitle"),
       linkTitleAttribute: t("ServicesSection.ServicesList.ProjectCargo.linkTitle"),
       image: servicesCargoBackground,
       icon: servicesCargoIcon,
-      hash: t("ServicesSection.ServicesList.ProjectCargo.link"),
+      link: "/services/project-cargo",
     },
     {
       title: t("ServicesSection.ServicesList.InlandTransport.title"),
@@ -31,7 +32,7 @@ function ServicesSection() {
       linkTitleAttribute: t("ServicesSection.ServicesList.InlandTransport.linkTitle"),
       image: servicesInlandBackground,
       icon: servicesInlandIcon,
-      hash: t("ServicesSection.ServicesList.InlandTransport.link"),
+      link: "/services/inland-transport",
     },
     {
       title: t("ServicesSection.ServicesList.MaritimeTransport.title"),
@@ -39,7 +40,7 @@ function ServicesSection() {
       linkTitleAttribute: t("ServicesSection.ServicesList.MaritimeTransport.linkTitle"),
       image: servicesMarineBackground,
       icon: servicesMaritimeIcon,
-      hash: t("ServicesSection.ServicesList.MaritimeTransport.link"),
+      link: "/services/maritime-transport",
     },
     {
       title: t("ServicesSection.ServicesList.LandTransport.title"),
@@ -47,7 +48,7 @@ function ServicesSection() {
       linkTitleAttribute: t("ServicesSection.ServicesList.LandTransport.linkTitle"),
       image: servicesLandBackground,
       icon: servicesLandIcon,
-      hash: t("ServicesSection.ServicesList.LandTransport.link"),
+      link: "/services/land-transport",
     },
   ];
 

@@ -2,21 +2,10 @@
 
 import { useState } from "react";
 import ServiceItem from "./ServiceItem";
-import { StaticImport } from "next/dist/shared/lib/get-img-props";
 import clsx from "clsx";
+import { ServiceItemProps } from "./types";
 
-interface servicesProps {
-  services: {
-    title: string;
-    subtitle: string;
-    linkTitleAttribute: string;
-    image: string | StaticImport;
-    icon: string | StaticImport;
-    hash: string;
-  }[];
-}
-
-function ServiceList({ services }: servicesProps) {
+function ServiceList({ services }: { services: ServiceItemProps[] }) {
   const [highlightedItem, setHighlightedItem] = useState<number>(0);
 
   return (
@@ -38,7 +27,7 @@ function ServiceList({ services }: servicesProps) {
             title={service.title}
             subtitle={service.subtitle}
             linkTitleAttribute={service.linkTitleAttribute}
-            hash={service.hash}
+            link={service.link}
             image={service.image}
             icon={service.icon}
           />

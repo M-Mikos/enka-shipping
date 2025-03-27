@@ -2,24 +2,14 @@ import { Heading } from "@/components/ui/heading";
 import { Paragraph } from "@/components/ui/paragraph";
 import { Link } from "@/i18n/routing";
 import { ArrowUpRight } from "lucide-react";
-import { StaticImport } from "next/dist/shared/lib/get-img-props";
 import Image from "next/image";
+import { ServiceItemProps } from "./types";
 
-interface ServiceItemProps {
-  title: string;
-  subtitle: string;
-  linkTitleAttribute: string;
-  image: string | StaticImport;
-  icon: string | StaticImport;
-  hash: string;
-}
-
-function ServiceItem({ title, subtitle, linkTitleAttribute, image, icon, hash }: ServiceItemProps) {
+function ServiceItem({ title, subtitle, linkTitleAttribute, image, icon, link }: ServiceItemProps) {
   return (
     <Link
       href={{
-        pathname: "/services",
-        hash: hash,
+        pathname: link,
       }}
       title={linkTitleAttribute}
     >
