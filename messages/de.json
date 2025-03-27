@@ -34,9 +34,14 @@
   },
   "Header": {
     "Navigation": {
-      "ServicesLink": {
-        "label": "Dienstleistungen",
-        "linkTitle": "Zur Dienstleistungsseite gehen"
+      "Services": {
+        "label": "Angebot",
+        "ServicesContent": {
+          "ProjectCargoLink": { "label": "Projektladung", "linkTitle": "Zur Seite Projektladung gehen" },
+          "InlandTransportLink": { "label": "Binnenschifffahrt", "linkTitle": "Zur Seite Binnenschifffahrt gehen" },
+          "LandTransportLink": { "label": "Landtransport", "linkTitle": "Zur Seite Landtransport gehen" },
+          "MaritimeTransportLink": { "label": "Seetransport", "linkTitle": "Zur Seite Seetransport gehen" }
+        }
       },
       "RealizationsLink": {
         "label": "Realisierungen",
@@ -122,26 +127,22 @@
         "ProjectCargo": {
           "title": "Projektladung",
           "subtitle": "Komplexe Logistikprojekte für jede Größenordnung",
-          "linkTitle": "Zur Seite Projektladung gehen",
-          "link": "#projektladung"
+          "linkTitle": "Zur Seite Projektladung gehen"
         },
         "InlandTransport": {
           "title": "Binnenschifffahrt",
           "subtitle": "Schlepper, Pontons, Flussverkehr",
-          "linkTitle": "Zur Seite Binnenschifffahrt gehen",
-          "link": "#binnenschifffahrt"
+          "linkTitle": "Zur Seite Binnenschifffahrt gehen"
         },
         "MaritimeTransport": {
           "title": "Seetransport",
           "subtitle": "Break Bulk und Containerverkehr",
-          "linkTitle": "Zur Seite Seetransport gehen",
-          "link": "#seetransport"
+          "linkTitle": "Zur Seite Seetransport gehen"
         },
         "LandTransport": {
           "title": "Landtransport",
           "subtitle": "Standard- und Schwertransporte",
-          "linkTitle": "Zur Seite Landtransport gehen",
-          "link": "#landtransport"
+          "linkTitle": "Zur Seite Landtransport gehen"
         }
       }
     },

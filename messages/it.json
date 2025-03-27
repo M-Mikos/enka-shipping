@@ -34,9 +34,14 @@
   },
   "Header": {
     "Navigation": {
-      "ServicesLink": {
+      "Services": {
         "label": "Servizi",
-        "linkTitle": "Vai ai servizi"
+        "ServicesContent": {
+          "ProjectCargoLink": { "label": "Carichi di Progetto", "linkTitle": "Vai a Carichi di Progetto" },
+          "InlandTransportLink": { "label": "Trasporto Interno", "linkTitle": "Vai a Trasporto interno" },
+          "LandTransportLink": { "label": "Trasporto Terrestre", "linkTitle": "Vai a Trasporto Terrestre" },
+          "MaritimeTransportLink": { "label": "Trasporto Marittimo", "linkTitle": "Vai a Trasporto Marittimo" }
+        }
       },
       "RealizationsLink": {
         "label": "Realizzazioni",
@@ -122,26 +127,22 @@
         "ProjectCargo": {
           "title": "Carichi di progetto",
           "subtitle": "Progetti logistici complessi su qualsiasi scala",
-          "linkTitle": "Vai a Carichi di Progetto",
-          "link": "#trasporto-progetti"
+          "linkTitle": "Vai a Carichi di Progetto"
         },
         "InlandTransport": {
           "title": "Trasporto interno",
           "subtitle": "Chiattini, pontoni, trasporti fluviali",
-          "linkTitle": "Vai a Trasporto interno",
-          "link": "#trasporto-interno"
+          "linkTitle": "Vai a Trasporto interno"
         },
         "MaritimeTransport": {
           "title": "Trasporto marittimo",
           "subtitle": "Trasporto alla rinfusa e container",
-          "linkTitle": "Vai a Trasporto Marittimo",
-          "link": "#trasporto-marittimo"
+          "linkTitle": "Vai a Trasporto Marittimo"
         },
         "LandTransport": {
           "title": "Trasporto terrestre",
           "subtitle": "Carichi standard e di grandi dimensioni",
-          "linkTitle": "Vai a Trasporto Terrestre",
-          "link": "#trasporto-terrestre"
+          "linkTitle": "Vai a Trasporto Terrestre"
         }
       }
     },

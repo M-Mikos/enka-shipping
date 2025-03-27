@@ -34,9 +34,14 @@
   },
   "Header": {
     "Navigation": {
-      "ServicesLink": {
+      "Services": {
         "label": "Services",
-        "linkTitle": "Go to services"
+        "ServicesContent": {
+          "ProjectCargoLink": { "label": "Project Cargo", "linkTitle": "Go to Project Cargo page" },
+          "InlandTransportLink": { "label": "Inland Transport", "linkTitle": "Go to Inland Transport page" },
+          "LandTransportLink": { "label": "Land Transport", "linkTitle": "Go to Land Transport page" },
+          "MaritimeTransportLink": { "label": "Maritime Transport", "linkTitle": "Go to Maritime Transport page" }
+        }
       },
       "RealizationsLink": {
         "label": "Realizations",
@@ -122,26 +127,22 @@
         "ProjectCargo": {
           "title": "Project cargo",
           "subtitle": "Complex logistics projects at any scale",
-          "linkTitle": "Go to Project Cargo",
-          "link": "#project-cargo"
+          "linkTitle": "Go to Project Cargo"
         },
         "InlandTransport": {
           "title": "Inland transport",
           "subtitle": "Barges, pontoons, river transport",
-          "linkTitle": "Go to Inland Transport",
-          "link": "#inland-transport"
+          "linkTitle": "Go to Inland Transport"
         },
         "MaritimeTransport": {
           "title": "Maritime transport",
           "subtitle": "Break bulk and container transport",
-          "linkTitle": "Go to Maritime Transport",
-          "link": "#maritime-transport"
+          "linkTitle": "Go to Maritime Transport"
         },
         "LandTransport": {
           "title": "Land transport",
           "subtitle": "Standard and oversize loads",
-          "linkTitle": "Go to Land Transport",
-          "link": "#land-transport"
+          "linkTitle": "Go to Land Transport"
         }
       }
     },

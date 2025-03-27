@@ -34,9 +34,14 @@
   },
   "Header": {
     "Navigation": {
-      "ServicesLink": {
+      "Services": {
         "label": "Usługi",
-        "linkTitle": "Idź do strony usług"
+        "ServicesContent": {
+          "ProjectCargoLink": { "label": "Project Cargo", "linkTitle": "Idź do strony Project Cargo" },
+          "InlandTransportLink": { "label": "Transport Śródlądowy", "linkTitle": "Idź do strony Transport Śródlądowy" },
+          "LandTransportLink": { "label": "Transport Lądowy", "linkTitle": "Idź do strony Transport Lądowy" },
+          "MaritimeTransportLink": { "label": "Transport Morski", "linkTitle": "Idź do strony Transport Morski" }
+        }
       },
       "RealizationsLink": {
         "label": "Realizacje",
@@ -122,26 +127,22 @@
         "ProjectCargo": {
           "title": "Project cargo",
           "subtitle": "Złożone projekty logistyczne dla każdej skali",
-          "linkTitle": "Idź do strony Project Cargo",
-          "link": "#project-cargo"
+          "linkTitle": "Idź do strony Project Cargo"
         },
         "InlandTransport": {
           "title": "Transport śródlądowy",
           "subtitle": "Barki, pontony, transport rzeczny",
-          "linkTitle": "Idź do strony Transport śródlądowy",
-          "link": "#transport-srodladowy"
+          "linkTitle": "Idź do strony Transport śródlądowy"
         },
         "MaritimeTransport": {
           "title": "Transport morski",
           "subtitle": "Break bulk i\u00a0transport kontenerowy",
-          "linkTitle": "Idź do strony Transport morski",
-          "link": "#transport-morski"
+          "linkTitle": "Idź do strony Transport morski"
         },
         "LandTransport": {
           "title": "Transport lądowy",
           "subtitle": "Ładunki typowe i\u00a0ponadgabarytowe",
-          "linkTitle": "Idź do strony Transport lądowy",
-          "link": "#transport-ladawy"
+          "linkTitle": "Idź do strony Transport lądowy"
         }
       }
     },

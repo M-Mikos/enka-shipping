@@ -34,9 +34,14 @@
   },
   "Header": {
     "Navigation": {
-      "ServicesLink": {
+      "Services": {
         "label": "服务",
-        "linkTitle": "跳转至服务"
+        "ServicesContent": {
+          "ProjectCargoLink": { "label": "项目货物运输", "linkTitle": "跳转至项目货物" },
+          "InlandTransportLink": { "label": "内陆运输", "linkTitle": "跳转至内河运输" },
+          "LandTransportLink": { "label": "陆路运输", "linkTitle": "跳转至陆运" },
+          "MaritimeTransportLink": { "label": "海运", "linkTitle": "跳转至海运" }
+        }
       },
       "RealizationsLink": {
         "label": "项目",
@@ -122,26 +127,22 @@
         "ProjectCargo": {
           "title": "项目货物",
           "subtitle": "任何规模的复杂物流项目",
-          "linkTitle": "跳转至项目货物",
-          "link": "#project-cargo"
+          "linkTitle": "跳转至项目货物"
         },
         "InlandTransport": {
           "title": "内河运输",
           "subtitle": "驳船、浮桥、河流运输",
-          "linkTitle": "跳转至内河运输",
-          "link": "#inland-transport"
+          "linkTitle": "跳转至内河运输"
         },
         "MaritimeTransport": {
           "title": "海运",
           "subtitle": "散货与集装箱运输",
-          "linkTitle": "跳转至海运",
-          "link": "#maritime-transport"
+          "linkTitle": "跳转至海运"
         },
         "LandTransport": {
           "title": "陆运",
           "subtitle": "标准与超大件货物",
-          "linkTitle": "跳转至陆运",
-          "link": "#land-transport"
+          "linkTitle": "跳转至陆运"
         }
       }
     },
