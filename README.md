@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+![Screenshot presenting the view of the page.](public/screens/cover.jpg)
 
-## Getting Started
+# Enka Shipping Website
 
-First, run the development server:
+Explore this multilingual company website built with next-js framework and shadcn/ui components.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+[See the website live.](https://enka-shipping.vercel.app/)
+
+## Table of Contents
+
+- [Enka Shipping Website](#enka-shipping-website)
+  - [Table of Contents](#table-of-contents)
+  - [General Info](#general-info)
+  - [Setup](#setup)
+  - [Features](#features)
+  - [Technologies](#technologies)
+  - [Contact](#contact)
+
+## General Info
+
+The Enka Shipping website is a commercial project for a shipping company. The main goal was to re-design, prepare support for multiple language versions, and improve performance and accessibility metrics relative to the previous version of the site, prepared using generative artificial iteligence on the Durable platform.
+
+## Setup
+
+The project uses [Node](https://nodejs.org/en/) and [PNPM](https://pnpm.io/). To run the app on your machine you should install all dependencies. Then create a developer build on a localhost port and run your web explorer.
+
+Clone repository
+
+```
+git clone https://github.com/M-Mikos/enka-shipping.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Install dependencies
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+pnpm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Go live with developer build
 
-## Learn More
+```
+pnpm dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+Enka Shipping website is ready at port 3000.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+localhost:3000/
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Features
 
-## Deploy on Vercel
+- SPA functionality with server site rendering
+- Custom lightbox gallery built with shadcn/ui dialog and carousel components
+- Responsive layout based on TailwindCSS v4 and adaptive REM units definition
+- Language verions suppors based on next-intl library
+- Sticky header
+- Drawer menu on mobile devices
+- Media lazy loading
+- Components dynamic loading
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Technologies
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [Next.js with App Router](https://vitejs.dev/) - Setting up dev environment
+- [Tailwind CSS v4.0](https://www.typescriptlang.org/)
+- [shadcn/ui](https://ui.shadcn.com/) - Set of UI components based on Radix primitives
+- [Vercel](https://vercel.com) - Cloud infrastructure and developer tools
+- [PageSpeed Insights]() - User experience metrics checker based on Lighthouse tool
+
+---
+
+## Contact
+
+Design & code by [Marcin Mikos](mailto:mikos.marcin.m@gmail.com) - feel free to contact me!
