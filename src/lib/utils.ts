@@ -31,6 +31,7 @@ export function generatePageMetadata(t: Awaited<ReturnType<typeof getTranslation
     title: t("title"),
     description: t("description"),
     keywords: t("keywords"),
+    robots: "noindex, nofollow",
     alternates: {
       canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/${t("locale")}/${t("route")}`,
     },
